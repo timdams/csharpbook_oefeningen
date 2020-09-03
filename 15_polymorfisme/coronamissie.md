@@ -1,3 +1,4 @@
+[Briefing](https://learning.ap.be/mod/hvp/view.php?id=285328)
 
 > Tijd om die enclaves aan het werk te zetten.
 

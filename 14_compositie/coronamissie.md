@@ -1,3 +1,6 @@
+[Briefing](https://learning.ap.be/mod/hvp/view.php?id=283605)
+
+
 # Maak volgende klassen
 Maak 2 klassen: ``Enclave`` en ``StadsEnclave``
 ![Schematische voorstelling van de enclave](/assets/7_overerving/coronacompo.jpg)

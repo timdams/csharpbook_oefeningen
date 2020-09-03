@@ -110,6 +110,7 @@
   * [Magic The Gathering API](A_DEEL2_AllInOne/mtgapi.md)  
 
 ## The Corona files
+  * [Toelichting](EindeTests/coronainfo.md)
   * [Corona Training](EindeTests/Mod3/Opgave3_corona.md)  
   * [Corona Missie 1](12_overerving/coronamissieoverering.md)
   * [Oplossing Corona Missie 1](corona/opl_h12corona.md)

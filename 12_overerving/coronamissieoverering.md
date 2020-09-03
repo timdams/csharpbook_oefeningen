@@ -1,3 +1,5 @@
+[Briefing](https://learning.ap.be/mod/hvp/view.php?id=272198)
+
 > Tijd om ons Vaccin te verbeteren. Het huidige Vaccin vindt de killcode enkel door steeds willekeurige getallen te testen. Dat is een beetje hetzelfde als geblinddoekt op een olifant jagen. We gaan nieuwe vaccins ontwikkelen die een betere strategie hanteren.
 
 # Nieuwe vaccins en virussen

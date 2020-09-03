@@ -1,3 +1,6 @@
+
+[Briefing](https://learning.ap.be/mod/hvp/view.php?id=271393)
+
 > Welkom terug. Goed te zien dat je de missie zo serieus neemt. Allereerst willen we testen hoe vaardig je C# skills nog zijn. Van zodra je deze opdracht begint door te nemen gelieve een timer te starten. Je mag maximum 120 minuten over deze opdracht doen. Deze tijd is inclusief het lezen van de opdracht en het starten van VS. Je start je timer vanaf de eerste titel hierna leest.
 
 # Start de klok

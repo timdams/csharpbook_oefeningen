@@ -1,3 +1,4 @@
+[Briefing](https://learning.ap.be/mod/hvp/view.php?id=287228)
 
 # De introductie
 
