@@ -122,8 +122,9 @@
     * [Oplossing Corona Missie 3](corona/opl_h14corona.md) 
     * [Corona Missie 4](15_polymorfisme/coronamissie.md)
     * [Corona Finale Missie](16_interfaces/coronamissie.md)
-  
 
+## Appendix  
+  * [Oefeningen kerkhof](graveyard.md)
 
   
   
