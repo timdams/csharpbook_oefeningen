@@ -17,7 +17,7 @@ Schrijf een programma dat de uitkomst van volgende resultaten op het scherm toon
 2 + 15 / 6 * 1 - 7 % 2
 ```
 
-Test wat er gebeurt indien je het resultaat in een ``int`` bewaard en wat er gebeurt als je deze in een ``double`` bewaard.
+Test wat er gebeurt indien je het resultaat in een ``int`` bewaart en wat er gebeurt als je deze in een ``double`` bewaart.
 Toon beide uitkomsten (m.b.v. ``WriteLine``) telkens op het scherm.
 
 {% hint style='warning' %}
