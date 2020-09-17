@@ -8,19 +8,19 @@
 
 * H1: De eerste stappen
   * [Oefeningen](0_intro/A_Practica.md)
-  * [Oplossingen](0_intro/opl_apractica.md)
+<!---  * [Oplossingen](0_intro/opl_apractica.md)--->
 * H2: De basisconcepten van C#
   * [Oefeningen](1_csharpbasics/A_practica.md)
-  * [Oplossingen](1_csharpbasics/opl_apractica.md)
+<!---  * [Oplossingen](1_csharpbasics/opl_apractica.md)--->
 * H3: Tekst gebruiken in code
   * [Oefeningen](2_tekst/a_practica.md)
-  * [Oplossingen](2_tekst/a_oplpractica.md)
+<!---  * [Oplossingen](2_tekst/a_oplpractica.md)--->
 * H4: Werken met data
   * [Oefeningen](3_data/A_Practica.md)
-  * [Oplossingen](3_data/a_oplpractica.md)
+<!---  * [Oplossingen](3_data/a_oplpractica.md)--->
 * H5: Beslissingen
   * [Oefeningen](4_beslissingen/a_practica.md)
-  * [Oplossingen](4_beslissingen/a_oplpractica.md)
+<!---  * [Oplossingen](4_beslissingen/a_oplpractica.md)--->
 * Alles samen - H1 tot H5
   * [Opgave 1](EindeTests/Mod1/Opgave.md)
   * [Oplossing opgave 1](EindeTests/Mod1/Oplossing.md)
@@ -32,15 +32,15 @@
   * [Oefeningen deel 1](5_herhalingen/A_practica.md)
   * [Oefeningen deel 2](5_herhalingen/c_practica.md)
   * [Oefeningen deel 3](5_herhalingen/b_practica.md)
-  * [Oplossingen](5_herhalingen/opl_a_practica.md)
+<!---  * [Oplossingen](5_herhalingen/opl_a_practica.md)--->
 * H7: Methoden
   * [Oefeningen deel 1](6_methoden/b_practica.md)
   * [Oefeningen deel 2](6_methoden/c_practica.md)
-  * [Oplossingen](6_methoden/opl_b_practica.md)
+<!---  * [Oplossingen](6_methoden/opl_b_practica.md)--->
 * H8: Arrays
   * [Oefeningen deel 1](7_arrays/A_practica.md)
   * [Oefeningen deel 2](7_arrays/B_practica.md)
-  * [Oplossingen](7_arrays/opl_a_practica.md)
+<!---  * [Oplossingen](7_arrays/opl_a_practica.md)--->
 * Alles samen - H1 tot H8
   * [Opgave 1](EindeTests/Mod2/Opgave.md)
   * [Opgave 2](EindeTests/Mod2/Opgave_1819.md)
@@ -63,16 +63,16 @@
 
 * H9: Klassen en objecten
   * [Oefeningen](8_klassen/A_practica.md)
-  * [Oplossingen](8_klassen/opl_apractica.md)
+<!---  * [Oplossingen](8_klassen/opl_apractica.md)--->
 * H10: Geheugenmanagement bij klassen
   * [Oefeningen](9_meminoop/A_poke1.md)
-  * [Oplossingen](9_meminoop/opl_poke2.md)
+<!---  * [Oplossingen](9_meminoop/opl_poke2.md)--->
 * H11: Advanced klassen en objecten
   * [Oefeningen](10_advancedklassen/A_practica3.md)
   * [Oplossingen](10_advancedklassen/opl_practica3.md)
 * H12: Arrays en klassen
   * [Oefeningen](11_arraysvanklassen/A_practicaMem.md)
-  * [Oplossingen](11_arraysvanklassen/opl_practica3.md)
+<!---  * [Oplossingen](11_arraysvanklassen/opl_practica3.md)--->
 * Alles samen - H9 tot H12
   * [Opgave 1](EindeTests/Mod3/Opgave.md)
   * [Opgave 2](EindeTests/Mod3/Opgave2.md)
@@ -83,20 +83,20 @@
   * [Opgave 4](EindeTests/Mod3/Opgave_1920.md)
 * H13: Overerving
   * [Oefeningen](12_overerving/A_PracticaSimpel.md)
-  * [Oplossingen](12_overerving/opl_practica3.md)
+<!---  * [Oplossingen](12_overerving/opl_practica3.md)--->
 * H14: Exception handling
 * H15: Advanced overerving
   * [Oefeningen](13_advancedovererving/A_Practica.md)
-  * [Oplossingen](13_advancedovererving/opl_practica4.md)
+<!---  * [Oplossingen](13_advancedovererving/opl_practica4.md)--->
 * H16: Compositie
   * [Oefeningen](14_compositie/A_PracticaComp.md)
-  * [Oplossingen](14_compositie/opl_practica.md)
+<!---  * [Oplossingen](14_compositie/opl_practica.md)--->
 * H17: Polymorfisme
   * [Oefeningen](15_polymorfisme/A_Practica.md)
-  * [Oplossingen]](15_polymorfisme/opl_practica.md)
+<!---  * [Oplossingen]](15_polymorfisme/opl_practica.md)--->
 * H18: Interfaces
   * [Oefeningen](16_interfaces/A_practica.md)
-  * [Oplossingen](16_interfaces/opl_practica.md)
+<!---  * [Oplossingen](16_interfaces/opl_practica.md)--->
 * Alles samen - H9 tot H18
   * [Opgave 1](EindeTests/Mod4/Opgave.md)
   * [Oplossing opgave 1](EindeTests/Mod4/Oplossing.md)
@@ -110,7 +110,7 @@
   * [Map Maker](A_DEEL2_AllInOne/1_MapMapker.md)
   * [Magic The Gathering API](A_DEEL2_AllInOne/mtgapi.md)  
 
-## The Corona files
+<!---## The Corona files
   * [Toelichting](EindeTests/coronainfo.md)
   * [Corona Training](EindeTests/Mod3/Opgave3_corona.md)  
   * De missies
@@ -121,10 +121,10 @@
     * [Corona Missie 3](14_compositie/coronamissie.md)
     * [Oplossing Corona Missie 3](corona/opl_h14corona.md) 
     * [Corona Missie 4](15_polymorfisme/coronamissie.md)
-    * [Corona Finale Missie](16_interfaces/coronamissie.md)
-
+    * [Corona Finale Missie](16_interfaces/coronamissie.md)--->
+<!---
 ## Appendix  
   * [Oefeningen kerkhof](graveyard.md)
-
+--->
   
   
