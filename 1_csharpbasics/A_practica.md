@@ -6,6 +6,19 @@ Het is aanbevolen dat je per hoofdstuk een nieuwe folder aanmaakt op je computer
 {% endhint %}
 <!---NOBOOKEND--->
 
+
+<!---NOBOOKSTART--->
+{% hint style='tip' %}
+Indien er in een oefening gevraagd wordt om bijvoorbeeld een getal naar een ander om te zetten (zie oa Euro naar Dollar) dan mag je dit getal in een variabele "hardcoded" plaatsen. We kunnen nog niet input van de gebruiker naar getallen omzetten en kunnen dus nog geen oefeningen maken waarin we dat doen.
+
+Voor Euro naar Dollar schrijf je dus best bijvoorbeeld als eerste:
+```java
+double euroInput= 5.32;
+```
+{% endhint %}
+<!---NOBOOKEND--->
+
+
 #### Simple maths
 Schrijf een programma dat de uitkomst van volgende resultaten op het scherm toont:
 
