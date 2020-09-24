@@ -90,7 +90,7 @@ Maak twee variabelen ``double kills`` en ``double deaths`` aan. Wijs er jouw typ
 {% endhint %}
 
 #### BTW
-Schrijf een programma waarin je het BTW-percentage 21% als een constante definieert door het keyword ``const`` voor de variabele te zetten. Vervolgens toon je een prijs naar keuze, met en zonder btw op het scherm. De prijs wordt getoond tot 2 cijfers na de komma.
+Schrijf een programma waarin je het BTW-percentage 21% als een constante definieert door het keyword ``const`` voor de variabele te zetten. Vervolgens toon je een prijs naar keuze, met en zonder btw op het scherm. 
 
 #### Gewicht in space
 
