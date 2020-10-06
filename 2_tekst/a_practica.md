@@ -114,7 +114,11 @@ of:
 
 ##### Deel 3 (PRO)
 
-Kan je afhankelijk van de ringwaarde het getal in de tabel in de juiste kleur zetten conform de weerstandskleuren (tip: je zal ``Write`` en ``if`` moeten leren gebruiken).
+Kan je afhankelijk van de ringwaarde het getal in de tabel in de juiste kleur zetten conform de weerstandskleuren (tip: je zal ``Write`` en ``if`` of ``switch`` moeten leren gebruiken).
+
+{% hint style='warning' %}
+Onder ander de kleur bruin is niet beschikbaar in de console. Wil je die kleur toch hebben, dan kan je werken met volgende handige bibliotheek: [ColorfulConsole](http://colorfulconsole.com/)
+{% endhint %}
 
 ### Shell-starter (PRO)
 
