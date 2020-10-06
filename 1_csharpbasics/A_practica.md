@@ -64,7 +64,11 @@ Druk op enter voor de volgende lijn.
 ...
 ```
 
-**Plaats 411 in een variabele aan de start van het programma en gebruik deze in je berekeningen verderop. Toon dat je code ook werkt door de inhoud van de variabele in een ander getal te veranderen zodat je van dat nieuwe getal nu de tafels van vermenigvuldiging krijgt.**
+
+{% hint style='warning' %}
+**Plaats 411 in een variabele aan de start van het programma en gebruik deze in je berekeningen verderop. Toon dat je code ook werkt door de inhoud van de variabele in een ander getal te veranderen zodat je van dat nieuwe getal nu de tafels van vermenigvuldiging krijgt.** Door de waarde 411 bovenaan in een variabele te steken kan je heel snel je programma een andere tafel laten berekenen, je hoeft dan gewoon de waarde van die variabele aan te passen.
+
+{% endhint %}
 
 
 Je kan wachten tot de gebruiker op enter duwt door gewoon een lege ``Console.ReadLine`` te doen, zoals volgende voorbeeld toont:
