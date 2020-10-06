@@ -90,6 +90,12 @@ Maak twee variabelen ``double kills`` en ``double deaths`` aan. Wijs er jouw typ
 **Begrijp je waarom we best een van beide variabelen in ``double`` zetten?** Lees de waarschuwing van de voorman bij Expressies zeker nog eens na... Of test eens wat er gebeurt indien je met ``int`` zou werken.
 {% endhint %}
 
+
+
+{% hint style='tip' %}
+De k/d ratio is de verhouding tussen het aantal kills da je in een spel hebt gehaald ten opzichte van het aantal keer dat je zelf bent gestorven, deads. Wanneer deze verhouding dus groter is dan 1 heb je vaker iemand gedood dan dat je zelf gestorven bent. Onder de 1 is dit net omgekeerd...en ben je dus niet zo goed in het spel dat je aan het spelen bent.
+{% endhint %}
+
 #### BTW
 Schrijf een programma waarin je het BTW-percentage 21% als een constante definieert door het keyword ``const`` voor de variabele te zetten. Vervolgens toon je een prijs naar keuze, met en zonder btw op het scherm. 
 
