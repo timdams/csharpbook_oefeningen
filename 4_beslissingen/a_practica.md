@@ -15,7 +15,7 @@ De kleur tussen haakjes geeft aan in welke kleur je deze tekst zet:
 #### BankRekening controle
 Schrijf een programma om het vroegere nationale bankrekeningnummer te controleren off het al of niet een geldig nummer is (dus niet het IBAN nummer). 
 
-Het bankrekeningnummer wordt ingelezen als 3 gehele getallen van 3, 7 en 2.
+Het bankrekeningnummer wordt ingelezen als 3 gehele getallen van 3, 7 en 2 die de gebruiker apart invoert en die je in 3 aparte variabelen bewaard.
 
 {% hint style='tip' %}
 Een bankrekeningnummer is geldig als de rest van de deling van het getal, dat bestaat uit de eerste 10 cijfers, door 97, gelijk is aan het getal bestaande uit de laatste 2 cijfers.
