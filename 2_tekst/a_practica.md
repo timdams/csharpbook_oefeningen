@@ -32,6 +32,20 @@ Gebruik je kennis van het verschil tussen `Console.Write`  en `Console.WriteLine
 
 {% hint style='tip' %}
 Dit is een redelijke lange oefening, doe deze best op het einde.
+
+Deze oefening kan je op 2 manieren oplossen:
+1. Je gebruikt een combinatie van ``Write`` en ``Console.SetCursorPosition``
+2. Je knipt je tekening op in stukken die je met verschillende ``Write`` en ``WriteLines`` op het scherm zet. Volgend voorbeeld toont bijvoorbeeld hoe je een vierkantje van sterretjes tekent waarbij het midden van het vierkant rood is:
+
+```java
+Console.WriteLine("***");
+Console.Write("*");
+Console.ForegroundColor = ConsoleColor.Red;
+Console.Write("*");
+Console.ResetColor();
+Console.WriteLine("*");
+Console.WriteLine("***");
+```
 {% endhint %}
 
 #### Systeem informatie
