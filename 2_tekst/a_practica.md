@@ -56,7 +56,7 @@ Volgende 2 oefeningen zijn al iets stevigers. Iedere oefening eindigt met een (P
 
 ##### Deel 1
 
-Maak een applicatie die de belangrijkste computer-informatie (geheugen, etc) aan de gebruiker toont m.b.v. de ``Environment`` bibliotheek.
+Maak een applicatie die de belangrijkste computer-informatie (geheugen, etc) aan de gebruiker toont m.b.v. de [``Environment`` bibliotheek](https://docs.microsoft.com/en-us/dotnet/api/system.environment?view=netcore-3.1#properties).
 Zoals je ziet wordt het geheugen in bytes teruggegeven. Zorg ervoor dat het geheugen steeds in mega of gigabytes op het scherm wordt getoond.
 
 **Formateer de informatie met behulp van de $-notatie  zodat deze  deftig getoond worden en de gebruiker snel de belangrijke informatie over z'n systeem te zien krijgt.**
