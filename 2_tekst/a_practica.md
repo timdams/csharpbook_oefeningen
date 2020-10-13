@@ -30,6 +30,10 @@ Kies 2 oefeningen uit het vorige hoofdstuk waarin je output op het scherm moest 
 
 Gebruik je kennis van het verschil tussen `Console.Write`  en `Console.WriteLine`, alsook de werking van kleuren in console-applicaties, om je Unicode-art naam van de eerdere oefening nu van kleur te voorzien. Zorg ervoor dat minstens 1 letter in een andere kleur is.
 
+{% hint style='tip' %}
+Dit is een redelijke lange oefening, doe deze best op het einde.
+{% endhint %}
+
 #### Systeem informatie
 
 {% hint style='tip' %}
