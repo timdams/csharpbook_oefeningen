@@ -20,7 +20,7 @@ Sommige oefeningen zullen soms **(PRO)** in de titel hebben. Dit zijn pittigere 
 
 #### Unicode Art
 
-Genereer je naam in Unicode Art met een van de vele online generators. Plaats deze aan de start van een van je bestaande programma's zodat nu je naam wordt getoond wanneer het programma start, gevolgd door de rest.
+Genereer je naam in Unicode Art met een van de [vele online generators](https://www.google.com/search?q=unicode+art+generator&oq=unicode+art&aqs=chrome.0.0j69i57j0l2j0i22i30l3.3647j0j1&sourceid=chrome&ie=UTF-8). Plaats deze aan de start van een van je bestaande programma's zodat nu je naam wordt getoond wanneer het programma start, gevolgd door de rest.
 
 #### String interpolation
 
