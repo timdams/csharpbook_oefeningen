@@ -6,7 +6,7 @@
 {% hint style='tip' %}
 Bekijk volgende kennisclip waarin wordt uitgelegd hoe je meerdere projecten in 1 solution in VS kunt plaatsen:
 ![](../assets/infoclip.png)
-[Meerdere projecten in 1 solution](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f2c322cd-7607-4624-b0cd-a969006f8b2a)
+[Meerdere projecten in 1 solution](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a7eb4973-e87e-49a4-862e-ac47009783d6)
 
 **Probeer vanaf nu per hoofdstuk 1 solution aan te maken met daarin meerdere projecten (1 project per oefening)**
 {% endhint %}
