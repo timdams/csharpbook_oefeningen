@@ -1,7 +1,3 @@
-### Tekst gebruiken in code
-
-<!---NOBOOKSTART--->
-### Enkele opmerkingen vooraf
 
 {% hint style='tip' %}
 Bekijk volgende kennisclip waarin wordt uitgelegd hoe je meerdere projecten in 1 solution in VS kunt plaatsen:
@@ -18,15 +14,15 @@ Sommige oefeningen zullen soms **(PRO)** in de titel hebben. Dit zijn pittigere 
 
 
 
-#### Unicode Art
+## Unicode Art
 
 Genereer je naam in Unicode Art met een van de [vele online generators](https://www.google.com/search?q=unicode+art+generator&oq=unicode+art&aqs=chrome.0.0j69i57j0l2j0i22i30l3.3647j0j1&sourceid=chrome&ie=UTF-8). Plaats deze aan de start van een van je bestaande programma's zodat nu je naam wordt getoond wanneer het programma start, gevolgd door de rest.
 
-#### String interpolation
+## String interpolation
 
 Kies 2 oefeningen uit het vorige hoofdstuk waarin je output op het scherm moest geven. Pas string interpolatie m.b.v. ``$`` (manier 2) toe in deze 2 oefeningen.
 
-#### Unicode Art & Colors
+## Unicode Art & Colors
 
 Gebruik je kennis van het verschil tussen `Console.Write`  en `Console.WriteLine`, alsook de werking van kleuren in console-applicaties, om je Unicode-art naam van de eerdere oefening nu van kleur te voorzien. Zorg ervoor dat minstens 1 letter in een andere kleur is.
 
@@ -48,20 +44,20 @@ Console.WriteLine("***");
 ```
 {% endhint %}
 
-#### Systeem informatie
+## Systeem informatie
 
 {% hint style='tip' %}
 Volgende 2 oefeningen zijn al iets stevigers. Iedere oefening eindigt met een (PRO) gedeelte dat je best enkel doet als je een uitdaging wenst.
 {% endhint %}
 
-##### Deel 1
+### Deel 1
 
 Maak een applicatie die de belangrijkste computer-informatie (geheugen, etc) aan de gebruiker toont m.b.v. de [``Environment`` bibliotheek](https://docs.microsoft.com/en-us/dotnet/api/system.environment?view=netcore-3.1#properties).
 Zoals je ziet wordt het geheugen in bytes teruggegeven. Zorg ervoor dat het geheugen steeds in mega of gigabytes op het scherm wordt getoond.
 
 **Formateer de informatie met behulp van de $-notatie  zodat deze  deftig getoond worden en de gebruiker snel de belangrijke informatie over z'n systeem te zien krijgt.**
 
-##### Deel 2 (PRO)
+### Deel 2 (PRO)
 
 Ook informatie over de harde schijven kan je verkrijgen (in bits). 
 Dit vereist wel dat je bovenaan je programma volgende lijn bijschrijft: ``using System.IO``. 
@@ -90,13 +86,13 @@ long totalsize = DriveInfo.GetDrives()[invoer].TotalSize;
 ```
 {% endhint %}
 
-#### Weerstandberekenaar
+## Weerstandberekenaar
 
 Stel dat je in het labo een weerstand vastneemt en je kent de kleurcodes van de streepjes wel, maar niet hoe je die kunt omzetten naar de effectieve weerstandswaarde. In dit programma kunnen we de gebruiker helpen.
 
 ![Bron afbeelding: https://www.esdsite.nl](../assets/1_csharpbasics/colors.jpg)
 
-##### Deel 1
+### Deel 1
 
 Maak een programma dat de weerstandwaarde berekent gebaseerd op:
 
@@ -108,7 +104,7 @@ Gebruik twee variabelen van het type ``int`` waar je getal van 0 tot 9 telkens a
 
 Test dat je rekening klopt om gebaseerd op 2 (of 3) ringen de weerstandswaarde te berekenen. 
 
-##### Deel 2
+### Deel 2
 
 Plaats het geheel in een mooie Unicode-tabel
 
@@ -130,7 +126,7 @@ of:
 
 ![Nog een voorbeeld](../assets/1_csharpbasics/tabel2.png)
 
-##### Deel 3 (PRO)
+### Deel 3 (PRO)
 
 Kan je afhankelijk van de ringwaarde het getal in de tabel in de juiste kleur zetten conform de weerstandskleuren (tip: je zal ``Write`` en ``if`` of ``switch`` moeten leren gebruiken).
 
@@ -138,7 +134,7 @@ Kan je afhankelijk van de ringwaarde het getal in de tabel in de juiste kleur ze
 Onder ander de kleur bruin is niet beschikbaar in de console. Wil je die kleur toch hebben, dan kan je werken met volgende handige bibliotheek: [ColorfulConsole](http://colorfulconsole.com/). In [volgende filmpje](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=87338728-f9ef-4201-8bd4-ac4c00988e72) leg ik uit hoe je deze bibliotheek installeert en gebruikt.
 {% endhint %}
 
-### Shell-starter (PRO)
+## Shell-starter (PRO)
 
 Je kan de output van een ``Process.Start()`` programma naar je console scherm sturen. Dit vereist wat meer code. Volgend voorbeeld zal de output van het commando ``ipconfig /all`` op het scherm tonen:
 
