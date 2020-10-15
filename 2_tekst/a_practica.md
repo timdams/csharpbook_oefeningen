@@ -126,6 +126,10 @@ of:
 
 ![Nog een voorbeeld](../assets/1_csharpbasics/tabel2.png)
 
+{% hint style='warning' %}
+Gebruik tabs ("\t") om ervoor te zorgen dat je tabel mooi blijft wanneer je door de string interpolatie langere variabelen gaat plaatsen.
+{% endhint %}
+
 ### Deel 3 (PRO)
 
 Kan je afhankelijk van de ringwaarde het getal in de tabel in de juiste kleur zetten conform de weerstandskleuren (tip: je zal ``Write`` en ``if`` of ``switch`` moeten leren gebruiken).
