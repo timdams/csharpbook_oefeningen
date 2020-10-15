@@ -1,10 +1,11 @@
-<!---NOBOOKSTART--->
-### De oefeningen blijven komen
 
+
+{% hint style='tip' %}
 Een extra grote hoop oefeningen om je loops te drillen ([originele bron](https://codeforwin.org/2015/06/for-do-while-loop-programming-exercises.html)). De oefeningen zijn gerangschikt naar moeilijkheid, je moet deze allemaal met loops oplossen! Hoe ver geraak je?
 
 Probeer niet alle oefeningen met hetzelfde type loop te doen, wissel tussen ``while``, ``do-while`` en ``for``.
-<!---NOBOOKEND--->
+{% endhint %}
+
 
 {% hint style='warning' %}
 **Indien er sprake is van *n* in de opgave dan is dit een getal dat je eerst aan de gebruiker moet vragen.**
@@ -19,7 +20,7 @@ Niet zeker van je oplossing? Test of je met minimale aanpassing de grenzen van j
 {% endhint %}
 
 
-#### Drillen
+## Drillen
 
 * Toon alle natuurlijke getallen van 1 tot *n*.
 * Toon alle natuurlijke getallen van *n* tot 1.
@@ -39,7 +40,7 @@ Niet zeker van je oplossing? Test of je met minimale aanpassing de grenzen van j
 * Toon de reeks van [Fibonacci](https://en.wikipedia.org/wiki/Fibonacci_number) tot *n* termen.
 
 
-#### Cooldown
+## Cooldown
 * Toon alle getallen die een veelvoud van 3 zijn en oneven zijn tot en met 100.
 * Toon alle machten tot 5 van *n*.
 * Toon de tafels tot 10 van ieder getal van 1 tot en met *n*. Toon iedere tafel horizontaal!

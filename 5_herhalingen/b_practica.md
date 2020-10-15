@@ -1,11 +1,11 @@
 <!---NOBOOKSTART--->
-## Nog meer oefeningen
+
 {% hint style='tip' %}
 Begin pas aan deze oefeningen wanneer je voldoende geoefend hebt door de vorige 2 delen oefeningen op te lossen.
 {% endhint %}
 <!---NOBOOKEND--->
 
-#### Grootste getal
+## Grootste getal
 Vervolledig deze code zodat ook getoond wordt welke de grootste waarde is die werd ingevoerd.
 
 ```java
@@ -23,7 +23,7 @@ do
 Console.WriteLine($"Som is {y}");
 ```
 
-#### Boekhouder
+## Boekhouder
 Maak een 'boekhoud-programma': de gebruiker kan continu positieve en negatieve getallen invoeren. Telkens hij op enter duwt wordt de huidige invoer aan de balans bijgevoegd.
 Je houdt volgende zaken bij:
 
@@ -34,14 +34,14 @@ Je houdt volgende zaken bij:
 
 Deze 4 getallen worden steeds geüpdatet en getoond wanneer de gebruiker een nieuw getal invoert en op enter duwt.
 
-#### Hoger Lager
+## Hoger Lager
 
 Simulatie van het "hoger-lager" spel. Het programma kiest een random-getal tussen 1 en 100 (telkens inbegrepen). Vervolgens wordt de gebruiker gevraagd om een gok te doen en toont het programma of de gok juist was, te laag was ("hoger") of te hoog ("lager"). Het programma blijft gokken van de gebruiker accepteren tot de gok juist is of de gebruiker besluit te stoppen. Het aantal beurten wordt op het einde van het spel getoond en de mogelijkheid om opnieuw te spelen.
 
-##### Limiet
+### Limiet
 Pas het Hoger Lager programma aan zodat er een maximum aantal pogingen is toegestaan.
 
-#### Tekenen
+## Tekenen
 
 Twee getallen tussen 2 en 20 worden ingelezen (invoercontrole!). Er moet een open rechthoek afgedrukt worden bestaande uit `*`en waarbij de ingelezen getallen respectievelijk de breedte en de hoogte van de rechthoek voorstellen. Als bijvoorbeeld 10 en 4 werden ingelezen, wordt de volgende rechthoek getoond:
 
@@ -53,7 +53,7 @@ Twee getallen tussen 2 en 20 worden ingelezen (invoercontrole!). Er moet een ope
 * * * * * * * * * *
 ```
 
-#### Steen schaar papier
+## Steen schaar papier
 Maak een applicatie waarbij de gebruiker steen-schaar-papier met de computer kan spelen. De gebruiker kiest telkens steen, schaar of papier en drukt op enter. Vervolgens kiest de computer willekeurig steen, schaar of papier (gebruik de Random.Next() methode, waarbij je deze tussen 1 en 3 laat varieren). 
 Vervolgens krijgt de winnaar 1 punt:
 * Steen wint van schaar, verliest van papier.
@@ -69,7 +69,7 @@ Teken een flowchart van je applicatie.
 Los dit op met ``enum`` : je code zal een pak leesbaarder worden
 {% endhint %}
 
-#### Become Neo
+## Become Neo
 
 ![Neo Tim](../assets/neotim.png)
 
@@ -101,7 +101,7 @@ while (true)
 
 Vul de code aan zodat de karakters random kleuren krijgen. Kan je het nog cooler maken?
 
-#### BeerSong
+## BeerSong
 Schrijf een BeerSong-generator zoals onderstaande output. Merk op dat de laatste 5 zinnen anders zijn:
 
 ```

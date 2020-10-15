@@ -1,4 +1,3 @@
-### Herhalingen, herhalingen, herhalingen
 
 <!---NOBOOKSTART--->
 {% hint style='tip' %}
@@ -14,9 +13,9 @@ De oefeningen zijn, in de mate van het mogelijke, gerangschikt op relatieve moei
 Indien niet expliciet vermeld mag je kiezen met wat voor loop (``for``, ``while``, ``do while``) je het probleem zal oplossen. Denk echter steeds goed na wat voor loop de beste keuze is. Indien je van te voren weet hoevaak de loop moet uitgevoerd worden, dan is een ``for`` de beste keuze. Weet je dat niet dan kies je voor ``while`` of `` do while`` (weet je nog het verschil tussen beiden?)
 {% endhint %}
 
-#### De opwarmers
+# De opwarmers
 <!---NOBOOKSTART--->
-##### Opwarmers van opwarmers
+## Opwarmers van opwarmers
 Bekijk maak de oefeningen 8 tot en met 13 van hoofdstuk 4 in volgende [pdf](../assets/docs/oefenvragen2010.pdf) 
 
 {% hint style='tip' %}
@@ -51,10 +50,10 @@ Dit document staat ook in de lijst onderaan bij de [nuttige extra's](../_intro/n
  * 1 + 1/3 + 1/7 + 1/15 + 1/31 + ...
 
 
-#### Tafels van vermenigvuldigen
+## Tafels van vermenigvuldigen
 Gebruik de kracht van loops om pijlsnel alle tafels van 1 tot en met 10 van vermenigvuldigen op het scherm te tonen (dus van 1x1 tot 10x10 en alles daartussen).
 
-#### RNA Transscriptie
+## RNA Transscriptie
 
 DNA heeft steeds een RNA-complement (DNA is het gevolg van RNA transscriptie). Schrijf een programma dat een ingevoerde DNA-string omzet naar een RNA-string. De gebruiker voert steeds 1 DNA-nucleotide in per keer en duwt op enter, de RNA string wordt steeds groter.
 De omzetting is als volgt:
@@ -67,7 +66,7 @@ Als de gebruiker dus ``ACGTGGTCTTAA`` heeft ingevoerd moet het resultaat: ``UGCA
 
 Ga er van uit dat de gebruiker letter per letter invoert (telkens dus enter na een letter) en je de omgezette string doet groeien (m.b.v. ``+=``).
 
-#### Armstrong nummer (PRO)
+## Armstrong nummer (PRO)
 Een getal is een *narcistisch getal* of *armstronggetal* als het de som is van zijn eigen cijfers elk tot de macht verheven van het aantal cijfers.
 
 * 9 is een Armstrong nummer, want 9 = 9^1 = 9
@@ -101,7 +100,7 @@ Je kan dan nu met ``Math.Pow(10,lengte-1)`` berekenen vanaf welke exponent van 1
 {% endhint %}
 
 
-#### Euler project
+## Euler project
 Maak volgende opdracht van [projecteuler.net](http://projecteuler.net):
 >Indien we alle natuurlijke getallen van 0 tot en met 10 oplijsten die een meervoud van 3 of 5 zijn, dan krijgen we de getallen 3,5,6,9 en 10. De som van deze 4 getallen is 33.
 Maak nu een programma dat de som van alle veelvouden van 3 of 5 weergeeft van 0 tot 1000 (dit zou 234168 moeten geven).
@@ -110,7 +109,7 @@ Maak nu een programma dat de som van alle veelvouden van 3 of 5 weergeeft van 0 
 De modulo-operator (``%``) is je grote held hier. Een getal is een veelvoud van x indien ``getal % x`` 0 als resultaat geeft.
 {% endhint %}
 
-#### For doordenker (PRO)
+## For doordenker (PRO)
 Schrijf een programma dat de volgende output geeft, gegeven dat de gebruiker een maximum waarde invoert, dus als hij 4 ingeeft dan zal de driehoek maximum 4 breed worden. Gebruik enkel 2 geneste for-loops!
 ```
 *

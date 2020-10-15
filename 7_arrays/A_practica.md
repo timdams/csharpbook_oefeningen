@@ -1,10 +1,10 @@
-### Arrays
+
 
 {% hint style='tip' %}
 Een aantal oefeningen is geïnspireerd op oefeningen van [Exercism.io](https://exercism.io/tracks/csharp/exercises).
 {% endhint %}
 
-#### Opwarmers
+## Opwarmers
 
 1.	Er worden 20 getallen ingelezen. De getallen worden in omgekeerde volgorde afgedrukt.
 2.	Er worden 20 getallen ingelezen. De getallen worden 1 plaats naar voor verschoven afgedrukt, d.w.z. eerst het tweede ingelezen getal, dan het derde ingelezen getal, dan het vierde ingelezen getal , ... , dan het laatste ingelezen getal en tenslotte het eerste ingelezen getal.
@@ -34,7 +34,7 @@ Na de 6 vragen toon je vervolgens de vragen opnieuw met achter iedere vraag het 
 <!--- {width:60%} --->
 ![Mogelijk uitvoer programma](../assets/5_arrays/arvraag.png)
 
-#### Array Zoeker
+## Array Zoeker
 
 Maak een programma dat eerst weer aan de gebruiker om 10 waarden vraagt die in een array worden gezet.
 
@@ -48,7 +48,7 @@ Indien de te zoeken waarde meer dan 1 keer voorkomt, wordt enkel de eerst gevond
 
 ![Voorbeeld uitvoer](../assets/5_arrays/practarray3.png)
 
-#### LeveringsBedrijf
+## LeveringsBedrijf
 Maak een programma voor een koeriersbedrijf.  Maak een array die 10 postcodes bevat (zelf te kiezen) van gemeenten waar het bedrijf naar levert. Maak een tweede array die de prijs bevat per kg voor iedere respectievelijke gemeente.  Het eerste element  van deze array bevat dus de prijs/kg om naar de gemeente te leveren die als eerste in de array met postcodes staat.
 
 Vraag aan de gebruiker een postcode en het gewicht van het pakket. Vervolgens wordt de prijs/kg opgezocht voor die gemeente en wordt de prijs berekend, gegeven het ingegeven gewicht.
@@ -64,11 +64,11 @@ Naar welke postcode wenst u dit pakket te versturen?
 Dit zal 9630 euro kosten.
 ```
 
-#### Bob
+## Bob
 
 Kan je "Bob" programmeren die als volgt werkt:
 
-> Bob is a lackadaisical teenager. In conversation, his responses are very limited.
+>Bob is a lackadaisical teenager. In conversation, his responses are very limited.
 >Bob answers 'Sure.' if you ask him a question.
 >He answers 'Whoa, chill out!' if you yell at him.
 >He answers 'Calm down, I know what I'm doing!' if you yell a question at him.
@@ -85,11 +85,11 @@ Kan je een gesofisticeerdere bot maken?
 
 Gebruik een array om de antwoorden in te bewaren. 
 
-#### PRO: Bob++
+## PRO: Bob++
 
 Kan je met een array eerdere vragen van de gebruiker bewaren om zo complexere antwoorden te genereren?
 
-#### Hamming distance
+## Hamming distance
 De *hamming distance* is het aantal tekens dat twee reeksen verschillen indien we ieder element vergelijken op dezelfde plaats in de andere reeks.
 
 Maak een programma dat aan de gebruiker vraagt om twee DNA strings in te voeren (een reeks bestaande uit de letters G, A, C & T). Beide reeksen moeten even lang zijn.
@@ -104,7 +104,7 @@ CATCGTAATGACGGCCT
 ^ ^ ^  ^ ^    ^^
 ```
 
-#### Password generator (PRO)
+## Password generator (PRO)
 Ontwerp een consoletoepassing waarmee je een wachtwoord genereert voor een gebruiker. Het wachtwoord is opgebouwd uit:
 
 de 2 eerste letters van de familienaam: de 1ste letter is een hoofdletter, de 2de letter is een kleine letter. 
