@@ -9,16 +9,16 @@
 
 ```java
 Console.WriteLine("Wat is je favoriete kleur?");
-string favkleur = Console.ReadLine();
+string favKleur = Console.ReadLine();
 Console.WriteLine("Wat is je favoriete eten?");
-string faveten = Console.ReadLine();
+string favEten = Console.ReadLine();
 Console.WriteLine("Wat is je favoriete boek?");
-string favboek = Console.ReadLine();
+string favBoek = Console.ReadLine();
 Console.WriteLine("Wat is je favoriete auto?");
-string favauto = Console.ReadLine();
+string favAuto = Console.ReadLine();
 
 
-Console.WriteLine("Je favoriete kleur is"+ faveten +". Je eet graag"+ favauto +". Je lievelingsfilm is"+ favboek +" en je favoriete boek is "+ favkleur);
+Console.WriteLine("Je favoriete kleur is"+ favEten +". Je eet graag"+ favAuto +". Je lievelingsfilm is"+ favBoek +" en je favoriete boek is "+ favKleur);
 ```
 
 ## Met kleuren
@@ -27,13 +27,13 @@ Console.WriteLine("Je favoriete kleur is"+ faveten +". Je eet graag"+ favauto +"
 //...
 //Op het einde
 Console.BackgroundColor = ConsoleColor.Blue;
-Console.WriteLine("Je favoriete kleur is"+ faveten);
+Console.Write("Je favoriete kleur is"+ favEten);
 Console.BackgroundColor = ConsoleColor.Green;
-Console.WriteLine("Je eet graag"+ favauto);
+Console.Write(".Je eet graag"+ favAuto);
 Console.BackgroundColor = ConsoleColor.Red;
-Console.WriteLine("Je lievelingsfilm is"+ favboek);
+Console.Write(".Je lievelingsfilm is"+ favBoek);
 Console.BackgroundColor = ConsoleColor.Yellow;
-Console.WriteLine("en je favoriete boek is "+ favkleur);
+Console.WriteLine("en je favoriete boek is "+ favKleur + ".");
 ```
 
 Of per woord:
@@ -50,7 +50,7 @@ Console.Write("kleur ");
 Console.BackgroundColor = ConsoleColor.Yellow;
 Console.Write("is ");
 Console.BackgroundColor = ConsoleColor.Lime;
-Console.Write(faveten);
+Console.Write(favEten);
 //enzovoort
 ```
 
