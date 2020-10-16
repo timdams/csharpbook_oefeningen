@@ -8,13 +8,13 @@
 
 * H1: De eerste stappen
   * [Oefeningen](0_intro/A_Practica.md)
-<!---  * [Oplossingen](0_intro/opl_apractica.md)--->
+  * [Oplossingen](0_intro/opl_apractica.md)
 * H2: De basisconcepten van C#
   * [Oefeningen](1_csharpbasics/A_practica.md)
-<!---  * [Oplossingen](1_csharpbasics/opl_apractica.md)--->
+  * [Oplossingen](1_csharpbasics/opl_apractica.md)
 * H3: Tekst gebruiken in code
   * [Oefeningen](2_tekst/a_practica.md)
-<!---  * [Oplossingen](2_tekst/a_oplpractica.md)--->
+  * [Oplossingen](2_tekst/a_oplpractica.md)
 * H4: Werken met data
   * [Oefeningen](3_data/A_Practica.md)
 <!---  * [Oplossingen](3_data/a_oplpractica.md)--->
