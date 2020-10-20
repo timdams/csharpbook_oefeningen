@@ -40,7 +40,7 @@ Vraag aan de gebruiker een hoek in graden. Zet deze om naar radialen , gebruik `
 
 {% hint style='tip' %}
 Denk eraan: de methoden die met hoeken werken, werken in radialen, daarom moeten we deze eerst omzetten.
-1 rad = hoekInGraden * (180°/π)
+1 rad = 180°/π = 57.295779513°.
 {% endhint %}
 
 #### BMI berekenaar
