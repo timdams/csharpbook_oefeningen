@@ -43,6 +43,10 @@ Denk eraan: de methoden die met hoeken werken, werken in radialen, daarom moeten
 1 rad = 180°/π = 57.295779513°.
 {% endhint %}
 
+{% hint style='tip' %}
+Je zal merken dat voor bepaalde hoeken (bijvoorbeeld 90 graden) je erg kleine of erg grote waarden krijgt, dat is normaal. De geometrische functie in de Math-bibliotheek berekenen de resultaten (en werken dus niet met een tabel) wat met eindige kommagetallen ervoor zorgt dat je soms in plaats van 1 of 0 iets erg kleins of groot krijgt.
+{% endhint %}
+
 #### BMI berekenaar
 Maak een programma dat aan de gebruiker z'n lengte en gewicht vraagt en vervolgens de berekende BMI (Body Mass Index) toont.
 Gebruik ``Math.Round`` om de uitkomst tot maximum 2 cijfers na de komma te tonen.
