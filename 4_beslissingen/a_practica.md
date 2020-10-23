@@ -38,7 +38,7 @@ Een bankrekeningnummer is geldig als de rest van de deling van het getal, dat be
 {% endhint %}
 
 ## Kleurcode weerstand naar ohm
-Vraag aan de gebruiker om de ringkleuren van de eerste 3 ringen in te voeren als tekst (bv ``groen``). Toon vervolgens de de waarde van deze weerstand.
+Vraag aan de gebruiker om de ringkleuren van de eerste 3 ringen in te voeren als tekst (bv ``groen``). Toon vervolgens de waarde van deze weerstand.
 Als dus de gebruiker na elkaar invoert:
 
 ```
