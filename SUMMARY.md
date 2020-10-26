@@ -1,7 +1,6 @@
 # Summary
 
 * [Welkom](README.md)
-* [Naar de theoriecursus](https://app.gitbook.com/@apwt/s/ziescherp)
 * [Hulp! Er ontbreekt een oplossing!](hulp.md)
 
 ## Zie Scherp Oefeningen (semester 1)
