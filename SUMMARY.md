@@ -16,7 +16,7 @@
   * [Oplossingen](2_tekst/a_oplpractica.md)
 * H4: Werken met data
   * [Oefeningen](3_data/A_Practica.md)
-<!---  * [Oplossingen](3_data/a_oplpractica.md)--->
+  * [Oplossingen](3_data/a_oplpractica.md)
 * H5: Beslissingen
   * [Oefeningen](4_beslissingen/a_practica.md)
 <!---  * [Oplossingen](4_beslissingen/a_oplpractica.md)--->
