@@ -25,6 +25,12 @@ b) Voeg nu toe dat het programma eerst aan de kassier vraagt tot hoeveel schoene
 Voorbeeld:
 * De kassiester voert 6 in. Dan kosten 8 schoenen: 6x20 + 2x10 = 140 euro.
 
+{% hint style='tip' %}
+Je hebt niet noodzakelijk een if voor deze oefening nodig.  Indien je deze oefening zonder if kunt oplossen, dan krijg je als extra opgave bij
+
+c) Zorg ervoor dat de kassier enkel een getal tussen 3 en 10 kan invoeren bij de vraag tot hoeveel schoenen de korting niet geldt. Indien de kassier een getal buiten deze range invoert wordt de gewone korting toegekend, namelijk vanaf 10 of meer schoenen.
+{% endhint %}
+
 ## Ohm-berekenaar
 Vraag aan de gebruiker wat hij wenst te berekenen: spanning, weerstand of stroomsterkte. Vraag vervolgens de 2 andere waarden (als dus de gebruiker "Spanning" kiest vraag je aan de gebruiker de stroomsterkte en de weerstand) en bereken m.b.v. de wet van Ohm de gewenste waarde.
 
