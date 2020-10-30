@@ -19,7 +19,7 @@
   * [Oplossingen](3_data/a_oplpractica.md)
 * H5: Beslissingen
   * [Oefeningen](4_beslissingen/a_practica.md)
-<!---  * [Oplossingen](4_beslissingen/a_oplpractica.md)--->
+  * [Oplossingen](4_beslissingen/a_oplpractica.md)
 * Alles samen - H1 tot H5
   * [Opgave 1](EindeTests/Mod1/Opgave.md)
   * [Oplossing opgave 1](EindeTests/Mod1/Oplossing.md)
