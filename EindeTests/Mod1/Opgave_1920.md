@@ -1,5 +1,7 @@
 # Opgave vaardigheidsproef 2019-2020, deel 1 - IT Helpdesk
 
+*Geschatte tijd om dit te maken: 90 minuten*
+
 ## Introductie
 Maak een applicatie die de IT-helpdesk medewerkers kunnen gebruiken om bij gebruikers computerproblemen op te lossen.
 

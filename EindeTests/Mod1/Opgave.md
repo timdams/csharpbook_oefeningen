@@ -1,7 +1,9 @@
 
 {% hint style='tip' %}
-Dit zijn goede oefeningen om te testen of je alle leerstof van de voorbije hoofdstukken goed beheerst. DE volgende opgaven waren ook soms effectieve (tussentijdse) vaardigheidsproeven voor dit vak.
+Dit zijn goede oefeningen om te testen of je alle leerstof van de voorbije hoofdstukken goed beheerst. De volgende opgaven waren ook soms effectieve (tussentijdse) vaardigheidsproeven voor dit vak.
 {% endhint %}
+
+*Geschatte tijd om dit te maken: 60 minuten*
 
 # Module 1 Afsluiter
 

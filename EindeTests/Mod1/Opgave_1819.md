@@ -1,4 +1,7 @@
 # Opgave vaardigheidsproef 1819, module 1 - Intergalactic pizzaphone bestel-module
+
+*Geschatte tijd om dit te maken: 120 minuten*
+
 ## Introductie
 IPP – Intergalactic PizzaPhone -  is de populairste pizza-delivery service van het heelal. Ze hebben jouw hulp ingeschakeld om een nieuwe bestel-module te maken. Jouw module moet ervoor zorgen dat de telefoonoperators veel sneller de bestellingen kunnen invoeren en doorgeven aan de keuken.  
 > yIghoSDo' chenmoHwI'!  (Klingon voor: Veel succes maker!)
