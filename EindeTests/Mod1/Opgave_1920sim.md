@@ -14,7 +14,7 @@ Gebruik een switch om afhankelijk van de invoer van de gebruiker een ander deel 
 * Indien de gebruiker iets anders dan ‘c’ of ‘q’ invoert dient de applicatie af te sluiten nadat het de boodschap “Verkeerde invoer” op het scherm heeft getoond.
 
 
-![](../../assets/2_beslissingen/covid.png). 
+![Rechterklik op de afbeelding en bewaar of kopieer deze om ze vergroot in je eigen tekenprogramma te zien](../../assets/2_beslissingen/covid.png). 
 
 
 ## Covidbeslissingshelper (4 punten)
