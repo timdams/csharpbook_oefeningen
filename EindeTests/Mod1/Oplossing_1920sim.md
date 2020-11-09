@@ -1,15 +1,18 @@
 ```csharp
+const int MIN_DAG= 1;
+const int MAX_DAG= 5;
+
 Console.WriteLine("Wat wil je doen? Covidbeslissingshelper (c) of covidquiz (q)");
-string keuze = Console.ReadLine();
+char keuze = char.Parse(Console.ReadLine());
 switch (keuze)
 {
-    case "q":
+    case 'q':
         Random generator = new Random();
-        int vraagGetal = generator.Next(1, 6);
+        int vraagGetal = generator.Next(MIN_DAG, MAX_DAG+1);
         Console.WriteLine($"Je bent al {vraagGetal} dagen in quarantaine");
         Console.WriteLine("Hoeveel dagen moet je wachten voor je getest moet worden?");
         int antwoordGebruiker = int.Parse(Console.ReadLine());
-        int oplossing = 5 - vraagGetal;
+        int oplossing = MAX_DAG - vraagGetal;
         if(antwoordGebruiker == oplossing)
         {
             Console.ForegroundColor = ConsoleColor.Green;
@@ -21,7 +24,7 @@ switch (keuze)
             Console.WriteLine("Fout");
         }
         break;
-    case "c":
+    case 'c':
         bool moetInQuarantine = false;
         Console.WriteLine("Vertoon je covid symptomen?(j/n)");
         string symptomenVraag = Console.ReadLine();
@@ -37,7 +40,7 @@ switch (keuze)
             else
                 moetInQuarantine = true;
         }
-        if(symptomenVraag=="j" || moetInQuarantine==true)
+        if(symptomenVraag=="j" || moetInQuarantine)
         {
             Console.WriteLine("Ga in quarantaine en laat je testen");
             Console.WriteLine("Heb je een positieve test?(j/n)");
@@ -53,6 +56,9 @@ switch (keuze)
                 Console.WriteLine("Naar school wanneer genezen");
             }
         }
+        break;
+    default:
+        Console.WriteLine("Verkeerde invoer");
         break;
 }
 ```
