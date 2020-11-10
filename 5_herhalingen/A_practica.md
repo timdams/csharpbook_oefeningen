@@ -110,7 +110,7 @@ De modulo-operator (``%``) is je grote held hier. Een getal is een veelvoud van 
 {% endhint %}
 
 ## For doordenker (PRO)
-Schrijf een programma dat de volgende output geeft, gegeven dat de gebruiker een maximum waarde invoert, dus als hij 4 ingeeft dan zal de driehoek maximum 4 breed worden. Gebruik enkel 2 geneste for-loops!
+Schrijf een programma dat de volgende output geeft, gegeven dat de gebruiker een maximum waarde invoert, dus als hij 4 ingeeft dan zal de driehoek maximum 4 breed worden. Gebruik enkel 2 keer 2 geneste for-loops!
 ```
 *
 **
