@@ -1,3 +1,177 @@
+
+# Oplossing Vaardigheidsproef 1819
+```java
+
+//Prijzen
+double bodem_cheesy = 5, bodem_martian = 2.8, bodem_pegasus = 12.4;
+double top_pies_cr = 10, top_pies = 15, top_italian = 5.5;
+double top_chefextra = 1;
+double temp_prijsbodem = 0.0;
+double temp_prijstopping = 0.0;
+string bodstr = "", topstr = "";
+double korting = 0.1;  //zonder uitbreiding
+
+//Deel 1: bevraging
+//Pizzabodem
+Console.WriteLine("Geef je bodem keuze");
+Console.WriteLine($"1. cheesy crust ({bodem_cheesy})");
+Console.WriteLine($"2. Martian meal ({bodem_martian})");
+Console.WriteLine($"3. Pegasus lime ({bodem_pegasus})");
+int bodemkeuze = Convert.ToInt32(Console.ReadLine());
+
+if (bodemkeuze == 2) // pro gebruikt best enum ipv int om bodems te bewaren
+{
+    Console.WriteLine("Deze bodem enkel mogelijk als je ouder bent dan 54 jaar. Wat is leeftijd?");
+    int leeftijd = Convert.ToInt32(Console.ReadLine());
+    if (leeftijd < 54)
+    {
+        //ALLES STOPT HIER
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine("ERROR");
+        Console.ReadKey();
+        Environment.Exit(0);
+    }
+}
+
+//Topping
+Console.WriteLine("Geef je topping keuze");
+Console.WriteLine($"1. Endrali pies ({top_pies_cr} voor cheesy ; anders {top_pies}");
+Console.WriteLine($"2. Italian cheese ({top_italian})");
+Console.WriteLine("3. Geen");
+int topkeuze = Convert.ToInt32(Console.ReadLine());
+bool wantsChefsExtra = false;
+
+//Chefs extra
+if (topkeuze == 3)
+{
+    Console.WriteLine($"Wil je de chefs extra ({top_chefextra})?(j/n)");
+    string chefextra_in = Console.ReadLine();
+    if (chefextra_in == "j") wantsChefsExtra = true;
+}
+
+//Afstand
+Console.WriteLine("Hoe ver woon je in lichtjaren?");
+int afstand = Convert.ToInt32(Console.ReadLine());
+if (afstand < 0 || afstand > 100)
+{
+    Console.ForegroundColor = ConsoleColor.Red;
+    Console.WriteLine("ERROR");
+    Console.ReadKey();
+    Environment.Exit(0);
+}
+
+//Deel 2 Visualisatie + prijsberek
+switch (bodemkeuze)
+{
+    case 1:
+        temp_prijsbodem = bodem_cheesy;
+        bodstr = "Cheesy crust";
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.Write("C");
+        break;
+    case 2:
+        temp_prijsbodem = bodem_martian;
+        bodstr = "Martian meal";
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.Write("M");
+        break;
+
+    case 3:
+        temp_prijsbodem = bodem_pegasus;
+        bodstr = "Pegasus lime";
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.Write("P");
+        break;
+
+    default:
+        break;
+}
+
+switch (topkeuze)
+{
+    case 1:
+        if (bodemkeuze == 1)
+            temp_prijstopping = top_pies_cr;
+        else
+            temp_prijstopping = top_pies;
+        topstr = "Endrali pies";
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.Write("O");
+        break;
+    case 2:
+        topstr = "Italian cheese";
+        temp_prijstopping = top_italian;
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.Write("O");
+        break;
+    case 3:
+        if (wantsChefsExtra == true)
+        {
+            temp_prijstopping = top_chefextra;
+            topstr = "Chefs extra";
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write("E");
+        }
+        else
+        {
+            temp_prijstopping = 0;
+            topstr = "Geen topping";
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("Z");
+        }
+        break;
+}
+
+Console.ResetColor();
+Console.WriteLine();
+//Deel 3: prijsberekening
+double transport_prijs = 0;
+double pizza_prijs = temp_prijsbodem + temp_prijstopping;
+
+if (afstand < 10)
+    transport_prijs = 25;
+else
+{
+    transport_prijs = Math.Sqrt(afstand / pizza_prijs) + pizza_prijs;
+}
+
+if (wantsChefsExtra)
+{
+    korting = new Random().Next(0, 5) / 10.0; // (uitbreiding: Random korting)
+    transport_prijs = transport_prijs - transport_prijs * korting;
+}
+
+//afronden naar beneden
+transport_prijs = Math.Floor(transport_prijs);
+
+double totaalprijs = transport_prijs + pizza_prijs;
+
+// DEEL 4: ticket
+Console.WriteLine($"{bodstr}\t\t\t{temp_prijsbodem} IC");
+Console.WriteLine($"{topstr}\t\t\t{temp_prijstopping} IC");
+Console.WriteLine("----------------------------");
+Console.WriteLine($"Totaal piza\t\t\t{pizza_prijs} IC");
+Console.WriteLine();
+Console.WriteLine($"Afstand \t\t {afstand} Lichtjaren");
+Console.WriteLine($"Transportkosten\t\t\t {transport_prijs} IC");
+Console.WriteLine($"TOTAAL\t\t\t\t{totaalprijs} IC");
+
+
+//Extra benzine module
+//delen door 5 en afronden naar boven
+int tonnennodig = Convert.ToInt32(Math.Ceiling(afstand / 5.0));
+double rest = afstand % 5; //aantal verbruikte delen (0 tem. 4)
+double verbruikt = (rest / 5.0) * 100; //omzetten naar perc
+double benzineover = 100 - verbruikt;
+Console.WriteLine("*******************************");
+Console.WriteLine("Informatie voor de piloot");
+Console.WriteLine($"Benzine tonnen in te laden\t{tonnennodig}");
+Console.WriteLine($"Benzine over van de laatste ton\t{benzineover}%");
+
+Console.ReadLine();
+    
+```
+
 # Zoek de fouten
 Volgende bugs, fouten, minder goede oplossingen komen uit oplossingen van vaardigheidsproeven. Kan jij ontdekken wat er mis? De oplossingen staan achteraan dit document.
 (de code is hier en daar ingeperkt om de focus op de fout te leggen)
@@ -203,177 +377,3 @@ Veel beter is om bovenaan je code de nodige variabelen (met goede namen) aan te 
     ```
 
 11. De student heeft véél te veel dezelfde code geschreven (niet zichtbaar op de screenshot) en dus niet goed nagedacht over de if/else structuur die moet gemaakt worden. Maak steeds eerst een flowchart om te bepalen welke delen wanneer moeten gebeuren en zet 'gemeenschappelijke' code verderop in het verhaal. Het heeft bijvoorbeeld geen nut om overaal de ticket-visualisatie code te tonen daar deze voor alle mogelijkheden dezelfde is en dan onderaan de code gemeenschappelijk kan uitgevoerd worden.  Ook hier dus de opmerking die we ook in puntje 7 aanhaalden: stel eerst een aanvalsplan op voor je aan je aanval begint.
-
-# Oplossing Vaardigheidsproef 1819
-```java
-while (true)
-    {
-        //Prijzen
-        double bodem_cheesy = 5, bodem_martian = 2.8, bodem_pegasus = 12.4;
-        double top_pies_cr = 10, top_pies = 15, top_italian = 5.5;
-        double top_chefextra = 1;
-        double temp_prijsbodem = 0.0;
-        double temp_prijstopping = 0.0;
-        string bodstr = "", topstr = "";
-        double korting = 0.1;  //zonder uitbreiding
-
-        //Deel 1: bevraging
-        //Pizzabodem
-        Console.WriteLine("Geef je bodem keuze");
-        Console.WriteLine($"1. cheesy crust ({bodem_cheesy})");
-        Console.WriteLine($"2. Martian meal ({bodem_martian})");
-        Console.WriteLine($"3. Pegasus lime ({bodem_pegasus})");
-        int bodemkeuze = Convert.ToInt32(Console.ReadLine());
-
-        if (bodemkeuze == 2) // pro gebruikt best enum ipv int om bodems te bewaren
-        {
-            Console.WriteLine("Deze bodem enkel mogelijk als je ouder bent dan 54 jaar. Wat is leeftijd?");
-            int leeftijd = Convert.ToInt32(Console.ReadLine());
-            if (leeftijd < 54)
-            {
-                //ALLES STOPT HIER
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("ERROR");
-                Console.ReadKey();
-                Environment.Exit(0);
-            }
-        }
-
-        //Topping
-        Console.WriteLine("Geef je topping keuze");
-        Console.WriteLine($"1. Endrali pies ({top_pies_cr} voor cheesy ; anders {top_pies}");
-        Console.WriteLine($"2. Italian cheese ({top_italian})");
-        Console.WriteLine("3. Geen");
-        int topkeuze = Convert.ToInt32(Console.ReadLine());
-        bool wantsChefsExtra = false;
-
-        //Chefs extra
-        if (topkeuze == 3)
-        {
-            Console.WriteLine($"Wil je de chefs extra ({top_chefextra})?(j/n)");
-            string chefextra_in = Console.ReadLine();
-            if (chefextra_in == "j") wantsChefsExtra = true;
-        }
-
-        //Afstand
-        Console.WriteLine("Hoe ver woon je in lichtjaren?");
-        int afstand = Convert.ToInt32(Console.ReadLine());
-        if (afstand < 0 || afstand > 100)
-        {
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("ERROR");
-            Console.ReadKey();
-            Environment.Exit(0);
-        }
-
-        //Deel 2 Visualisatie + prijsberek
-        switch (bodemkeuze)
-        {
-            case 1:
-                temp_prijsbodem = bodem_cheesy;
-                bodstr = "Cheesy crust";
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.Write("C");
-                break;
-            case 2:
-                temp_prijsbodem = bodem_martian;
-                bodstr = "Martian meal";
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.Write("M");
-                break;
-
-            case 3:
-                temp_prijsbodem = bodem_pegasus;
-                bodstr = "Pegasus lime";
-                Console.ForegroundColor = ConsoleColor.Green;
-                Console.Write("P");
-                break;
-
-            default:
-                break;
-        }
-
-        switch (topkeuze)
-        {
-            case 1:
-                if (bodemkeuze == 1)
-                    temp_prijstopping = top_pies_cr;
-                else
-                    temp_prijstopping = top_pies;
-                topstr = "Endrali pies";
-                Console.ForegroundColor = ConsoleColor.Blue;
-                Console.Write("O");
-                break;
-            case 2:
-                topstr = "Italian cheese";
-                temp_prijstopping = top_italian;
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.Write("O");
-                break;
-            case 3:
-                if (wantsChefsExtra == true)
-                {
-                    temp_prijstopping = top_chefextra;
-                    topstr = "Chefs extra";
-                    Console.ForegroundColor = ConsoleColor.White;
-                    Console.Write("E");
-                }
-                else
-                {
-                    temp_prijstopping = 0;
-                    topstr = "Geen topping";
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.Write("Z");
-                }
-                break;
-        }
-
-        Console.ResetColor();
-        Console.WriteLine();
-        //Deel 3: prijsberekening
-        double transport_prijs = 0;
-        double pizza_prijs = temp_prijsbodem + temp_prijstopping;
-
-        if (afstand < 10)
-            transport_prijs = 25;
-        else
-        {
-            transport_prijs = Math.Sqrt(afstand / pizza_prijs) + pizza_prijs;
-        }
-
-        if (wantsChefsExtra)
-        {
-            korting = new Random().Next(0, 5) / 10.0; // (uitbreiding: Random korting)
-            transport_prijs = transport_prijs - transport_prijs * korting;
-        }
-
-        //afronden naar beneden
-        transport_prijs = Math.Floor(transport_prijs);
-
-        double totaalprijs = transport_prijs + pizza_prijs;
-
-        // DEEL 4: ticket
-        Console.WriteLine($"{bodstr}\t\t\t{temp_prijsbodem} IC");
-        Console.WriteLine($"{topstr}\t\t\t{temp_prijstopping} IC");
-        Console.WriteLine("----------------------------");
-        Console.WriteLine($"Totaal piza\t\t\t{pizza_prijs} IC");
-        Console.WriteLine();
-        Console.WriteLine($"Afstand \t\t {afstand} Lichtjaren");
-        Console.WriteLine($"Transportkosten\t\t\t {transport_prijs} IC");
-        Console.WriteLine($"TOTAAL\t\t\t\t{totaalprijs} IC");
-
-
-        //Extra benzine module
-        //delen door 5 en afronden naar boven
-        int tonnennodig = Convert.ToInt32(Math.Ceiling(afstand / 5.0));
-        double rest = afstand % 5; //aantal verbruikte delen (0 tem. 4)
-        double verbruikt = (rest / 5.0) * 100; //omzetten naar perc
-        double benzineover = 100 - verbruikt;
-        Console.WriteLine("*******************************");
-        Console.WriteLine("Informatie voor de piloot");
-        Console.WriteLine($"Benzine tonnen in te laden\t{tonnennodig}");
-        Console.WriteLine($"Benzine over van de laatste ton\t{benzineover}%");
-
-        Console.ReadLine();
-    }
-```
