@@ -32,6 +32,9 @@ Kan je deze code leesbaarder maken door methoden (en loops) toe te voegen?
 
 ## Verhaalgenerator
 Bekijk het all-one-project ["De verhaal generator"](../A_DEEL1_AllInOne/3_verhaalgenerator.md): kan jij dit project afwerken zoals onderaan de opgave wordt voorgesteld?
+
+## Hoe ver geraak je?
+[Challenges](https://edabit.com/challenges)
 <!---NOBOOKEND--->
 
 
