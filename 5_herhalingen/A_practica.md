@@ -16,11 +16,8 @@ Indien niet expliciet vermeld mag je kiezen met wat voor loop (``for``, ``while`
 # De opwarmers
 <!---NOBOOKSTART--->
 ## Opwarmers van opwarmers
-Bekijk maak de oefeningen 8 tot en met 13 van hoofdstuk 4 in volgende [pdf](../assets/docs/oefenvragen2010.pdf) 
 
-{% hint style='tip' %}
-Dit document staat ook in de lijst onderaan bij de [nuttige extra's](../_intro/nuttigeextras.md).
-{% endhint %}
+
 <!---NOBOOKEND--->
 
 1. Lees een willekeurig aantal getallen in met als afsluitwaarde 0. Bereken de som en druk die af.
@@ -32,7 +29,7 @@ Dit document staat ook in de lijst onderaan bij de [nuttige extra's](../_intro/n
 7. Lees een willekeurig aantal getallen in met afsluitwaarde -32768. Druk het kleinste getal af en het aantal keer dat het voorkomt.
 8. Een reeks in stijgende volgorde gesorteerde getallen wordt ingelezen. De invoer moet stoppen indien er een fout in de sorteervolgorde voorkomt.
 9. Een reeks getallen wordt ingelezen. De invoer moet stoppen indien er twee maal achter elkaar een nul wordt ingelezen. Het gemiddelde van de reeks getallen wordt afgedrukt. De laatste twee nullen tellen uiteraard niet mee voor de bepaling van het gemiddelde.
-10. Bepaal de som van de kwadraten van de even natuurlijke getallen tussen 50 en 100 (inbegrepen). De som wordt afgedrukt.
+10. Bepaal de som van de kwadraten van de even natuurlijke getallen van 50 tot 100 (inbegrepen). De som wordt afgedrukt.
 11. Een reeks van 100 getallen wordt ingelezen. Van de positieve getallen moet er afgedrukt worden hoeveel deelbaar waren door 2, hoeveel deelbaar waren door 3 en hoeveel door 6.
 12. Druk de som af van de eerste 30 termen van de volgende reeksen:
  * 6 + 12 + 18 + 24 + 30 + ...

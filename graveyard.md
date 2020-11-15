@@ -104,7 +104,7 @@ Heroes of AP bestaat uit een deck van tien kaarten met drie soorten kaarten:
 
 * De speler krijgt 10 willekeurige kaarten  voor zich die gedekt blijven liggen. 
 * Vijf kaarten zijn landkaarten,3 kaarten zijn centrales, 2 kaarten zijn helden
-  * Iedere kaart heeft een willekeurige kost tussen 5 en 10
+  * Iedere kaart heeft een willekeurige kost van 5 tot en met 10
 
 ## Spelen spel
 
@@ -118,7 +118,7 @@ Zolang de speler geen 10 punten heeft zal de speler steeds een beurt spelen best
 * **Fase 2 - GenerateMana**: De speler kiest welke land mana genereert (enkel mogelijk indien er zichtbare landen zijn)
    * Een land genereert evenveel mana als de Cost van de kaart
 * **Fase 3 - GeneratePoint**: De speler kiest welke held punten genereert (enkel mogelijk indien er zichtbare helden zijn)
-  * De speler betaald hiervoor de cost van de held in mana. De held genereert vervolgens een willekeurig aantal punten tussen 1 en de cost van de held.
+  * De speler betaald hiervoor de cost van de held in mana. De held genereert vervolgens een willekeurig aantal punten tussen 1 tot en met de cost van de held.
 
 # Basisspel maken
 ## Deel 1 (8 punten)
@@ -145,7 +145,7 @@ Vul de 3 klassen aan klassen om aan bovenstaand schema te voldoen:
   *	Heeft als ``Name`` altijd "Hero"
   * Heeft de interface ``IPointGenerator``
   * Zal bij de ``DrawCard`` methode zichzelf in gele tekst op het scherm zetten, namelijk z’n Name, gevolgd door z’n Cost (bv ``"Hero 6"``)
-  * Heeft een methode ``GeneratePoints`` die 1 parameter aanvaardt van het type int. Indien de parameter gelijk is aan Cost zal de methode een willekeurig getal tussen 1 en Cost teruggeven als punten. 
+  * Heeft een methode ``GeneratePoints`` die 1 parameter aanvaardt van het type int. Indien de parameter gelijk is aan Cost zal de methode een willekeurig getal tussen 1 tot en met de Cost teruggeven als punten. 
  
 * **``Deck``:**
   * Deck heeft een lijst van kaarten genaamd Kaarten, van het type ``List<Card>`` 

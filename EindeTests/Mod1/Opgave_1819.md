@@ -52,7 +52,7 @@ De gebruiker kan kiezen uit 2 soorten toppings, hij mag ook verkiezen om zonder 
 Indien de klant voor geen topping kiest dan kan deze voor 1 IC de chef’s extra (een dikke fluim) aan z’n pizza toevoegen.
 
 #### Afstand tot aarde in lichtjaar?
-* Als finale vraag dient de gebruiker door te geven hoe ver het afleveradres is in lichtjaren. Dit zal steeds een geheel getal tussen 1 en 100 moeten zijn. 
+* Als finale vraag dient de gebruiker door te geven hoe ver het afleveradres is in lichtjaren. Dit zal steeds een geheel getal van 1 tot en met 100 moeten zijn. 
 * Indien de gebruiker een getal buiten deze grenzen ingeeft dan sluit het programma door in rode letters “ERROR” op het scherm te zetten
 
  
@@ -106,7 +106,7 @@ TOTAAL				17.3 IC
 ## Deel 2- Uitbreidingen
 ### Random korting- module  (2 punt)
 
-De standaard korting voor de chef’s extra op de transportkosten is 10%. In deze uitbreiding zou het bedrijf graag hebben dat een willekeurige korting wordt toegekend. Deze zal steeds een willekeurige bedrag tussen 0 en 50% korting zijn.
+De standaard korting voor de chef’s extra op de transportkosten is 10%. In deze uitbreiding zou het bedrijf graag hebben dat een willekeurige korting wordt toegekend. Deze zal steeds een willekeurige bedrag van 0 tot en met 50% korting zijn.
 
 ### Benzine module (3 punten)
 

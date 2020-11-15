@@ -21,6 +21,7 @@ Niet zeker van je oplossing? Test of je met minimale aanpassing de grenzen van j
 
 
 ## Drillen
+*Beide grenzen zijn steeds inbegrepen!*
 
 * Toon alle natuurlijke getallen van 1 tot *n*.
 * Toon alle natuurlijke getallen van *n* tot 1.

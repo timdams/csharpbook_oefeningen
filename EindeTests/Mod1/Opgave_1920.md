@@ -10,7 +10,7 @@ Het programma implementeert volgende flowchart:
 
 * De gebruiker dient steeds met "ja" of "nee" te antwoorden bij de vragen.
 * De applicatie begint met "Zet de computer aan." En stelt dan de eerste vraag ("Gaat de computer aan").
-* Na ieder antwoordt wordt het scherm leeggemaakt.
+* Na ieder antwoord wordt het scherm leeggemaakt.
 Finaal bereikt de gebruiker dan een van de onderstaande fasen A,B of C, die verderop in de opgave worden uitgelegd.
 
 ![Flowchart](../../assets/2_beslissingen/vaardig1920.png)
@@ -19,7 +19,7 @@ Finaal bereikt de gebruiker dan een van de onderstaande fasen A,B of C, die verd
 
 In fase A gebeurt het volgende:
 
-1. De gebruiker dient de foutcode als geheel getal in te voeren. Dit moet een getal tussen 0 en 9 zijn. Bij alle andere getallen (bijvoorbeeld -1 of 14) verschijnt er "Los het dan zelf op he!" en sluit het programma zich af.
+1. De gebruiker dient de foutcode als geheel getal in te voeren. Dit moet een getal van 0 tot en met 9 zijn. Bij alle andere getallen (bijvoorbeeld -1 of 14) verschijnt er "Los het dan zelf op he!" en sluit het programma zich af.
 2. Wanneer een correct getal werd ingevoerd verschijnt er in RODE LETTERS de boodschap "Gelieve je computer gedurende X minuten af te zetten."
 
 X is een getal dat berekend wordt als volgt:  

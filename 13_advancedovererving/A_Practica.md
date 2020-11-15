@@ -55,8 +55,8 @@ Maak een child-klasse die van Book overerft genaamd ‘CoffeeTableBook’. Deze 
 Voorts kunnen boeken "opgeteld" worden om als omnibus uitgebracht te worden. De titel wordt dan "Omnibus van [X]". waarbij X de Authors bevat, gescheiden met een komma. De prijs van een Omnibus is steeds de som van beide boeken gedeeld door 2. **Schrijf een ``static`` methode ``TelOp`` die twee ``Book`` objecten als parameter aanvaardt en als returntype een nieuw ``Book`` teruggeeft.** 
 
 In beide child-klassen, override de Price-setter zodat:
-a)	Bij Textbook de prijs enkel tussen 20 en 80 kan liggen
-b)	Bij CoffeeTableBooks de prijs enkel tussen 35 en 100 kan liggen
+a)	Bij Textbook de prijs enkel vanaf 20 tot en met 80 kan liggen
+b)	Bij CoffeeTableBooks de prijs enkel van 35 tot en met 100 kan liggen
 
 ## Deel 2
 

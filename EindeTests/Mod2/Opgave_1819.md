@@ -119,7 +119,7 @@ Deze 3 methoden bevatten telkens 1 spel. Als het spel gedaan is geeft de methode
 ## RaadHetGetal (4 punten)
 
 ### Beschrijving spel
-De speler moet raden welk getal tussen 0 en 10 de computer in gedachte heeft.  Voor hij dit doet moet hij eerst ingeven hoe vaak hij denkt te moeten raden.
+De speler moet raden welk getal van 0 tot en met 10 de computer in gedachte heeft.  Voor hij dit doet moet hij eerst ingeven hoe vaak hij denkt te moeten raden.
 
 ### De winst die de methode teruggeeft is als volgt:
 

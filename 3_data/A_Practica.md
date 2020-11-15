@@ -111,7 +111,7 @@ Het totaal te betalen bedrag is 126 EURO.
 #### Het Orakeltje van Delphi
 Gebruik een random generator om een orakel (een duur woord voor waarzegger) te maken, namelijk de kleine broer of zus van het [Orakel van Delphi](https://nl.wikipedia.org/wiki/Orakel_van_Delphi). Het programma zal aan de gebruiker vertellen hoe lang deze nog zal leven. Bijvoorbeeld: "Je zal nog 15 jaar leven.".
  
-Het orakel zal enkel realistische getallen geven. M.a.w., getallen tussen de 5 en 125 jaar.
+Het orakel zal enkel realistische getallen geven. M.a.w., getallen van 5 tot en met 125 jaar.
 
 <!---NOBOOKSTART--->
 {% hint style='tip' %}
