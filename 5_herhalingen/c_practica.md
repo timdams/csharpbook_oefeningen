@@ -23,13 +23,7 @@ Niet zeker van je oplossing? Test of je met minimale aanpassing de grenzen van j
 ## Drillen
 *Beide grenzen zijn steeds inbegrepen!*
 
-* Toon alle natuurlijke getallen van 1 tot *n*.
-* Toon alle natuurlijke getallen van *n* tot 1.
-* Toon alle even getallen tussen 1 en 100.
-* Toon alle oneven getallen tussen 1 en 100.
-* Toon de som van alle getallen van 1 tot *n* (dus 1+2+3+4+...+n).
-* Toon de som van alle even getallen van 1 tot *n*.
-* Toon de som van alle oneven getallen van 1 tot *n*.
+
 * (PRO) Schrijf een programma dat het aantal digits in een getal telt (het getal 12348 heeft bijvoorbeeld 5 digits).
 * Schrijf een programma dat een ingevoerd getal als tekst uitschrijft. Als de gebruiker dus 123 invoert zal de uitvoer zijn: honderd drie en twintig.
 * Schrijf een programma dat alle Unicode karakters en hun waarde toont van 10 tot *n* (tip: ``char c = Convert.ToChar(65); `` zal hoofdletter ``A`` tonen).

@@ -14,6 +14,16 @@ Indien niet expliciet vermeld mag je kiezen met wat voor loop (``for``, ``while`
 {% endhint %}
 
 # De opwarmers
+
+## Opwarmers 1
+
+* Toon alle natuurlijke getallen van 1 tot *n*.
+* Toon alle natuurlijke getallen van *n* tot 1.
+* Toon alle even getallen tussen 1 en 100.
+* Toon alle oneven getallen tussen 1 en 100.
+* Toon de som van alle getallen van 1 tot *n* (dus 1+2+3+4+...+n).
+* Toon de som van alle even getallen van 1 tot *n*.
+* Toon de som van alle oneven getallen van 1 tot *n*.
 <!---NOBOOKSTART--->
 ## Opwarmers van opwarmers
 
