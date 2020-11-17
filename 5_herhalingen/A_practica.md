@@ -86,7 +86,7 @@ Schrijf een programma dat aan de gebruiker een getal vraagt en vervolgens toont 
 {% hint style='tip' %}
 Je zou deze oefening kunnen oplossen door het ingevoerde getal als string op te splitsen in individuele char's. Maar we raden je aan om de "wiskunde" weg te volgen zodat je terdege leert met loops en wiskunde te werken.
 
-Stel dat je het getal 4560 hebt:
+Stel dat je het getal 4563 hebt:
 
 * Eerst deel je 4563 door 1000. Dit geeft **4**. 
 * We trekken 4x1000 van 4563 af. Dit geeft 563.
