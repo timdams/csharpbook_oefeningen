@@ -51,7 +51,7 @@ Indien correct gaat de gebruiker verder. Bij fout stopt het programma en wordt g
 
 ## Wiskundequiz met levels
 
-Bouw levels in de voorgaande wiskundequiz. Per 5 juiste antwoorden, stijg je 1 level. Het level bepaald het bereik van getallen die gegenereerd worden bij de oefening. Bijvoorbeeld level 1 enkel getallen van 1 tot en met 5, level 2 tot en met 10, level 3 tot en met 20 etc.
+Bouw levels in de voorgaande wiskundequiz. Per 5 juiste antwoorden, stijg je 1 level. Het level bepaalt het bereik van getallen die gegenereerd worden bij de oefening. Bijvoorbeeld level 1 enkel getallen van 1 tot en met 5, level 2 tot en met 10, level 3 tot en met 20 etc.
 
 PRO: Kan je ervoor zorgen dat het bereik van de getalgeneratie met een formule afhankelijk is van het level? Zodat je de grenzen per level niet moet hardcoden?
 
