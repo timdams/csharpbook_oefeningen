@@ -33,7 +33,8 @@
   * [Oefeningen deel 1](5_herhalingen/A_practica.md)
   * [Oefeningen deel 2](5_herhalingen/c_practica.md)
   * [Oefeningen deel 3](5_herhalingen/b_practica.md)
-<!---  * [Oplossingen](5_herhalingen/opl_a_practica.md)--->
+  * [Oplossingen deel 1](5_herhalingen/opl_a_practica.md)
+<!---  * [Oplossingen deel 2](5_herhalingen/opl_b_practica.md)--->
 * H7: Methoden
   * [Oefeningen deel 1](6_methoden/b_practica.md)
   * [Oefeningen deel 2](6_methoden/c_practica.md)
