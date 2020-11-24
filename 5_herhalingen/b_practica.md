@@ -9,23 +9,7 @@ Bekijk zeker de Wiskunde-quizprogramma-opdracht!
 {% endhint %}
 <!---NOBOOKEND--->
 
-## Grootste getal
-Vervolledig deze code zodat ook getoond wordt welke de grootste waarde is die werd ingevoerd.
 
-```java
-int x= 0;
-int y= 0;
-do
-{
-    y = y + x;
-    Console.WriteLine("Voer gehele waarden in (32767=stop)");
-    string instring= Console.ReadLine();
-    x = Convert.ToInt32(instring);
-    //....
-
-}while (x != 32767);
-Console.WriteLine($"Som is {y}");
-```
 
 ## Boekhouder
 Maak een 'boekhoud-programma': de gebruiker kan continu positieve en negatieve getallen invoeren. Telkens hij op enter duwt wordt de huidige invoer aan de balans bijgevoegd.
