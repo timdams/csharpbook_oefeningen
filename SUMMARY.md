@@ -60,6 +60,7 @@
   * [Fun with methods: een verhaalgenerator](A_DEEL1_AllInOne/3_verhaalgenerator.md)
   * [Tekst-gebaseerd Maze game](A_DEEL1_AllInOne/4_MazeGame.md)
   * [Conway game of life](A_DEEL1_AllInOne/5_conway.md)
+  * [How to make your console app look cool](A_DEEL1_AllInOne/coolconsole.md)
 
 ## Zie Scherper Oefeningen (semester 2)
 
