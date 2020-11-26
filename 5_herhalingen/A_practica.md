@@ -66,7 +66,8 @@ Gebruik de kracht van loops om pijlsnel alle tafels van 1 tot en met 10 van verm
 
 ## RNA Transscriptie
 
-DNA heeft steeds een RNA-complement (DNA is het gevolg van RNA transscriptie). Schrijf een programma dat een ingevoerde DNA-string omzet naar een RNA-string. De gebruiker voert steeds 1 DNA-nucleotide in per keer en duwt op enter, de RNA string wordt steeds groter.
+DNA heeft steeds een RNA-complement (DNA is het gevolg van RNA transscriptie). Schrijf een programma dat een ingevoerde DNA-string omzet naar een RNA-string. De gebruiker voert steeds 1 DNA-nucleotide in per keer en duwt op enter, de RNA string wordt steeds groter. Na 12 karakters stopt het programma.
+
 De omzetting is als volgt:
 * G wordt C
 * C wordt G
