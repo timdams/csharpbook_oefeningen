@@ -48,6 +48,59 @@ while (true)
 }
 ```
 
+
+### WiskundeQuiz
+
+```java
+string gebruikersInput = "";
+int gebruikersGetal = 0;
+const int BEGIN_WAARDE = 1;
+const int EIND_WAARDE = 10;
+const int LEVEL_UP_WAARDE = 5;
+Random randomGetal = new Random();
+int eersteFactor, tweedeFactor, totaal;
+int correcteOplossingen = 0;
+int levels = 1;
+bool correct = true;
+
+Console.WriteLine("Welkom bij de wiskunde quiz, druk op 'q' om te stoppen of antwoord op de onderstaande vragen: ");
+do
+{
+
+    eersteFactor = randomGetal.Next(BEGIN_WAARDE, (EIND_WAARDE + 1)*levels);
+    tweedeFactor = randomGetal.Next(BEGIN_WAARDE, (EIND_WAARDE + 1)*levels);
+    totaal = eersteFactor * tweedeFactor;
+    Console.WriteLine($"{eersteFactor} * {tweedeFactor} = ? ");
+    gebruikersInput = Console.ReadLine();
+    if (gebruikersInput != "q")
+    {
+        gebruikersGetal = Convert.ToInt32(gebruikersInput);
+        if (gebruikersGetal == totaal)
+        {
+            Console.WriteLine($"correct, het juiste antwoord was inderdaad: {totaal}");
+            correcteOplossingen++;
+            if (correcteOplossingen % LEVEL_UP_WAARDE == 0)
+            {
+                levels++;
+                Console.WriteLine($"Je hebt een nieuw niveau bereikt, je niveau is nu: {levels}");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Fout...");
+            Console.WriteLine($"Je had {correcteOplossingen} correcte oplossingen.");
+            correct = false;
+        }
+    }
+} while (gebruikersInput != "q" && correct);
+
+if (correct)
+{
+    Console.WriteLine($"Je had {correcteOplossingen} correcte oplossingen.");
+}
+```
+Dank aan Olivier Van Ransbeeck!
+
 ## Oplossing BeerSong
 ```java
 for (int i= 99; i > 2; i--)
