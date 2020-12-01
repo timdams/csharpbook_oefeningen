@@ -34,7 +34,7 @@
   * [Oefeningen deel 2](5_herhalingen/c_practica.md)
   * [Oefeningen deel 3](5_herhalingen/b_practica.md)
   * [Oplossingen deel 1](5_herhalingen/opl_a_practica.md)
-<!---  * [Oplossingen deel 2](5_herhalingen/opl_b_practica.md)--->
+  * [Oplossingen deel 2](5_herhalingen/opl_b_practica.md)
 * H7: Methoden
   * [Oefeningen deel 1](6_methoden/b_practica.md)
   * [Oefeningen deel 2](6_methoden/c_practica.md)
@@ -72,7 +72,7 @@
 <!---  * [Oplossingen](9_meminoop/opl_poke2.md)--->
 * H11: Advanced klassen en objecten
   * [Oefeningen](10_advancedklassen/A_practica3.md)
-  * [Oplossingen](10_advancedklassen/opl_practica3.md)
+<!---  * [Oplossingen](10_advancedklassen/opl_practica3.md)--->
 * H12: Arrays en klassen
   * [Oefeningen](11_arraysvanklassen/A_practicaMem.md)
 <!---  * [Oplossingen](11_arraysvanklassen/opl_practica3.md)--->
