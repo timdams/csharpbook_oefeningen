@@ -29,6 +29,8 @@
   * [Oplossing opgave 3](EindeTests/Mod1/Oplossing_1819.md)
   * [Opgave 4](EindeTests/Mod1/Opgave_1920sim.md)
   * [Oplossing opgave 4](EindeTests/Mod1/Oplossing_1920sim.md)
+  * [Opgave 5](EindeTests/Mod1/Opgave_2021.md)
+  * [Oplossing opgave 5](EindeTests/Mod1/Oplossing2021.md)
 * H6: Herhalingen, herhalingen, herhalingen
   * [Oefeningen deel 1](5_herhalingen/A_practica.md)
   * [Oefeningen deel 2](5_herhalingen/c_practica.md)
