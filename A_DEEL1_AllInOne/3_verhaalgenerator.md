@@ -15,8 +15,7 @@ static string GenerateNameSimple(int namelength)
     string name = "";
     for (int i = 0; i < namelength; i++)
     {
-        int randomgetal = r.Next(65, 91); 
-        name += (char)randomgetal;
+        name += (char)r.Next('a', 'z'+1); 
     }
     return name;
 }
@@ -94,8 +93,7 @@ static char GenereerMedeklinker()
     char result = 'E';
     while (IsKlinker(result))
     {
-        int randomgetal = r.Next(65, 91);
-        result = (char)randomgetal;
+        result = (char)r.Next('a', 'z'+1);
     }
     return result;
 }
@@ -110,7 +108,7 @@ static string GenerateNameBetter(int namelength=6)
 {
 
     string name = "";
-    char vorigteken = (char)r.Next(65, 91);
+    char vorigteken = (char)r.Next('a', 'Z');
     for (int i = 0; i < namelength; i++)
     {
         if (IsKlinker(vorigteken))

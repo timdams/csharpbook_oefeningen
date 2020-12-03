@@ -132,7 +132,7 @@ class Virus
         
         for (int i = 0; i < 3; i++)
         {
-            Naam +=(char) r.Next(65, 91);
+            Naam +=(char) r.Next('a', 'z'+1);
         }
         Naam += r.Next(1, 100);
     }
