@@ -25,7 +25,7 @@ Iedere oefening verwacht dat je steeds een methode schrijft en de werking ervan 
 * Methode die het grootste van 2 getallen teruggeeft (beide getallen geef je mee als parameter).
 * Methode ``IsEven`` die bepaalt of een getal even of oneven is (geeft een ``bool`` terug die ``true`` is indien even).
 * Methode ``IsArmstrong`` die bepaalt of een getal een Armstrong getal is.
-* Methode ``ToonOEvenNummers`` die alle oneven getallen van 1 tot n toont waarbij n als parameter wordt meegegeven.
+* Methode ``ToonOnEvenNummers`` die alle oneven getallen van 1 tot n toont waarbij n als parameter wordt meegegeven.
 * Methode ``ToonArmstrongNummers`` die alle Armstrong nummers tot n toont.
 
 
