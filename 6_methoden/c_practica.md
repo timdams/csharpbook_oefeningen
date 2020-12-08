@@ -7,11 +7,11 @@ Maak een methode FilmRuntime() die 3 parameters accepteert:
 
 Indien de duur van de film niet wordt meegeven wordt een standaard  lengte van 90 minuten ingesteld. Indien het genre niet wordt meegeven dan wordt deze default op Onbekend ingesteld.
 
-De methode geeft niets terug maar toont eenvoudigweg de film op het scherm, gevolgd door z’n duur en genre in volgende formaat.
+De methode geeft niets terug maar toont eenvoudigweg de film op het scherm, gevolgd door z’n duur en genre in volgende formaat. Voorbeelduitvoer=
 
 <!---{line-numbers:false}--->
 ```text
-The Matrix (120minuten, Actie)
+The Matrix (120 minuten, Actie)
 ```
 
 Toon aan in je main dat de methode werkt met zowel 1, 2 als 3 parameters. Toon ook aan dat je met ‘named arguments’ de methode kan aanroepen.
