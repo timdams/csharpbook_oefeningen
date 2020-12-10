@@ -17,7 +17,7 @@ The Matrix (120 minuten, Actie)
 Toon aan in je main dat de methode werkt met zowel 1, 2 als 3 parameters. Toon ook aan dat je met ‘named arguments’ de methode kan aanroepen.
 
 ## Opwarmers met geavanceerde methoden
-Zorg ervoor dat de opwarmers vooran deze reeks oefeningen steeds minstens 1 optionele parameter hebben. Roep deze methoden aan via named parameters.
+Zorg ervoor dat de opwarmers vooraan deze reeks oefeningen steeds minstens 1 optionele parameter hebben. Roep deze methoden aan via named parameters.
 
 <!---{pagebreak}--->
 
