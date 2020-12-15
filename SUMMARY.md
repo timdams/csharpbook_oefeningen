@@ -40,7 +40,7 @@
 * H7: Methoden
   * [Oefeningen deel 1](6_methoden/b_practica.md)
   * [Oefeningen deel 2](6_methoden/c_practica.md)
-<!---  * [Oplossingen](6_methoden/opl_b_practica.md)--->
+  * [Oplossingen](6_methoden/opl_b_practica.md)
 * H8: Arrays
   * [Oefeningen deel 1](7_arrays/A_practica.md)
   * [Oefeningen deel 2](7_arrays/B_practica.md)
