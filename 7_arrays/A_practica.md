@@ -7,7 +7,7 @@ Een aantal oefeningen is geïnspireerd op oefeningen van [Exercism.io](https://e
 ## Opwarmers
 
 {% hint style='tip' %}
-Je mag in deze oefeningen NIET gebruik maken van .Sort(), .Reverse() etc. Alles moet je manueel kunnen.
+Je mag in deze oefeningen NIET gebruik maken van .Reverse(), BinarySearch() etc. Alles moet je manueel kunnen. Enkel sorteren mag je automatisch doen met .Sort().
 
 Als er dus taat "lees 20 getallen in", dan moet je die in volgorde bewaren in je array. Vervolgens begin je die array te manipuleren.
 {% endhint %}
