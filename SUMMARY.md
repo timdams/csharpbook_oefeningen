@@ -44,7 +44,7 @@
 * H8: Arrays
   * [Oefeningen deel 1](7_arrays/A_practica.md)
   * [Oefeningen deel 2](7_arrays/B_practica.md)
-<!---  * [Oplossingen](7_arrays/opl_a_practica.md)--->
+  * [Oplossingen](7_arrays/opl_a_practica.md)
 * Alles samen - H1 tot H8
   * [Opgave 1](EindeTests/Mod2/Opgave.md)
   * [Opgave 2](EindeTests/Mod2/Opgave_1819.md)

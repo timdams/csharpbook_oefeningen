@@ -1,54 +1,112 @@
 # Oplossing opwarmers
 
 
-## Opwarmers 
+## Enkele opwarmers 
 ```java
-//Maak een array gevuld met de getallen 0 tot 100
-int[] getallen = new int[10];
-for(int i = 0; i < 10; i++)
+static void Main(string[] args)
 {
-    getallen[i] = i + 1;
-    Console.Write(getallen[i] + ",");
+    const int LENGTE = 20;
+    int[] arr = new int[LENGTE];
+    Random r = new Random();
+    Console.WriteLine("Start:");
+    for (int i = 0; i < arr.Length; i++)
+    {
+        //Console.WriteLine($"Geef getal {i+1}");
+        //arr[i]= int.Parse(Console.ReadLine());
+        arr[i] = r.Next(1, 101);
+        Console.Write($"{arr[i]},");
+    }
+
+    //Opwarmer 1
+    Console.WriteLine("\nOpwarmer 1");
+    for (int i = arr.Length - 1; i >= 0; i--)
+    {
+        Console.Write($"{arr[i]},");
+    }
+
+    //Opwarmer 2
+    Console.WriteLine("\nOpwarmer 2");
+    int[] moved = new int[arr.Length];
+    for (int i = 0; i < arr.Length; i++)
+    {
+        moved[i] = arr[(i + 1) % LENGTE];
+    }
+    PrintArray(moved);
+
+    //Opwarmer 3
+    Console.WriteLine("\nOpwarmer 3");
+    int[] moved3 = new int[arr.Length];
+    for (int i = 0; i < arr.Length; i++)
+    {
+        moved3[(i+3)%LENGTE] = arr[i];
+    }
+    PrintArray(moved3);
+
+
+    //Opwarmer 4
+    Console.WriteLine("\nOpwarmer 4");
+    Console.WriteLine("Hoeveel plaatsen opschuiven?");
+    int aantal = int.Parse(Console.ReadLine());
+    int[] moved4 = new int[arr.Length];
+    for (int i = 0; i < arr.Length; i++)
+    {
+        moved4[(i + aantal) % LENGTE] = arr[i];
+    }
+    PrintArray(moved4);
+
+
+    //Opwarmer 5
+    Console.WriteLine("\nOpwarmer 4");
+    const int GETALPERKOLOM = 3;
+    for (int i = 2; i < arr.Length; i++)
+    {
+        if((i)% GETALPERKOLOM == 0)
+        {
+            int[] temp = new int[GETALPERKOLOM];
+            for (int j = 0; j < temp.Length; j++)
+            {
+                temp[j] = arr[i + j - GETALPERKOLOM];
+            }
+            Array.Sort(temp);
+            for (int k = 0; k < temp.Length; k++)
+            {
+                Console.Write($" {temp[k]}");
+            }
+            Console.WriteLine();
+        }
+    }
+
+    //Opwarmer 8
+    Console.WriteLine("\nOpwarmer 8");
+
+    for (int i = 0; i < arr.Length/2; i++)
+    {
+        int temp = arr[i];
+        arr[i] = arr[arr.Length - 1 - i];
+        arr[arr.Length - 1 - i] = temp;
+    }
+    PrintArray(arr);
+
+    //Opwarmer 9
+    Console.WriteLine("\nOpwarmer 8");
+
+    for (int i = 0; i < arr.Length / 2; i++)
+    {
+        int temp = arr[i];
+        arr[i] = arr[arr.Length - 1 - i];
+        arr[arr.Length - 1 - i] = temp;
+    }
+    PrintArray(arr);
 }
 
-//Maak een array gevuld met de getallen van 100 tot 0
-int[] getallen = new int[100];
-int counter = 100;
-for(int i = 0; i < getallen.Length; i++)
+static void PrintArray(int[] inarr)
 {
-    getallen[i] = counter; //zonder counter: getallen[i] = 100 - i;
-    counter--;
-    Console.Write(getallen[i] + ",");
-}
+    for (int i = 0; i < inarr.Length; i++)
+    {
 
-//Maak een array gevuld met de letters a tot z
-char[] letters = new char[26];
-int startUnicode = 97;
-for(int i = 0; i < letters.Length; i++)
-{
-    letters[i] = (char)(startUnicode + i);
-    Console.Write(letters[i] + ",");
-}
+        Console.Write($"{inarr[i]},");
 
-//Maak een array gevuld met willekeurige getallen tussen 1 en 100 (array is 20 lang)
-int[] getallen = new int[20];
-Random r = new Random();
-for(int i = 0; i < getallen.Length; i++)
-{
-    getallen[i] = r.Next(1, 101);
-    Console.Write(getallen[i] + ", ");
-}
-
-//Maak een array gevuld met afwisselen true en false (lengte is 30)
-bool[] binary = new bool[30];
-for(int i = 0; i < binary.Length; i++)
-{
-    if(i % 2 == 0) 
-        binary[i] = true;
-    else
-        binary[i] = false;
-    
-    Console.Write(binary[i] + ", ");
+    }
 }
 ```
 
@@ -96,13 +154,13 @@ else
 ```java
 static void Main(string[] args)
 {
-    int length = 5;
-    int[] A = VraagVulArray(length);
-    int[] B = VraagVulArray(length);
-    int[] C = new int[length];
+    const int LENGTH = 5;
+    int[] A = VraagVulArray(LENGTH);
+    int[] B = VraagVulArray(LENGTH);
+    int[] C = new int[LENGTH];
 
     Console.WriteLine("Array c bevat:");
-    for (int i = 0; i < length; i++)
+    for (int i = 0; i < LENGTH; i++)
     {
         C[i] = A[i] + B[i];
         Console.Write($"{C[i]}, ");
