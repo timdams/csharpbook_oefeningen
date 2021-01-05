@@ -37,6 +37,7 @@ De methode geeft een bool terug als volgt:
 * True indien de gebruiker de naam "admin" heeft ingegeven
 * False in alle andere gevallen
  
+
 # Fase 2.1: Welke partij past bij je? (2 punten)
 Maak een methode “Stemwijzer”, deze methode vereist 2 parameters van het type bool en ConsoleColor. De Methode geeft een string terug als resultaat.
 
@@ -63,20 +64,14 @@ Het scherm wordt na de vragen leeggemaakt en in het midden van het consolescherm
 De  methode geeft vervolgens de partij als string terug waar de stemwijzer is op uitgekomen.
 
 Enkel indien de gebruiker géén admin is (wat je hebt teruggekregen via de bool in van VraagDetails() methode wordt vervolgens z’n stemresultaat bewaard in de array 2: Dit resultaat wordt in de 2e array van fase 0 bewaard op de respectievelijke index waar ook de naam van de huidige gebruiker in de andere array staat. 
- 
 
-6	Fase 2.3: Stemwijzer tester (3 punten)
-Wanneer de gebruiker in fase 1 als admin werd gedetecteerd dan zal de applicatie zelf ja/nee antwoorden op alle vragen (ook de eerste) in fase 2.1. (adminmode geef je aan door de bool als true mee te geven aan de StemWijzer methode). 
- 
-De applicatie zal de stemwijzer willekeurig invullen (dus random j/n genereren). Deze resultaten worden niet in de arrays bewaard.
-
-Bij een gewone gebruiker wordt de StemWijzer methode met de kleur "green" aangeroepen. Bij een admin "red".
 
 # Fase 3:Statistieken tonen (3 punten)
 
 Als laatste fase wordt een methode ``ToonStatistieken`` aangeroepen. Deze methode verwacht twee arrays. De eerste array bevat namen (string), de andere de stemresultaten (string of enum als je de volgende fase ook maakt).
 
 De methode gebruikt de 2 arrays om enkele interessante statistieken te tonen:
+
 1.	Het toont het percentage dat partijen vertegenwoordigd zijn. Als dus de array bestaat uit vvd,d66,vvd. Dan zal vvd 66% vertegenwoordigen, d66 33%
 2.	Je toont ook het aantal keer dat iedere partij voorkwam aan de hand van een lijn bestaande uit zoveel sterren. Als vvd 5 stemmen kreeg, d66 3 en bas 6 dan toont de methode dit als volgt:
 
