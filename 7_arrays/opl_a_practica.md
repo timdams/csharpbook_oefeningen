@@ -87,16 +87,6 @@ static void Main(string[] args)
     }
     PrintArray(arr);
 
-    //Opwarmer 9
-    Console.WriteLine("\nOpwarmer 8");
-
-    for (int i = 0; i < arr.Length / 2; i++)
-    {
-        int temp = arr[i];
-        arr[i] = arr[arr.Length - 1 - i];
-        arr[arr.Length - 1 - i] = temp;
-    }
-    PrintArray(arr);
 }
 
 static void PrintArray(int[] inarr)
