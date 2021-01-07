@@ -87,6 +87,17 @@ static void Main(string[] args)
     }
     PrintArray(arr);
 
+    //Opwarmer 9
+    Console.WriteLine("\nOpwarmer 9");
+    int last = arr[arr.Length - 1];
+    for (int i = arr.Length-1; i >0; i--)
+    {
+
+        arr[i] = arr[i - 1];
+    }
+    arr[0] = last;
+    PrintArray(arr);
+
 }
 
 static void PrintArray(int[] inarr)
