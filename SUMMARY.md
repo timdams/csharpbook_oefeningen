@@ -67,19 +67,19 @@
 
 ## Zie Scherper Oefeningen (semester 2)
 
-* H9: Klassen en objecten
+* H1: Object Oriented Programming
   * [Oefeningen](8_klassen/A_practica.md)
 <!---  * [Oplossingen](8_klassen/opl_apractica.md)--->
-* H10: Geheugenmanagement bij klassen
+* H2: Geheugenmanagement, uitzonderingen en namespaces
   * [Oefeningen](9_meminoop/A_poke1.md)
 <!---  * [Oplossingen](9_meminoop/opl_poke2.md)--->
-* H11: Advanced klassen en objecten
+* H3: Gevorderde klasseconcepten
   * [Oefeningen](10_advancedklassen/A_practica3.md)
 <!---  * [Oplossingen](10_advancedklassen/opl_practica3.md)--->
-* H12: Arrays en klassen
+* H4: Arrays en klassen
   * [Oefeningen](11_arraysvanklassen/A_practicaMem.md)
 <!---  * [Oplossingen](11_arraysvanklassen/opl_practica3.md)--->
-* Alles samen - H9 tot H12
+* Alles samen - H1 tot H4
   * [Opgave 1](EindeTests/Mod3/Opgave.md)
   * [Opgave 2](EindeTests/Mod3/Opgave2.md)
   * [Oplossing Opgave 2 ](EindeTests/Mod3/Opgave2Opl.md)
@@ -87,23 +87,22 @@
   * [Opgave 3](EindeTests/Mod3/Opgave_1819.md)
   * [Oplossing opgave 3](EindeTests/Mod3/Oplossing_1819.md)
   * [Opgave 4](EindeTests/Mod3/Opgave_1920.md)
-* H13: Overerving
+* H5: Overerving
   * [Oefeningen](12_overerving/A_PracticaSimpel.md)
 <!---  * [Oplossingen](12_overerving/opl_practica3.md)--->
-* H14: Exception handling
-* H15: Advanced overerving
+* H6: Gevorderde overervingsconcepten
   * [Oefeningen](13_advancedovererving/A_Practica.md)
 <!---  * [Oplossingen](13_advancedovererving/opl_practica4.md)--->
-* H16: Compositie
+* H7: Compositie en aggregatie
   * [Oefeningen](14_compositie/A_PracticaComp.md)
 <!---  * [Oplossingen](14_compositie/opl_practica.md)--->
-* H17: Polymorfisme
+* H8: Polymorfisme
   * [Oefeningen](15_polymorfisme/A_Practica.md)
 <!---  * [Oplossingen]](15_polymorfisme/opl_practica.md)--->
-* H18: Interfaces
+* H9: Interfaces
   * [Oefeningen](16_interfaces/A_practica.md)
 <!---  * [Oplossingen](16_interfaces/opl_practica.md)--->
-* Alles samen - H9 tot H18
+* Alles samen - H5 tot H9
   * [Opgave 1](EindeTests/Mod4/Opgave.md)
   * [Oplossing opgave 1](EindeTests/Mod4/Oplossing.md)
   * [Opgave 2](EindeTests/Mod4/Opgave_1819_2ezit.md)

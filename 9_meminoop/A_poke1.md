@@ -1,3 +1,8 @@
+{% hint style='tip' %}
+Er zijn geen aparte Exception handling oefeningen. De bedoeling is dat je zelf steeds in je oefening naar een goede plek(ken) zoekt waar deze kan toegepast worden.
+{% endhint %}
+
+
 # Meetlat
 
 Maak een klasse ``Meetlat``. Via een write-only property BeginLengte kan de gebruiker de lengte van een voorwerp instellen (in meter). Via een reeks read-only properties (die transformeren) kan de gebruiker deze lengte in verschillende eenheden uitlezen namelijk:
