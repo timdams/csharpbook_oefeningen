@@ -1,53 +1,52 @@
 # Klassen objecten introductie
 
-## RapportModule
+### RapportModule
 
-Ontwerp een klasse ``Resultaat`` die je zal tonen wat je graad is gegeven een bepaald behaald percentage. Het enige dat je aan een ``Resultaat``-object moet kunnen geven is het behaalde percentage. Enkel het totaal behaalde % wordt bijgehouden via een auto-property. Via een methode PrintGraad kan de behaalde graad weergegeven worden. Dit zijn de mogelijkheden:
+Ontwerp een klasse ``Resultaat`` die je zal tonen wat je graad is gegeven een bepaald behaald percentage. Het enige dat je aan een ``Resultaat``-object moet kunnen geven is het behaalde percentage dat wordt bijgehouden via een auto-property. Via een methode PrintGraad kan de behaalde graad weergegeven worden, gebaseerd op dit percentage. Dit zijn de mogelijkheden:
 
-* < 50: niet geslaagd;
-* van 50 tot 68 (niet inbegrepen): voldoende;
-* van 68 tot 75 (niet inbegrepen): onderscheiding;
-* van 75 tot 85 (niet inbegrepen): grote onderscheiding;
-* 85 of meer: grootste onderscheiding.
+* Minder dan 50%: niet geslaagd.
+* Tussen 50% en 68% (68 incl.): voldoende.
+* Tussen 68% en 75% (75 incl.): onderscheiding.
+* Tussen 75% en 85% (85 incl.): grote onderscheiding.
+* Meer dan 85%: grootste onderscheiding.
 
 
-Test je klasse door enkele objecten in je main aan te maken en de verschillende properties waarden te geven en methoden aan te roepen.
-Deze code zou moeten werken:
+Test je klasse door enkele objecten in je ``main`` en te onderzoeken of deze de juiste graden op het scherm printen. Bijvoorbeeld:
 
 ```java
-Resultaat mijnpunten= new Resultaat();
-mijnpunten.Percentage=65;
+Resultaat mijnpunten = new Resultaat();
+mijnpunten.Percentage = 65;
 mijnpunten.PrintGraad();
-
 ```
-## Nummers
 
-Maak een klasse ``Nummers``. Deze klasse bevat 2 getallen (type int) die via een autoproperty kunnen aangepast worden. Er zijn 4 methoden:
+### Nummers
 
-* ``Som``: geeft de som van beide getallen terug
-* ``Verschil``: geeft het verschil van beide getallen terug
-* ``Product``: geeft het product van beide getallen terug
-* ``Quotient``: geeft de deling van beide getallen terug. Toon "Error" indien je zou moeten delen door 0.
+Maak een klasse ``Nummers``. Deze klasse bevat 2 getallen (type ``int``) die via een autoproperty kunnen aangepast worden. Er zijn 4 methoden:
 
-Toon in je main aan dat je code werkt.
+* ``Som``: geeft de som van beide getallen terug.
+* ``Verschil``: geeft het verschil van beide getallen terug.
+* ``Product``: geeft het product van beide getallen terug.
+* ``Quotient``: geeft de deling van het eerste door het tweede getal terug; toon een foutboodschap op het scherm indien er een deling door nul zal gebeuren.
+
+Toon in je ``main`` aan dat je code werkt.
 
 Volgende code zou bijvoorbeeld onderstaande output moeten geven:
 
 ```java
-    Nummers paar1 = new Nummers();
-    paar1.Getal1 = 12;
-    paar1.Getal2 = 34;
+Nummers paar1 = new Nummers();
+paar1.Getal1 = 12;
+paar1.Getal2 = 34;
 
-    Console.WriteLine("Paar:" + paar1.Getal1 + ", " + paar1.Getal2);
-    Console.WriteLine("Som = " + paar1.Som());
-    Console.WriteLine("Verschil = " + paar1.Verschil());
-    Console.WriteLine("Product = " + paar1.Product());
-    Console.WriteLine("Quotient = " + paar1.Quotient());
+Console.WriteLine("Paar:" + paar1.Getal1 + ", " + paar1.Getal2);
+Console.WriteLine("Som = " + paar1.Som());
+Console.WriteLine("Verschil = " + paar1.Verschil());
+Console.WriteLine("Product = " + paar1.Product());
+Console.WriteLine("Quotient = " + paar1.Quotient());
 ```
 
 Output:
 
-<!---{line-numbers:false}--->
+{line-numbers:false}
 ```text
 Paar: 12, 34
 Som = 46
@@ -55,6 +54,7 @@ Verschil = -22
 Product = 408
 Quotient = 0,352941176470588
 ```
+
 
 ## Studentklasse
 
@@ -104,17 +104,17 @@ Gemiddelde:               13.3
 ```
 
 ## PizzaTime
-Maak een klasse Pizza. Deze klasse heeft een aantal private fields:
+Maak een klasse Pizza. Deze klasse heeft een aantal instantievariabelen:
 
 * ``toppings`` (``string``): bevat beschrijving van wat er op ligt, bv. ananas, peperoni, etc.
 * ``diameter`` (``integer``): doorsnede van de pizza in cm.
 * ``price`` (``double``): prijs van de pizza in euro.
 
-Zorg ervoor dat je met behulp van full properties deze 3 velden kan uitlezen en aanpassen. Bouw controle in zodat de fields geen foute waarden kunnen gegeven worden (denk maar aan negatieve prijs en diameter, pizza zonder topping, etc.). Maak in je main een aantal pizza-instanties aan en toon de werking van de properties aan.
+Zorg ervoor dat je met behulp van full properties deze 3 velden kan uitlezen en aanpassen. Bouw controle in zodat de instantievariabelen geen foute waarden kunnen gegeven worden (denk maar aan negatieve prijs en diameter, pizza zonder topping, etc.). Maak in je main een aantal pizza-instanties aan en toon de werking van de properties aan.
 
 ## Figuren
 
-Maak een eenvoudige klasse ``Rechthoek`` aan die een lengte en breedte als private instantievariabeles heeft. Deze kunnen enkel via full properties ingesteld worden en nooit onder 1 gaan.
+Maak een eenvoudige klasse ``Rechthoek`` aan die een lengte en breedte als private instantievariabelen heeft. Deze kunnen enkel via full properties ingesteld worden en nooit onder 1 gaan.
 
 Maak ook een klasse ``Driehoek`` die een basis en hoogte als fields heeft.
 
@@ -169,34 +169,34 @@ Kan je in voorgaand voorbeeld het instantievariabele ``reeks`` vervangen door ee
 {% endhint %}
 
 
-# Bibliotheek
+### Bibliotheek
 
 Boeken in een bibliotheek mogen maximum 14 dagen uitgeleend worden. Schrijf een console-applicatie om de volgende gegevens te tonen door middel van een klasse ``BibBoek``:
-* de naam van de ontlener, die werd ingelezen (autoproperty)
-* de datum van vandaag (autoproperty met private set)
-* de datum, dat het boek ten laatste terug moet ingeleverd worden (readonly property)
+* de naam van de ontlener, die werd ingelezen (autoproperty).
+* de datum van vandaag (autoproperty met private set).
+* de datum dat het boek ten laatste terug moet ingeleverd worden (readonly property).
 
 
+### BankManager
 
-## BankManager
+Ontwerp een klasse ``Rekening`` die minstens instantievariabelen ``naamKlant``, ``balans`` en ``rekeningnummer`` bevat. Voorzie 3 methoden:
 
-Ontwerp een klasse Account die minstens een ``naamveld``, ``balans`` en ``rekeningnummer`` bevat. Voorzie 3 methoden:
+1. ``HaalGeldAf``: bepaalt bedrag (als parameter) wordt van de ``balans`` verwijderd.
+2. ``StortGeld``: bepaalt bedrag (als parameter) wordt op de rekening gezet en aan ``balans`` toegevoegd.
+3. ``ToonBalans``: het totale bedrag op de rekening wordt getoond, alsook de naam van de klant en het rekeningnummer.
 
-1. ``WithdrawFunds``: bepaalt bedrag wordt van de ``balans`` verwijderd
-2. ``PayInFunds``: bepaalt bedrag (als parameter) wordt op de rekening gezet en aan ``balans`` toegevoegd
-3. ``GetBalance``: het totale bedrag op de rekening wordt teruggegeven, m.a.w. ``balans`` wordt teruggegeven
+Pas de ``HaalGeldAf`` methode aan zodat als returntype het bedrag (``int``) wordt teruggegeven. Indien het gevraagde bedrag meer dan de ``balans`` is dan geef je al het geld terug dat nog op de rekening staat en toon je in de console dat niet al het geld kon worden gegeven.
 
-Pas de ``WithdrawFunds`` methode aan zodat als returntype het bedrag (int) wordt teruggegeven. Indien het gevraagde bedrag meer dan de balans is dan geef je al het geld terug dat nog op de rekening staat en toon je in de console dat niet al het geld kon worden gegeven.
-
-Maak 2 instanties van het type ``Account`` aan en toon aan dat je geld van de ene account aan de andere kunt geven, als volgt:
+Maak 2 instanties van het type ``Rekening`` aan en toon aan dat je geld van de ene Rekening aan de andere kunt geven, als volgt:
 
 ```java
-BankAccount rekening1=new BankAccount();
-BankAccount rekening2=new BankAccount();
+BankRekening rekening1 = new BankRekening();
+BankRekening rekening2 = new BankRekening();
 ```
 
-Voeg aan de ``Account``-klasse een private field toe zijnde van het type ``accountState`` dat een enumeratie bevat. De account kan in volgende states zijn "Geldig", "Geblokkeerd"). 
-Maak een bijhorende publieke Methode  waarmee je de account van state kunt veranderen. Deze methode (noem ze ChangeState) vereist één parameter van het type ``accountState`` natuurlijk.
+Voeg aan de ``Rekening``-klasse een instantievariabele vanvan het type ``RekeningState`` toe, dat een enumeratie bevat. De Rekening kan in volgende states zijn ``Geldig``, ``Geblokkeerd``). 
+
+Maak een bijhorende publieke Methode waarmee je de Rekening van state kunt veranderen. Deze methode (noem ze ``ChangeState``) vereist geen parameters. Telkens je ze aanroept wordt de staat omgewisseld. Als dus het object momenteel op ``Geldig`` stond, dan wordt ze nu ``Geblokkeerd`` en omgekeerd.
 
 Indien een persoon geld van of naar een Geblokkeerde rekening wil sturen dan zal er een error op het scherm verschijnen.
 
@@ -204,9 +204,9 @@ Test je klasse.
 
 1. Nieuwe klant aanmaken (max 10) 
 2. Status van bestaande klant tonen 
-3. Geld op een bepaald account zetten 
-4. Geld van een bepaald account afhalen
-5. Geld tussen 2 accounts overschrijven
+3. Geld op een bepaald Rekening zetten 
+4. Geld van een bepaald Rekening afhalen
+5. Geld tussen 2 Rekeningen overschrijven
 
 Voorzie extra functionaliteit naar keuze.
 

@@ -32,21 +32,12 @@ Toon de werking aan van deze klasse.
 
 # HiddenBookmark
 
- Voeg een ``HiddenBookmark`` klasse toe aan je bestaande Bookmark Manager applicatie van vorige hoofdstuk.
+Voeg een ``HiddenBookmark`` klasse toe aan je bestaande Bookmark Manager applicatie van vorige hoofdstuk.
 
- De ``HiddenBookmark`` is een ``Bookmark`` klasse die de browser in Incognito-modus zal opstarten bij het openen van de bookmark. Dit kan je bewerkstelligen door ``-incognito`` achter ``chrome.exe`` te plaatsen. Maak de ``OpenSite`` methode ``virtual``  in ``BookMark`` om vervolgens via ``override`` in ``HiddenBookmark`` dit op te lossen.
+De ``HiddenBookmark`` is een ``Bookmark`` klasse die de ``ShowSite`` methode override door VOOR en NA dat de site op het scherm werd getoond er de tekst `**********INCOGNITO MODE************`  getoond wordt
 
- Test wat er gebeurt als je al je bookmarks vervangt door ``HiddenBookmarks``.
+Test wat er gebeurt als je al je bookmarks vervangt door ``HiddenBookmarks``.
 
-Afhankelijk van de browser die je wilt aanroepen moet je de incognito parameter iets anders doorgeven:
-**Let op de spatie na "-private ", deze moet er staan anders plak je je url aan de parameter:**
-
-```java
-Process.Start("iexplore.exe", "-private " + url);
-Process.Start("chrome.exe", "-incognito " + url);
-Process.Start("firefox.exe", "-private-window " + url);
-Process.Start("iexplore.exe", "-private " + url);
-```
 
 
 
