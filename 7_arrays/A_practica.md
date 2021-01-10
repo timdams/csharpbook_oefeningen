@@ -4,7 +4,7 @@
 Een aantal oefeningen is geïnspireerd op oefeningen van [Exercism.io](https://exercism.io/tracks/csharp/exercises).
 {% endhint %}
 
-## Opwarmers
+## Pittiger 
 
 {% hint style='tip' %}
 Je mag in deze oefeningen NIET gebruik maken van .Reverse(), BinarySearch() etc. Alles moet je manueel kunnen. Enkel sorteren mag je automatisch doen met .Sort().
@@ -23,7 +23,7 @@ Als er dus taat "lees 20 getallen in", dan moet je die in volgorde bewaren in je
 6 7 8
 1 2 3
 ```
-6.	Een rij van 100 getallen wordt ingelezen. Druk de inhoud van de rij af in 3 kolommen. De getallen worden gerangschikt kolom per kolom
+6.	Een rij van 100 getallen wordt ingelezen. Druk de inhoud van de rij af in 3 kolommen. De getallen worden gerangschikt kolom per kolom (hier mag je ``Sort`` gebruiken).
 7.	Een rij van 100 gehele getallen wordt ingelezen. Maak een tweede rij die bestaat uit de elementen van de eerste rij in omgekeerde volgorde.
 8.	Een rij van 100 gehele getallen wordt ingelezen. Wissel de inhoud van de rij om.
 9.	Een rij van 100 gehele getallen wordt ingelezen. Verschuif de inhoud van de rij 1 plaats naar achter. Het laatste getal moet eerst komen.
