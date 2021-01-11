@@ -71,21 +71,6 @@ Z390E_GAMING.CPU= new CPUSlot("IntelCorei9_9900K");
 Kan je zelf een computer samenstellen door enkele objecten van verschillende types aan te maken en deze aan je moederbord-object toe te wijzen? 
 
 
-# Een eigen huis
-
-Gebruik compositie én overerving om een klasse ``Huis`` te voorzien van enkele kamers, waarbij iedere kamer een klasse op zich is (denk aan ``BadKamer``, ``Salon``, etc). Alle kamers erven over van de klasse ``Kamer``.
-Iedere kamer heeft een oppervlakte (in vierkante meter), een naam en prijs. Standaard is de prijs van een kamer 400euro, maar mogelijke child-klassen zullen deze property soms overriden:
-
-Maak minstens volgende klassen:
-
-* Badkamer: kost 500 euro
-* Gang: kost 10euro per vierkante meter dat deze kamer groot is
-* Salon: kost 300 euro indien er geen schouw aanwezig is (via ``bool`` bijhouden) anders 500euro
-
-
-De klasse ``Huis`` heeft een array van kamers. De klasse heeft ook een methode ``BerekenPrijs`` die de totale prijs van het huis berekent gebaseerd op de prijzen van iedere kamer in de array.
-
-Test je klasse door enkele huizen te maken en er enkele kamers in te plaatsen (bepaal zelf hoe je de kamers aan het huis toevoegt: via methode, constructor, etc) en vervolgens de prijs ervan te tonen.
 
 # (PRO) Textbased RPG 
 Bekijk het volgende All-in-One project :[OO Textbased Game](../A_DEEL2_AllInOne/2_OOTextGame.md).
