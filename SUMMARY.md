@@ -115,8 +115,9 @@
   * [Map Maker](A_DEEL2_AllInOne/1_MapMapker.md)
   * [Magic The Gathering API](A_DEEL2_AllInOne/mtgapi.md)  
 
-<!---## The Corona files
+## The Corona files
   * [Toelichting](EindeTests/coronainfo.md)
+<!---
   * [Corona Training](EindeTests/Mod3/Opgave3_corona.md)  
   * De missies
     * [Corona Missie 1](12_overerving/coronamissieoverering.md)
