@@ -1,5 +1,10 @@
 # Klassen objecten introductie
 
+## Week 1
+
+### Verjaardag
+Maak een applicatie die aan de gebruiker z'n geboortedatum vraagt. Vervolgens toont het programma op welke dag hij volgend jaar jarig zal zijn én hoeveel dagen hij nog moet wachten. Uiteraard gebruik je ``DateTime`` voor deze applicatie.
+
 ### RapportModule
 
 Ontwerp een klasse ``Resultaat`` die je zal tonen wat je graad is gegeven een bepaald behaald percentage. Het enige dat je aan een ``Resultaat``-object moet kunnen geven is het behaalde percentage dat wordt bijgehouden via een auto-property. Via een methode PrintGraad kan de behaalde graad weergegeven worden, gebaseerd op dit percentage. Dit zijn de mogelijkheden:
@@ -56,7 +61,7 @@ Quotient = 0,352941176470588
 ```
 
 
-## Studentklasse
+### Studentklasse
 
 Maak een nieuwe klasse ``Student``.
 
@@ -103,7 +108,7 @@ Web Technology:           13
 Gemiddelde:               13.3
 ```
 
-## PizzaTime
+### PizzaTime
 Maak een klasse Pizza. Deze klasse heeft een aantal instantievariabelen:
 
 * ``toppings`` (``string``): bevat beschrijving van wat er op ligt, bv. ananas, peperoni, etc.
@@ -112,7 +117,7 @@ Maak een klasse Pizza. Deze klasse heeft een aantal instantievariabelen:
 
 Zorg ervoor dat je met behulp van full properties deze 3 velden kan uitlezen en aanpassen. Bouw controle in zodat de instantievariabelen geen foute waarden kunnen gegeven worden (denk maar aan negatieve prijs en diameter, pizza zonder topping, etc.). Maak in je main een aantal pizza-instanties aan en toon de werking van de properties aan.
 
-## Figuren
+### Figuren
 
 Maak een eenvoudige klasse ``Rechthoek`` aan die een lengte en breedte als private instantievariabelen heeft. Deze kunnen enkel via full properties ingesteld worden en nooit onder 1 gaan.
 
@@ -122,9 +127,11 @@ Beide klassen hebben een methode ``ToonOppervlakte`` die de oppervlakte van de f
 
 Toon de werking van het project aan door een aantal instanties van ``Driehoek`` en ``Rechthoek`` te maken, met verschillende groottes. Roep van iedere figuur de ``ToonOppervlakte``-methode aan.
 
-## Sports
+## Week 2
 
-### Sportspeler
+### Sports
+
+#### Sportspeler
 
 Kies je favoriete sport of game. Maak een klasse aan die een speler uit deze sport kan voorstellen. Verzin een 4-tal private instantievariabelen die deze spelers hebben, alsook 2 methoden die de speler moet kunnen uitvoeren. 
 
@@ -163,7 +170,7 @@ Toon maw aan dat je:
 * Kunt werken met deze instanties (properties instellen én uitlezen, aanroepen van methoden)
 
 {% hint style='tip' %}
-### enums
+#### enums
 
 Kan je in voorgaand voorbeeld het instantievariabele ``reeks`` vervangen door een instantievariabele reeks dat een enum als datatype heeft?
 {% endhint %}
@@ -210,14 +217,14 @@ Test je klasse.
 
 Voorzie extra functionaliteit naar keuze.
 
-## OO Textbased game (PRO)
+### OO Textbased game (PRO)
 
 Bij de all-in-one projecten van dit semester vind je als eerst een tekstgebaseerde game ([hier](../A_DEEL2_AllInOne/2_OOTextGame.md)). Volg deze uitleg, maak het spel en voeg je eigen zotte ideeën toe.
 
-# Persoon
+### Persoon
 
 Ontwerp en implementeer een klasse Persoon met 2 velden voornaam en achternaam. Voorzie hiervoor automatische properties. Voeg bovendien een property GeboorteDatum toe. De geboortedatum moet tussen 1/1/1990 en vandaag liggen. Indien dit niet de situatie is, wordt de huidige datum gebruikt. Definieer vervolgens een methode Leeftijd, die op grond van de geboortedatum en de systeemdatum de leeftijd van de persoon levert. Voorzie de nodige testcode.
 
-# Dobbelstenen	
+### Dobbelstenen	
 
 Ontwerp en implementeer een klasse PaarDobbelstenen, bestaande uit 2 dobbelstenen (elk met 6 oppervlakken). Creëer een klasse met een Main methode, waarin 1000 keer met een paar dobbelstenen wordt gegooid. Bereken hoeveel keer een dubbel zes voorkomt.
