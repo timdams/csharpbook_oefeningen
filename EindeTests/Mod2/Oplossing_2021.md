@@ -3,7 +3,7 @@
 ```java
 static void Main(string[] args)
 {
-    string input = "j";
+    char input = 'j';
     do
     {
         Console.WriteLine("Onderschepte code");
@@ -19,13 +19,12 @@ static void Main(string[] args)
 private static void AnalyseerCode(char[] code)
 {
     Console.WriteLine();
-    Console.WriteLine($"Er werden {CountSpecials(code)} speciale tekens gevonden");
-    if (IsVerdacht(CountSpecials(code)))
+    Console.Write($"Er werden {CountSpecials(code)} speciale tekens gevonden. Dit is ");
+    if (!IsVerdacht(CountSpecials(code)))
     {
-        Console.WriteLine("Dit is een verdacht signaal");
+        Console.Write("g");
     }
-    else
-        Console.WriteLine("Dit is geen verdacht signaal");
+    Console.WriteLine("een verdacht signaal");
 }
 
 private static void VisualiseerCode(char[] code)
@@ -95,5 +94,4 @@ static int CountSpecials(char[] ar)
     }
     return total;
 }
-
 ```
