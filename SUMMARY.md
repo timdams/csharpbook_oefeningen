@@ -51,10 +51,12 @@
   * [Opgave 3](EindeTests/Mod2/Opgave_1819_2ezit.md)
   * [Opgave 4](EindeTests/Mod2/Opgave_1920.md)
   * [Opgave 5](EindeTests/Mod2/Opgave_1920b.md)
+  * [Opgave 6](EindeTests/Mod2/Opgave_2021.md)
   * [Oplossing opgave 2](EindeTests/Mod2/Oplossing_1819.md)
   * [Oplossing opgave 3](EindeTests/Mod2/Oplossing_1819b.md)
   * [Oplossing opgave 4](EindeTests/Mod2/Oplossing_1920.md)
   * [Oplossing opgave 5](EindeTests/Mod2/Oplossing_1920b.md)
+  * [Oplossing opgave 6](EindeTests/Mod2/Oplossing_2021.md)
 * All-In-Projecten
   * [Overzicht](A_DEEL1_AllInOne/0_Deel1_IntroductieAllInOne.md)
   * [Console Matrix](A_DEEL1_AllInOne/1_ConsoleMatrix.md)
