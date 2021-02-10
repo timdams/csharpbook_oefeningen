@@ -51,7 +51,6 @@ Console.WriteLine("Quotient = " + paar1.Quotient());
 
 Output:
 
-{line-numbers:false}
 ```text
 Paar: 12, 34
 Som = 46
@@ -95,7 +94,6 @@ Test je programma door enkele studenten aan te maken en in te stellen. Volgende 
 
 Output:
 
-<!---{line-numbers:false}--->
 ```text
 Joske Vermeulen, 21 jaar
 Klas: EA2
@@ -188,8 +186,8 @@ Boeken in een bibliotheek mogen maximum 14 dagen uitgeleend worden. Schrijf een 
 
 Ontwerp een klasse ``Rekening`` die minstens instantievariabelen ``naamKlant``, ``balans`` en ``rekeningnummer`` bevat. Voorzie 3 methoden:
 
-1. ``HaalGeldAf``: bepaalt bedrag (als parameter) wordt van de ``balans`` verwijderd.
-2. ``StortGeld``: bepaalt bedrag (als parameter) wordt op de rekening gezet en aan ``balans`` toegevoegd.
+1. ``HaalGeldAf``: bepaald bedrag (als parameter) wordt van de ``balans`` verwijderd.
+2. ``StortGeld``: bepaald bedrag (als parameter) wordt op de rekening gezet en aan ``balans`` toegevoegd.
 3. ``ToonBalans``: het totale bedrag op de rekening wordt getoond, alsook de naam van de klant en het rekeningnummer.
 
 Pas de ``HaalGeldAf`` methode aan zodat als returntype het bedrag (``int``) wordt teruggegeven. Indien het gevraagde bedrag meer dan de ``balans`` is dan geef je al het geld terug dat nog op de rekening staat en toon je in de console dat niet al het geld kon worden gegeven.
@@ -211,8 +209,8 @@ Test je klasse.
 
 1. Nieuwe klant aanmaken (max 10) 
 2. Status van bestaande klant tonen 
-3. Geld op een bepaald Rekening zetten 
-4. Geld van een bepaald Rekening afhalen
+3. Geld op een bepaalde Rekening zetten 
+4. Geld van een bepaalde Rekening afhalen
 5. Geld tussen 2 Rekeningen overschrijven
 
 Voorzie extra functionaliteit naar keuze.
