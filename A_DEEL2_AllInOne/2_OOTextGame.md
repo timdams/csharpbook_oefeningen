@@ -18,7 +18,7 @@ static void Main(string[] args)
 {
     Console.WriteLine("Welkom bij AP Adventure. Een avontuur voor moedige en minder moedige studenten. Ben je er klaar voor?");
  
-   GameManager theGame= new GameManager();
+    GameManager theGame= new GameManager();
  
     //Start gameloop
     while(!theGame.Exit)
@@ -63,14 +63,14 @@ class Location
 {
     public Location()
     {
-        Exits = new List();
-        ObjectsInRoom= new List();
+        Exits = new List<Exit>();
+        ObjectsInRoom= new List<GameObjects>();
     }
     public string Title { get; set; }
     public string Description { get; set; }
  
-    public List Exits { get; set; }
-    public List ObjectsInRoom { get; set; }
+    public List<Exit> Exits { get; set; }
+    public List<GameObjects> ObjectsInRoom { get; set; }
  
     public void Describe()
     {
@@ -106,6 +106,8 @@ class Exit
     }
     public Directions ExitDirection { get; set; }
     public Location GoesToLocation { get; set; }
+
+    public List<GameObjects> NeedsObject { get; set; }
  
     //...
 }
@@ -122,7 +124,7 @@ enum Directions
 Binnen de locatie klasse voegen we een methode toe die de GameManager kan gebruiken om te weten te komen naar welke locatie de gebruiker gaat. De methode aanvaardt een ``Direction`` (i.e. de richting waarin de gebruiker wenst te gaan) en zal een referentie naar het location-object teruggeven waarnaar de gebruiker zal bewegen. Indien de richting waarin hij wenst te bewegen niet geldig is dan tonen we dit op het scherm:
 
 ```java
-public Location GettLocationOnMove(Directions direction)
+public Location GetLocationOnMove(Directions direction)
 {
     foreach (var exit in Exits)
     {
@@ -152,7 +154,7 @@ class Exit
 {
     public Exit()
     {
-        NeedsObject= new List<GameObjects>();
+        NeedsObject = new List<GameObjects>();
     }
     public Directions ExitDirection { get; set; }
     public Location GoesToLocation { get; set; }
@@ -182,13 +184,12 @@ In deze ietwat knullige code tellen we dus of de speler alle GameObjecten in zâ€
 Deze methode ``TestPassCondition`` gebruiken we nu in de ``GetLocationOnMove()``-methode in de Location klasse om te bepalen of de exit mag gebruikt worden. De methode wordt dan:
 
 ```java
-public Location GettLocationOnMove(Directions direction, List<GameObjects> playerInventory )
+public Location GetLocationOnMove(Directions direction, List<GameObjects> playerInventory )
 {
     foreach (var exit in Exits)
     {
         if (exit.ExitDirection == direction)
         {
- 
             if(exit.TestPassCondition(playerInventory))
                 return exit.GoesToLocation;
             else
@@ -268,13 +269,13 @@ public void DescribeLocation()
 string actie = Console.ReadLine();
 bool error = false;
 if (actie == "n")
-    currentLocation = currentLocation.GettLocationOnMove(Directions.North, playerInventory);
+    currentLocation = currentLocation.GetLocationOnMove(Directions.North, playerInventory);
 else if (actie == "o")
-    currentLocation = currentLocation.GettLocationOnMove(Directions.East, playerInventory);
+    currentLocation = currentLocation.GetLocationOnMove(Directions.East, playerInventory);
 else if (actie == "w")
-    currentLocation = currentLocation.GettLocationOnMove(Directions.West, playerInventory);
+    currentLocation = currentLocation.GetLocationOnMove(Directions.West, playerInventory);
 else if (actie == "z")
-    currentLocation = currentLocation.GettLocationOnMove(Directions.South, playerInventory);
+    currentLocation = currentLocation.GetLocationOnMove(Directions.South, playerInventory);
 else if (actie == "e")
     Exit = true;
 else
@@ -307,33 +308,30 @@ In deze methode definiÃ«ren nu de volledige spelinhoud. Wil je dus bijvoorbeeld 
 
 ```java
 private  void InitGame()
- {
-     //Maak Locaties
-     Location l1 = new Location()
-                       {
-                           Title = "De poort",
-                           Description =
-                               "Je staat voor een grote grijze poort die op een kier staat. Rondom je is prikkeldraad, je kan enkel naar het noorden, door de poort gaan. "
-                       };
+{
+    //Maak Locaties
+    Location l1 = new Location()
+    {
+       Title = "De poort",
+       Description = "Je staat voor een grote grijze poort die op een kier staat. Rondom je is prikkeldraad, je kan enkel naar het noorden, door de poort gaan. "
+    };
  
-     Location l2 = new Location()
-                       {
-                           Title = "Receptie",
-                           Description =
-                               "De receptie....veel blijft er niet meer over van wat eens een bruisende omgeving was. Hier en daar zie je skeletten van , waarschijnlijk, enkele studenten. Een grote poort staat op een kier naar het zuiden. Je ziet twee deuren aan de westelijke en noordelijke zijde."
+    Location l2 = new Location()
+    {
+       Title = "Receptie",
+       Description = "De receptie....veel blijft er niet meer over van wat eens een bruisende omgeving was. Hier en daar zie je skeletten van , waarschijnlijk, enkele studenten. Een grote poort staat op een kier naar het zuiden. Je ziet twee deuren aan de westelijke en noordelijke zijde."
+    };
  
-                       };
+    //Place exits
+    l1.Exits.Add(new Exit() { ExitDirection = Directions.North, GoesToLocation = l2 });
  
-     //Place exits
-     l1.Exits.Add(new Exit() { ExitDirection = Directions.North, GoesToLocation = l2 });
+    l2.Exits.Add(new Exit() { ExitDirection = Directions.South, GoesToLocation = l1 });
  
-     l2.Exits.Add(new Exit() { ExitDirection = Directions.South, GoesToLocation = l1 });
+    //Voeg locatie toe
+    GameLocation.Add(l1);
+    GameLocation.Add(l2);
  
-     //Voeg locatie toe
-     GameLocation.Add(l1);
-     GameLocation.Add(l2);
- 
-     currentLocation = l1;
+    currentLocation = l1;
 }
 ```
 Vergeet niet op het einde de 2 kamers toe te voegen aan de ``GameLocation`` lijst van de GameManager, alsook in te stellen wat de beginkamer is.
@@ -346,16 +344,13 @@ Stel dat we even later in een kamer een sleutel plaatsen die als conditie dient 
     Location l6 = new Location()
     {
         Title = "Gang",
-        Description =
-            "Een brede gang waar makkelijk 5 mensen schouder aan schouder door kunnen. Zowel in het oosten als het westen zie je een deur."
- 
+        Description = "Een brede gang waar makkelijk 5 mensen schouder aan schouder door kunnen. Zowel in het oosten als het westen zie je een deur."
     };
  
     Location l7 = new Location()
     {
         Title = "Computerruimte",
-        Description =
-            "Eindelijk; je hebt het gehaald. De plek waar iedereen naar toe wil: het computerlabo!"
+        Description = "Eindelijk; je hebt het gehaald. De plek waar iedereen naar toe wil: het computerlabo!"
     };
  
     //Place objects in rooms
@@ -367,7 +362,7 @@ Stel dat we even later in een kamer een sleutel plaatsen die als conditie dient 
     l6.Exits.Add(new Exit() { ExitDirection = Directions.East, GoesToLocation = l7 });
  
     //Voeg locatie toe
-//..
+    //..
     GameLocation.Add(l6);
     GameLocation.Add(l7);
 ```
@@ -380,55 +375,45 @@ private  void InitGame()
 {
     //Maak Locaties
     Location l1 = new Location()
-                      {
-                          Title = "De poort",
-                          Description =
-                              "Je staat voor een grote grijze poort die op een kier staat. Rondom je is prikkeldraad, je kan enkel naar het noorden, door de poort gaan. "
-                      };
+    {
+        Title = "De poort",
+        Description = "Je staat voor een grote grijze poort die op een kier staat. Rondom je is prikkeldraad, je kan enkel naar het noorden, door de poort gaan. "
+    };
  
     Location l2 = new Location()
-                      {
-                          Title = "Receptie",
-                          Description =
-                              "De receptie....veel blijft er niet meer over van wat eens een bruisende omgeving was. Hier en daar zie je skeletten van , waarschijnlijk, enkele studenten. Een grote poort staat op een kier naar het zuiden. Je ziet twee deuren aan de westelijke en noordelijke zijde."
- 
-                      };
+    {
+        Title = "Receptie",
+        Description = "De receptie....veel blijft er niet meer over van wat eens een bruisende omgeving was. Hier en daar zie je skeletten van , waarschijnlijk, enkele studenten. Een grote poort staat op een kier naar het zuiden. Je ziet twee deuren aan de westelijke en noordelijke zijde."
+    };
  
     Location l3 = new Location()
     {
         Title = "Koffieruime",
-        Description =
-            "Je staat in de koffieruimte achter de receptie. Menig pralinetje is hier vroeger met veel gusto opgesmikkeld. Een lege pralinedoos is het enige bewijs dat het hier ooit gezellig was. Een deur is de enige uitgang uit deze kamer naar het oosten."
+        Description = "Je staat in de koffieruimte achter de receptie. Menig pralinetje is hier vroeger met veel gusto opgesmikkeld. Een lege pralinedoos is het enige bewijs dat het hier ooit gezellig was. Een deur is de enige uitgang uit deze kamer naar het oosten."
     };
  
     Location l4 = new Location()
     {
         Title = "Tuin",
-        Description =
-            "Het is duidelijk herfst. Een kale boom en vele bruine bladeren op de grond...mistroosteriger kan eigenlijk niet. Je ziet een deur in het zuiden en in het westen en een grote klapdeur naar het noorden."
- 
+        Description = "Het is duidelijk herfst. Een kale boom en vele bruine bladeren op de grond...mistroosteriger kan eigenlijk niet. Je ziet een deur in het zuiden en in het westen en een grote klapdeur naar het noorden."
     };
  
     Location l5 = new Location()
     {
         Title = "Cafetaria",
-        Description =
-            "Ooit was dit een bruisende locati: veel eten, geroezemoes en licht door de grote ruiten. Nu enkel stof en lege tafel. Enkel een klapdeur is zichtbaar naar het zuiden."
+        Description = "Ooit was dit een bruisende locati: veel eten, geroezemoes en licht door de grote ruiten. Nu enkel stof en lege tafel. Enkel een klapdeur is zichtbaar naar het zuiden."
     };
  
     Location l6 = new Location()
     {
         Title = "Gang",
-        Description =
-            "Een brede gang waar makkelijk 5 mensen schouder aan schouder door kunnen. Zowel in het oosten als het westen zie je een deur."
- 
+        Description = "Een brede gang waar makkelijk 5 mensen schouder aan schouder door kunnen. Zowel in het oosten als het westen zie je een deur."
     };
  
     Location l7 = new Location()
     {
         Title = "Computerruimte",
-        Description =
-            "Eindelijk; je hebt het gehaald. De plek waar iedereen naar toe wil: het computerlabo!"
+        Description = "Eindelijk; je hebt het gehaald. De plek waar iedereen naar toe wil: het computerlabo!"
     };
  
     //Place objects in rooms
@@ -439,7 +424,7 @@ private  void InitGame()
     l1.Exits.Add(new Exit() { ExitDirection = Directions.North, GoesToLocation = l2 });
  
     l2.Exits.Add(new Exit() { ExitDirection = Directions.South, GoesToLocation = l1 });
-    l2.Exits.Add(new Exit() {ExitDirection = Directions.West, GoesToLocation =  l3});
+    l2.Exits.Add(new Exit() { ExitDirection = Directions.West, GoesToLocation =  l3});
     l2.Exits.Add(new Exit() { ExitDirection = Directions.North, GoesToLocation = l4 });
  
     l3.Exits.Add(new Exit() { ExitDirection = Directions.East, GoesToLocation = l2 });
