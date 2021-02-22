@@ -20,7 +20,7 @@ Bij ``HiddenBookmark`` wordt er achteraan nog "---HIDDEN---" gezet:
 
 <!---{line-numbers:false}--->
 ```text
-Google (www.google.com)  ---HIDDEN---
+Reddit (www.reddit.com)  ---HIDDEN---
 ```
 
 Zorg ervoor dat er géén dubbele code in HiddenBookmark staat (tip: ``base()``).
