@@ -71,7 +71,7 @@
 
 * H1: Object Oriented Programming
   * [Oefeningen](8_klassen/A_practica.md)
-<!---  * [Oplossingen](8_klassen/opl_apractica.md)--->
+  * [Oplossingen](8_klassen/opl_apractica.md)
 * H2: Geheugenmanagement, uitzonderingen en namespaces
   * [Oefeningen](9_meminoop/A_poke1.md)
 <!---  * [Oplossingen](9_meminoop/opl_poke2.md)--->
