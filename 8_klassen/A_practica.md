@@ -225,4 +225,4 @@ Ontwerp en implementeer een klasse Persoon met 2 velden voornaam en achternaam. 
 
 ### Dobbelstenen	
 
-Ontwerp en implementeer een klasse PaarDobbelstenen, bestaande uit 2 dobbelstenen (elk met 6 oppervlakken). Creëer een klasse met een ``Werp`` methode, waarin 1000 keer met een paar dobbelstenen wordt gegooid. Bereken hoeveel keer een dubbel zes voorkomt.
+Ontwerp en implementeer een klasse PaarDobbelstenen, bestaande uit 2 dobbelstenen (elk met 6 oppervlakken). Creëer een klasse met een ``WerpEnTel6`` methode, waarin 1000 keer met een paar dobbelstenen wordt gegooid. Bereken hoeveel keer een dubbel zes voorkomt, dit wordt vervolgens getoond op het scherm.
