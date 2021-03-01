@@ -137,7 +137,7 @@ abstract class Rekening
             return false;
 
         saldo -= hoeveel;
-        return false;
+        return true;
     }
 
     public abstract double BerekenRente();
