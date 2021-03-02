@@ -195,3 +195,169 @@ class Student
 		}
 	}
 ```
+
+# Week 2
+
+## BibBoek
+
+```java
+class BibBoek
+{
+    private const int AANTALUITLEENDAGEN = 14;
+    public string Ontlener { get; set; }
+    public DateTime UitgeleendOp { get; private set; } = DateTime.Now;
+    public DateTime TeruggevenOp
+    {
+        get
+        {
+            return UitgeleendOp.AddDays(AANTALUITLEENDAGEN);
+        }
+    }
+}
+```
+
+## Dobbelstenen
+
+```java
+class Dobbelstenen
+{
+    public void WerpEnTel6()
+    {
+        Random r = new Random();
+        int aantalZes = 0;
+        for (int i = 0; i < 1000; i++)
+        {
+            if (r.Next(1, 7) == 6 && r.Next(1, 7) == 6)
+                aantalZes++;
+        }
+        Console.WriteLine($"{aantalZes} keren 6 gegooid. Dat is {aantalZes/10.0}%");
+    }
+}
+```
+
+## BankManager
+*Gebaseerd op de oplossing van Ethan De Bois.*
+
+```java
+class Rekening
+{
+    private string naamKlant;
+    private string rekeningNummer;
+    private int balans;
+    public State RekeningState { get; private set; } = (State)0;
+
+    public string Rekeningnummer
+    {
+        get { return rekeningNummer; }
+        set { rekeningNummer = value; }
+    }
+
+    public string NaamKlant
+    {
+        get { return naamKlant; }
+        set { naamKlant = value; }
+    }
+
+    //methoden
+    public int HaalGeldAf(int bedrag)
+    {
+        if (RekeningState == State.Geldig)
+        {
+            if (bedrag > balans)
+            {
+                balans -= balans;
+                Console.WriteLine("Niet al het geld kon teruggegeven worden.");
+                return balans;
+            }
+            else
+            {
+                balans -= bedrag;
+                return bedrag;
+            }
+        }
+        else
+        {
+            Console.WriteLine("Kan niet afhalen - Rekening geblokkeerd.");
+            return 0;
+        }
+    }
+    public void StortGeld(int bedrag)
+    {
+        if (RekeningState == State.Geldig)
+            balans += bedrag;
+        else
+            Console.WriteLine("Kan niet storten - Rekening geblokkeerd.");
+    }
+    public void ToonBalans()
+    {
+        Console.Write($"Naam:\t\t{naamKlant}\nRekeningnummer: {Rekeningnummer}\nStaat:\t\t{RekeningState}\nBalans:\t\t");
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine($"${balans}\n");
+        Console.ResetColor();
+    }
+    public void ChangeState()
+    {
+        if (RekeningState == (State)0)
+            RekeningState = (State)1;
+        else
+            RekeningState = (State)0;
+    }
+
+}
+enum State { Geldig, Geblokkeerd }
+```
+
+```java
+Rekening tim = new Rekening();
+tim.StortGeld(1000);
+Rekening student = new Rekening();
+do
+{
+    Console.WriteLine("Hoeveel geld wil je naar de student overschrijven ?");
+    int bedrag = int.Parse(Console.ReadLine());
+
+    student.StortGeld(tim.HaalGeldAf(bedrag));
+
+    tim.ToonBalans();
+    student.ToonBalans();
+} while (true);
+```
+
+## Persoon
+
+```java
+class Persoon
+{
+    public string Voornaam { get; set; }
+    public string Achternaam { get; set; }
+    private DateTime geboorteDatum;
+
+    public DateTime GeboorteDatum
+    {
+        get { return geboorteDatum; }
+        set
+        {
+
+            {
+                if (value > new DateTime(1990, 1, 1) && value < DateTime.Today)
+                    geboorteDatum = value;
+                else
+                    geboorteDatum = DateTime.Today;
+            }
+        }
+    }
+
+    public int Leeftijd
+    {
+        get
+        {
+            int leeftijd = DateTime.Now.Year - geboorteDatum.Year;
+
+            if (DateTime.Now.Month < geboorteDatum.Month || (DateTime.Now.Month == DateTime.Now.Month && DateTime.Now.Day < geboorteDatum.Day))
+                leeftijd--;
+
+            return leeftijd;
+        }
+    }
+}
+```

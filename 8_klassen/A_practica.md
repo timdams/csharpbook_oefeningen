@@ -184,7 +184,7 @@ Boeken in een bibliotheek mogen maximum 14 dagen uitgeleend worden. Schrijf een 
 
 ### BankManager
 
-Ontwerp een klasse ``Rekening`` die minstens instantievariabelen ``naamKlant``, ``balans`` en ``rekeningnummer`` bevat. Voorzie 3 methoden:
+Ontwerp een klasse ``Rekening`` die minstens instantievariabelen ``naamKlant``, ``balans`` en ``rekeningNummer``(``string``) bevat. Voorzie 3 methoden:
 
 1. ``HaalGeldAf``: bepaald bedrag (als parameter) wordt van de ``balans`` verwijderd.
 2. ``StortGeld``: bepaald bedrag (als parameter) wordt op de rekening gezet en aan ``balans`` toegevoegd.
@@ -215,9 +215,7 @@ Test je klasse.
 
 Voorzie extra functionaliteit naar keuze.
 
-### OO Textbased game (PRO)
 
-Bij de all-in-one projecten van dit semester vind je als eerst een tekstgebaseerde game ([hier](../A_DEEL2_AllInOne/2_OOTextGame.md)). Volg deze uitleg, maak het spel en voeg je eigen zotte ideeën toe.
 
 ### Persoon
 
@@ -226,3 +224,9 @@ Ontwerp en implementeer een klasse Persoon met 2 velden voornaam en achternaam. 
 ### Dobbelstenen	
 
 Ontwerp en implementeer een klasse PaarDobbelstenen, bestaande uit 2 dobbelstenen (elk met 6 oppervlakken). Creëer een klasse met een ``WerpEnTel6`` methode, waarin 1000 keer met een paar dobbelstenen wordt gegooid. Bereken hoeveel keer een dubbel zes voorkomt, dit wordt vervolgens getoond op het scherm.
+
+Deze methode bevat dus niets meer dan een methode. Het lijkt erop alsof je ook dobbelsteencode etc moet implementeren maar dat hoeft dus niet. De methode gooit gewoon 1000x na elkaar 2 getallen, telkens die 2 getallen 6 zijn onthoud je dit.
+
+### OO Textbased game (PRO)
+
+Bij de all-in-one projecten van dit semester vind je als eerst een tekstgebaseerde game ([hier](../A_DEEL2_AllInOne/2_OOTextGame.md)). Volg deze uitleg, maak het spel en voeg je eigen zotte ideeën toe.
