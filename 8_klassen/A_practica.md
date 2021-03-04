@@ -144,7 +144,7 @@ Bijvoorbeeld:
 * klasse ``Waterpolospeler``
 * instantievariabelen:
   * ``spelerNaam``(``string``)
-  * ``mutsnummer`` (``int``)
+  * ``mutsNummer`` (``int``)
   * ``isDoelman`` (``bool``)
   * ``isReserve``(``bool``)
   * ``reeks`` (``string``, bv "Cadet")
