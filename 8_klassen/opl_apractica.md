@@ -246,17 +246,8 @@ class Rekening
     private int balans;
     public State RekeningState { get; private set; } = (State)0;
 
-    public string Rekeningnummer
-    {
-        get { return rekeningNummer; }
-        set { rekeningNummer = value; }
-    }
-
-    public string NaamKlant
-    {
-        get { return naamKlant; }
-        set { naamKlant = value; }
-    }
+    public string Rekeningnummer {get;set;}
+    public string NaamKlant {get;set;}
 
     //methoden
     public int HaalGeldAf(int bedrag)
