@@ -76,7 +76,7 @@ class Nummers
             Console.WriteLine("Error");
             return 0;
         }
-        return Getal1 / Getal2;
+        return Getal1 / (double)Getal2;
     }
 }
 ```
