@@ -265,9 +265,10 @@ class Rekening
         {
             if (bedrag > balans)
             {
-                balans -= balans;
+                int over = balans;
+                balans = 0;
                 Console.WriteLine("Niet al het geld kon teruggegeven worden.");
-                return balans;
+                return over;
             }
             else
             {
