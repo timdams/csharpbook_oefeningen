@@ -74,7 +74,7 @@
   * [Oplossingen](8_klassen/opl_apractica.md)
 * H2: Geheugenmanagement, uitzonderingen en namespaces
   * [Oefeningen](9_meminoop/A_poke1.md)
-<!---  * [Oplossingen](9_meminoop/opl_poke2.md)--->
+  * [Oplossingen](9_meminoop/opl_poke2.md)
 * H3: Gevorderde klasseconcepten
   * [Oefeningen](10_advancedklassen/A_practica3.md)
 <!---  * [Oplossingen](10_advancedklassen/opl_practica3.md)--->
