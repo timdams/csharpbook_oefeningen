@@ -129,7 +129,7 @@ Full stats:
 
 Maak nu een nieuwe console-applicatie genaamd "Pokémon Tester":
 
-1. Voeg je Pokemon-klasse-bestand toe aan dit project. Verander de "namespace" van dit bestand naar de namespace van je nieuwe console-applicatie  (lees [hier](../B_appendix/namespaces.md) hoe je klassen kunt herbruiken).
+1. Voeg je Pokemon-klasse-bestand toe aan dit project. Verander de "namespace" van dit bestand naar de namespace van je nieuwe console-applicatie .
 2. Maak enkele Pokémon objecten aan en stel hun base stats in.
 3. Schrijf een applicatie die aan de gebruiker eerst de 6 base-stats vraagt. Vervolgens wordt de Pokémon aangemaakt met die stats en worden de full-stats aan de gebruiker getoond.
 4. Vraag nu aan de gebruiker tot welke level de Pokémon moet gelevelled worden. Roep zoveel keer de LevelUp-methode aan van de Pokémon. (of kan je dit via een parameter doorgeven aan LevelUp?!)
