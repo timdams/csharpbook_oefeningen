@@ -5,7 +5,7 @@ Vul de ``Meetlat`` klasse uit het vorige hoofdstuk aan met een constructor. De c
 ``lengteInMeter`` stel je nu in via de parameter die je in de constructor meekrijgt.
 
 # Sport simulator
-Haal je [Sport klasse van hoofdstuk 8 (oefeningen)](../8_klassen/A_practica.md) boven en voeg volgende statische methode er aan toe (vervang het soort speler door de naam van jouw klasse. Mijn klasse noemde ``Waterpolospeler``)
+Haal je ``Sportspeler`` klasse van van het vorige hoofdstuk boven en voeg volgende statische methode er aan toe (vervang het soort speler door de naam van jouw klasse. Mijn klasse noemde ``Waterpolospeler``)
 
 ## Schrijf een methode genaamd:
 ``static void SimuleerSpeler(Waterpolospeler testspeler)``
