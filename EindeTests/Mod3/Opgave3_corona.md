@@ -11,6 +11,7 @@ In deze wereld heeft ieder virus een "killcode", een verborgen code. Indien een 
 ## Maak een Vaccin klasse
 
 Deze klasse heeft:
+
 * Een Naam (``string``) als autoproperty met private setter. 
 * Enkel een overloaded constructor, waarbij je de naam van het vaccin kunt instellen
 * Een methode ``TryKillCode`` die geen parameters aanvaardt en steeds een random getal tussen 1 en 100 teruggeeft 
@@ -21,6 +22,7 @@ Deze klasse heeft:
 ## Maak een Virus klasse
 
 Deze klasse heeft:
+
 * Een Naam als autopoperty met private setter
 * Een DoomCountdown (``int``) full property met private setter:
   * Indien doomcountdown 0 of lager wordt gezet zal er "Game over [Naam virus]" op het scherm verschijnen. Dit gebeurt in de setter van de property.
@@ -33,7 +35,7 @@ Deze klasse heeft:
   * Eén parameter van het type ``Vaccin`` aanvaardt
   * Een bool teruggeeft. Deze zal true zijn indien het meegegeven Vaccin werkt:
     * De methode zal de ``TryKillcode`` aanroepen op het meegegeven Vaccin. Indien het resultaat van TryKillcode overeenkomt met de killcode van het Virus zal er een true teruggestuurd worden. Ook zal vervolgens de property Oplossing van het Vaccin op de geteste én werkende killcode ingesteld worden in het meegegeven Vaccin.
-    * Indien de kill code verkeerd is wordt er false terugestuurd , maar niet voordat eerst de doomcountdown met 1 werd verlaagd.
+    * Indien de kill code verkeerd is wordt er false teruggestuurd , maar niet voordat eerst de doomcountdown met 1 werd verlaagd.
 
 ## Fase 1- zoeken vaccin
 
