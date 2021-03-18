@@ -76,7 +76,7 @@
   * [Oefeningen](9_meminoop/A_poke1.md)
   * [Oplossingen](9_meminoop/opl_poke2.md)
 * H3: Gevorderde klasseconcepten
-  * [Oefeningen](10_advancedkllassen/A_practica3.md)
+  * [Oefeningen](10_advancedklassen/A_practica3.md)
   * [Oplossingen](10_advancedklassen/opl_practica3.md)
 * H4: Arrays en klassen
   * [Oefeningen](11_arraysvanklassen/A_practicaMem.md)
