@@ -199,11 +199,11 @@ class Pokemon
     }
 
     //static deel
-    public static int TimesLeveled{get; private set}  
-    public static int TimesBattled{get; private set}
-    public static int TimesBattleDraw{get; private set}
-    public static int TimesRandomGenerated{get; private set}
-    public static bool NoLevelingAllowed{get; private set}
+    public static int TimesLeveled{get; private set;}  
+    public static int TimesBattled{get; private set;}
+    public static int TimesBattleDraw{get; private set;}
+    public static int TimesRandomGenerated{get; private set;}
+    public static bool NoLevelingAllowed{get; private set;}
 
     public static void Info()
     {
