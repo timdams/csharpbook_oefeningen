@@ -120,6 +120,8 @@
 
 ## The Corona files
   * [Toelichting](EindeTests/coronainfo.md)
+
+
 <!---
   * [Corona Training](EindeTests/Mod3/Opgave3_corona.md)  
   * De missies
