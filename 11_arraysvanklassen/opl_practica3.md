@@ -26,22 +26,22 @@ Console.WriteLine($"Gemiddelde is {((double)som)/prijzen.Length}");
 
 Main:
 ```java
-List<Speelkaart> BoekKaarten = new List<Speelkaart>();
+List<Speelkaart> boekKaarten = new List<Speelkaart>();
 for (int i = 0; i < 4; i++)
 {
     for (int j = 1; j < 14; j++)
     {
         Speelkaart toAdd = new Speelkaart() { Getal=j, Suite=(Suit)i  };
-        BoekKaarten.Add(toAdd);
+        boekKaarten.Add(toAdd);
     }
 }
 Random r = new Random();
-while (BoekKaarten.Count > 0)
+while (boekKaarten.Count > 0)
 {
-    int totrek = r.Next(0, BoekKaarten.Count);
+    Speelkaart getrokken = boekKaarten[r.Next(0, boekKaarten.Count)];
     Console.WriteLine("Getrokken kaart=");
-    Console.WriteLine(BoekKaarten[totrek].Suite + " "+ BoekKaarten[totrek].Getal);
-    BoekKaarten.RemoveAt(totrek);
+    Console.WriteLine($"{getrokken.Suite}  {getrokken.Getal}");
+    boekKaarten.Remove(getrokken);
     Console.ReadKey();
 }
 ```
