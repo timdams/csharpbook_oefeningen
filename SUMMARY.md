@@ -85,10 +85,11 @@
   * [Opgave 1](EindeTests/Mod3/Opgave.md)
   * [Opgave 2](EindeTests/Mod3/Opgave2.md)
   * [Oplossing Opgave 2 ](EindeTests/Mod3/Opgave2Opl.md)
-  * [Oplossing Opgave 3](EindeTests/Mod3/OplossingOpgave3.md)
   * [Opgave 3](EindeTests/Mod3/Opgave_1819.md)
   * [Oplossing opgave 3](EindeTests/Mod3/Oplossing_1819.md)
   * [Opgave 4](EindeTests/Mod3/Opgave_1920.md)
+  * [Opgave 5](EindeTests/Mod3/Opgave_2021.md)
+  * [Opgave 5](EindeTests/Mod3/Oplossing_2021.md)
 * H5: Overerving
   * [Oefeningen](12_overerving/A_PracticaSimpel.md)
 <!---  * [Oplossingen](12_overerving/opl_practica3.md)--->
@@ -124,6 +125,7 @@
 
 <!---
   * [Corona Training](EindeTests/Mod3/Opgave3_corona.md)  
+  * [Oplossing Opgave Coronamissie1](EindeTests/Mod3/OplossingOpgave3.md)
   * De missies
     * [Corona Missie 1](12_overerving/coronamissieoverering.md)
     * [Oplossing Corona Missie 1](corona/opl_h12corona.md)
