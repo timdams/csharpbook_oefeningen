@@ -89,7 +89,7 @@
   * [Oplossing opgave 3](EindeTests/Mod3/Oplossing_1819.md)
   * [Opgave 4](EindeTests/Mod3/Opgave_1920.md)
   * [Opgave 5](EindeTests/Mod3/Opgave_2021.md)
-  * [Opgave 5](EindeTests/Mod3/Oplossing_2021.md)
+  * [Oplossing opgave 5](EindeTests/Mod3/Oplossing_2021.md)
 * H5: Overerving
   * [Oefeningen](12_overerving/A_PracticaSimpel.md)
 <!---  * [Oplossingen](12_overerving/opl_practica3.md)--->
