@@ -4,7 +4,7 @@
 
 # Abstracte klasse Gebouw
 
-Deze klasse is...je raadt het nooit. Abtract.
+Deze klasse is...je raadt het nooit. Abstract.
 
 De klasse heeft 3 autoproperties:
 * Ieder gebouw heeft een X en Y locatie (via int property) waar het gebouw zal verschijnen op de kaart.
@@ -34,7 +34,7 @@ Iedere groene klasse heeft:
   * Bij een woonst is dit karakter een ``w``
   * Bij een flat is dit karakter een ``W``
   * Bij een Hospitaal is dit karakter een ``H``
-  * Bij een Genererator is dit karakter een ``g``
+  * Bij een Generator is dit karakter een ``g``
   * Bij een Waterkrachtcentrale is dit karakter een ``G``
 
 # Maak een enclave

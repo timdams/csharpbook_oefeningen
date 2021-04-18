@@ -5,11 +5,11 @@
 Maak 2 klassen: ``Enclave`` en ``StadsEnclave``
 ![Schematische voorstelling van de enclave](/assets/7_overerving/coronacompo.jpg)
 
-Een enclave heeft 1 hospitaal, 1 generator en 1 of meerdere woonsten. Wanneer een enclave wordt aangemaakt heeft deze 3 woningen van bij de start, alsook een werkende generator en hospitaal. Al deze gebouwen komenop een willekeurige plek.
+Een enclave heeft 1 hospitaal, 1 generator en 1 of meerdere woonsten. Wanneer een enclave wordt aangemaakt heeft deze 3 woningen van bij de start, alsook een werkende generator en hospitaal. Al deze gebouwen komen op een willekeurige plek.
 
 Een enclave heeft een virtuele methode ``BouwWoonst``. Wanneer deze wordt aangemaakt wordt er een woonst aan de enclave toegevoegd. Het huis komt op een willekeurige locatie maar nooit op een plek waar reeds andere gebouwen staan.
 
-Een enclave heeft een virtuele methode ``ToonEnclave`` die alle gebouwen op het scherm zal ztetten.
+Een enclave heeft een virtuele methode ``ToonEnclave`` die alle gebouwen op het scherm zal zetten.
 
 Een stadsenclave heeft naast alles wat hij dankzij overerving van de enclave heeft ook nog een waterkrachtcentrale, een extra hospitaal en 1 of 2 flats. Van bij de start heeft een stadsenclave enkel de zaken die een gewone enclave van bij de start heeft.
 
