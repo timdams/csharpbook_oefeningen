@@ -124,7 +124,7 @@
 
 
 <!---
-  * [Corona Training](EindeTests/Mod3/Opgave3_corona.md)  
+  * [Corona Training](corona/0training/Opgave3_corona.md)  
   * [Oplossing Opgave Coronamissie1](EindeTests/Mod3/OplossingOpgave3.md)
   * De missies
     * [Corona Missie 1](12_overerving/coronamissieoverering.md)
