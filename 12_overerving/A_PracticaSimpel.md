@@ -1,3 +1,8 @@
+{% hint style='tip' %}
+Wil je de leerstof op een andere manier leren gebruiken? Bekijk dan eens de corona files (link hierboven). Merk op dat de corona files niet zo diepgaand zijn als de andere oefeningen.
+Het is wel zo dat iedere week voortwerkt op hetgeen je de missie ervoor hebt gemaakt.
+{% endhint %}
+
 # Het dierenrijk
 
 ![Vereenvoudigde voorstelling van (een deel van het) dierenrijk](../assets/7_overerving/animals.png)
