@@ -92,7 +92,7 @@
   * [Oplossing opgave 5](EindeTests/Mod3/Oplossing_2021.md)
 * H5: Overerving
   * [Oefeningen](12_overerving/A_PracticaSimpel.md)
-<!---  * [Oplossingen](12_overerving/opl_practica3.md)--->
+  * [Oplossingen](12_overerving/opl_practica3.md)
 * H6: Gevorderde overervingsconcepten
   * [Oefeningen](13_advancedovererving/A_Practica.md)
 <!---  * [Oplossingen](13_advancedovererving/opl_practica4.md)--->
