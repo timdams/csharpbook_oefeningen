@@ -27,7 +27,7 @@ Zorg ervoor dat er géén dubbele code in HiddenBookmark staat (tip: ``base()``)
 
 
 # Boek
-## Deel 1
+
 Maak een klasse ``Boek``  en gebruik auto-properties voor de velden:
 
 * ISBN (``int``)
