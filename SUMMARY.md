@@ -95,10 +95,10 @@
   * [Oplossingen](12_overerving/opl_practica3.md)
 * H6: Gevorderde overervingsconcepten
   * [Oefeningen](13_advancedovererving/A_Practica.md)
-<!---  * [Oplossingen](13_advancedovererving/opl_practica4.md)--->
+  * [Oplossingen](13_advancedovererving/opl_practica4.md)
 * H7: Compositie en aggregatie
   * [Oefeningen](14_compositie/A_PracticaComp.md)
-<!---  * [Oplossingen](14_compositie/opl_practica.md)--->
+  * [Oplossingen](14_compositie/opl_practica.md)
 * H8: Polymorfisme
   * [Oefeningen](15_polymorfisme/A_Practica.md)
 <!---  * [Oplossingen]](15_polymorfisme/opl_practica.md)--->
