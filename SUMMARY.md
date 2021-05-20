@@ -104,7 +104,7 @@
   * [Oplossingen]](15_polymorfisme/opl_practica.md)
 * H9: Interfaces
   * [Oefeningen](16_interfaces/A_practica.md)
-<!---  * [Oplossingen](16_interfaces/opl_practica.md)--->
+  * [Oplossingen](16_interfaces/opl_practica.md)
 * Alles samen - H5 tot H9
   * [Opgave 1](EindeTests/Mod4/Opgave.md)
   * [Oplossing opgave 1](EindeTests/Mod4/Oplossing.md)
