@@ -101,7 +101,7 @@
   * [Oplossingen](14_compositie/opl_practica.md)
 * H8: Polymorfisme
   * [Oefeningen](15_polymorfisme/A_Practica.md)
-  * [Oplossingen]](15_polymorfisme/opl_practica.md)
+  * [Oplossingen](15_polymorfisme/opl_practica.md)
 * H9: Interfaces
   * [Oefeningen](16_interfaces/A_practica.md)
   * [Oplossingen](16_interfaces/opl_practica.md)
@@ -117,8 +117,10 @@
   * [War Simulator](A_DEEL2_AllInOne/3_WarGame.md)
   * [Map Maker](A_DEEL2_AllInOne/1_MapMapker.md)
   * [Magic The Gathering API](A_DEEL2_AllInOne/mtgapi.md)  
-
-
+* Oplossingen Corona Files
+  * [Oplossing Corona Missie 1](corona/opl_h12corona.md)
+  * [Oplossing Corona Missie 2](corona/opl_h13corona.md)
+  * [Oplossing Corona Missie 3](corona/opl_h14corona.md) 
 <!---
   * [Corona Training](corona/0training/Opgave3_corona.md)  
   * [Oplossing Opgave Coronamissie1](EindeTests/Mod3/OplossingOpgave3.md)
