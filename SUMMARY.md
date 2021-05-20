@@ -101,7 +101,7 @@
   * [Oplossingen](14_compositie/opl_practica.md)
 * H8: Polymorfisme
   * [Oefeningen](15_polymorfisme/A_Practica.md)
-<!---  * [Oplossingen]](15_polymorfisme/opl_practica.md)--->
+  * [Oplossingen]](15_polymorfisme/opl_practica.md)
 * H9: Interfaces
   * [Oefeningen](16_interfaces/A_practica.md)
 <!---  * [Oplossingen](16_interfaces/opl_practica.md)--->

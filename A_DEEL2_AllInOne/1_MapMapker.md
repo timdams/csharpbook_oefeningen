@@ -408,6 +408,3 @@ We kunnen nu dus zelfs een volledig Huis als klasse beschrijven en zo verschille
 Een nog betere oplossing is die waarbij je gewoon direct zegt dat MapObject een lijst van elementen kan bevatten. Als een MapObject exact 1 element in zijn lijst bevat dan is de werking dezelfde als ervoor, maar nu kunnen we dus zonder veel code aanpassingen ook composiet objecten aanmaken.
 
 Think about it.
-
-
- 
