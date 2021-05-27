@@ -77,30 +77,52 @@ public override bool Equals(object obj)
 
 # Een eigen huis
 
-Minimale klassen
+
+# Een eigen huis
+
+## Main:
 
 ```java
+Huis myHuis = new Huis();
+myHuis.Kamers.Add(new Salon() { HeeftSchouw = true });
+myHuis.Kamers.Add(new Gang() {Oppervlakte=20 });
+myHuis.Kamers.Add(new BadKamer());
+myHuis.Kamers.Add(new Kamer());
+
+Console.WriteLine(myHuis.BerekenPrijs());
+```
+
+## Klasse
+
+(In sommige hanteer ik de [EDM-schrijftstijl](B_appendix/6_exprbody.md) bij de override van properties.)
+
+```java
+class Huis
+{
+    public List<Kamer> Kamers { get; set; } = new List<Kamer>();
+    public int BerekenPrijs()
+    {
+        int totaal = 0;
+        foreach (var kamer in Kamers)
+        {
+            totaal += kamer.Prijs;
+
+        }
+        return totaal;
+    }
+}
+
 class Kamer
 {
     public int Oppervlakte { get; set; }
     public string Naam { get; set; }
-    virtual public int Prijs { get; } = 400;
+    public virtual int Prijs {get;} = 400;
+
 }
 
-class BadKamer: Kamer
+class BadKamer : Kamer
 {
-    public override int Prijs
-    {
-        get { return 500; }
-    }
-}
-
-class Gang : Kamer
-{
-    public override int Prijs
-    {
-        get { return 10 * Oppervlakte; }
-    }
+    public override int Prijs => 500;
 }
 
 class Salon : Kamer
@@ -108,27 +130,15 @@ class Salon : Kamer
     public bool HeeftSchouw { get; set; }
     public override int Prijs
     {
-        get 
+        get
         {
-            if (HeeftSchouw)
-                return 500;
-            return 300;
+            if (HeeftSchouw) return 300;
+            return 500;
         }
     }
 }
-
-class Huis
+class Gang : Kamer
 {
-    public List<Kamer> Kamers { get; set; } = new List<Kamer>();
-
-    public int BerekenPrijs()
-    {
-        int prijs = 0;
-        foreach (var kamer in Kamers)
-        {
-            prijs += kamer.Prijs;
-        }
-        return prijs;
-    }
+    public override int Prijs => 10 * Oppervlakte;
 }
 ```
