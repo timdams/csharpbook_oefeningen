@@ -74,3 +74,61 @@ public override bool Equals(object obj)
     return false;
 }
 ```
+
+# Een eigen huis
+
+Minimale klassen
+
+```java
+class Kamer
+{
+    public int Oppervlakte { get; set; }
+    public string Naam { get; set; }
+    virtual public int Prijs { get; } = 400;
+}
+
+class BadKamer: Kamer
+{
+    public override int Prijs
+    {
+        get { return 500; }
+    }
+}
+
+class Gang : Kamer
+{
+    public override int Prijs
+    {
+        get { return 10 * Oppervlakte; }
+    }
+}
+
+class Salon : Kamer
+{
+    public bool HeeftSchouw { get; set; }
+    public override int Prijs
+    {
+        get 
+        {
+            if (HeeftSchouw)
+                return 500;
+            return 300;
+        }
+    }
+}
+
+class Huis
+{
+    public List<Kamer> Kamers { get; set; } = new List<Kamer>();
+
+    public int BerekenPrijs()
+    {
+        int prijs = 0;
+        foreach (var kamer in Kamers)
+        {
+            prijs += kamer.Prijs;
+        }
+        return prijs;
+    }
+}
+```
