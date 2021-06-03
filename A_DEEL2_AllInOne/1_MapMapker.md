@@ -228,7 +228,7 @@ public void GetInput(List<MapObject> list)
     }
     if (input == "B" || input == "b")
     {
-        //Beweeg kaart naar beneder
+        //Beweeg kaart naar beneden
     }
 }
 ```
@@ -255,7 +255,7 @@ De map  verplaatsen is wederom verrassend eenvoudig. Stel dat je je map naar ben
 ```java
 if (input == "B" || input == "b")
 {
-    //Beweeg kaart naar beneder
+    //Beweeg kaart naar beneden
     for(int i=0;i<list.Count;i++)
     {
         list[i].Location = new Point(list[i].Location.X, list[i].Location.Y + 1);
