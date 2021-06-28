@@ -111,6 +111,8 @@
   * [Opgave 2](EindeTests/Mod4/Opgave_1819_2ezit.md)
   * [Opgave 3](EindeTests/Mod4/Opgave_1920.md)
   * [Oplossing opgave 3](EindeTests/Mod4/Ooplpgave_1920.md)
+  * [Opgave 4](EindeTests/Mod4/Opgave_2021.md)
+  * [Oplossing opgave 4](EindeTests/Mod4/Ooplpgave_2021.md)
 * All-In-Projecten
   * [Overzicht](A_DEEL2_AllInOne/0_Deel2_IntroductieAllInOne.md)
   * [OO Textbased Game](A_DEEL2_AllInOne/2_OOTextGame.md)

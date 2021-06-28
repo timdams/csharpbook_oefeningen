@@ -1,6 +1,11 @@
+{% hint style='tip' %}
+Volgende opgave was de vaardigheidsproefopdracht voor het 1e zit examen van dit vak (OOP) in juni 2020
+{% endhint %}
+
 ## Opgave 1 (70%)
 
 Een school, "Stedelijk Lyceum 90", heeft je gevraagd een administratief pakket voor hen te ontwikkelen. Maak een applicatie die simuleert hoe leerlingen in een school worden gemaakt op voorwaarde dat er genoeg geld aanwezig is. Vervolgens kunnen leerlingen uit een school gerekruteerd worden om als werkstudent te dienen.
+
 
 ### Maak een klasse school (35%)
 
