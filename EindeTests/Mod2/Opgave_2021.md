@@ -1,4 +1,6 @@
-##
+> Volgende opgave was de vaardigheidsproefopdracht voor examen van dit vak (Programming Principles) in januari 2020
+
+## Opgave
 
 *De geheime diensten hebben je hulp ingeroepen. De laatste weken onderscheppen ze vreemde signalen uit de lucht en ze hebben software nodig om deze signalen te analyseren. Jouw opdracht bestaat er uit een tool te ontwikkelen die de geheime diensten zal vertellen wanneer een signaal verdacht is of niet.*
 

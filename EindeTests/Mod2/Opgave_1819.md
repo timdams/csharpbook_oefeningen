@@ -1,3 +1,5 @@
+> Volgende opgave was de vaardigheidsproefopdracht voor examen van dit vak (Programming Principles) in januari 2018
+
 # Introductie/Context
 
 Oh jeetje, de wereld draait nu helemaal door. Jouw firma werd zonet gevraagd om een online casino te ontwerpen met als doelgroep babies. Voor ze je de effectieve site laten maken willen ze eerst een simulatie zien in console. Aan jou de eer om deze om deze dubieuze opdracht tot een goed einde te brengen.

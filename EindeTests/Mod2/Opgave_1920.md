@@ -1,3 +1,5 @@
+> Volgende opgave was de vaardigheidsproefopdracht voor examen van dit vak (Programming Principles) in januari 2019
+
 # Introductie- ImmoTrainer
 Een firma die huisverkopers opleidt heeft je gevraagd om een trainingspakket te maken. Het pakket moet de trainees in staat stellen om te oefenen op het zo goed mogelijk kopen van huizen die op de markt verschijnen.
 

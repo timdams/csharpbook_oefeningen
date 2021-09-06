@@ -1,3 +1,5 @@
+> Volgende opgave was de vaardigheidsproefopdracht voor 2e zit examen van dit vak (Programming Principles) in juni 2020
+
 # Intro
 Dit nooit meer. Tijdens een examen Java ging plots het brandalarm af. Alhoewel dit terecht was, heeft de PAP Hogeschool ons gevraagd om een verbeterde alarminstallatie te maken. De nieuwe installatie moet een beter logbook tonen en bijhouden van de echte en valse alarmen.
 
