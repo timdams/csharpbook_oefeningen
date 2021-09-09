@@ -52,7 +52,7 @@
   * [Opgave 4](EindeTests/Mod2/Opgave_1920.md)
   * [Opgave 5](EindeTests/Mod2/Opgave_1920b.md)
   * [Opgave 6](EindeTests/Mod2/Opgave_2021.md)
-  * [Opgave 7](EindeTests/Mod2/Opgave_2021_2ezit.md)
+<!---  * [Opgave 7](EindeTests/Mod2/Opgave_2021_2ezit.md)--->
   * [Oplossing opgave 2](EindeTests/Mod2/Oplossing_1819.md)
   * [Oplossing opgave 3](EindeTests/Mod2/Oplossing_1819b.md)
   * [Oplossing opgave 4](EindeTests/Mod2/Oplossing_1920.md)
