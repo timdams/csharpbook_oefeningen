@@ -21,13 +21,58 @@ Go nuts!
 
 ## Visitekaart
 
-Schrijf een programma (1 Visitekaartje), om de volgende zaken te tonen op afzonderlijke regels
-* Naam: *voornaam achternaam*
-* Adres: *straat en gemeente* 
-* Hobby: *hobby*
-* Waarom deze opleiding volgen? *Argumentatie*
-* Waarop op AP? *Argumentatie*
+Schrijf een programma dat aan de gebruiker de volgende zaken vraagt:
 
-Wat cursief staat moet  vervangen worden door je eigen gepaste waarden
+* Voornaam
+* Achternaam
+* Adres
+* Hobby
+* Waarom voor de opleiding gekozen?
+* Waarom voor AP gekozen?
+
+Vervolgens toon je de antwoorden op het scherm met telkens ervoor wat de vraag was.
+
+Bijvoorbeeld:
+
+```text
+Naam? Tim Dams
+Adres: Scheve dreef 666
+Hobby: lezen en schrijven
+Waarom deze opleiding volgen? Beste lectoren ooit.
+Waarop op AP? Ik woon er dichtbij.
+```
 
 <!---{pagebreak}--->
+
+## Tekening
+
+Kan je volgende afbeeldingen namaken in de console?
+
+![](../assets/0_intro/exbol.jpg)
+
+{% hint style='tip' %}
+Je kan een gekleurd vakje 'tekenen' door de ``BackGroundColor`` van de console in te stellen en dan een **spatie** naar het scherm te sturen.
+{% endhint %}
+
+## Muziek
+
+Met de ``Console.Beep()`` methode kan je muziek maken. Volgende voorbeeld toont bijvoorbeeld hoe je do-re-mi-fa-sol-la-si-do afspeelt:
+
+```java
+Console.Beep(264, 1000);
+Console.Beep(297, 1000);
+Console.Beep(330, 1000);
+Console.Beep(352, 1000);
+Console.Beep(396, 1000);
+Console.Beep(440, 1000);
+Console.Beep(495, 1000);
+Console.Beep(528, 1000);
+```
+
+Je geeft aan ``Beep`` 2 getallen mee (*argumenten*):
+
+1. De frequentie van de toon die moet afgespeeld worden. Bijvoorbeeld 264 (in Hertz, hz).
+2. De duur dat de toon moet afgespeeld worden in milliseconden. Als je dus 1000 meegeeft zal de toon gedurende 1000 ms, oftewel 1 seconde, afgespeeld worden.
+
+Open 1 van de eerder gemaakte oefeningen en zorg ervoor dat bij het opstarten ervan er een kort, door jezelf gecomponeerd, introliedje wordt afgespeeld.
+
