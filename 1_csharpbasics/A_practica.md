@@ -29,9 +29,7 @@ Schrijf een programma dat de uitkomst van volgende resultaten op het scherm toon
 2 + 15 / 6 * 1 - 7 % 2
 ```
 
-Test wat er gebeurt indien je het resultaat in een ``int`` bewaart en wat er gebeurt als je deze in een ``double`` bewaart. Om te testen met een ``double`` raden we je aan om hie en daar in de expressie een literal als double literals te schrijven (dus bijvoorbeeld ``14.0`` i.p.v. ``14``)`anders zal je, zoals verwacht, geen verschil zien tussen beide daar de expressie sowieso een ``int`` teruggeven als je zo gebruikt zoals hierboven in de opgave.
-
-Toon beide uitkomsten (m.b.v. ``WriteLine``) telkens op het scherm.
+Bewaar het resultaat van iedere opgave in een aparte variabele. Toon vervolgens de uitkomst (m.b.v. ``WriteLine``) telkens op het scherm.
 
 {% hint style='warning' %}
 De % hier is de modulo-operator.
@@ -127,3 +125,27 @@ De output zijn verschillende lijnen onder elkaar in de vorm van:
 Plaats de zin met Jupiter in het rood, daar je daar het zwaarst weegt en die van pluto in het groen.
 
 <!---{pagebreak}--->
+
+## Tekstmaker
+
+Met de methode ``System.IO.File.WriteAllText();`` kan je een ``string`` naar een bestand wegschrijven.
+
+Je geeft hierbij 2 variabelen mee: de bestandsnaam, en de inhoud van het bestand.
+
+Volgende voorbeeld schrijft bijvoorbeeld de zin "Ik ben tim" weg naar een bestand dat zal aangemaakt worden genaamd "me.txt":
+
+```java
+System.IO.File.WriteAllText("me.txt", "Ik ben tim");
+```
+
+Schrijf een programma dat aan de gebruiker de naam van het bestand vraagt, gevolgd door wat er in het bestand moet geschreven worden. Vervolgens maak je dit bestand aan en plaats je die inhoud er in.
+
+{% hint style='tip' %}
+Als je enkel een bestandsnaam meegeeft (en geen volledige folderpath) dan wordt het bestand geplaatst op de plek waar het programma wordt uitgevoerd.
+
+Standaard staat je gecompileerde programma in de bin\debug folder van je project.
+
+Als je dus een solution hebt aangemaakt genaamd "Oefening" in de folder "C:\Temp" dan zal het bestand zich in de volgende folder bevinden "C:\Temp\Oefening\Oefening\bin\debug".
+
+Je kan ook snel naar deze folder gaan door in de solution explorer aan de rechterzijde in VS te rechterklikken op je project en dan te kiezen voor: Open folder in file explorer.
+{% endhint %}

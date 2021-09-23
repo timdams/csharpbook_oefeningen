@@ -94,3 +94,14 @@ Console.WriteLine("Je weegt op Mercurius "+ (gewichtOpAarde*gMerc)+ " kg.");
 Console.WriteLine("Je weegt op Venus " + (gewichtOpAarde * gVenus) + " kg.");
 //enzovoort
 ```
+
+## Tekstmaker
+
+```java
+Console.WriteLine("Filenaam?");
+string filen = Console.ReadLine();
+Console.WriteLine("Inhoud bestand?");
+string inhoud = Console.ReadLine();
+
+System.IO.File.WriteAllText(filen, inhoud);
+```
