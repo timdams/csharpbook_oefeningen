@@ -30,7 +30,7 @@ Schrijf een programma dat aan de gebruiker de volgende zaken vraagt:
 * Waarom voor de opleiding gekozen?
 * Waarom voor AP gekozen?
 
-Vervolgens toon je de antwoorden op het scherm met telkens ervoor wat de vraag was.
+Vervolgens toon je de antwoorden op het scherm met telkens ervoor wat de vraag was in een andere klaar:
 
 Bijvoorbeeld:
 
