@@ -47,16 +47,16 @@ else
 ```java
 Console.WriteLine("Hoeveel schoenen koopt de klant?");
 int aantal = Convert.ToInt32(Console.ReadLine());
-int kortingboven = 9;
+int kortingBoven = 9;
 int prijs = 0;
-if (aantal <= kortingboven)
+if (aantal <= kortingBoven)
 {
     prijs = aantal * 20;
 }
 else
 {
-    prijs = kortingboven * 20;
-    prijs += (aantal - kortingboven) * 10;
+    prijs = kortingBoven * 20;
+    prijs += (aantal - kortingBoven) * 10;
 }
 Console.WriteLine($"Prijs is {prijs}");
 ```
@@ -66,16 +66,16 @@ Console.WriteLine($"Prijs is {prijs}");
 Console.WriteLine("Hoeveel schoenen koopt de klant?");
 int aantal = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Boven hoeveel schoenen wordt de korting gegeven?");
-int kortingboven = Convert.ToInt32(Console.ReadLine());
+int kortingBoven = Convert.ToInt32(Console.ReadLine());
 int prijs = 0;
-if (aantal <= kortingboven)
+if (aantal <= kortingBoven)
 {
     prijs = aantal * 20;
 }
 else
 {
-    prijs = kortingboven * 20;
-    prijs += (aantal - kortingboven) * 10;
+    prijs = kortingBoven * 20;
+    prijs += (aantal - kortingBoven) * 10;
 }
 Console.WriteLine($"Prijs is {prijs}");
 ```

@@ -99,9 +99,9 @@ Console.WriteLine("Je weegt op Venus " + (gewichtOpAarde * gVenus) + " kg.");
 
 ```java
 Console.WriteLine("Filenaam?");
-string filen = Console.ReadLine();
+string naamBestand = Console.ReadLine();
 Console.WriteLine("Inhoud bestand?");
-string inhoud = Console.ReadLine();
+string inhoudBestand = Console.ReadLine();
 
-System.IO.File.WriteAllText(filen, inhoud);
+System.IO.File.WriteAllText(naamBestand, inhoudBestand);
 ```
