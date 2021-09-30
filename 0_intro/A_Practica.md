@@ -41,11 +41,24 @@ Vervolgens toon je de antwoorden op het scherm met telkens ervoor wat de vraag w
 Bijvoorbeeld:
 
 ```text
-Naam? Tim Dams
+Wat is je naam?
+Tim Dams
+Waar woon je?
+Scheve dreef 666
+Wat is je hobby?
+lezen en schrijven
+Waarom koos je voor deze opleiding?
+Beste lectoren ooit
+Waarom koos je voor AP?
+Ik woon er dichtbij
+
+Goed. Hier volgt je visite kaartje"
+
+Naam: Tim Dams
 Adres: Scheve dreef 666
 Hobby: lezen en schrijven
-Waarom deze opleiding volgen? Beste lectoren ooit.
-Waarop op AP? Ik woon er dichtbij.
+Waarom deze opleiding volgen: Beste lectoren ooit.
+Waarop op AP: Ik woon er dichtbij.
 ```
 
 <!---{pagebreak}--->
