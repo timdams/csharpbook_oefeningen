@@ -55,6 +55,28 @@ Console.Write(favEten);
 ```
 
 
+## Visitekaart
+
+```java
+Console.WriteLine("Wat is je naam?");
+string naam = Console.ReadLine();
+Console.WriteLine("Waar woon je?");
+string adres = Console.ReadLine();
+Console.WriteLine("Wat is je hobby?");
+string hobby = Console.ReadLine();
+Console.WriteLine("Waarom koos je voor deze opleiding?");
+string opleiding = Console.ReadLine();
+Console.WriteLine("Waarom koos je voor AP?");
+string ap = Console.ReadLine();
+
+Console.WriteLine("Goed. Hier volgt je visite kaartje"");
+
+Console.WriteLine("Naam: " + naam); 
+Console.WriteLine("Adres: "+ adres); 
+Console.WriteLine("Hobby: "+ hobby); 
+Console.WriteLine("Waarom deze opleiding volgen:" +opleiding ); 
+Console.WriteLine("Waarop op AP:" + ap); 
+```
 
 ## Tekening
 
