@@ -1,7 +1,9 @@
 
 <!---NOBOOKSTART--->
 {% hint style='tip' %}
-Het is aanbevolen dat je per hoofdstuk een nieuwe folder aanmaakt op je computer. Per oefening maak je dan best een nieuw project aan dat je in de folder zet. Geef ieder project een duidelijke naam (bv EuroNaarDollar) zodat je later vlot je oefeningen kan terugvinden. Denk er aan dat je je projecten best enkel met cijfers en letters benoemd (dus beter EuroNaarDollar dan Euro-Dollar).
+Het is aanbevolen dat je vanaf nu per hoofdstuk een nieuwe solution aanmaakt op je computer. Per oefening maak je dan best een nieuw project aan dat je in de solution zet. Geef ieder project een duidelijke naam (bv EuroNaarDollar) zodat je later vlot je oefeningen kan terugvinden. Denk er aan dat je je projecten best enkel met cijfers en letters benoemd (dus beter EuroNaarDollar dan Euro-Dollar).
+
+Meer uitleg over Projecten en Solutions en hoe je bovenstaande doet kan je [hier](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a7eb4973-e87e-49a4-862e-ac47009783d6) terugvinden
 {% endhint %}
 <!---NOBOOKEND--->
 
