@@ -56,6 +56,10 @@ Kan je volgende afbeeldingen namaken in de console?
 
 ![](../assets/0_intro/exbol.jpg)
 
+Volgende tekening toont een schematische weergave:
+
+![](../assets/1_csharpbasics/kleur.jpg)
+
 {% hint style='tip' %}
 Je kan een gekleurd vakje 'tekenen' door de ``BackGroundColor`` van de console in te stellen en dan een **spatie** naar het scherm te sturen.
 {% endhint %}
