@@ -55,8 +55,10 @@ Console.Write(favEten);
 ## Visitekaart
 
 ```java
-Console.WriteLine("Wat is je naam?");
+Console.WriteLine("Wat is je voornaam?");
 string naam = Console.ReadLine();
+Console.WriteLine("Wat is jevachternaam?");
+string achternaam = Console.ReadLine();
 Console.WriteLine("Waar woon je?");
 string adres = Console.ReadLine();
 Console.WriteLine("Wat is je hobby?");
@@ -66,9 +68,9 @@ string opleiding = Console.ReadLine();
 Console.WriteLine("Waarom koos je voor AP?");
 string ap = Console.ReadLine();
 
-Console.WriteLine("Goed. Hier volgt je visite kaartje"");
+Console.WriteLine("Goed. Hier volgt je visite kaartje");
 
-Console.WriteLine("Naam: " + naam); 
+Console.WriteLine("Naam: " + naam + " " + achternaam); 
 Console.WriteLine("Adres: "+ adres); 
 Console.WriteLine("Hobby: "+ hobby); 
 Console.WriteLine("Waarom deze opleiding volgen:" +opleiding ); 

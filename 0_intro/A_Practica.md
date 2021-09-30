@@ -41,8 +41,10 @@ Vervolgens toon je de antwoorden op het scherm met telkens ervoor wat de vraag w
 Bijvoorbeeld:
 
 ```text
-Wat is je naam?
-Tim Dams
+Wat is je voornaam?
+Tim
+Wat is je achternaam?
+Dams
 Waar woon je?
 Scheve dreef 666
 Wat is je hobby?
