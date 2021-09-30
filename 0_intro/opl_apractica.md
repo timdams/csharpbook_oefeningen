@@ -27,13 +27,13 @@ Console.WriteLine("Je favoriete kleur is"+ favEten +". Je eet graag"+ favAuto +"
 //...
 //Op het einde
 Console.BackgroundColor = ConsoleColor.Blue;
-Console.Write("Je favoriete kleur is"+ favEten);
+Console.Write("Je favoriete kleur is "+ favEten);
 Console.BackgroundColor = ConsoleColor.Green;
 Console.Write(".Je eet graag"+ favAuto);
 Console.BackgroundColor = ConsoleColor.Red;
-Console.Write(".Je lievelingsfilm is"+ favBoek);
+Console.Write(".Je lievelingsfilm is "+ favBoek);
 Console.BackgroundColor = ConsoleColor.Yellow;
-Console.WriteLine("en je favoriete boek is "+ favKleur + ".");
+Console.WriteLine(" en je favoriete boek is "+ favKleur + ".");
 ```
 
 Of per woord:
