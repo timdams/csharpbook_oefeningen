@@ -58,7 +58,7 @@ Naam: Tim Dams
 Adres: Scheve dreef 666
 Hobby: lezen en schrijven
 Waarom deze opleiding volgen: Beste lectoren ooit.
-Waarop op AP: Ik woon er dichtbij.
+Waarom op AP: Ik woon er dichtbij.
 ```
 
 <!---{pagebreak}--->
