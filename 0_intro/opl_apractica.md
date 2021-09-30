@@ -72,7 +72,7 @@ Console.WriteLine("Naam: " + naam);
 Console.WriteLine("Adres: "+ adres); 
 Console.WriteLine("Hobby: "+ hobby); 
 Console.WriteLine("Waarom deze opleiding volgen:" +opleiding ); 
-Console.WriteLine("Waarop op AP:" + ap); 
+Console.WriteLine("Waarom op AP:" + ap); 
 ```
 
 ## Tekening
