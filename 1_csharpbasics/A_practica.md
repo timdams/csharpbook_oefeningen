@@ -102,6 +102,8 @@ De k/d ratio is de verhouding tussen het aantal kills da je in een spel hebt geh
 ## BTW
 Schrijf een programma waarin je het BTW-percentage 21% als een constante definieert door het keyword ``const`` voor de variabele te zetten. Vervolgens toon je een prijs naar keuze, met en zonder btw op het scherm. 
 
+
+
 ## Gewicht in space
 
 Je massa is overal dezelfde. Je gewicht daarentegen is afhankelijk van de zwaartekracht van de plek waar je bent. Zo is je gewicht veel groter op Jupiter dan op Mars.
