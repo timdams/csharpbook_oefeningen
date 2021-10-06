@@ -31,7 +31,7 @@ Schrijf een programma dat de uitkomst van volgende resultaten op het scherm toon
 2 + 15 / 6 * 1 - 7 % 2
 ```
 
-Bewaar het resultaat van iedere opgave in een aparte variabele. Toon vervolgens de uitkomst (m.b.v. ``WriteLine``) telkens op het scherm.
+Bewaar het resultaat van iedere opgave in een aparte variabele. Reken op papier of met je calculator na wat het resultaat moet zijn. Toon vervolgens de uitkomst (m.b.v. ``WriteLine``) telkens op het scherm en vergelijk die met je eigen berekening. Begrijp je waar de verschillen zitten?! (als die er zijn).
 
 {% hint style='warning' %}
 De % hier is de modulo-operator.
