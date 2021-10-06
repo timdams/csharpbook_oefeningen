@@ -90,7 +90,7 @@ Console.WriteLine("Je k/d-ratio is "+(kills/deaths));
 ## BTW
 ```csharp
 double prijs = 20;
-double BTW = 21.0;
+const double BTW = 21.0;
 
 double berekening = prijs + (prijs / 100) * BTW;
 
@@ -101,8 +101,8 @@ Console.WriteLine(prijs + "euro zonder btw, " + berekening + " euro met BTW");
 
 ```csharp
 double gewichtOpAarde = 80.6;
-double gMerc = 0.38;
-double gVenus = 0.91;
+const double gMerc = 0.38;
+const double gVenus = 0.91;
 //enzovoort
 
 Console.WriteLine("Je weegt op Mercurius "+ (gewichtOpAarde*gMerc)+ " kg.");
