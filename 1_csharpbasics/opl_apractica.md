@@ -5,8 +5,8 @@
 ```csharp
 int resultaat1 = -1 + 4 * 6;
 int resultaat2 = ( 35 + 5 ) % 7;
-double resultaat3 = 14 + -4 * 6 / 11; // begrijp je waarom je het stuk na de komma niet ziet?
-double resultaat4 =  2 + 15 / 6 * 1 - 7 % 2;
+double resultaat3 = 14 + -4 * 6 / 11.0; // begrijp je waarom je het stuk na de komma niet ziet?
+double resultaat4 =  2 + 15 / 6.0 * 1 - 7 % 2;
 
 Console.WriteLine("-1 + 4 * 6 geeft " + resultaat1);
 Console.WriteLine("( 35 + 5 ) % 7 geeft" + resultaat2);
