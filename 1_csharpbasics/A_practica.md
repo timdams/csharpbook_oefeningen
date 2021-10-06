@@ -91,6 +91,8 @@ Maak twee variabelen ``double kills`` en ``double deaths`` aan. Wijs er jouw typ
 
 {% hint style='warning' %}
 **Begrijp je waarom we best een van beide variabelen in ``double`` zetten?** Lees de waarschuwing van de voorman bij Expressies zeker nog eens na... Of test eens wat er gebeurt indien je met ``int`` zou werken.
+
+Merk op dat het vreemd is dat je een niet-geheel aantal kills of deaths kunt halen als je met ``double`` werkt. Dat kan natuurlijk niet. Je kunt niet 2,5 keer dood zijn gegaan in een spel. In hoofdstuk 4 gaan we dit oplossen (en er dus voor zorgen dat kills en deaths wel als ``int`` kan blijven staan, maar we toch een ``double`` als resultaat voor de kdratio krijgen)
 {% endhint %}
 
 
