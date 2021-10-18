@@ -105,6 +105,15 @@ Kan jij volgende ludieke stemwijzer van GuntherD in een eenvoudig programma giet
 Maak een ``enum`` die de seizoenen van het jaar bevat. Vraag aan de gebruiker om een maandnummer in te voeren. Gebruik vervolgens een switch om te bepalen in welk seizoen deze maand (grotendeels) ligt. Wijs deze enum toe aan een variabele in de switch.
 Vervolgens gebruik je een if om, gebaseerd op deze enum-variabele, te tonen of het om een koud seizoen (winter en herfst) of een warm seizoen (zomer en lente) gaat.
 
+## Fifa ranking bereken
+
+FIFA berekent de score per nationaal voetbal team met een eigen formule [bron](https://digitalhub.fifa.com/m/f99da4f73212220/original/edbm045h0udbwkqew35a-pdf.pdf) waarvan de belangrijkste informatie hier samengevat wordt:
+
+![](../assets/2_beslissingen/fifa.png)
+
+Schrijf een applicatie die de nieuwe **P** berekent nadat de gebruiker alle nodige informatie heeft ingevoert. Bij de invoer van I krijgt de gebruiker een keuze menu te zien dat de verschillende zinnetjes toont zonder de I-waarde. De gebruiker kiest uit het menu de juiste importance (bijvoorbeeld door a, b, c, etc. in te voeren) en jouw programma zet dit dan om naar een getal. De gebruiker moet voor W invoeren: gewonnen, verloren, gelijk. Jouw programma zal dit omzetten naar het juiste getal (1, 0.5 of 0).
+
+
 ## Enum bij BMI
 
 Maak een e``num die de verschillende soorten gewichten voorstelt (Obees, Zwaarlijvig, NormaalGewicht, etc.) Pas de bestaande "BMI met if" oefening aan zodat je deze enum gebruikt om je code leesbaarder te maken. 
