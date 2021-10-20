@@ -52,7 +52,6 @@
   * [Opgave 4](EindeTests/Mod2/Opgave_1920.md)
   * [Opgave 5](EindeTests/Mod2/Opgave_1920b.md)
   * [Opgave 6](EindeTests/Mod2/Opgave_2021.md)
-<!---  * [Opgave 7](EindeTests/Mod2/Opgave_2021_2ezit.md)--->
   * [Oplossing opgave 2](EindeTests/Mod2/Oplossing_1819.md)
   * [Oplossing opgave 3](EindeTests/Mod2/Oplossing_1819b.md)
   * [Oplossing opgave 4](EindeTests/Mod2/Oplossing_1920.md)
@@ -114,7 +113,7 @@
   * [Oplossing opgave 3](EindeTests/Mod4/Ooplpgave_1920.md)
   * [Opgave 4](EindeTests/Mod4/Opgave_2021.md)
   * [Oplossing opgave 4](EindeTests/Mod4/Ooplpgave_2021.md)
-<!---  * [Opgave 5](EindeTests/Mod4/Opgave_2021_2ezit.md)--->
+ * [Opgave 5](EindeTests/Mod4/Opgave_2021_2ezit.md)
 * All-In-Projecten
   * [Overzicht](A_DEEL2_AllInOne/0_Deel2_IntroductieAllInOne.md)
   * [OO Textbased Game](A_DEEL2_AllInOne/2_OOTextGame.md)
@@ -125,21 +124,3 @@
   * [Oplossing Corona Missie 1](corona/opl_h12corona.md)
   * [Oplossing Corona Missie 2](corona/opl_h13corona.md)
   * [Oplossing Corona Missie 3](corona/opl_h14corona.md) 
-<!---
-  * [Corona Training](corona/0training/Opgave3_corona.md)  
-  * [Oplossing Opgave Coronamissie1](EindeTests/Mod3/OplossingOpgave3.md)
-  * De missies
-    * [Corona Missie 1](12_overerving/coronamissieoverering.md)
-    * [Oplossing Corona Missie 1](corona/opl_h12corona.md)
-    * [Corona Missie 2](13_advancedovererving/coronamissie.md)
-    * [Oplossing Corona Missie 2](corona/opl_h13corona.md)
-    * [Corona Missie 3](14_compositie/coronamissie.md)
-    * [Oplossing Corona Missie 3](corona/opl_h14corona.md) 
-    * [Corona Missie 4](15_polymorfisme/coronamissie.md)
-    * [Corona Finale Missie](16_interfaces/coronamissie.md)--->
-<!---
-## Appendix  
-  * [Oefeningen kerkhof](graveyard.md)
---->
-  
-  
