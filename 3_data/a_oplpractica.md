@@ -38,6 +38,25 @@ int effH =(int)((1+Armor/100.0)* nomH);
 Console.WriteLine(effH);
 ```
 
+## Balk
+
+```java
+Console.WriteLine("Geef lengte");
+int lengte = int.Parse(Console.ReadLine());
+Console.WriteLine("Geef breedte ");
+int breedte = int.Parse(Console.ReadLine());
+Console.WriteLine("Geef hoogte ");
+int hoogte = int.Parse(Console.ReadLine());
+
+int opp = 2*lengte*breedte + 2*lengte*hoogte + 2* breedte*hoogte;
+
+Console.WriteLine($"lengte: {lengte}");
+Console.WriteLine($"breedte: {breedte}");
+Console.WriteLine($"hoogte: {hoogte}");
+Console.WriteLine($"oppervlakte: {opp}");
+Console.WriteLine($"inhoud: {lengte*breedte*hoogte}");
+```
+
 ## Geometric-fun
 
 ```java
