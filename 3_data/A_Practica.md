@@ -15,7 +15,6 @@ Vraag aan de gebruiker 3 kommagetallen. Bereken het gemiddelde van deze 3 getall
 ## Vierkant
 Schrijf een programma om de omtrek en de oppervlakte van een vierkant te bepalen. De zijde wordt ingelezen. Zorg ervoor dat de uitvoer er als volgt uitziet:
 
-<!---{line-numbers:false}--->
 ```text
 zijde: … 
 omtrek: … 
@@ -41,7 +40,6 @@ Toon vervolgens de effectieve health van de gebruiker.
 
 Bereken de oppervlakte en de inhoud van een balk . De gegevens (hoogte, breedte, lengte) worden ingelezen. Zorg ervoor dat de uitvoer er als volgt uitziet:
 
-<!---{line-numbers:false}--->
 ```text
 lengte: … 
 breedte: … 
@@ -75,7 +73,7 @@ Schrijf een programma dat 5 keer na elkaar aan de barman vraagt om een bedrag in
 
 Voorbeeldwerking:
 
-<!---{line-numbers:false}--->
+
 ```text
 Voer bedrag in?
 12
@@ -128,10 +126,7 @@ Gebruik een random generator om een orakel (een duur woord voor waarzegger) te m
  
 Het orakel zal enkel realistische getallen geven. M.a.w., getallen van 5 tot en met 125 jaar.
 
-<!---NOBOOKSTART--->
+
 {% hint style='tip' %}
 We gaan geregeld een oefening in een later hoofdstuk verder uitbreiden. Het orakeltje van Delphi is er zo eentje. **Bewaar je oefeningen dus goed!**
 {% endhint %}
-<!---NOBOOKEND--->
-
-<!---{pagebreak}--->
