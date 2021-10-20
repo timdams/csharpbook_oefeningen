@@ -38,7 +38,7 @@ Toon vervolgens de effectieve health van de gebruiker.
 
 ## Balk
 
-Bereken de oppervlakte en de inhoud van een balk . De gegevens (hoogte, breedte, lengte) worden ingelezen. Zorg ervoor dat de uitvoer er als volgt uitziet:
+Bereken de oppervlakte en de inhoud van een balk . De gegevens (hoogte, breedte, lengte) worden ingelezen. Zorg ervoor dat de uitvoer er als volgt uitziet (met de puntjes vervangen door de effectieve jusite waarden):
 
 ```text
 lengte: … 
@@ -49,11 +49,12 @@ inhoud: …
 ```
 
 ## Geometric-fun
-Vraag aan de gebruiker een hoek in graden. Zet deze om naar radialen , gebruik ``Math.PI`` voor Pi (``π``). Gebruik vervolgens de verschillende geometrische functies in de ``Math.`` bibliotheek om de sinus (``.Sin``), cosinus (``.Cos``) en tangens (``.Tan``) van de hoek aan de gebruiker te tonen 
+
+Vraag aan de gebruiker een hoek in graden. Zet deze om naar radialen , gebruik ``Math.PI`` voor Pi. Gebruik vervolgens de verschillende geometrische functies in de ``Math.`` bibliotheek om de sinus (``.Sin``), cosinus (``.Cos``) en tangens (``.Tan``) van de hoek aan de gebruiker te tonen 
 
 {% hint style='tip' %}
 Denk eraan: de methoden die met hoeken werken, werken in radialen, daarom moeten we deze eerst omzetten.
-1 rad = 180°/π = 57.295779513°.
+1 rad = 180°/PI = 57.295779513°.
 {% endhint %}
 
 {% hint style='tip' %}
