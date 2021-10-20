@@ -1,3 +1,4 @@
+# Hoofdstuk 3
 
 {% hint style='tip' %}
 Bekijk volgende kennisclip waarin wordt uitgelegd hoe je meerdere projecten in 1 solution in VS kunt plaatsen:

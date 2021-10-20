@@ -24,6 +24,20 @@ Console.WriteLine($"Omtrekt: {omtrek}");
 Console.WriteLine($"Oppervlakte: {oppervlakte}");
 ```
 
+## Stacking armor calculator
+
+```java
+Console.WriteLine("Geef nominal health");
+int nomH = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Geef armor ");
+int armor = int.Parse(Console.ReadLine());
+
+int effH =(int)((1+Armor/100.0)* nomH);
+
+Console.WriteLine(effH);
+```
+
 ## Geometric-fun
 
 ```java

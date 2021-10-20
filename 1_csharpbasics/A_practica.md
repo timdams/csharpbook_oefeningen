@@ -1,4 +1,4 @@
-
+# Hoofdstuk 2
 
 {% hint style='tip' %}
 Het is aanbevolen dat je vanaf nu per hoofdstuk een nieuwe solution aanmaakt op je computer. Per oefening maak je dan best een nieuw project aan dat je in de solution zet. Geef ieder project een duidelijke naam (bv EuroNaarDollar) zodat je later vlot je oefeningen kan terugvinden. Denk er aan dat je je projecten best enkel met cijfers en letters benoemd (dus beter EuroNaarDollar dan Euro-Dollar).
