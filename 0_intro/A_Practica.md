@@ -8,7 +8,7 @@ Kijk pas naar de oplossing als je 100% klaar bent. En zelfs dan, wees erg kritis
 
 Schrijf een applicatie met behulp van ``ReadLine()`` en ``WriteLine()``-methoden waarbij de computer aan de gebruiker om zijn of haar favoriete kleur, eten, auto, film en boek vraagt. Het programma zal de antwoorden echter door elkaar halen waardoor de computer vervolgens toont: 
 
-<!---{line-numbers:false}--->
+
 ```text
 Je favoriete kleur is [eten]. Je eet graag [auto]. Je lievelingsfilm is [boek] en je favoriete boek is [kleur].
 ```
@@ -63,7 +63,7 @@ Waarom deze opleiding volgen: Beste lectoren ooit.
 Waarom op AP: Ik woon er dichtbij.
 ```
 
-<!---{pagebreak}--->
+
 
 ## Tekening
 

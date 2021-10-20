@@ -1,4 +1,4 @@
-<!---NOBOOKSTART--->
+
 
 {% hint style='tip' %}
 Begin pas aan deze oefeningen wanneer je voldoende geoefend hebt door de vorige 2 delen oefeningen op te lossen.
@@ -7,7 +7,7 @@ Deze oefeningen zijn oefeningen die je moet kunnen indien je hoofdstuk 6 goed en
 
 Bekijk zeker de Wiskunde-quizprogramma-opdracht!
 {% endhint %}
-<!---NOBOOKEND--->
+
 
 
 
@@ -49,7 +49,7 @@ Integreer voorgaande quiz met een menu dat je bijvoorbeeld in codemenu hebt gema
 
 Twee getallen van 2 tot en met 20 worden ingelezen (invoercontrole!). Er moet een open rechthoek afgedrukt worden bestaande uit `*`en waarbij de ingelezen getallen respectievelijk de breedte en de hoogte van de rechthoek voorstellen. Als bijvoorbeeld 10 en 4 werden ingelezen, wordt de volgende rechthoek getoond:
 
-<!---{line-numbers:false}--->
+
 ```text
 * * * * * * * * * *
 *                 *

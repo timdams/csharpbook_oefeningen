@@ -38,7 +38,7 @@ Deze methode geeft een string terug en aanvaardt 1 Container object als paramete
 
 Deze methode zal een tekstueel rapport opstellen van de meegegeven container. Dit rapport ziet er als volgt uit en wordt als string door de methode teuggegeven:
 
-<!---{line-numbers:false}--->
+
 ```
 ---CONTAINERREPORT [BEDRIJF]---
         Lading:[BESCHRIJVING]

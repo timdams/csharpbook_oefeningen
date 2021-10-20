@@ -1,9 +1,9 @@
 
-<!---NOBOOKSTART--->
+
 {% hint style='tip' %}
 Vanaf dit hoofdstuk zul je véél meer oefeningen voorgeschoteld krijgen dan je kan afwerken in 1 labo tijd (I dare you ;) ). Selecteer zelf de oefeningen die je wenst te doen en sla die over waarvan je overtuigd bent ze al te kunnen. 
 {% endhint %}
-<!---NOBOOKEND--->
+
 
 {% hint style='tip' %}
 De oefeningen zijn, in de mate van het mogelijke, gerangschikt op relatieve moeilijkheidsgraad
@@ -24,11 +24,11 @@ Indien niet expliciet vermeld mag je kiezen met wat voor loop (``for``, ``while`
 * Toon de som van alle getallen van 1 tot *n* (dus 1+2+3+4+...+n).
 * Toon de som van alle even getallen van 1 tot *n*.
 * Toon de som van alle oneven getallen van 1 tot *n*.
-<!---NOBOOKSTART--->
+
 ## Opwarmers van opwarmers
 
 
-<!---NOBOOKEND--->
+
 
 {% hint style='tip' %}
 Met afsluitwaarde bedoelen we een waarde die de gebruiker moet invoeren om het programma te stoppen. Dus zolang de gebruiker NIET die afsluitwaarde invoert zal het programma om nieuwe waarden blijven vragen.

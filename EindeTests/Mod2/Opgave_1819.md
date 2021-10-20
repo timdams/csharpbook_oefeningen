@@ -40,7 +40,7 @@ Maak een methode SetupCasino:
     * Het vult de derde lijn van de console ook met sterretjes
 * Voorbeeld output:
 
-<!---{line-numbers:false}--->
+
 ```text
 *******************************************************
 Welkom bij Casino AP tim
@@ -132,7 +132,7 @@ De speler moet raden welk getal van 0 tot en met 10 de computer in gedachte heef
 
 ### Voorbeeld spelverloop 
 
-<!---{line-numbers:false}--->
+
 ```text
 Welkom bij raad het getal!
 Je moet een getal van 1 tot 10 raden. Hoe veel keer denk je nodig te hebben?
@@ -163,7 +163,7 @@ De speler krijgt 5 vermenigvuldigen voorgeschoteld die hij moet uitrekenen. Deze
 
 ### Voorbeeld spelverloop 
 
-<!---{line-numbers:false}--->
+
 ```text
 Je krijgt nu 5 reken oefeningen. Per juiste krijg je 5 euro. Per foute verlies je 5 euro.
 Hoeveel is 4x9?
