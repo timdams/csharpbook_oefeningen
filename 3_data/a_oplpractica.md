@@ -72,9 +72,9 @@ Console.WriteLine($"Tangens van {hoekInGraden} graden is {Math.Tan(hoekInRadiale
 ## BMI Berekenaar
 ```java
 Console.WriteLine("Geef je gewicht in kg");
-double gewicht = Convert.ToDouble(Console.ReadLine());
+double gewicht = double.Parse(Console.ReadLine());
 Console.WriteLine("Geef je lengte in cm");
-double lengte = Convert.ToDouble(Console.ReadLine())/100;
+double lengte = double.Parse(Console.ReadLine())/100;
 
 double bmi = gewicht / Math.Pow(lengte, 2);
 
@@ -84,7 +84,7 @@ Console.WriteLine($"Je BMI is {Math.Round(bmi,2)}");
 ## Op-de-poef
 ```java
 int poef = 0;
-int bedrag;
+int bedrag = 0;
 
 
 Console.WriteLine("Voer bedrag in:");
