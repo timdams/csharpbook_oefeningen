@@ -122,5 +122,4 @@ Schrijf een applicatie die de nieuwe **P** berekent nadat de gebruiker alle nodi
 
 Maak een e``num die de verschillende soorten gewichten voorstelt (Obees, Zwaarlijvig, NormaalGewicht, etc.) Pas de bestaande "BMI met if" oefening aan zodat je deze enum gebruikt om je code leesbaarder te maken. 
 
-## Kleurcode weerstand naar ohm, met enum
-Open de "Kleurcode weerstand naar ohm" die je eerder in dit hoofdstuk hebt gemaakt. Gebruik ``enum`` om de weerstandskleuren voor te stellen zodat je veel leesbaardere code krijgt.
+
