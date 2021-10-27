@@ -125,3 +125,25 @@ else //Seizoen.Onbekend
     Console.WriteLine("Dat is geen seizoen!");
 
 ```
+
+## Bankrekening controle
+
+```java
+//voorbeeldrekenignummer 000 1459325 57
+Console.WriteLine("Geef eerste 3 cijfers");
+long deel1= long.Parse(Console.ReadLine());
+Console.WriteLine("Geef de volgende 7 cijfers");
+long deel2= long.Parse(Console.ReadLine());
+Console.WriteLine("Geef de laatse 2 cijfers");
+int checksum= int.Parse(Console.ReadLine());
+
+int controle=(int)((deel1*Math.Pow(10,7) + deel2)%97);
+if(controle == checksum)
+{
+    Console.WriteLine("Geldige rekening");
+}
+else
+{
+    Console.WriteLine("Niet geldige rekening");
+}
+```
