@@ -42,6 +42,9 @@ Het bankrekeningnummer wordt ingelezen als 3 gehele getallen van 3, 7 en 2 die d
 
 {% hint style='tip' %}
 Een bankrekeningnummer is geldig als de rest van de deling van het getal, dat bestaat uit de eerste 10 cijfers, door 97, gelijk is aan het getal bestaande uit de laatste 2 cijfers.
+
+* Dit is een voorbeeld van een geldige rekenig: 000 1459325 57
+* Dit een ongeldige: 000 1359325 57
 {% endhint %}
 
 ## Kleurcode weerstand naar ohm
