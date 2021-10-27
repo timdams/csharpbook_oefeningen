@@ -147,3 +147,72 @@ else
     Console.WriteLine("Niet geldige rekening");
 }
 ```
+
+
+## Schaakstuk
+
+
+De omslachtige manier:
+```java
+enum Kleur {Wit, Zwart};
+enum Schaakstukken {Pion, Toren, Loper, Paard, Koning, Koningin}
+public static void Main()
+{
+    Random rng = new Random();
+    
+    string stuk1="";
+    switch((Kleur)rng.Next(0,2))
+    {	
+        case Kleur.Wit:
+            stuk1 += "wit ";
+            break;
+        default:
+            stuk1 += "zwart ";
+            break;
+    }
+    
+    switch((Schaakstukken)rng.Next(0,6))
+    {	
+        case Schaakstukken.Pion:
+            stuk1 += "pion";
+            break;
+        case Schaakstukken.Toren:
+            stuk1 += "toren";
+            break;
+        case Schaakstukken.Loper:
+            stuk1 += "loper";
+            break;
+        case Schaakstukken.Paard:
+            stuk1 += "paard";
+            break;
+        case Schaakstukken.Koning:
+            stuk1 += "koning";
+            break;
+        case Schaakstukken.Koningin:
+            stuk1 += "koningin";
+            break;
+        default:
+            stuk1 += "onbekend";
+            break;
+    }
+    Console.WriteLine(stuk1);
+    
+    //doe bovenstaande nog 2x
+}
+
+```
+
+De snelle manier:
+
+```java
+enum Kleur {Wit, Zwart};
+enum Schaakstukken {Pion, Toren, Loper, Paard, Koning, Koningin}
+public static void Main()
+{
+    Random rng=new Random();
+    
+    Console.WriteLine($"{(Kleur)rng.Next(0,2)} {(Schaakstukken)rng.Next(0,6)}");
+    Console.WriteLine($"{(Kleur)rng.Next(0,2)} {(Schaakstukken)rng.Next(0,6)}");
+    Console.WriteLine($"{(Kleur)rng.Next(0,2)} {(Schaakstukken)rng.Next(0,6)}");
+}
+```
