@@ -36,7 +36,7 @@ c) Zorg ervoor dat de kassier enkel een getal van 3 tot en met 10 kan invoeren b
 Vraag aan de gebruiker wat hij wenst te berekenen: spanning, weerstand of stroomsterkte. Vraag vervolgens de 2 andere waarden (als dus de gebruiker "Spanning" kiest vraag je aan de gebruiker de stroomsterkte en de weerstand) en bereken m.b.v. de wet van Ohm de gewenste waarde.
 
 ## BankRekening controle
-Schrijf een programma om het vroegere nationale bankrekeningnummer te controleren off het al of niet een geldig nummer is (dus niet het IBAN nummer). 
+Schrijf een programma om het vroegere nationale bankrekeningnummer te controleren of het al dan niet een geldig nummer is (dus niet het IBAN nummer). 
 
 Het bankrekeningnummer wordt ingelezen als 3 gehele getallen van 3, 7 en 2 die de gebruiker apart invoert en die je in 3 aparte variabelen bewaard.
 
