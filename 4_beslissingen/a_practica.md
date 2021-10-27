@@ -120,6 +120,6 @@ Schrijf een applicatie die de nieuwe **P** berekent nadat de gebruiker alle nodi
 
 ## Enum bij BMI
 
-Maak een e``num die de verschillende soorten gewichten voorstelt (Obees, Zwaarlijvig, NormaalGewicht, etc.) Pas de bestaande "BMI met if" oefening aan zodat je deze enum gebruikt om je code leesbaarder te maken. 
+Maak een enum die de verschillende soorten gewichten voorstelt (Obees, Zwaarlijvig, NormaalGewicht, etc.) Pas de bestaande "BMI met if" oefening aan zodat je deze enum gebruikt om je code leesbaarder te maken. 
 
 
