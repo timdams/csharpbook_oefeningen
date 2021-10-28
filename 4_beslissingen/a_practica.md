@@ -24,7 +24,7 @@ Voorbeeld:
 b) Voeg nu toe dat het programma eerst aan de kassier vraagt tot hoeveel schoenen de korting niet geldt. 
 
 Voorbeeld:
-* De kassiester voert 6 in. Dan kosten 8 schoenen: 6x20 + 2x10 = 140 euro.
+* De kassierster voert 6 in. Dan kosten 8 schoenen: 6x20 + 2x10 = 140 euro.
 
 {% hint style='tip' %}
 Je hebt niet noodzakelijk een if voor deze oefening nodig.  Indien je deze oefening zonder if kunt oplossen, dan krijg je als extra opgave bij
@@ -84,6 +84,10 @@ wit paard
 zwarte loper
 witte pion
 ```
+
+{% hint style='tip' %}
+Voor de experts die al vlot werken met casting, enums en Random: je kan deze oefening ook oplossen zonder ook maar 1 switch of if. Beter zelfs: je kan deze oplossen met 3 WriteLines en een Random getal generator.
+{% endhint %}
 
 ## Quiz
 Maak een quiz. Maak gebruik van het ``switch``-statement om de input van de gebruiker (a, b, c of d) te verwerken en bij iedere vraag aan te geven of dit juist of fout is. Voorzie 3 multiple choice vragen. Houd bij hoe vaak de speler juist antwoordde en geef op het einde de eindscore (Juist is +2, fout is -1).

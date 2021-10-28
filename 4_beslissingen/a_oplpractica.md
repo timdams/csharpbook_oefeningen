@@ -18,17 +18,17 @@ if(bmi < 18.5)
     Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine("Ondergewicht");
 }
-else if(bmi < 24.9)
+else if(bmi < 25)
 {
     Console.ForegroundColor = ConsoleColor.Green;
     Console.WriteLine("Normaal gewicht");
 }
-else if (bmi < 29.9)
+else if (bmi < 30)
 {
     Console.ForegroundColor = ConsoleColor.DarkYellow;
     Console.WriteLine("Overgewicht");
 }
-else if (bmi < 39.9)
+else if (bmi < 40)
 {
     Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine("Zwaarlijvigheid");
