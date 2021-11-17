@@ -6,7 +6,7 @@ Vanaf dit hoofdstuk zul je véél meer oefeningen voorgeschoteld krijgen dan je 
 
 
 {% hint style='tip' %}
-De oefeningen zijn, in de mate van het mogelijke, gerangschikt op relatieve moeilijkheidsgraad
+De oefeningen zijn, in de mate van het mogelijke, gerangschikt op relatieve moeilijkheidsgraad.
 {% endhint %}
 
 {% hint style='tip' %}
@@ -14,6 +14,10 @@ Indien niet expliciet vermeld mag je kiezen met wat voor loop (``for``, ``while`
 {% endhint %}
 
 # De opwarmers
+
+{% hint style='tip' %}
+Oefeningen waar *n* wordt gebruikt geven aan dat dit een getal is dat je aan de gebruiker vraagt aan de start.
+{% endhint %}
 
 ## Opwarmers 1
 
