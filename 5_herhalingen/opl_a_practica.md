@@ -4,17 +4,30 @@
 * [Oplossingen eerste opwarmers](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=be06eb23-fc0f-4863-93e1-ac79008c180a)
 
 # Oplossing practica deel 1
-## Oplossing Tafels van vermenigvuldiging:
+## Oplossing Tafels van vermenigvuldiging 1:
 ```java
 int teller= 1;
+int n = int.Parse(Console.ReadLine());
 while(teller <= 10)
 {
-    int product= teller * 10;
-    Console.WriteLine($"{teller} x 10 = {product}");
+    int product= teller * n;
+    Console.WriteLine($"{teller} x {n} = {product}");
     teller++;
 }
 ```
 
+## Tafels van supervermenigvuldigen
+
+```java
+int n =  int.Parse(Console.ReadLine());
+for (int i = 1;i <= 10; i++)
+{
+    for(int j = 1; j <= n; j++)
+    {
+        Console.WriteLine($"{i} x {j} = {i*j}");
+    }
+}
+```
 ## Oplossing DNA Transscriptie
 ```java
 string inp= "", DNA= "", RNA= "";
