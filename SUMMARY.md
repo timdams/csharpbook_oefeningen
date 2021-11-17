@@ -37,6 +37,7 @@
   * [Oefeningen deel 3](5_herhalingen/b_practica.md)
   * [Oplossingen deel 1](5_herhalingen/opl_a_practica.md)
   * [Oplossingen deel 2](5_herhalingen/opl_b_practica.md)
+  * [Oplossingen deel 3](5_herhalingen/opl_c_practica.md)
 * H7: Methoden
   * [Oefeningen deel 1](6_methoden/b_practica.md)
   * [Oefeningen deel 2](6_methoden/c_practica.md)

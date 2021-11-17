@@ -113,7 +113,7 @@ Kan jij volgende ludieke stemwijzer van GuntherD in een eenvoudig programma giet
 Maak een ``enum`` die de seizoenen van het jaar bevat. Vraag aan de gebruiker om een maandnummer in te voeren. Gebruik vervolgens een switch om te bepalen in welk seizoen deze maand (grotendeels) ligt. Wijs deze enum toe aan een variabele in de switch.
 Vervolgens gebruik je een if om, gebaseerd op deze enum-variabele, te tonen of het om een koud seizoen (winter en herfst) of een warm seizoen (zomer en lente) gaat.
 
-## Fifa ranking bereken
+##  Fifa ranking berekenen (PRO)
 
 FIFA berekent de score per nationaal voetbal team met een eigen formule [bron](https://digitalhub.fifa.com/m/f99da4f73212220/original/edbm045h0udbwkqew35a-pdf.pdf) waarvan de belangrijkste informatie hier samengevat wordt:
 
