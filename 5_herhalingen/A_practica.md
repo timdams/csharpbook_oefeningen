@@ -69,7 +69,7 @@ Met afsluitwaarde bedoelen we een waarde die de gebruiker moet invoeren om het p
 Gebruik de kracht van loops om pijlsnel de tafels van 1 tot en met 10 van vermenigvuldigen op het scherm te tonen *van een getal naar keuze*(dus bijvoorbeeld 2x1, 2x2, tot 2x10 en alles daartussen).
 
 ## Tafels van supervermenigvuldigen  
-Gebruik de kracht van **geneste** loops om pijlsnel alle tafels van 1 tot en met 10 van vermenigvuldigen op het scherm te tonen *van de getallen 1 tot en met 10*(dus 1x1, 1x2,... 1x10, 2x1, 2x2,...,2x10 tot en met 10x10).
+Gebruik de kracht van **geneste** loops om pijlsnel alle tafels van 1 tot en met 10 van vermenigvuldigen op het scherm te tonen *van de getallen 1 tot en met n*(dus 1x1, 1x2,... 1xn, 2x1, 2x2,...,2xn tot en met n x n).
 
 ## RNA Transscriptie
 
