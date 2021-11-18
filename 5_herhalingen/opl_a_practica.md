@@ -31,6 +31,7 @@ for (int i = 1;i <= 10; i++)
 ## Oplossing DNA Transscriptie
 ```java
 string inp= "", DNA= "", RNA= "";
+int teller=0;
 do
 {
     Console.WriteLine("Voer G, C, T of A in");
@@ -58,7 +59,8 @@ do
             inp = "stop";
             break;
     }
-}while(inp != "stop");
+    teller++;
+}while(teller < 12);
 Console.WriteLine("Resultaat:");
 Console.WriteLine(DNA);
 Console.WriteLine(RNA);	  
