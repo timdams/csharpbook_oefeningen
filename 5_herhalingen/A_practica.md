@@ -44,7 +44,7 @@ Met afsluitwaarde bedoelen we een waarde die de gebruiker moet invoeren om het p
 4. Lees een willekeurig aantal getallen in met als afsluitwaarde 0. Bereken het product en druk dit af.
 5. (PRO) Lees een getal in en druk de som van zijn cijfers af. 
 6. Lees een willekeurig aantal positieve getallen in en bereken het (afgekapt) gemiddelde ervan. De afsluitwaarde is een willekeurig negatief getal.
-7. Lees een willekeurig aantal getallen in met afsluitwaarde -32768. Druk het kleinste getal af en het aantal keer dat het voorkomt.
+7. Lees een willekeurig aantal getallen in met afsluitwaarde -32768. Druk het kleinste getal af en het aantal keer dat het voorkomt. Als de gebruiker volgende reeks invoerde: "3,2,1,2,3,1,4,5,1,2,-32768'. Dan komt er 1 als kleinste getal op het scherm en 3 (omdat 1 drie maal werd ingetypt)
 8. Een reeks in stijgende volgorde gesorteerde getallen wordt ingelezen. De invoer moet stoppen indien er een fout in de sorteervolgorde voorkomt.
 9. Een reeks getallen wordt ingelezen. De invoer moet stoppen indien er twee maal achter elkaar een nul wordt ingelezen. Het gemiddelde van de reeks getallen wordt afgedrukt. De laatste twee nullen tellen uiteraard niet mee voor de bepaling van het gemiddelde.
 10. Bepaal de som van de kwadraten van de even natuurlijke getallen van 50 tot 100 (inbegrepen). De som wordt afgedrukt.
