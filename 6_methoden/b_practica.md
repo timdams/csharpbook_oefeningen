@@ -17,6 +17,10 @@ Sommige oefeningen zijn van de vorm "Maak een methode die...". Het is steeds de 
 ## Opwarmers
 Een extra grote hoop oefeningen om je methoden te drillen ([originele bron](https://codeforwin.org/2016/03/functions-programming-exercises-and-solutions-in-c.html)). De oefeningen zijn ongeveer gerangschikt naar moeilijkheid.
 
+{% hint style='warning' %}
+OPGELET: de naam van de methode geeft meestal aan wat er juist moet gebeuren. ReadLine en WriteLine mag je zelden in methoden gebruiken. Als de methode bijvoorbeeld "ToonGetal" heet dan zal je iets met WriteLine IN de methode moeten doen.  Heet de methode "VraagGetal" dan zal je inderdaad ReadLine mogen gebruiken. In bijna alle andere gevallen mag dat niet en is het dus de bedoeling dat je de vereiste informatie als parameters aan de methode meegeeft (i.p.v ReadLine), en het resultaat als return teruggeeft (i.p.v. WriteLine).
+{% endhint %}
+
 Iedere oefening verwacht dat je steeds een methode schrijft en de werking ervan aantoont:
 
 * Methode ``Kwadraat`` die het kwadraat van een ingevoerd getal berekend ( het getal geef je mee als parameter).
