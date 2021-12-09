@@ -59,7 +59,10 @@ Schrijf een methode die 3 ints aanvaardt en vervolgens de grootste van de 3 para
 ## Rekenmachine
 Maak minimaal de methoden genaamd ``TelOp``, ``TrekAf``, ``Vermenigvuldig`` en ``Deel``. Je kan aan deze methoden steeds twee doubles meegeven en het resultaat dat terugkomt is uiteraard de bewerking van die twee parameters.
 
-Maak een eenvoudig programmatje waarin je die methoden test. Kan je een eenvoudige rekenmachine maken (inclusief geheugen)? Voeg extra methoden naar keuze toe (denk aan macht, sinus, cosinus, modulo, etc.).
+Maak een eenvoudig programma waarin je die methoden test.
+
+## Pro Rekenmachine
+Kan je een eenvoudige zakrekenmachine maken (inclusief geheugen)? Voeg extra methoden naar keuze toe (denk aan macht, sinus, cosinus, modulo, etc.).
 
 ## Paswoord generator methode
 Maak een paswoord generator die paswoorden van bepaalde lengte genereert en bestaat uit willekeurige letters, hoofdletters en cijfers. Plaats deze code in een methode die 1 parameter aanvaardt namelijk de lengte van het paswoord dat gemaakt moet worden. De methode geeft het gegenereerde paswoord terug als resultaat. (tip gebruik een random number generator(s) om getallen te genereren die je ook kan casten naar chars dankzij de Unicode waarde van chars).
