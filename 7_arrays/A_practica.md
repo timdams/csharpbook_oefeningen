@@ -4,12 +4,21 @@
 Een aantal oefeningen is geïnspireerd op oefeningen van [Exercism.io](https://exercism.io/tracks/csharp/exercises).
 {% endhint %}
 
+## Opwarmers
+
+* Vul een array van ints met alle getallen van 1 tot 100. Druk de array af.
+* Vul een array van ints met alle even getallen tot en met 100. Druk de array af.
+* Maak een array aan en plaats daarin de 4 namen van je beste vrienden in volgorde van "beste vriend" tot "minst beste vriend". Toon nu de namen op het scherm, onder elkaar, met telkens ervoor "Beste vriend", "Tweede beste vriend", "Derde beste vriend", "Minst beste vriend".
+* Maak een array van 20 bool-waarden. Deze waarden zijn willekeurig. Print de array. Toon hoeveel keer true en hoeveel keer false er in de array zit.
+* Vul een array met 10 random doubles tussen 0 en 10. Toon het gemiddelde ervan.
+* Maak een enum Schooltype met mogelijke waarden TSO, KSO, ASO, KSO. Maak een array van 20 Schooltype-waarden. Vul deze met willekeurige schooltypes. Toon de array. Toon hoe vaak ieder schooltype in de array voorkomt.
+
 ## Pittiger 
 
 {% hint style='tip' %}
-Je mag in deze oefeningen NIET gebruik maken van .Reverse(), BinarySearch() etc. Alles moet je manueel kunnen. Enkel sorteren mag je automatisch doen met .Sort().
+Je mag in deze oefeningen NIET gebruik maken van ``.Reverse()``, ``.BinarySearch()`` etc. Alles moet je manueel kunnen. Enkel sorteren mag je automatisch doen met ``.Sort()``.
 
-Als er dus taat "lees 20 getallen in", dan moet je die in volgorde bewaren in je array. Vervolgens begin je die array te manipuleren.
+Als er dus staat "lees 20 getallen in", dan moet je die in volgorde bewaren in je array. Vervolgens begin je die array te manipuleren.
 {% endhint %}
 
 1.	Er worden 20 getallen ingelezen. De getallen worden in omgekeerde volgorde afgedrukt.
