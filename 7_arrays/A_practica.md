@@ -48,7 +48,7 @@ Als er dus staat "lees 20 getallen in", dan moet je die in volgorde bewaren in j
 17.	Een rij gehele getallen met afsluitwaarde 32767 wordt ingelezen. Het aantal ingelezen getallen is onbeperkt, maar er zullen maximaal 100 verschillende getallen worden ingelezen. Druk af hoeveel verschillende getallen ingelezen werden. 
 18.	Druk alle priemgetallen kleiner dan 100.000 af. Maak gebruik van het algoritme van Eratosthenes.
 
-#### Vraag Array
+## Vraag Array
 Maak een array die 6 strings kan bevatten. Ieder element van de array bevat een vraag (naar keuze te verzinnen) als string waar de gebruiker met een getal op moet antwoorden.
 Maak een array aan die tot 6 ints kan bevatten. Lees 1 voor 1 de vraag uit de string-array uit en toon deze op het scherm. Lees vervolgens het antwoord uit dat de gebruiker intypt en bewaar dit als int in de 2e array.
 
