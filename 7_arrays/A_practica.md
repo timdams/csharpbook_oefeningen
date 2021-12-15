@@ -13,7 +13,7 @@ Een aantal oefeningen is geïnspireerd op oefeningen van [Exercism.io](https://e
 *  Maak een array van 20 booleans en zorg dat alle oneven indexen False zijn. (druk deze af).
 * Maak een array van 20 bool-waarden. Deze waarden zijn willekeurig. Print de array. Toon hoeveel keer true en hoeveel keer false er in de array zit. Opgelet, je doe de visualisatie in aparte loop nadat je deze hebt aangemaakt. Voorts tel je de true en false variabelen in nog eens een aparte loop.
 * Vul een array met 10 random doubles tussen 0 en 10. Toon het gemiddelde ervan.
-* Maak een enum Schooltype met mogelijke waarden TSO, KSO, ASO, KSO. Maak een array van 20 Schooltype-waarden. Vul deze met willekeurige schooltypes. Toon de array. Toon hoe vaak ieder schooltype in de array voorkomt.
+* Maak een enum Schooltype met mogelijke waarden TSO, BSO, ASO, KSO. Maak een array van 20 Schooltype-waarden. Vul deze met willekeurige schooltypes. Toon de array. Toon hoe vaak ieder schooltype in de array voorkomt.
 
 ## Pittiger 
 
