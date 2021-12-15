@@ -37,18 +37,6 @@ Als er dus staat "lees 20 getallen in", dan moet je die in volgorde bewaren in j
 1 2 3
 ```
 6.	Een rij van 100 getallen wordt ingelezen. Druk de inhoud van de rij af in 3 kolommen. De getallen worden gerangschikt kolom per kolom (hier mag je ``Sort`` gebruiken).
-7.	Een rij van 100 gehele getallen wordt ingelezen. Maak een tweede rij die bestaat uit de elementen van de eerste rij in omgekeerde volgorde.
-8.	Een rij van 100 gehele getallen wordt ingelezen. Wissel de inhoud van de rij om.
-9.	Een rij van 100 gehele getallen wordt ingelezen. Verschuif de inhoud van de rij 1 plaats naar achter. Het laatste getal moet eerst komen.
-10.	Een rij van 100 gehele getallen wordt ingelezen. Maak een tweede rij die bestaat uit de elementen van de eerste rij maar 1 plaats naar achter verschoven . Het laatste getal van de eerste rij moet eerst komen in de tweede rij.
-11.	Een rij van 100 gehele getallen wordt ingelezen. Maak een tweede rij die bestaat uit de elementen van de eerste rij maar 3 plaatsen naar voor verschoven. Het eerste getal van de eerste rij moet derde laatst komen in de tweede rij, het tweede getal van de eerste rij moet voorlaatst komen in de tweede rij en het derde getal van de eerste rij moet laatst komen in de tweede rij.
-12.	Een rij van 100 gehele getallen wordt ingelezen. Verschuif de inhoud van de rij 3 plaatsen naar voor. Het eerste getal moet derde laatst komen, het tweede, voorlaatst en het derde, laatst.
-13.	Gegeven is een rij van 50 getallen. Maak een tweede rij waarin geen dubbels voorkomen.
-14.	Gegeven is een gesorteerde rij van 50 getallen. Maak een tweede (eveneens gesorteerde) rij waarin geen dubbels voorkomen.
-15.	Een rij van maximaal 100 gehele getallen met afsluitwaarde 32767 wordt ingelezen. Druk het maximum van de rij af, het aantal keer dat het voorkwam en de plaats waar het de eerste keer voorkwam.
-16.	Een rij van maximaal 100 gehele getallen met afsluitwaarde 32767 wordt ingelezen. Druk het minimum van de rij af, het aantal keer dat het voorkwam en de plaats waar het de laatste keer voorkwam.
-17.	Een rij gehele getallen met afsluitwaarde 32767 wordt ingelezen. Het aantal ingelezen getallen is onbeperkt, maar er zullen maximaal 100 verschillende getallen worden ingelezen. Druk af hoeveel verschillende getallen ingelezen werden. 
-18.	[PRO] Druk alle priemgetallen kleiner dan 100.000 af. Maak gebruik van het algoritme van Eratosthenes.
 
 ## Vraag Array
 Maak een array die 6 strings kan bevatten. Ieder element van de array bevat een vraag (naar keuze te verzinnen) als string waar de gebruiker met een getal op moet antwoorden.
