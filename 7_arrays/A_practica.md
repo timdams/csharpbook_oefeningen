@@ -11,11 +11,13 @@ Een aantal oefeningen is geïnspireerd op oefeningen van [Exercism.io](https://e
 * Vraag aan de gebruiker 3 keer een getal, stop deze in een array, druk deze array af.
 * Maak een array aan en plaats daarin de 4 namen van je beste vrienden in volgorde van "beste vriend" tot "minst beste vriend". Toon nu de namen op het scherm, onder elkaar, met telkens ervoor "Beste vriend", "Tweede beste vriend", "Derde beste vriend", "Minst beste vriend".
 *  Maak een array van 20 booleans en zorg dat alle oneven indexen False zijn. (druk deze af).
-* Maak een array van 20 bool-waarden. Deze waarden zijn willekeurig. Print de array. Toon hoeveel keer true en hoeveel keer false er in de array zit.
+* Maak een array van 20 bool-waarden. Deze waarden zijn willekeurig. Print de array. Toon hoeveel keer true en hoeveel keer false er in de array zit. Opgelet, je doe de visualisatie in aparte loop nadat je deze hebt aangemaakt. Voorts tel je de true en false variabelen in nog eens een aparte loop.
 * Vul een array met 10 random doubles tussen 0 en 10. Toon het gemiddelde ervan.
 * Maak een enum Schooltype met mogelijke waarden TSO, KSO, ASO, KSO. Maak een array van 20 Schooltype-waarden. Vul deze met willekeurige schooltypes. Toon de array. Toon hoe vaak ieder schooltype in de array voorkomt.
 
 ## Pittiger 
+
+Sommige oefeningen zijn op randje van PRO. U weze gewaarschuwd.
 
 {% hint style='tip' %}
 Je mag in deze oefeningen NIET gebruik maken van ``.Reverse()``, ``.BinarySearch()`` etc. Alles moet je manueel kunnen. Enkel sorteren mag je automatisch doen met ``.Sort()``.
@@ -46,7 +48,7 @@ Als er dus staat "lees 20 getallen in", dan moet je die in volgorde bewaren in j
 15.	Een rij van maximaal 100 gehele getallen met afsluitwaarde 32767 wordt ingelezen. Druk het maximum van de rij af, het aantal keer dat het voorkwam en de plaats waar het de eerste keer voorkwam.
 16.	Een rij van maximaal 100 gehele getallen met afsluitwaarde 32767 wordt ingelezen. Druk het minimum van de rij af, het aantal keer dat het voorkwam en de plaats waar het de laatste keer voorkwam.
 17.	Een rij gehele getallen met afsluitwaarde 32767 wordt ingelezen. Het aantal ingelezen getallen is onbeperkt, maar er zullen maximaal 100 verschillende getallen worden ingelezen. Druk af hoeveel verschillende getallen ingelezen werden. 
-18.	Druk alle priemgetallen kleiner dan 100.000 af. Maak gebruik van het algoritme van Eratosthenes.
+18.	[PRO] Druk alle priemgetallen kleiner dan 100.000 af. Maak gebruik van het algoritme van Eratosthenes.
 
 ## Vraag Array
 Maak een array die 6 strings kan bevatten. Ieder element van de array bevat een vraag (naar keuze te verzinnen) als string waar de gebruiker met een getal op moet antwoorden.

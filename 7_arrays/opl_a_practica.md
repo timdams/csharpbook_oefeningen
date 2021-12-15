@@ -1,8 +1,163 @@
+# Oplossingen deel 1
+
 ## Oplossing opwarmers
 
-Soon
+
+```java
+int[] getallen = new int[100];
+for (int i = 0; i < getallen.Length; i++)
+{
+    getallen[i] = i + 1;
+}
+
+for (int i = 0; i < getallen.Length; i++)
+{
+    Console.WriteLine(getallen[i]);
+}
+```
+
+```java
+int[] getallen = new int[51];
+for (int i = 0; i < getallen.Length; i++)
+{
+    getallen[i] = i * 2;
+}
+
+for (int i = 0; i < getallen.Length; i++)
+{
+    Console.WriteLine(getallen[i]);
+}
+```
+
+```java
+int[] getallen = new int[3];
+for (int i = 0; i < getallen.Length; i++)
+{
+    Console.WriteLine($"Geef getal {i+1}:");
+    getallen[i] = int.Parse(Console.ReadLine());
+}
+Console.WriteLine("Array bevat:");
+
+for (int i = 0; i < getallen.Length; i++)
+{
+    Console.WriteLine(getallen[i]);
+}
+```
+
+```java
+string[] vrienden = { "Vincent", "Olga", "Bill", "Gotoman" };
+Console.WriteLine($"Beste vriend is  {vrienden[0]}");
+Console.WriteLine($"Tweede beste vriend is  {vrienden[1]}");
+Console.WriteLine($"Derde beste vriend is  {vrienden[2]}");
+Console.WriteLine($"Minst vriend is  {vrienden[3]}");
+```
+
+```java 
+bool[] bits = new bool[20];
+for (int i = 0; i < bits.Length; i++)
+{
+    if (i % 2 == 1)
+        bits[i] = false;
+    else
+        bits[i] = true;
+}
+
+for (int i = 0; i < bits.Length; i++)
+{
+    Console.WriteLine(bits[i]);
+}
+```
 
 
+```java 
+bool[] bits = new bool[20];
+Random r = new Random();
+for (int i = 0; i < bits.Length; i++)
+{
+    if (r.Next(0,2)==0)
+        bits[i] = false;
+    else
+        bits[i] = true;
+}
+
+int pos = 0;
+int neg = 0;
+for (int i = 0; i < bits.Length; i++)
+{
+    Console.WriteLine(bits[i]);
+    if (bits[i] == true)
+        pos++;
+    else
+        neg++;
+}
+
+Console.WriteLine($"Aantal positief {pos}");
+Console.WriteLine($"Aantal negatief {neg}");
+```
+
+```java 
+double[] getallen = new double[10];
+Random r = new Random();
+
+for (int i = 0; i < getallen.Length; i++)
+{
+    getallen[i] = r.NextDouble() * 10;
+}
+
+double gemiddelde = 0;
+for (int i = 0; i < getallen.Length; i++)
+{
+    gemiddelde += getallen[i];
+}
+Console.WriteLine($"Gemiddelde is {gemiddelde/getallen.Length}");
+```
+
+```java
+enum SchoolType { BSO, ASO, TSO, KSO};
+static void Main(string[] args)
+{
+    SchoolType[] lijst = new SchoolType[20];
+    Random r = new Random();
+
+    for (int i = 0; i < lijst.Length; i++)
+    {
+        lijst[i] = (SchoolType)r.Next(0, 4);
+    }
+
+    int aantalBSO = 0;
+    int aantalKSO = 0;
+    int aantalASO = 0;
+    int aantalTSO = 0;
+
+    for (int i = 0; i < lijst.Length; i++)
+    {
+        Console.WriteLine(lijst[i]);
+        switch (lijst[i])
+        {
+            case SchoolType.BSO:
+                aantalBSO++;
+                break;
+            case SchoolType.ASO:
+                aantalASO++;
+                break;
+            case SchoolType.TSO:
+                aantalTSO++;
+                break;
+            case SchoolType.KSO:
+                aantalKSO++;
+                break;
+            default:
+                break;
+        }
+
+    }
+
+    Console.WriteLine($"Aantal BSO: {aantalBSO}");
+    Console.WriteLine($"Aantal TSO: {aantalTSO}");
+    Console.WriteLine($"Aantal ASO: {aantalASO}");
+    Console.WriteLine($"Aantal KSO: {aantalKSO}");
+}
+```
 
 ## Vraag Array
 ```java
