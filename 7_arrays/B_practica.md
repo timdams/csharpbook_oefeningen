@@ -1,5 +1,7 @@
 
+
 ## Pittige opwarmers
+
 
 1.	Een rij van 100 gehele getallen wordt ingelezen. Maak een tweede rij die bestaat uit de elementen van de eerste rij in omgekeerde volgorde.
 2.	Een rij van 100 gehele getallen wordt ingelezen. Wissel de inhoud van de rij om.

@@ -159,6 +159,84 @@ static void Main(string[] args)
 }
 ```
 
+## Pittiger
+
+```java
+
+static void Main(string[] args)
+{
+    const int LENGTE = 20;
+    int[] arr = new int[LENGTE];
+    Random r = new Random();
+    Console.WriteLine("Start:");
+    for (int i = 0; i < arr.Length; i++)
+    {
+        //Console.WriteLine($"Geef getal {i+1}");
+        //arr[i]= int.Parse(Console.ReadLine());
+        arr[i] = r.Next(1, 101);
+        Console.Write($"{arr[i]},");
+    }
+    //Opwarmer 1
+    Console.WriteLine("\nOpwarmer 1");
+    for (int i = arr.Length - 1; i >= 0; i--)
+    {
+        Console.Write($"{arr[i]},");
+    }
+    //Opwarmer 2
+    Console.WriteLine("\nOpwarmer 2");
+    int[] moved = new int[arr.Length];
+    for (int i = 0; i < arr.Length; i++)
+    {
+        moved[i] = arr[(i + 1) % LENGTE];
+    }
+    PrintArray(moved);
+    //Opwarmer 3
+    Console.WriteLine("\nOpwarmer 3");
+    int[] moved3 = new int[arr.Length];
+    for (int i = 0; i < arr.Length; i++)
+    {
+        moved3[(i+3)%LENGTE] = arr[i];
+    }
+    PrintArray(moved3);
+    //Opwarmer 4
+    Console.WriteLine("\nOpwarmer 4");
+    Console.WriteLine("Hoeveel plaatsen opschuiven?");
+    int aantal = int.Parse(Console.ReadLine());
+    int[] moved4 = new int[arr.Length];
+    for (int i = 0; i < arr.Length; i++)
+    {
+        moved4[(i + aantal) % LENGTE] = arr[i];
+    }
+    PrintArray(moved4);
+    //Opwarmer 5
+    Console.WriteLine("\nOpwarmer 5");
+    const int GETALPERKOLOM = 3;
+    for (int i = 2; i < arr.Length; i++)
+    {
+        if((i)% GETALPERKOLOM == 0)
+        {
+            int[] temp = new int[GETALPERKOLOM];
+            for (int j = 0; j < temp.Length; j++)
+            {
+                temp[j] = arr[i + j - GETALPERKOLOM];
+            }
+            Array.Sort(temp);
+            for (int k = 0; k < temp.Length; k++)
+            {
+                Console.Write($" {temp[k]}");
+            }
+            Console.WriteLine();
+        }
+    }
+    static void PrintArray(int[] inarr)
+    {
+        for (int i = 0; i < inarr.Length; i++)
+        {
+            Console.Write($"{inarr[i]},");
+        }
+    }
+```
+
 ## Vraag Array
 ```java
 string[] vragen =
