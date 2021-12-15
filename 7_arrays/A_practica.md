@@ -8,7 +8,9 @@ Een aantal oefeningen is geïnspireerd op oefeningen van [Exercism.io](https://e
 
 * Vul een array van ints met alle getallen van 1 tot 100. Druk de array af.
 * Vul een array van ints met alle even getallen tot en met 100. Druk de array af.
+* Vraag aan de gebruiker 3 keer een getal, stop deze in een array, druk deze array af.
 * Maak een array aan en plaats daarin de 4 namen van je beste vrienden in volgorde van "beste vriend" tot "minst beste vriend". Toon nu de namen op het scherm, onder elkaar, met telkens ervoor "Beste vriend", "Tweede beste vriend", "Derde beste vriend", "Minst beste vriend".
+*  Maak een array van 20 booleans en zorg dat alle oneven indexen False zijn. (druk deze af).
 * Maak een array van 20 bool-waarden. Deze waarden zijn willekeurig. Print de array. Toon hoeveel keer true en hoeveel keer false er in de array zit.
 * Vul een array met 10 random doubles tussen 0 en 10. Toon het gemiddelde ervan.
 * Maak een enum Schooltype met mogelijke waarden TSO, KSO, ASO, KSO. Maak een array van 20 Schooltype-waarden. Vul deze met willekeurige schooltypes. Toon de array. Toon hoe vaak ieder schooltype in de array voorkomt.
