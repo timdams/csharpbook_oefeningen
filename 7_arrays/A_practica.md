@@ -49,7 +49,7 @@ Na de 6 vragen toon je vervolgens de vragen opnieuw met achter iedere vraag het 
 
 ## Array Zoeker
 
-Maak een programma dat eerst weer aan de gebruiker om 10 waarden vraagt die in een array worden gezet.
+Maak een programma dat eerst aan de gebruiker 10 waarden vraagt die in een array worden gezet.
 
 Vervolgens vraagt het programma welke waarde verwijderd moet worden. Wanneer de gebruiker hierop antwoordt met een nieuwe waarde dan zal deze nieuw ingevoerde waarde in de array gezocht worden. Indien deze gevonden wordt dan wordt deze waarde uit de array verwijderd en worden alle waarden die erachter komen met een plaatsje naar links opgeschoven, zodat achteraan de array terug een lege plek komt.
 
