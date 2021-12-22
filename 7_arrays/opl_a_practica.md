@@ -237,6 +237,54 @@ static void Main(string[] args)
     }
 ```
 
+Opwarmer 6
+```java
+static void Main(string[] args)
+{
+    Random r = new Random();
+    int[] getallen = new int[100];
+    const int kolomBreedte = 3;
+
+    //We simuleren input gebruiker met Random
+    for (int i = 0; i < getallen.Length; i++)
+    {
+        getallen[i] = r.Next(0, 100);
+    }
+
+
+    for (int i = 0; i < getallen.Length/kolomBreedte; i++)
+    {
+        int[] kolom = new int[kolomBreedte];
+        for (int j = 0; j < kolomBreedte; j++)
+        {
+            kolom[j] = getallen[i * kolomBreedte + j];
+        }
+        SorteerEnToonArray(kolom);
+    }
+
+    // Dit gedeelte is nodig indien de originele array geen exact veelvoud van het aantal elementen per deelarray
+    int overschot = getallen.Length % kolomBreedte;
+    if(overschot !=0)
+    {
+        int[] kolom = new int[overschot];
+        for (int i = 0; i < overschot; i++)
+        {
+            kolom[i] = getallen[getallen.Length - 1 - i];
+        }
+        SorteerEnToonArray(kolom);
+    }
+}
+
+private static void SorteerEnToonArray(int[] kolom)
+{
+    Array.Sort(kolom);
+    for (int k = 0; k < kolom.Length; k++)
+    {
+        Console.Write($"{kolom[k]} ");
+    }
+    Console.WriteLine();
+}
+```
 ## Vraag Array
 ```java
 string[] vragen =
