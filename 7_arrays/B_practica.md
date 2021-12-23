@@ -1,6 +1,8 @@
 
 
-
+{% hint style='tip' %}
+Volgende oefeningen vereisen dat je methoden schrijft die arrays als parameter en/of resultaat hebben.
+{% endhint %}
 
 ## Parkeergarage
 
@@ -77,10 +79,6 @@ Ontwerp een methode waarmee je een Belgisch ondernemingsnummer kan controleren. 
 Bij een geldig ondernemingsnummer verschijnt de tekst "Geldig ondernemingsnummer.", bij een ongeldig ondernemingsnummer "Ongeldig ondernemingsnummer.".
 De methode aanvaardt een string waarin je het ondernemingsnummer staat.
 
-{% hint style='tip' %}
-Er volgen nu enkele meer-dimensionale array oefeningen
-{% endhint %}
-
 
 ## Puzzelen met array deel 2 (pittig)
 
@@ -98,11 +96,16 @@ Er volgen nu enkele meer-dimensionale array oefeningen
 11.	Een rij gehele getallen met afsluitwaarde 32767 wordt ingelezen. Het aantal ingelezen getallen is onbeperkt, maar er zullen maximaal 100 verschillende getallen worden ingelezen. Druk af hoeveel verschillende getallen ingelezen werden. 
 12.	[PRO] Druk alle priemgetallen kleiner dan 100.000 af. Maak gebruik van het algoritme van Eratosthenes.
 
-{% hint style='tip' %}
-Volgende oefeningen vereisen dat je methoden schrijft die arrays als parameter en/of resultaat hebben.
-{% endhint %}
+
 
 ## Determinant
+
+
+{% hint style='tip' %}
+Er volgen nu enkele meer-dimensionale array oefeningen
+{% endhint %}
+
+
 Schrijf een programma dat een methode BerekenDeterminant heeft. Deze methode heeft één parameter als input: een 2 bij 2 array van integers. Als resultaat geeft de methode de determinant als integer terug. Zoek zelf op hoe je de determinant van een matrix kunt berekenen.
 
 Volgende voorbeeld-main dient te werken, 
