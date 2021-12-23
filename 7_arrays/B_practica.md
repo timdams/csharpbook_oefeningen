@@ -1,24 +1,6 @@
 
 
-## Pittige opwarmers
 
-
-1.	Een rij van 100 gehele getallen wordt ingelezen. Maak een tweede rij die bestaat uit de elementen van de eerste rij in omgekeerde volgorde.
-2.	Een rij van 100 gehele getallen wordt ingelezen. Wissel de inhoud van de rij om.
-3.	Een rij van 100 gehele getallen wordt ingelezen. Verschuif de inhoud van de rij 1 plaats naar achter. Het laatste getal moet eerst komen.
-4.	Een rij van 100 gehele getallen wordt ingelezen. Maak een tweede rij die bestaat uit de elementen van de eerste rij maar 1 plaats naar achter verschoven . Het laatste getal van de eerste rij moet eerst komen in de tweede rij.
-5.	Een rij van 100 gehele getallen wordt ingelezen. Maak een tweede rij die bestaat uit de elementen van de eerste rij maar 3 plaatsen naar voor verschoven. Het eerste getal van de eerste rij moet derde laatst komen in de tweede rij, het tweede getal van de eerste rij moet voorlaatst komen in de tweede rij en het derde getal van de eerste rij moet laatst komen in de tweede rij.
-6.	Een rij van 100 gehele getallen wordt ingelezen. Verschuif de inhoud van de rij 3 plaatsen naar voor. Het eerste getal moet derde laatst komen, het tweede, voorlaatst en het derde, laatst.
-7.	Gegeven is een rij van 50 getallen. Maak een tweede rij waarin geen dubbels voorkomen.
-8.	Gegeven is een gesorteerde rij van 50 getallen. Maak een tweede (eveneens gesorteerde) rij waarin geen dubbels voorkomen.
-9.	Een rij van maximaal 100 gehele getallen met afsluitwaarde 32767 wordt ingelezen. Druk het maximum van de rij af, het aantal keer dat het voorkwam en de plaats waar het de eerste keer voorkwam.
-10.	Een rij van maximaal 100 gehele getallen met afsluitwaarde 32767 wordt ingelezen. Druk het minimum van de rij af, het aantal keer dat het voorkwam en de plaats waar het de laatste keer voorkwam.
-11.	Een rij gehele getallen met afsluitwaarde 32767 wordt ingelezen. Het aantal ingelezen getallen is onbeperkt, maar er zullen maximaal 100 verschillende getallen worden ingelezen. Druk af hoeveel verschillende getallen ingelezen werden. 
-12.	[PRO] Druk alle priemgetallen kleiner dan 100.000 af. Maak gebruik van het algoritme van Eratosthenes.
-
-{% hint style='tip' %}
-Volgende oefeningen vereisen dat je methoden schrijft die arrays als parameter en/of resultaat hebben.
-{% endhint %}
 
 ## Parkeergarage
 
@@ -97,6 +79,27 @@ De methode aanvaardt een string waarin je het ondernemingsnummer staat.
 
 {% hint style='tip' %}
 Er volgen nu enkele meer-dimensionale array oefeningen
+{% endhint %}
+
+
+## Puzzelen met array deel 2 (pittig)
+
+
+1.	Een rij van 100 gehele getallen wordt ingelezen. Maak een tweede rij die bestaat uit de elementen van de eerste rij in omgekeerde volgorde.
+2.	Een rij van 100 gehele getallen wordt ingelezen. Wissel de inhoud van de rij om.
+3.	Een rij van 100 gehele getallen wordt ingelezen. Verschuif de inhoud van de rij 1 plaats naar achter. Het laatste getal moet eerst komen.
+4.	Een rij van 100 gehele getallen wordt ingelezen. Maak een tweede rij die bestaat uit de elementen van de eerste rij maar 1 plaats naar achter verschoven . Het laatste getal van de eerste rij moet eerst komen in de tweede rij.
+5.	Een rij van 100 gehele getallen wordt ingelezen. Maak een tweede rij die bestaat uit de elementen van de eerste rij maar 3 plaatsen naar voor verschoven. Het eerste getal van de eerste rij moet derde laatst komen in de tweede rij, het tweede getal van de eerste rij moet voorlaatst komen in de tweede rij en het derde getal van de eerste rij moet laatst komen in de tweede rij.
+6.	Een rij van 100 gehele getallen wordt ingelezen. Verschuif de inhoud van de rij 3 plaatsen naar voor. Het eerste getal moet derde laatst komen, het tweede, voorlaatst en het derde, laatst.
+7.	Gegeven is een rij van 50 getallen. Maak een tweede rij waarin geen dubbels voorkomen.
+8.	Gegeven is een gesorteerde rij van 50 getallen. Maak een tweede (eveneens gesorteerde) rij waarin geen dubbels voorkomen.
+9.	Een rij van maximaal 100 gehele getallen met afsluitwaarde 32767 wordt ingelezen. Druk het maximum van de rij af, het aantal keer dat het voorkwam en de plaats waar het de eerste keer voorkwam.
+10.	Een rij van maximaal 100 gehele getallen met afsluitwaarde 32767 wordt ingelezen. Druk het minimum van de rij af, het aantal keer dat het voorkwam en de plaats waar het de laatste keer voorkwam.
+11.	Een rij gehele getallen met afsluitwaarde 32767 wordt ingelezen. Het aantal ingelezen getallen is onbeperkt, maar er zullen maximaal 100 verschillende getallen worden ingelezen. Druk af hoeveel verschillende getallen ingelezen werden. 
+12.	[PRO] Druk alle priemgetallen kleiner dan 100.000 af. Maak gebruik van het algoritme van Eratosthenes.
+
+{% hint style='tip' %}
+Volgende oefeningen vereisen dat je methoden schrijft die arrays als parameter en/of resultaat hebben.
 {% endhint %}
 
 ## Determinant
