@@ -18,7 +18,7 @@ Voorbeeldoutput:
 
 ## Array Viewer
 
-Maak een programma dat een methode VisualiseerArray implementeert. De methode zal een array (type int) als parameter hebben en niets teruggeven (``void``). Echter, de methode zal met behulp van Write() de array, van eender welke grootte, op het scherm tonen. Tussen ieder element van dezelfde rij dient een tab (``\t``) gezet te worden. Je dient in de methode gebruik te maken van een for-loop.
+Maak een programma dat een methode VisualiseerArray implementeert. De methode zal een array (type int) als parameter hebben en niets teruggeven (``void``). Echter, de methode zal met behulp van Write() de array, van eender welke grootte, op het scherm tonen. Tussen ieder element van dezelfde rij dient een tab (herinner: `` \t ``) gezet te worden. Je dient in de methode gebruik te maken van een for-loop.
 Voorbeeld van main:
 
 ```java
