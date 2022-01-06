@@ -1,4 +1,4 @@
-Een verhaalgenerator is een methode die hulp-methoden gebruikt om zo een "automatisch" verhaal te verzinnen (een beetje zoals [https://pdos.csail.mit.edu/archive/scigen/](dit)). We hanteren een bottom-up approach om dit probleem aan te pakken.
+Een verhaalgenerator is een methode die hulp-methoden gebruikt om zo een "automatisch" verhaal te verzinnen. We hanteren een bottom-up approach om dit probleem aan te pakken.
 
 # Naamgenerator
 
@@ -15,7 +15,7 @@ static string GenerateNameSimple(int namelength)
     string name = "";
     for (int i = 0; i < namelength; i++)
     {
-        name += (char)r.Next('a', 'z'+1); 
+        name += (char)r.Next('Z', 'Z'+1); 
     }
     return name;
 }
@@ -93,7 +93,7 @@ static char GenereerMedeklinker()
     char result = 'E';
     while (IsKlinker(result))
     {
-        result = (char)r.Next('a', 'z'+1);
+        result = (char)r.Next('A', 'Z'+1);
     }
     return result;
 }
@@ -108,7 +108,7 @@ static string GenerateNameBetter(int namelength=6)
 {
 
     string name = "";
-    char vorigteken = (char)r.Next('a', 'Z');
+    char vorigteken = (char)r.Next('Z', 'Z'+1);
     for (int i = 0; i < namelength; i++)
     {
         if (IsKlinker(vorigteken))
