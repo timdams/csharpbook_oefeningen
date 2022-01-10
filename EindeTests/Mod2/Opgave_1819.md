@@ -35,8 +35,8 @@ Maak een methode SetupCasino:
   * Anders geeft de methode true terug en doet het volgende:
     * Het stelt het console scherm in (Width en Height) op de hoogte die via de parameters werd gegeven
     * Het vult de hele bovenste lijn van het scherm met sterretjes
-    * Op de tweede lijn komt de begroeting Welkom bij Casino AP [X]
-      * [X] vervang je door de Naam die als parameter werd meegegeven
+    * Op de tweede lijn komt de begroeting Welkom bij Casino AP "X"
+      * "X" vervang je door de Naam die als parameter werd meegegeven
     * Het vult de derde lijn van de console ook met sterretjes
 * Voorbeeld output:
 
@@ -217,3 +217,7 @@ Je behaalde een sequentie van 2 juiste gokken. Dat is 10 euro waard.
 De correcte sequentie was:
 True,True,True,True,True,True,True,False,True,False,
 ```
+
+## Afsluiten casino: 1 punt
+
+Indien de gebruiker deze optie kiest dan stopt het programma.
