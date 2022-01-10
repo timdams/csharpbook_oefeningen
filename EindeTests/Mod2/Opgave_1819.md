@@ -197,11 +197,12 @@ Er wordt op het einde ook getoond wat de volledige sequentie was
 
 ### De winst die de methode teruggeeft is als volgt:
  
-* Alle 10 juist:** +100 winst**
-* In alle andere gevallen: +(5* het aantal juist geraden)
+* Alle 10 juist: **+100 winst**
+* In alle andere gevallen: + (5 *maal* het aantal juist geraden)
 
 ### Voorbeeld spelverloop 
 
+```text
 Hoe lang kan jij de sequentie raden?Geef 0 (false) of 1 (true) in.
 Komt er juist of fout? (1 of 0)
 1   <= ingevoerd door gebruiker
