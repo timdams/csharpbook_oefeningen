@@ -34,12 +34,16 @@ Werkt het naar behoren?! Voer nu de bijhorende unit tests uit om alles extra te 
 
 ### Nummers
 
-Maak een klasse ``Nummers``. Deze klasse bevat 2 getallen (type ``int``) genaamd ``Getal1`` en ``Getal2`` die via een autoproperty kunnen aangepast worden. Er zijn 4 methoden:
+{% hint style='tip' %}
+[Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H1_Nummers).
+{% endhint %}
+
+Maak een klasse ``Nummers``. Deze klasse bevat 2 getallen (type ``int``) genaamd ``Getal1`` en ``Getal2`` die via een autoproperty kunnen aangepast worden. Er zijn 4 methoden die telkens een ``int`` teruggeven, behalve ``Quotient`` dat een ``double`` teruggeeft:
 
 * ``Som``: geeft de som van beide getallen terug.
 * ``Verschil``: geeft het verschil van beide getallen terug.
 * ``Product``: geeft het product van beide getallen terug.
-* ``Quotient``: geeft de deling van het eerste door het tweede getal terug; toon een foutboodschap (``"Kan niet delen door 0"``) op het scherm indien er een deling door nul zal gebeuren.
+* ``Quotient``: geeft de deling van het eerste door het tweede getal terug; toon een foutboodschap (``"Kan niet delen door 0"``) op het scherm indien er een deling door nul zal gebeuren. Gebruik ``Console.WriteLine`` om deze boodschap in de methode te laten verschijnen en geeft ``0.0`` terug als resultaat.
 
 Toon in je ``main`` aan dat je code werkt.
 
@@ -115,19 +119,32 @@ Gemiddelde:               13.3
 ```
 
 ### PizzaTime
+
+{% hint style='tip' %}
+[Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H1_PizzaTime).
+{% endhint %}
+
 Maak een klasse Pizza. Deze klasse heeft een aantal instantievariabelen:
 
 * ``toppings`` (``string``): bevat beschrijving van wat er op ligt, bv. ananas, peperoni, etc.
 * ``diameter`` (``integer``): doorsnede van de pizza in cm.
 * ``price`` (``double``): prijs van de pizza in euro.
 
-Zorg ervoor dat je met behulp van full properties deze 3 velden kan uitlezen en aanpassen. Bouw controle in zodat de instantievariabelen geen foute waarden kunnen gegeven worden (denk maar aan negatieve prijs en diameter, pizza zonder topping, etc.). Maak in je main een aantal pizza-instanties aan en toon de werking van de properties aan.
+Zorg ervoor dat je met behulp van full properties (met dezelfde namen, maar met hoofdletter) deze 3 velden kan uitlezen en aanpassen. 
+
+Bouw controle in zodat de instantievariabelen geen foute waarden kunnen gegeven worden: 
+* geen negatieve price en diameter
+* pizza zonder toppings is niet toegestaan (toppings mag geen lege string zijn). 
+
+Indien een niet toegestane waarde aan een property wordt gegeven dan wordt deze gewoon genegeerd en gebeurt er verder niet (de property, en dus instantievariabele, behoudt met andere woorden de waarde die het ervoor al had).
+
+Maak in je main een aantal pizza-instanties aan en toon de werking van de properties aan.
 
 ### Figuren
 
 Maak een eenvoudige klasse ``Rechthoek`` aan die een lengte en breedte als private instantievariabelen heeft. Deze kunnen enkel via full properties ingesteld worden en nooit onder 1 gaan.
 
-Maak ook een klasse ``Driehoek`` die een basis en hoogte als fields heeft.
+Maak ook een klasse ``Driehoek`` die een basis en hoogte als instantievariabelen heeft.
 
 Beide klassen hebben een methode ``ToonOppervlakte`` die de oppervlakte van de figuur in kwestie op het scherm toont.
 
