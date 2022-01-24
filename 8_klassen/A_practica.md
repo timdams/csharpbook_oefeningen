@@ -7,31 +7,39 @@ Maak een applicatie die aan de gebruiker z'n geboortedatum vraagt. Vervolgens to
 
 ### RapportModule
 
-Ontwerp een klasse ``Resultaat`` die je zal tonen wat je graad is gegeven een bepaald behaald percentage. Het enige dat je aan een ``Resultaat``-object moet kunnen geven is het behaalde percentage dat wordt bijgehouden via een auto-property. Via een methode PrintGraad kan de behaalde graad weergegeven worden, gebaseerd op dit percentage. Dit zijn de mogelijkheden:
+{% hint style='tip' %}
+[Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H1_RapportModule).
 
-* Minder dan 50%: niet geslaagd.
-* Tussen 50% en 68% (68 incl.): voldoende.
-* Tussen 68% en 75% (75 incl.): onderscheiding.
-* Tussen 75% en 85% (85 incl.): grote onderscheiding.
-* Meer dan 85%: grootste onderscheiding.
+Hoe dit werkt? Meer informatie verschijnt weldra achter deze dubbele punten: **SOON**
+{% endhint %}
 
+Ontwerp een klasse ``Rapport`` die je zal tonen wat je graad is gegeven een bepaald behaald percentage. Het enige dat je aan een ``Rapport``-object moet kunnen geven is het behaalde percentage (int) dat wordt bijgehouden via een auto-property genaamd ``Percentage``. Via een methode ``PrintGraad`` kan de behaalde graad weergegeven worden, gebaseerd op dit percentage. Dit zijn de mogelijkheden:
+
+* Minder dan 50%: ``"Niet geslaagd"``.
+* Tussen 50% en 68% (68 incl.): ``"Voldoende"``.
+* Tussen 68% en 75% (75 incl.): ``"Onderscheiding"``.
+* Tussen 75% en 85% (85 incl.): ``"Grote onderscheiding"``.
+* Meer dan 85%: ``"Grootste onderscheiding"``.
 
 Test je klasse door enkele objecten in je ``main`` en te onderzoeken of deze de juiste graden op het scherm printen. Bijvoorbeeld:
 
 ```java
-Resultaat mijnpunten = new Resultaat();
+Rapport mijnpunten = new Rapport();
 mijnpunten.Percentage = 65;
 mijnpunten.PrintGraad();
 ```
 
+Werkt het naar behoren?! Voer nu de bijhorende unit tests uit om alles extra te controleren: Test=> Run All Tests.
+
+
 ### Nummers
 
-Maak een klasse ``Nummers``. Deze klasse bevat 2 getallen (type ``int``) die via een autoproperty kunnen aangepast worden. Er zijn 4 methoden:
+Maak een klasse ``Nummers``. Deze klasse bevat 2 getallen (type ``int``) genaamd ``Getal1`` en ``Getal2`` die via een autoproperty kunnen aangepast worden. Er zijn 4 methoden:
 
 * ``Som``: geeft de som van beide getallen terug.
 * ``Verschil``: geeft het verschil van beide getallen terug.
 * ``Product``: geeft het product van beide getallen terug.
-* ``Quotient``: geeft de deling van het eerste door het tweede getal terug; toon een foutboodschap op het scherm indien er een deling door nul zal gebeuren.
+* ``Quotient``: geeft de deling van het eerste door het tweede getal terug; toon een foutboodschap (``"Kan niet delen door 0"``) op het scherm indien er een deling door nul zal gebeuren.
 
 Toon in je ``main`` aan dat je code werkt.
 

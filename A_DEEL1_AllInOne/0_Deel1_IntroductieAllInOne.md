@@ -9,5 +9,8 @@ Volgt nu een beschrijving van de belangrijkste technieken die je in de projecten
 * [Console Matrix](1_ConsoleMatrix.md): Console, ConsoleColor, Loops, Random
 * [Unicode filmpjes maken met loops](3_AsciiMovieWithLoops.md):  Loops, Beslissingen, Chars, Casting
 * [Unicode filmpjes maken met methoden](2_AsciiMoviesWithMethods.md): Vorige project + Methoden, Chars, Casting
+* [Music Maestro](EindeTests/Mod2/Opgave.md): Methoden
+* [Fun with methods: een verhaalgenerator](A_DEEL1_AllInOne/3_verhaalgenerator.md) : Methoden, Random, chars, casting loops
 * [Tekst-gebaseerd Maze game](4_MazeGame.md): Loops, Methoden, Arrays, ``out`` 
-
+* [Conway game of life](A_DEEL1_AllInOne/5_conway.md): Methoden en arrays
+* [How to make your console app look cool](A_DEEL1_AllInOne/coolconsole.md): loops
