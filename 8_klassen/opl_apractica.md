@@ -38,24 +38,17 @@ class Rapport
     {
         if(Percentage < 50)
             Console.WriteLine("Niet geslaagd");
-        else if(Percentage < 68)
+        else if(Percentage <= 68)
             Console.WriteLine("Voldoende");
-        else if(Percentage < 75)
+        else if(Percentage <= 75)
             Console.WriteLine("Onderscheiding");
-        else if(Percentage < 85)
+        else if(Percentage <= 85)
             Console.WriteLine("Grote onderscheiding");
         else Console.WriteLine("Grootste onderscheiding");
     }
 }
 ```
 
-Gebruik/test:
-
-```java
-Rapport tim =new Rapport();
-tim.Percentage = 78;
-tim.PrintGraad();
-```
 
 ## Nummers
 
@@ -73,7 +66,7 @@ class Nummers
     {
         if(Getal2==0)
         {
-            Console.WriteLine("Error");
+            Console.WriteLine("Kan niet delen door 0");
             return 0;
         }
         return Getal1 / (double)Getal2;
