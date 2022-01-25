@@ -194,17 +194,33 @@ class Student
 ## BibBoek
 
 ```java
-class BibBoek
+public class BibBoek
 {
     private const int AANTALUITLEENDAGEN = 14;
     public string Ontlener { get; set; }
-    public DateTime UitgeleendOp { get; private set; } = DateTime.Now;
-    public DateTime TeruggevenOp
+    private DateTime uitgeleend = DateTime.Now;
+    public DateTime Uitgeleend
+    {
+        set
+        {
+            uitgeleend = value;
+        }
+        private get 
+        {
+            return uitgeleend;
+        }
+    }
+    public DateTime InleverDatum
     {
         get
         {
-            return UitgeleendOp.AddDays(AANTALUITLEENDAGEN);
+            return uitgeleend.AddDays(AANTALUITLEENDAGEN);
         }
+    }
+
+    public void VerlengTermijn(int aantalDagen)
+    {
+        Uitgeleend = uitgeleend.AddDays(aantalDagen);
     }
 }
 ```

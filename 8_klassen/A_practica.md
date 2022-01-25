@@ -152,60 +152,21 @@ Toon de werking van het project aan door een aantal instanties van ``Driehoek`` 
 
 ## Week 2
 
-### Sports
-
-#### Sportspeler
-
-Kies je favoriete sport of game. Maak een klasse aan die een speler uit deze sport kan voorstellen. Verzin een 4-tal private instantievariabelen die deze spelers hebben, alsook 2 methoden die de speler moet kunnen uitvoeren. 
-
-Voorzie een methode ``StelIn`` die je toelaat om de private instantievariabeles in te stellen:
-
-Voorzie ook minstens 1 ``naam`` (``string``) instantievariabele.
-
-Voorzie per instantievariabele ook telkens een full property. Waar nodig zorg je er voor dat er geen illegale waarden kunnen ingesteld worden (bv mutsnummer bij waterpolo gaat maar van 1 tot 13).
-
-Bijvoorbeeld:
-
-* klasse ``Waterpolospeler``
-* instantievariabelen:
-  * ``spelerNaam``(``string``)
-  * ``mutsNummer`` (``int``)
-  * ``isDoelman`` (``bool``)
-  * ``isReserve``(``bool``)
-  * ``reeks`` (``string``, bv "Cadet")
-
-Methoden: ``GooiBal``, ``Watertrappen``, ``StelIn``
-
-De methode ``StelIn`` zou dan zou kunnen aangeroepen worden:
-
-```java
-speler1.StelIn("Tim", 5, false, true, "tweedeklas");
-```
-
-Wanneer de methoden worden aangeroepen zal er een tekst (mbv Console.WriteLine in de methode) op het scherm verschijnen die bv zegt ``Ik (Jos) gooi de bal``. Waarbij de naam van de speler in kwestie uit het Naam instantievariabele wordt gebruikt om mee getoond te worden.
-
-Maak vervolgens een console-applicatie aan waarin je de werking van de klasse aantoont. Maar in de applicatie een aantal speler-objecten aan, vervolgens stel je hun properties in. Vervolgens roep je enkele methoden van de spelers aan en toon je via (Console.WriteLine) ook de properties van de individuele spelerobjecten.
-
-Toon maw aan dat je:
-
-* Een klasse kunt maken (in een aparte file!)
-* Instanties (objecten) van deze klasse kunt maken
-* Kunt werken met deze instanties (properties instellen én uitlezen, aanroepen van methoden)
-
-{% hint style='tip' %}
-#### enums
-
-Kan je in voorgaand voorbeeld het instantievariabele ``reeks`` vervangen door een instantievariabele reeks dat een enum als datatype heeft?
-{% endhint %}
 
 
 ### Bibliotheek
 
-Boeken in een bibliotheek mogen maximum 14 dagen uitgeleend worden. Schrijf een console-applicatie om de volgende gegevens te tonen door middel van een klasse ``BibBoek``:
-* de naam van de ontlener, die werd ingelezen (autoproperty).
-* de datum van vandaag (autoproperty met private set).
-* de datum dat het boek ten laatste terug moet ingeleverd worden (readonly property).
+Boeken in een bibliotheek mogen maximum 14 dagen uitgeleend worden.  De klasse ``BibBoek`` heeft volgende informatie:
+* ``Ontlener``: De naam van de ontlener (autoproperty type ``string``)
+* ``Uitgeleend``: De datum dat het boek werd uitgeleend (write only property type ``DateTime`` en private set).
+* ``InleverDatum``: De datum dat het boek ten laatste terug moet ingeleverd worden (readonly property van het type ``DateTime``): deze geeft steeds een datum terug 14 dagen na de datum die via ``Uitgeleend`` werd ingesteld.
 
+De achterliggende instantievariabele bij ``Uitgeleend`` wordt standaard ingesteld bij de object-creatie op de huidige tijd (``DateTime.Now``). Als je dus vergeet de ``Uitgeleend`` property in te stellen later dan heeft deze zeker een waarde.
+
+De klasse heeft ook een methode ``VerlengTermijn`` waar je een parameter type ``int`` aan kunt meegeven. Deze methode werkt als volgt:
+De meegegeven waarde stelt het aantal dagen dat het boek extra mag uitgeleend worden. We gaan dit in orde brengen door de de ``Uitgeleend`` waarde met die dagen te verhogen. Als het boek dus was uitgeleend op 18 maart en het wordt verleng met 3 dagen dan maken van van ``Uitgeleend`` 21 maart.
+
+Test je klasse door enkele objecten ervan aan te maken.
 
 ### BankManager
 
@@ -255,3 +216,50 @@ Deze methode bevat dus niets meer dan een methode. Het lijkt erop alsof je ook d
 ### OO Textbased game (PRO)
 
 Bij de all-in-one projecten van dit semester vind je als eerst een tekstgebaseerde game ([hier](../A_DEEL2_AllInOne/2_OOTextGame.md)). Volg deze uitleg, maak het spel en voeg je eigen zotte ideeën toe.
+
+
+### Sports
+
+#### Sportspeler
+
+Kies je favoriete sport of game. Maak een klasse aan die een speler uit deze sport kan voorstellen. Verzin een 4-tal private instantievariabelen die deze spelers hebben, alsook 2 methoden die de speler moet kunnen uitvoeren. 
+
+Voorzie een methode ``StelIn`` die je toelaat om de private instantievariabeles in te stellen:
+
+Voorzie ook minstens 1 ``naam`` (``string``) instantievariabele.
+
+Voorzie per instantievariabele ook telkens een full property. Waar nodig zorg je er voor dat er geen illegale waarden kunnen ingesteld worden (bv mutsnummer bij waterpolo gaat maar van 1 tot 13).
+
+Bijvoorbeeld:
+
+* klasse ``Waterpolospeler``
+* instantievariabelen:
+  * ``spelerNaam``(``string``)
+  * ``mutsNummer`` (``int``)
+  * ``isDoelman`` (``bool``)
+  * ``isReserve``(``bool``)
+  * ``reeks`` (``string``, bv "Cadet")
+
+Methoden: ``GooiBal``, ``Watertrappen``, ``StelIn``
+
+De methode ``StelIn`` zou dan zou kunnen aangeroepen worden:
+
+```java
+speler1.StelIn("Tim", 5, false, true, "tweedeklas");
+```
+
+Wanneer de methoden worden aangeroepen zal er een tekst (mbv Console.WriteLine in de methode) op het scherm verschijnen die bv zegt ``Ik (Jos) gooi de bal``. Waarbij de naam van de speler in kwestie uit het Naam instantievariabele wordt gebruikt om mee getoond te worden.
+
+Maak vervolgens een console-applicatie aan waarin je de werking van de klasse aantoont. Maar in de applicatie een aantal speler-objecten aan, vervolgens stel je hun properties in. Vervolgens roep je enkele methoden van de spelers aan en toon je via (Console.WriteLine) ook de properties van de individuele spelerobjecten.
+
+Toon m.a.w. aan dat je:
+
+* Een klasse kunt maken (in een aparte file!)
+* Instanties (objecten) van deze klasse kunt maken
+* Kunt werken met deze instanties (properties instellen én uitlezen, aanroepen van methoden)
+
+{% hint style='tip' %}
+#### enums
+
+Kan je in voorgaand voorbeeld het instantievariabele ``reeks`` vervangen door een instantievariabele reeks dat een enum als datatype heeft?
+{% endhint %}
