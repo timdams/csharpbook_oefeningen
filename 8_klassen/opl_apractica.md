@@ -348,17 +348,15 @@ class Persoon
         }
     }
 
-    public int Leeftijd
+    public int Leeftijd()
     {
-        get
-        {
-            int leeftijd = DateTime.Now.Year - geboorteDatum.Year;
+       
+        int leeftijd = DateTime.Now.Year - geboorteDatum.Year;
 
-            if (DateTime.Now.Month < geboorteDatum.Month || (DateTime.Now.Month == DateTime.Now.Month && DateTime.Now.Day < geboorteDatum.Day))
-                leeftijd--;
+        if (DateTime.Now.Month < geboorteDatum.Month || (DateTime.Now.Month == DateTime.Now.Month && DateTime.Now.Day < geboorteDatum.Day))
+            leeftijd--;
 
-            return leeftijd;
-        }
+        return leeftijd;
     }
 }
 ```

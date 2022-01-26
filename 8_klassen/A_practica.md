@@ -205,7 +205,7 @@ Voorzie extra functionaliteit naar keuze.
 
 ### Persoon
 
-Ontwerp en implementeer een klasse Persoon met 2 velden voornaam en achternaam. Voorzie hiervoor automatische properties. Voeg bovendien een property GeboorteDatum toe. De geboortedatum moet tussen 1/1/1990 en vandaag liggen. Indien dit niet de situatie is, wordt de huidige datum gebruikt. Definieer vervolgens een methode Leeftijd, die op grond van de geboortedatum en de systeemdatum de leeftijd van de persoon levert. Voorzie de nodige testcode.
+Ontwerp en implementeer een klasse Persoon met 2 autoproperties (``string``) ``Achternaam`` en ``Voornaam``. Voeg bovendien een property ``GeboorteDatum`` toe (type ``DateTime``). De geboortedatum kan enkel waarden tussen 1/1/1990 en vandaag (moment dat code wordt uitgevoerd) liggen. Indien dit niet de situatie is, wordt de huidige datum van uitvoeren gebruikt. Definieer vervolgens een methode ``BerekenLeeftijd``, die op basis van de geboortedatum en de huidige datum de leeftijd van de persoon teruggeeft. Voorzie de nodige testcode.
 
 ### Dobbelstenen	
 
