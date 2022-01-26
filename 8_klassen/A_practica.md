@@ -74,6 +74,10 @@ Quotient = 0,352941176470588
 
 ### Studentklasse
 
+{% hint style='tip' %}
+[Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H1_Studentklasse).
+{% endhint %}
+
 Maak een nieuwe klasse ``Student``.
 
 
