@@ -92,9 +92,9 @@ Driehoek is quasi hetzelfde, met uiteraard een andere berekening van de oppervla
 ## Studentklasse
 
 ```java
-enum Klassen { EA1, EA2, EA3}
+enum Klassen { TI1,TI2,TI3 }
 
-class Student
+public class Student
 {
     public string Naam { get; set; }
     public int Leeftijd { get; set; }
@@ -119,7 +119,7 @@ class Student
         Console.WriteLine($"Communicatie:\t\t{PuntenCommunicatie}");
         Console.WriteLine($"Programming Principles:\t{PuntenProgrammingPrinciples}");
         Console.WriteLine($"Web Technology:\t\t{PuntenWebTech}");
-        Console.WriteLine($"Gemiddelde:\t\t{BerekenTotaalCijfer():0.0}");
+        Console.WriteLine($"Gemiddelde:\t\t{BerekenTotaalCijfer()}");
     }
 }
 ```

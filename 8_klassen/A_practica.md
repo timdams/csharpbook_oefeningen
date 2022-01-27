@@ -97,7 +97,7 @@ Test je programma door enkele studenten aan te maken en in te stellen. Volgende 
 
 ```java
     Student student1= new Student();
-    student1.Klas = Klassen.EA2;
+    student1.Klas = Klassen.TI1;
     student1.Leeftijd = 21;
     student1.Naam = "Joske Vermeulen";
     student1.PuntenCommunicatie = 12;
@@ -111,7 +111,7 @@ Output:
 
 ```text
 Joske Vermeulen, 21 jaar
-Klas: EA2
+Klas: TI1
 
 Cijferrapport:
 **********
