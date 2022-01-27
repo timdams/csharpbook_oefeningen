@@ -2,8 +2,7 @@
 
 ## Week 1
 
-### Verjaardag
-Maak een applicatie die aan de gebruiker z'n geboortedatum vraagt. Vervolgens toont het programma op welke dag hij volgend jaar jarig zal zijn én hoeveel dagen hij nog moet wachten. Uiteraard gebruik je ``DateTime`` voor deze applicatie.
+
 
 ### RapportModule
 
@@ -156,7 +155,8 @@ Toon de werking van het project aan door een aantal instanties van ``Driehoek`` 
 
 ## Week 2
 
-
+### Verjaardag
+Maak een applicatie die aan de gebruiker z'n geboortedatum vraagt. Vervolgens toont het programma op welke dag hij volgend jaar jarig zal zijn én hoeveel dagen hij nog moet wachten. Uiteraard gebruik je ``DateTime`` voor deze applicatie.
 
 ### Bibliotheek
 
