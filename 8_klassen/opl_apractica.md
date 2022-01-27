@@ -11,20 +11,6 @@ while (true)
 }
 ```
 
-## Verjaardag
-
-```java
-Console.WriteLine("Geef je verjaardag (formaat: d/m . Bv 18/3)");
-DateTime verj = DateTime.Parse(Console.ReadLine());
-
-
-if (verj < DateTime.Today)
-    verj = verj.AddYears(1);
-
-TimeSpan dagenover = verj - DateTime.Today;
-
-Console.WriteLine($"Je verjaart over {dagenover.Days} dagen");
-```
 
 # Oefeningen
 
@@ -190,6 +176,22 @@ class Student
 ```
 
 # Week 2
+
+## Verjaardag
+
+```java
+Console.WriteLine("Geef je verjaardag (formaat: d/m . Bv 18/3)");
+DateTime verj = DateTime.Parse(Console.ReadLine());
+
+
+if (verj < DateTime.Today)
+    verj = verj.AddYears(1);
+
+TimeSpan dagenover = verj - DateTime.Today;
+
+Console.WriteLine($"Je verjaart over {dagenover.Days} dagen");
+```
+
 
 ## BibBoek
 
