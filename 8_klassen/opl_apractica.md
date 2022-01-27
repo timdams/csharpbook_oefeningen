@@ -1,15 +1,3 @@
-# DateTime
-
-## Klokje
-
-```java
-while (true)
-{
-    Console.WriteLine(DateTime.Now.ToString("HH:mm:ss"));
-    System.Threading.Thread.Sleep(1000);
-    Console.Clear();
-}
-```
 
 
 # Oefeningen
@@ -82,7 +70,7 @@ class Rechthoek
 
     public void ToonOppervlakte()
     {
-        Console.WriteLine($"Oppervlakte is= {Lengte*Breedte}"  );
+        Console.WriteLine($"{Lengte*Breedte}");
     }
 }
 ```

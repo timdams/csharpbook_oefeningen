@@ -145,9 +145,14 @@ Maak in je main een aantal pizza-instanties aan en toon de werking van de proper
 
 ### Figuren
 
-Maak een eenvoudige klasse ``Rechthoek`` aan die een lengte en breedte als private instantievariabelen heeft. Deze kunnen enkel via full properties ingesteld worden en nooit onder 1 gaan.
 
-Maak ook een klasse ``Driehoek`` die een basis en hoogte als instantievariabelen heeft.
+{% hint style='tip' %}
+[Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H1_Figuren).
+{% endhint %}
+
+Maak een eenvoudige klasse ``Rechthoek`` aan die een lengte en breedte als private instantievariabelen heeft (type ``int``). Deze kunnen enkel via full properties ingesteld worden en nooit onder 1 gaan.
+
+Maak ook een klasse ``Driehoek`` die een basis en hoogte als instantievariabelen (type ``int``) heeft en bijhorende full props. 
 
 Beide klassen hebben een methode ``ToonOppervlakte`` die de oppervlakte van de figuur in kwestie op het scherm toont.
 
