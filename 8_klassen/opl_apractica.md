@@ -175,9 +175,11 @@ DateTime verj = DateTime.Parse(Console.ReadLine());
 if (verj < DateTime.Today)
     verj = verj.AddYears(1);
 
-TimeSpan dagenover = verj - DateTime.Today;
 
-Console.WriteLine($"Je verjaart over {dagenover.Days} dagen");
+string dagLokaal = System.Globalization.DateTimeFormatInfo.CurrentInfo.GetDayName(verj.DayOfWeek);
+TimeSpan dagenOver = verj - DateTime.Today;
+
+Console.WriteLine($"Je ben jarig over {dagenOver.Days} dagen en dat is op een {dagLokaal}.");
 ```
 
 
