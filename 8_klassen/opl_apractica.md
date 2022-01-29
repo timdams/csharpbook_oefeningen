@@ -189,7 +189,7 @@ Console.WriteLine($"Je ben jarig over {dagenOver.Days} dagen en dat is op een {d
 public class BibBoek
 {
     private const int AANTALUITLEENDAGEN = 14;
-    public string Ontlener { get; set; }
+    public string Ontlener { get; set; } = "onbekend"
     private DateTime uitgeleend = DateTime.Now;
     public DateTime Uitgeleend
     {

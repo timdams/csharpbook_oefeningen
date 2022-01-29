@@ -186,12 +186,17 @@ Je bent over 124 dagen jarig op een Dinsdag
 
 ### Bibliotheek
 
+{% hint style='tip' %}
+[Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H1_Bibliotheek).
+{% endhint %}
+
 Boeken in een bibliotheek mogen maximum 14 dagen uitgeleend worden.  De klasse ``BibBoek`` heeft volgende informatie:
-* ``Ontlener``: De naam van de ontlener (autoproperty type ``string``)
+
+* ``Ontlener``: De naam van de ontlener (autoproperty type ``string``, beginwaarde = "onbekend")
 * ``Uitgeleend``: De datum dat het boek werd uitgeleend (write only property type ``DateTime`` en private set).
 * ``InleverDatum``: De datum dat het boek ten laatste terug moet ingeleverd worden (readonly property van het type ``DateTime``): deze geeft steeds een datum terug 14 dagen na de datum die via ``Uitgeleend`` werd ingesteld.
 
-De achterliggende instantievariabele bij ``Uitgeleend`` wordt standaard ingesteld bij de object-creatie op de huidige tijd (``DateTime.Now``). Als je dus vergeet de ``Uitgeleend`` property in te stellen later dan heeft deze zeker een waarde.
+De achterliggende instantievariabele bij ``Uitgeleend`` wordt standaard ingesteld bij de object-creatie op de huidige tijd (``DateTime.Now`` toewijzen aan de achterliggende instantievariabele). Als je dus vergeet de ``Uitgeleend`` property in te stellen later dan heeft deze zeker een waarde.
 
 De klasse heeft ook een methode ``VerlengTermijn`` waar je een parameter type ``int`` aan kunt meegeven. Deze methode werkt als volgt:
 De meegegeven waarde stelt het aantal dagen dat het boek extra mag uitgeleend worden. We gaan dit in orde brengen door de de ``Uitgeleend`` waarde met die dagen te verhogen. Als het boek dus was uitgeleend op 18 maart en het wordt verleng met 3 dagen dan maken van van ``Uitgeleend`` 21 maart.
