@@ -345,7 +345,7 @@ class Persoon
         }
     }
 
-    public int Leeftijd()
+    public int BerekenLeeftijd()
     {
        
         int leeftijd = DateTime.Now.Year - geboorteDatum.Year;

@@ -255,7 +255,15 @@ Indien de ``HaalGeldAf`` methode wordt aangeroepen en er werd meer geld afgehaal
 
 ### Persoon
 
-Ontwerp en implementeer een klasse Persoon met 2 autoproperties (``string``) ``Achternaam`` en ``Voornaam``. Voeg bovendien een property ``GeboorteDatum`` toe (type ``DateTime``). De geboortedatum kan enkel waarden tussen 1/1/1990 en vandaag (moment dat code wordt uitgevoerd) liggen. Indien dit niet de situatie is, wordt de huidige datum van uitvoeren gebruikt. Definieer vervolgens een methode ``BerekenLeeftijd``, die op basis van de geboortedatum en de huidige datum de leeftijd van de persoon teruggeeft. Voorzie de nodige testcode.
+{% hint style='tip' %}
+[Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H1_Persoon).
+{% endhint %}
+
+Ontwerp en implementeer een klasse Persoon met 2 autoproperties (``string``) ``Achternaam`` en ``Voornaam``. 
+
+Voeg bovendien een full property ``GeboorteDatum`` toe (type ``DateTime``). De geboortedatum kan enkel waarden tussen 1/1/1990 en vandaag (moment dat code wordt uitgevoerd) liggen. Indien dit niet de situatie is, wordt de huidige datum van uitvoeren gebruikt. 
+
+Definieer vervolgens een methode ``BerekenLeeftijd``, die op basis van de ingestelde geboortedatum en de huidige datum (dat programma wordt uitgevoerd) de leeftijd (als ``int``) van de persoon teruggeeft.  
 
 ### Dobbelstenen	
 
