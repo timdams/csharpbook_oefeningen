@@ -205,36 +205,51 @@ Test je klasse door enkele objecten ervan aan te maken.
 
 ### BankManager
 
-Ontwerp een klasse ``Rekening`` die minstens instantievariabelen ``naamKlant``, ``balans`` en ``rekeningNummer``(``string``) bevat. Voorzie 3 methoden:
+{% hint style='tip' %}
+[Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H1_BankManager).
+{% endhint %}
 
-1. ``HaalGeldAf``: bepaald bedrag (als parameter) wordt van de ``balans`` verwijderd.
-2. ``StortGeld``: bepaald bedrag (als parameter) wordt op de rekening gezet en aan ``balans`` toegevoegd.
-3. ``ToonBalans``: het totale bedrag op de rekening wordt getoond, alsook de naam van de klant en het rekeningnummer.
+#### Deel 1
 
-Pas de ``HaalGeldAf`` methode aan zodat als returntype het bedrag (``int``) wordt teruggegeven. Indien het gevraagde bedrag meer dan de ``balans`` is dan geef je al het geld terug dat nog op de rekening staat en toon je in de console dat niet al het geld kon worden gegeven.
+We maken een ``Rekening`` klasse die kan gebruikt worden om de bankrekening van een klant voor te stellen. Deze heeft volgende zaken:
+
+* Een instantievariabele van het type ``int`` genaamd ``balans``. Deze variabele houdt het totale bedrag bij dat op de rekening staat.
+* 2 autoproperties van type ``string`` namelijk ``NaamKlant`` en ``RekeningNummer``.
+* 1 readonly property  ``Balans`` die de balans teruggeeft.
+
+Voorzie 3 methoden:
+
+1. ``HaalGeldAf``: bepaald bedrag (als parameter type ``int``) wordt van de ``balans`` verwijderd.
+2. ``StortGeld``: bepaald bedrag (als parameter type ``int``) wordt op de rekening gezet en aan ``balans`` toegevoegd.
+3. ``ToonInfo``: het totale bedrag op de rekening wordt getoond op het scherm, alsook de naam van de klant en het rekeningnummer (*ook de staat wanneer je deel 2 hebt gemaakt wordt getoond*).
+
+Pas de ``HaalGeldAf`` methode aan zodat als returntype het bedrag (``int``) wordt teruggegeven. Indien het gevraagde bedrag meer dan de ``balans`` is dan geef je al het geld terug dat nog op de rekening staat en toon je in de console dat niet al het geld kon worden gegeven (error die verschijnt: ``Rekening leeg nu``.)
 
 Maak 2 instanties van het type ``Rekening`` aan en toon aan dat je geld van de ene Rekening aan de andere kunt geven, als volgt:
 
 ```java
-BankRekening rekening1 = new BankRekening();
-BankRekening rekening2 = new BankRekening();
+//rekening 2 geeft 300 euro aan rekening 1
+rekening1.StortGeld(rekening2.HaalGeldAf(300));
 ```
-
-Voeg aan de ``Rekening``-klasse een instantievariabele vanvan het type ``RekeningState`` toe, dat een enumeratie bevat. De Rekening kan in volgende states zijn ``Geldig``, ``Geblokkeerd``). 
-
-Maak een bijhorende publieke Methode waarmee je de Rekening van state kunt veranderen. Deze methode (noem ze ``ChangeState``) vereist geen parameters. Telkens je ze aanroept wordt de staat omgewisseld. Als dus het object momenteel op ``Geldig`` stond, dan wordt ze nu ``Geblokkeerd`` en omgekeerd.
-
-Indien een persoon geld van of naar een Geblokkeerde rekening wil sturen dan zal er een error op het scherm verschijnen.
 
 Test je klasse.
 
-1. Nieuwe klant aanmaken (max 10) 
+1. Nieuwe klant aanmaken
 2. Status van bestaande klant tonen 
 3. Geld op een bepaalde Rekening zetten 
 4. Geld van een bepaalde Rekening afhalen
 5. Geld tussen 2 Rekeningen overschrijven
 
 Voorzie extra functionaliteit naar keuze.
+
+##### Deel 2
+Voeg aan de ``Rekening``-klasse een autoproperty,genaamd ``Staat``, met private set toe van het type ``RekeningStaat`` toe, dat een enumeratie bevat. De Rekening kan in volgende staten zijn ``Geldig``, ``Geblokkeerd``. Een rekening is Geldig wanneer een nieuwe rekening wordt geopend.
+
+Maak een bijhorende publieke Methode waarmee je de Rekening van staat kunt veranderen. Deze methode (noem ze ``VeranderStaat``) vereist geen parameters. Telkens je ze aanroept wordt de staat omgewisseld. Als dus het object momenteel op ``Geldig`` stond, dan wordt ze nu ``Geblokkeerd`` en omgekeerd.
+
+Indien een persoon geld van of naar een Geblokkeerde rekening wil sturen dan zal er een error op het scherm verschijnen, namelijk ``Gaat niet. Rekening geblokkeerd.``. Idem bij de ``StortGeld`` methode.
+
+Indien de ``HaalGeldAf`` methode wordt aangeroepen en er werd meer geld afgehaald dan de balans dan zal de rekening ook op Geblokkeerd gezet worden na het verschijnen van de foutboodschap ("Rekening leeg nu").
 
 
 

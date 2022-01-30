@@ -237,29 +237,34 @@ class Dobbelstenen
 ```
 
 ## BankManager
-*Gebaseerd op de oplossing van Ethan De Bois.*
+
 
 ```java
-class Rekening
+public enum RekeningStaat { Geblokkeerd, Geldig }
+public class Rekening
 {
-    private string naamKlant;
-    private string rekeningNummer;
+
+    public RekeningStaat Staat { get; private set; } = RekeningStaat.Geldig;
+
+    public string RekeningNummer { get; set; }
+    public string NaamKlant { get; set; }
+
     private int balans;
-    public State RekeningState { get; private set; } = (State)0;
-
-    public string Rekeningnummer {get;set;}
-    public string NaamKlant {get;set;}
-
+    public int Balans
+    {
+        get {return balans;}
+    }
     //methoden
     public int HaalGeldAf(int bedrag)
     {
-        if (RekeningState == State.Geldig)
+        if (Staat == RekeningStaat.Geldig)
         {
             if (bedrag > balans)
             {
                 int over = balans;
                 balans = 0;
-                Console.WriteLine("Niet al het geld kon teruggegeven worden.");
+                Console.WriteLine("Rekening leeg nu");
+                VeranderStaat();
                 return over;
             }
             else
@@ -270,34 +275,34 @@ class Rekening
         }
         else
         {
-            Console.WriteLine("Kan niet afhalen - Rekening geblokkeerd.");
+            Console.WriteLine("Gaat niet. Rekening geblokkeerd.");
             return 0;
         }
     }
     public void StortGeld(int bedrag)
     {
-        if (RekeningState == State.Geldig)
+        if (Staat == RekeningStaat.Geldig)
             balans += bedrag;
         else
-            Console.WriteLine("Kan niet storten - Rekening geblokkeerd.");
+            Console.WriteLine("Gaat niet. Rekening geblokkeerd.");
     }
     public void ToonBalans()
     {
-        Console.Write($"Naam:\t\t{naamKlant}\nRekeningnummer: {Rekeningnummer}\nStaat:\t\t{RekeningState}\nBalans:\t\t");
+        Console.Write($"Naam:\t\t{NaamKlant}\nRekeningnummer: {Rekeningnummer}\nStaat:\t\t{Staat}\nBalans:\t\t");
         Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine($"${balans}\n");
         Console.ResetColor();
     }
-    public void ChangeState()
+    public void VeranderStaat()
     {
-        if (RekeningState == (State)0)
-            RekeningState = (State)1;
+        if (Staat == RekeningStaat.Geldig)
+            Staat = RekeningStaat.Geblokkeerd;
         else
-            RekeningState = (State)0;
+            Staat = RekeningStaat.Geldig;
     }
 
 }
-enum State { Geldig, Geblokkeerd }
+
 ```
 
 ```java
