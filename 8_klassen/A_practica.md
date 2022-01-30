@@ -265,15 +265,6 @@ Voeg bovendien een full property ``GeboorteDatum`` toe (type ``DateTime``). De g
 
 Definieer vervolgens een methode ``BerekenLeeftijd``, die op basis van de ingestelde geboortedatum en de huidige datum (dat programma wordt uitgevoerd) de leeftijd (als ``int``) van de persoon teruggeeft.  
 
-### Dobbelstenen	
-
-Ontwerp en implementeer een klasse PaarDobbelstenen, bestaande uit 2 dobbelstenen (elk met 6 oppervlakken). Creëer een klasse met een ``WerpEnTel6`` methode, waarin 1000 keer met een paar dobbelstenen wordt gegooid. Bereken hoeveel keer een dubbel zes voorkomt, dit wordt vervolgens getoond op het scherm.
-
-Deze methode bevat dus niets meer dan een methode. Het lijkt erop alsof je ook dobbelsteencode etc moet implementeren maar dat hoeft dus niet. De methode gooit gewoon 1000x na elkaar 2 getallen, telkens die 2 getallen 6 zijn onthoud je dit.
-
-### OO Textbased game (PRO)
-
-Bij de all-in-one projecten van dit semester vind je als eerst een tekstgebaseerde game ([hier](../A_DEEL2_AllInOne/2_OOTextGame.md)). Volg deze uitleg, maak het spel en voeg je eigen zotte ideeën toe.
 
 
 ### Sports
@@ -321,3 +312,14 @@ Toon m.a.w. aan dat je:
 
 Kan je in voorgaand voorbeeld het instantievariabele ``reeks`` vervangen door een instantievariabele reeks dat een enum als datatype heeft?
 {% endhint %}
+
+### Dobbelstenen	
+
+Ontwerp en implementeer een klasse PaarDobbelstenen, bestaande uit 2 dobbelstenen (elk met 6 oppervlakken). Creëer een klasse met een ``WerpEnTel6`` methode, waarin 1000 keer met een paar dobbelstenen wordt gegooid. Bereken hoeveel keer een dubbel zes voorkomt, dit wordt vervolgens getoond op het scherm.
+
+Deze methode bevat dus niets meer dan een methode. Het lijkt erop alsof je ook dobbelsteencode etc moet implementeren maar dat hoeft dus niet. De methode gooit gewoon 1000x na elkaar 2 getallen, telkens die 2 getallen 6 zijn onthoud je dit.
+
+
+### OO Textbased game (PRO)
+
+Bij de all-in-one projecten van dit semester vind je als eerst een tekstgebaseerde game ([hier](../A_DEEL2_AllInOne/2_OOTextGame.md)). Volg deze uitleg, maak het spel en voeg je eigen zotte ideeën toe.

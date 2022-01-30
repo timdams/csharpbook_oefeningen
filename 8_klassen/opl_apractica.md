@@ -48,35 +48,6 @@ class Nummers
 }
 ```
 
-## Figure
-
-```java
-class Rechthoek
-{
-    private int lengte = 1;
-    public int Lengte
-    {
-        get { return lengte; }
-        set { if (value >= 1) lengte = value; }
-    }
-
-    private int breedte = 1;
-
-    public int Breedte
-    {
-        get { return  breedte; }
-        set { if (value >= 1) breedte = value; }
-        }
-
-    public void ToonOppervlakte()
-    {
-        Console.WriteLine($"{Lengte*Breedte}");
-    }
-}
-```
-
-Driehoek is quasi hetzelfde, met uiteraard een andere berekening van de oppervlakte.
-
 ## Studentklasse
 
 ```java
@@ -163,6 +134,37 @@ public class Student
 	}
 ```
 
+
+## Figuren
+
+```java
+class Rechthoek
+{
+    private int lengte = 1;
+    public int Lengte
+    {
+        get { return lengte; }
+        set { if (value >= 1) lengte = value; }
+    }
+
+    private int breedte = 1;
+
+    public int Breedte
+    {
+        get { return  breedte; }
+        set { if (value >= 1) breedte = value; }
+        }
+
+    public void ToonOppervlakte()
+    {
+        Console.WriteLine($"{Lengte*Breedte}");
+    }
+}
+```
+
+Driehoek is quasi hetzelfde, met uiteraard een andere berekening van de oppervlakte.
+
+
 # Week 2
 
 ## Verjaardag
@@ -183,7 +185,7 @@ Console.WriteLine($"Je ben jarig over {dagenOver.Days} dagen en dat is op een {d
 ```
 
 
-## BibBoek
+## Bibliotheek
 
 ```java
 public class BibBoek
@@ -217,24 +219,7 @@ public class BibBoek
 }
 ```
 
-## Dobbelstenen
 
-```java
-class Dobbelstenen
-{
-    public void WerpEnTel6()
-    {
-        Random r = new Random();
-        int aantalZes = 0;
-        for (int i = 0; i < 1000; i++)
-        {
-            if (r.Next(1, 7) == 6 && r.Next(1, 7) == 6)
-                aantalZes++;
-        }
-        Console.WriteLine($"{aantalZes} keren 6 gegooid. Dat is {aantalZes/10.0}%");
-    }
-}
-```
 
 ## BankManager
 
@@ -354,6 +339,25 @@ class Persoon
             leeftijd--;
 
         return leeftijd;
+    }
+}
+```
+
+## Dobbelstenen
+
+```java
+class Dobbelstenen
+{
+    public void WerpEnTel6()
+    {
+        Random r = new Random();
+        int aantalZes = 0;
+        for (int i = 0; i < 1000; i++)
+        {
+            if (r.Next(1, 7) == 6 && r.Next(1, 7) == 6)
+                aantalZes++;
+        }
+        Console.WriteLine($"{aantalZes} keren 6 gegooid. Dat is {aantalZes/10.0}%");
     }
 }
 ```
