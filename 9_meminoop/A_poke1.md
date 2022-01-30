@@ -3,9 +3,15 @@ Er zijn geen aparte Exception handling oefeningen. De bedoeling is dat je zelf s
 {% endhint %}
 
 
-### Meetlat
+# Meetlat
 
-Maak een klasse ``Meetlat``. Via een write-only property ``BeginLengte`` kan de gebruiker de lengte van een voorwerp instellen (in meter). Via een reeks read-only properties (die transformeren) kan de gebruiker deze lengte in verschillende eenheden uitlezen namelijk:
+{% hint style='tip' %}
+[Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H2_Meetlat).
+{% endhint %}
+
+Maak een klasse ``Meetlat``. Via een write-only property ``BeginLengte`` kan de gebruiker de lengte van een voorwerp instellen (in meter, type ``double``) van de instantievariabele ``lengte``.
+ 
+Via een reeks read-only properties (die transformeren) kan de gebruiker deze lengte in verschillende eenheden uitlezen namelijk (alles van type ``double``):
 
 * ``LengteInM``
 * ``LengteInCm``
@@ -21,7 +27,7 @@ Console.WriteLine($"{mijnLat.LengteInM} meter is {mijnLat.LengteInVoet} voet.");
 ```
 
 
-### Bankmanager 2
+# Bankmanager 2
 
 Breidt de bankmanager oefening uit het vorige hoofdstuk uit met volgende functionaliteiten:
 * Voorzie Exception Handling op alle plaatsen waar potentiële problemen kunnen opdoeken.

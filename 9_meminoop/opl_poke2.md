@@ -1,7 +1,7 @@
 # Meetlat
 
 ```java
-class Meetlat
+public class Meetlat
 {
     private double lengte;
     public double BeginLengte
