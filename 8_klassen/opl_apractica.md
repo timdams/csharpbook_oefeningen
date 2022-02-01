@@ -191,7 +191,7 @@ Console.WriteLine($"Je ben jarig over {dagenOver.Days} dagen en dat is op een {d
 public class BibBoek
 {
     private const int AANTALUITLEENDAGEN = 14;
-    public string Ontlener { get; set; } = "onbekend"
+    public string Ontlener { get; set; } = "onbekend";
     private DateTime uitgeleend = DateTime.Now;
     public DateTime Uitgeleend
     {
@@ -273,7 +273,7 @@ public class Rekening
     }
     public void ToonBalans()
     {
-        Console.Write($"Naam:\t\t{NaamKlant}\nRekeningnummer: {Rekeningnummer}\nStaat:\t\t{Staat}\nBalans:\t\t");
+        Console.Write($"Naam:\t\t{NaamKlant}\nRekeningnummer: {RekeningNummer}\nStaat:\t\t{Staat}\nBalans:\t\t");
         Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine($"${balans}\n");
         Console.ResetColor();

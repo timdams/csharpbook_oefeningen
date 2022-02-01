@@ -4,27 +4,33 @@ Vul de ``Meetlat`` klasse uit het vorige hoofdstuk aan met een constructor. De c
 
 ``lengteInMeter`` stel je nu in via de parameter die je in de constructor meekrijgt.
 
-# Sport simulator
-Haal je ``Sportspeler`` klasse van van het vorige hoofdstuk boven en voeg volgende statische methode er aan toe (vervang het soort speler door de naam van jouw klasse. Mijn klasse noemde ``Waterpolospeler``)
 
-## Schrijf een methode genaamd:
-``static void SimuleerSpeler(Waterpolospeler testspeler)``
+# Digitale kluis
 
-(vervang dus Waterpolospeler door de klasse die je zelf hebt gemaakt)
+Maak een klasse ``DigitaleKluis`` die we gaan gebruiken om een kluis voor te stellen.
 
-De SimuleerSpeler-methode zal beide methoden van je klasse telkens 3x aanroepen m.b.v. een for-loop in de methode (dus in mijn geval 3x GooiBal en 3xWatertrappen)
+De klasse heeft volgende elementen:
 
-Test je methode door 2 objecten aan te maken en telkens mee te geven als parameter.
+* Een fullproperty ``Code`` met private set. De get van deze property zal altijd -666 teruggeven, tenzij ``CanShowcode`` op ``true`` staat, in dit geval zal de effectieve code worden terug gegeven die in het private field staat. 
+* De effectieve toegang tot de kluis wordt bewaard in de achterliggende instantievariabele die bij deze full property hoort. 
+* Een overloaded constructor die als parameter een geheel getal toelaat. Dit getal zal worden toegewezen aan ``Code``.
+* Een full property ``CanShowCode`` die kan ingesteld worden op ``true`` or ``false``, om aan te geven of de code van buitenuit kan gezien worden.
+* Een read-only property ``CodeLevel`` van type ``int``. Deze property zal het level van de code teruggeven. Het level is eenvoudigweg de code gedeeld door 1000 als geheel getal (dus indien de code 500 is zal 0 worden teruggegeven, indien de code 2000 is wordt 2 teruggegeven, etc.) 
+* Een methode ``TryCode`` die een geheel getal als parameter aanvaardt. De methode geeft een ``true`` terug indien de code correct was, anders ``false``. Deze methode kan gebruikt worden om extern een code te testen , indien deze overeenkomt met de bewaarde code dan zal gemeld worden dat de code geldig is en wordt ook getoond hoeveel keer de gebruiker geprobeerd heeft. Indien de gebruiker -666 meegaf dan meldt de methode dat de gebruiker een *cheater* is . Indien de gebruiker een foute code meegaf dan meldt de methode dat dit een foute code was en wordt het aantal pogingen met 1 verhoogd.  
+* Een private variabele ``aantalpogingen`` om bij te houden hoe vaak de gebruiker geprobeerd heeft de code te vinden.
+* Een ``static`` methode waar je een kluis-object aan kan geven. De methode zal alle mogelijke codes brute forcen (met een loop) door telkens de ``TryCode`` methode van de meegegeven kluis aan te roepen, tot dat de juiste code wordt gevonden. Wanneer de code werd gevonden zal het aantal pogingen getoond worden.
 
-## Maak een tweede methode
-``static void SimuleerWedstrijd(Waterpolospeler speler1, Waterpolospeler speler2)``
 
-Bij aanroep van de methode verschijnt er op het scherm wie van beide speler zou winnen als ze zouden spelen. Gebruik een random uitkomst om te bepalen over speler 1 of 2 wint. Toon op het scherm "Speler 1 wint." Gevolg door de aanroep van iedere methode van die speler.
+Maak enkele Digitale Kluis objecten aan in je ``main`` en test of je bovenstaande klasse correct is geïmplementeerd.
 
-## Maak een derde methode
-``static Waterpolospeler BesteSpeler(Waterpolospeler speler1, Waterpolospeler speler2)``
 
-Deze methode gaat ook random bepalen welke speler de beste is. Vervolgens geef je deze speler terug als resultaat. In de main roep je vervolgens iedere methode van dit object aan.
+# Bibliotheek deel 2
+
+Neem de Bibliotheek oefening uit hoofdstuk 1 erbij. Zorg ervoor dat de ``BibBoek`` klasse`volgende zaken heeft:
+
+* Een default constructor die de ``Uitgeleend`` datum op gisteren zet.
+* Een overloaded constructor die toelaat om de ontlener (``string``) en ``Uitgeleend`` (``DateTime``) als parameters mee tegen en in te stellen in het object. Indien de meegeven datum later is dan de huidige datum dan zal er een uitzonderingen worden opgeworpen.
+* Een ``static`` methode ``VeranderAlgemeneUitleenTermijn`` , die 1 ``int`` als parameter aanvaardt.De methode zorgt ervoor dat het aantal dagen dat je boek mag uitlenen verandert wordt naar de meegeven parameter. Tip: dit zal vereisen dat je een static instantievariabele hebt die je vervolgens in je ``InleverDatum`` get'r gebruikt.
 
 # Pokémons deel 2
 
@@ -49,20 +55,25 @@ Pas de kennis van constructors toe op je Pokémon-project uit het vorige hoofdst
 
 Toon in je hoofdprogramma aan dat je kunt werken met deze static methoden en properties.
 
-### Digitale kluis
 
-Maak een klasse ``DigitaleKluis`` die we gaan gebruiken om een kluis voor te stellen.
+# Sport simulator
+Haal je ``Sportspeler`` klasse van van het vorige hoofdstuk boven en voeg volgende statische methode er aan toe (vervang het soort speler door de naam van jouw klasse. Mijn klasse noemde ``Waterpolospeler``)
 
-De klasse heeft volgende elementen:
+## Schrijf een methode genaamd:
+``static void SimuleerSpeler(Waterpolospeler testspeler)``
 
-* Een fullproperty ``Code`` met private set. De get van deze property zal altijd -666 teruggeven, tenzij ``CanShowcode`` op ``true`` staat, in dit geval zal de effectieve code worden terug gegeven die in het private field staat. 
-* De effectieve toegang tot de kluis wordt bewaard in de achterliggende instantievariabele die bij deze full property hoort. 
-* Een overloaded constructor die als parameter een geheel getal toelaat. Dit getal zal worden toegewezen aan ``Code``.
-* Een full property ``CanShowCode`` die kan ingesteld worden op ``true`` or ``false``, om aan te geven of de code van buitenuit kan gezien worden.
-* Een read-only property ``CodeLevel`` van type ``int``. Deze property zal het level van de code teruggeven. Het level is eenvoudigweg de code gedeeld door 1000 als geheel getal (dus indien de code 500 is zal 0 worden teruggegeven, indien de code 2000 is wordt 2 teruggegeven, etc.) 
-* Een methode ``TryCode`` die een geheel getal als parameter aanvaardt. De methode geeft een ``true`` terug indien de code correct was, anders ``false``. Deze methode kan gebruikt worden om extern een code te testen , indien deze overeenkomt met de bewaarde code dan zal gemeld worden dat de code geldig is en wordt ook getoond hoeveel keer de gebruiker geprobeerd heeft. Indien de gebruiker -666 meegaf dan meldt de methode dat de gebruiker een *cheater* is . Indien de gebruiker een foute code meegaf dan meldt de methode dat dit een foute code was en wordt het aantal pogingen met 1 verhoogd.  
-* Een private variabele ``aantalpogingen`` om bij te houden hoe vaak de gebruiker geprobeerd heeft de code te vinden.
-* Een ``static`` methode waar je een kluis-object aan kan geven. De methode zal alle mogelijke codes brute forcen (met een loop) door telkens de ``TryCode`` methode van de meegegeven kluis aan te roepen, tot dat de juiste code wordt gevonden. Wanneer de code werd gevonden zal het aantal pogingen getoond worden.
+(vervang dus Waterpolospeler door de klasse die je zelf hebt gemaakt)
 
+De SimuleerSpeler-methode zal beide methoden van je klasse telkens 3x aanroepen m.b.v. een for-loop in de methode (dus in mijn geval 3x GooiBal en 3xWatertrappen)
 
-Maak enkele Digitale Kluis objecten aan in je ``main`` en test of je bovenstaande klasse correct is geïmplementeerd.
+Test je methode door 2 objecten aan te maken en telkens mee te geven als parameter.
+
+## Maak een tweede methode
+``static void SimuleerWedstrijd(Waterpolospeler speler1, Waterpolospeler speler2)``
+
+Bij aanroep van de methode verschijnt er op het scherm wie van beide speler zou winnen als ze zouden spelen. Gebruik een random uitkomst om te bepalen over speler 1 of 2 wint. Toon op het scherm "Speler 1 wint." Gevolg door de aanroep van iedere methode van die speler.
+
+## Maak een derde methode
+``static Waterpolospeler BesteSpeler(Waterpolospeler speler1, Waterpolospeler speler2)``
+
+Deze methode gaat ook random bepalen welke speler de beste is. Vervolgens geef je deze speler terug als resultaat. In de main roep je vervolgens iedere methode van dit object aan.

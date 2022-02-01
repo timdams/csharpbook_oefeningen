@@ -34,122 +34,125 @@ class Meetlat
 }
 ```
 
-# Sport simulator
+# Digitale kluis
 
 ```java
-class Waterpolospeler
+class DigitaleKluis
 {
-    private string spelersNaam;
+    private int code=0x0000;
 
-    public string SpelersNaam
+    public DigitaleKluis(int startcode)
     {
-        get { return spelersNaam; }
-        private set { spelersNaam = value; }
+        Code=startcode;
     }
 
-    private int mutsNummer;
-
-    public int MutsNummer
+    private bool canShowCode;
+    public bool CanShowCode
     {
-        get { return mutsNummer; }
+        get
+        {
+            return canShowCode;
+        }
+        set
+        {
+            canShowCode=value;
+        }
+    }
+
+    public int CodeLevel
+    {
+        get
+        {
+            return (Code/1000);
+        }
+    }
+
+    public int Code
+    {
+        get
+        {
+            if(CanShowCode)
+                return code;
+            else
+                return -666;
+        }
+
         private set
         {
-            if (value > 0 && value < 14) //checken dat de waarde van de muts tussen de 0 en 14 is
-            {
-                mutsNummer = value; //als het zo is dan zal de waarde aan de muts worden gegeven
-            }
+            code=value;
         }
     }
 
-    private bool isDoelman;
-
-    public bool IsDoelman
+    private int aantalpogingen;
+    public bool TryCode(int testcode)
     {
-        get { return isDoelman; }
-        private set { isDoelman = value; }
-    }
-    private bool isReserve;
-
-    public bool IsReserve
-    {
-        get { return isReserve; }
-        private set { isReserve = value; }
-    }
-
-    private string reeks;
-
-    public string Reeks
-    {
-        get { return reeks; }
-        private set { reeks = value; }
-    }
-    public void Stelin(string naamin, int nummerin, bool doelin, bool reservein, string reeksin)
-    {
-        SpelersNaam = naamin;
-        MutsNummer = nummerin;
-        IsDoelman = doelin;
-        IsReserve = reservein;
-        Reeks = reeksin;
-    }
-    public void Gooibal()
-    {
-        Console.WriteLine($"Ik ({this.SpelersNaam}) gooi de bal");
-    }
-
-    public void Watertrappen()
-    {
-        Console.WriteLine($"nummer {this.MutsNummer} is aan het watertrappelen");
-    }
-    public void Tooninfo()
-    {
-        Console.WriteLine($@"
-Naam: {SpelersNaam}
-Mutsnummer: {MutsNummer}
-Is doelman: {IsDoelman}
-Is reserve: {IsReserve}
-Reeks: {Reeks}
-
-");
-
-
-
-    }
-
-    public static void SimuleerSpeler(Waterpolospeler testspeler)
-    {
-        for (int i = 0; i < 3; i++)
+        if(testcode==-666)
         {
-            testspeler.Watertrappen();
+            Console.WriteLine("Cheater!");
+            return false;
         }
-        for (int i = 0; i < 3; i++)
+        else if(testcode==Code)
         {
-            testspeler.Gooibal();
+            Console.WriteLine($"Deze code is geldig. Aantalpogingen = {aantalpogingen}");
+            return true;
+        }
+        Console.WriteLine("Dat is geen geldige code");
+        aantalpogingen++;
+        return false;
+        }
+    }
+}
+```
+
+# Bibliotheek deel 2
+
+```java
+public class BibBoek
+{
+    private static int uitleenDagen = 14;
+	public static void VeranderAlgemeneUitleenTermijn(int nieuweDagen)
+	{
+		uitleenDagen = nieuweDagen;
+	}
+	public BibBoek()
+	{
+		Uitgeleend = DateTime.Now.AddDays(-1);
+	}
+	
+	public BibBoek(string inOntlener, DateTime inUitleen)
+	{
+		Ontlener= inOntlener;
+		if(inUitleen>DateTime.Now)
+			throw new Exception("Kan niet uitlenen in de toekomst");
+		else
+			Uitgeleend= inUitleen;
+	}
+	
+
+    public string Ontlener { get; set; } = "onbekend";
+    private DateTime uitgeleend = DateTime.Now;
+    public DateTime Uitgeleend
+    {
+        set
+        {
+            uitgeleend = value;
+        }
+        private get 
+        {
+            return uitgeleend;
+        }
+    }
+    public DateTime InleverDatum
+    {
+        get
+        {
+            return uitgeleend.AddDays(uitleenDagen);
         }
     }
 
-    public static void SimuleerWedstrijd(Waterpolospeler speler1, Waterpolospeler speler2)
+    public void VerlengTermijn(int aantalDagen)
     {
-        Random rgen = new Random();
-        if (rgen.Next(0, 10) < 5)
-        {
-            Console.WriteLine($"de winnaar is: {speler1.SpelersNaam}");
-        }
-        else
-        {
-            Console.WriteLine($"de winnaar is: {speler2.SpelersNaam}");
-        }
-    }
-    public static Waterpolospeler BesteSpeler(Waterpolospeler speler1, Waterpolospeler speler2)
-    {
-        Random rgen = new Random();
-        if (rgen.Next(0, 10) < 5)
-        {
-            return speler1;
-        }
-        else
-        {
-            return speler2;
-        }
+        Uitgeleend = uitgeleend.AddDays(aantalDagen);
     }
 }
 ```
@@ -243,71 +246,122 @@ class Pokemon
 }
 ```
 
-# Digitale kluis
+
+
+# Sport simulator
 
 ```java
-class DigitaleKluis
+class Waterpolospeler
 {
-    private int code=0x0000;
+    private string spelersNaam;
 
-    public DigitaleKluis(int startcode)
+    public string SpelersNaam
     {
-        Code=startcode;
+        get { return spelersNaam; }
+        private set { spelersNaam = value; }
     }
 
-    private bool canShowCode;
-    public bool CanShowCode
-    {
-        get
-        {
-            return canShowCode;
-        }
-        set
-        {
-            canShowCode=value;
-        }
-    }
+    private int mutsNummer;
 
-    public int CodeLevel
+    public int MutsNummer
     {
-        get
-        {
-            return (Code/1000);
-        }
-    }
-
-    public int Code
-    {
-        get
-        {
-            if(CanShowCode)
-                return code;
-            else
-                return -666;
-        }
-
+        get { return mutsNummer; }
         private set
         {
-            code=value;
+            if (value > 0 && value < 14) //checken dat de waarde van de muts tussen de 0 en 14 is
+            {
+                mutsNummer = value; //als het zo is dan zal de waarde aan de muts worden gegeven
+            }
         }
     }
 
-    private int aantalpogingen;
-    public bool TryCode(int testcode)
+    private bool isDoelman;
+
+    public bool IsDoelman
     {
-        if(testcode==-666)
+        get { return isDoelman; }
+        private set { isDoelman = value; }
+    }
+    private bool isReserve;
+
+    public bool IsReserve
+    {
+        get { return isReserve; }
+        private set { isReserve = value; }
+    }
+
+    private string reeks;
+
+    public string Reeks
+    {
+        get { return reeks; }
+        private set { reeks = value; }
+    }
+    public void Stelin(string naamin, int nummerin, bool doelin, bool reservein, string reeksin)
+    {
+        SpelersNaam = naamin;
+        MutsNummer = nummerin;
+        IsDoelman = doelin;
+        IsReserve = reservein;
+        Reeks = reeksin;
+    }
+    public void Gooibal()
+    {
+        Console.WriteLine($"Ik ({this.SpelersNaam}) gooi de bal");
+    }
+
+    public void Watertrappen()
+    {
+        Console.WriteLine($"nummer {this.MutsNummer} is aan het watertrappelen");
+    }
+    public void Tooninfo()
+    {
+        Console.WriteLine($@"
+Naam: {SpelersNaam}
+Mutsnummer: {MutsNummer}
+Is doelman: {IsDoelman}
+Is reserve: {IsReserve}
+Reeks: {Reeks}
+
+");
+
+
+    }
+
+    public static void SimuleerSpeler(Waterpolospeler testspeler)
+    {
+        for (int i = 0; i < 3; i++)
         {
-            Console.WriteLine("Cheater!");
-            return false;
+            testspeler.Watertrappen();
         }
-        else if(testcode==Code)
+        for (int i = 0; i < 3; i++)
         {
-            Console.WriteLine($"Deze code is geldig. Aantalpogingen = {aantalpogingen}");
-            return true;
+            testspeler.Gooibal();
         }
-        Console.WriteLine("Dat is geen geldige code");
-        aantalpogingen++;
-        return false;
+    }
+
+    public static void SimuleerWedstrijd(Waterpolospeler speler1, Waterpolospeler speler2)
+    {
+        Random rgen = new Random();
+        if (rgen.Next(0, 10) < 5)
+        {
+            Console.WriteLine($"de winnaar is: {speler1.SpelersNaam}");
+        }
+        else
+        {
+            Console.WriteLine($"de winnaar is: {speler2.SpelersNaam}");
+        }
+    }
+    public static Waterpolospeler BesteSpeler(Waterpolospeler speler1, Waterpolospeler speler2)
+    {
+        Random rgen = new Random();
+        if (rgen.Next(0, 10) < 5)
+        {
+            return speler1;
+        }
+        else
+        {
+            return speler2;
         }
     }
 }

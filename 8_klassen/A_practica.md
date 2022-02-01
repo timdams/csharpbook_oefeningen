@@ -193,7 +193,7 @@ Je bent over 124 dagen jarig op een Dinsdag
 Boeken in een bibliotheek mogen maximum 14 dagen uitgeleend worden.  De klasse ``BibBoek`` heeft volgende informatie:
 
 * ``Ontlener``: De naam van de ontlener (autoproperty type ``string``, beginwaarde = "onbekend")
-* ``Uitgeleend``: De datum dat het boek werd uitgeleend (write only property type ``DateTime`` en private set).
+* ``Uitgeleend``: De datum dat het boek werd uitgeleend ( private get, public set).
 * ``InleverDatum``: De datum dat het boek ten laatste terug moet ingeleverd worden (readonly property van het type ``DateTime``): deze geeft steeds een datum terug 14 dagen na de datum die via ``Uitgeleend`` werd ingesteld.
 
 De achterliggende instantievariabele bij ``Uitgeleend`` wordt standaard ingesteld bij de object-creatie op de huidige tijd (``DateTime.Now`` toewijzen aan de achterliggende instantievariabele). Als je dus vergeet de ``Uitgeleend`` property in te stellen later dan heeft deze zeker een waarde.
