@@ -1,4 +1,3 @@
-
 > Volgende opgave was de vaardigheidsproefopdracht voor examen van dit vak (Programming Principles) in januari 2022
 
 # Discovid safe tracker

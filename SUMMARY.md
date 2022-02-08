@@ -47,11 +47,13 @@
   * [Oefeningen deel 2](7_arrays/B_practica.md)
   * [Oplossingen](7_arrays/opl_a_practica.md)
 * Alles samen - H1 tot H8
+  * [Opgave 1](EindeTests/Mod2/Opgave_2122.md)
   * [Opgave 2](EindeTests/Mod2/Opgave_1819.md)
   * [Opgave 3](EindeTests/Mod2/Opgave_1819_2ezit.md)
   * [Opgave 4](EindeTests/Mod2/Opgave_1920.md)
   * [Opgave 5](EindeTests/Mod2/Opgave_1920b.md)
   * [Opgave 6](EindeTests/Mod2/Opgave_2021.md)
+  * [Oplossing opgave 1](EindeTests/Mod2/Oplossing_2122.md)
   * [Oplossing opgave 2](EindeTests/Mod2/Oplossing_1819.md)
   * [Oplossing opgave 3](EindeTests/Mod2/Oplossing_1819b.md)
   * [Oplossing opgave 4](EindeTests/Mod2/Oplossing_1920.md)
@@ -126,5 +128,3 @@
   * [Oplossing Corona Missie 2](corona/opl_h13corona.md)
   * [Oplossing Corona Missie 3](corona/opl_h14corona.md) 
 
-<!---* [Opgave 1](EindeTests/Mod2/Opgave_2122.md)--->
-<!---* [Oplossing opgave 1](EindeTests/Mod2/Oplossing_2122.md)--->
