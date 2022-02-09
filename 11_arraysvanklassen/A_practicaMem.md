@@ -2,17 +2,53 @@
 
 Maak een array die tot 20 prijzen (``double``) kan bewaren. Vraag aan de gebruiker om 20 prijzen in te voeren en bewaar deze in de array. Doorloop vervolgens m.b.v. een ``foreach``-lus de volledige array en toon enkel de elementen op het scherm wiens prijs hoger of gelijk is aan €5.00. Toon op het einde van het programma het gemiddelde van alle prijzen (dus inclusief de lagere prijzen).
 
-# Speelkaarten
+# Computer-winkel
 
-Maak een klasse ``Speelkaart`` die je kan gebruiken om een klassieke kaart met getal en "kleur" voor te stellen. 
+Een firma heeft een grote lijst met computeronderdelen en wil hier de nodige filters op kunnen toepassen.
 
-* Een kaart heeft 2 eigenschappen, een getal van 1 tot en met 13 (boer=11, koningin= 12, heer= 13).
-* Een kleur, de zogenaamde suite. Deze stel je voor via een enumtype en kan als waarden Schoppen, Harten, Klaveren of Ruiten zijn.
+## Computeronderdeel
+De klasse computeronderdeel bestaat uit volgende autoproperties:
 
+* Prijs (int)
+* ID (int)
+* InDoos (bool)
 
-Schrijf nu 2 loops die de 52 kaarten van een standaard pak in een ``List<SpeelKaart>`` lijst plaatst.
+Voorts heeft de klasse een default constructor die voorgaande autoproperties op willekeurige waarden instelt (prijs positief tot max 1000, ID een getal tussen 100 en 999)
 
-Maak een applicatie die telkens een willekeurige kaart uit de *stapel* trekt en deze aan de gebruiker toont. De kaart wordt na het tonen ook uit de lijst verwijderd. Door met een willekeurig getal te werken hoef je dus je deck niet te schudden.
+De klasse heeft 1 methode ``ToonInfo`` die de 3 waarden van het object naar het scherm stuurt:
+
+```text
+Prijs: 845, ID: 45, InDoos: true
+```
+
+## Filteren
+
+Maak in je hoofdprogramma een List<ComputerOnderdeel> dat je vult met 100 willekeurige  aangemaakte objecten.
+Vervolgens:
+
+* Roep de ``ToonInfo`` methode aan van ieder computeronderdeel in de lijst aan.
+* Roep de ``ToonInfo`` methode aan van ieder computeronderdeel met een prijs boven de 400.
+* Idem nu voor alle onderdelen die in een doos zitten.
+* Idem nu voor alle onderdelen die een even ID hebben én wiens prijs onder da 200 ligt.
+
+Tussen iedere filter toon je op het scherm wat de volgende lijst juist voorstelt (bv "Nu tonen we alle onderdelen in een doos").
+
+## Managen
+
+Vraag nu aan de gebruiker wat er met de lijst moet gebeuren:
+
+1. Alle objecten in een doos verwijderen
+2. Alle objecten met een prijs kleiner dan 100 verwijderen.
+
+Toon het resultaat van de aangepaste lijst (door de ``ToonInfo`` van ieder object in de lijst aan te roepen.)
+
+## Finale
+
+Kan je hier een volledige applicatie van maken die een computerfirma als een soort inventaristool kan gebruiken? (en dus met de nodige menu's en mogelijkheden om bijvoorbeeld een nieuw onderdeel toe te voegen.) Kijk zeker eens naar volgende oefening daaromtrent.
+
+{% hint style='tip' %}
+Dit soort "de array als inventaris"-oefeningen waarbij je allerlei zaken met die array moet doen zijn geliefkoosde oefeningen en zal je vaak zien terugkomen.
+{% endhint %}
 
 # Student Organizer
 
@@ -39,7 +75,7 @@ Bouw extra functionaliteit naar keuze bij de StudentOrganizer, zoals:
 * Controle in alle methode inbouwen zodat ‘lege studenten’ worden genegeerd. Wanneer bijvoorbeeld menu item 2 wordt uitgevoerd (alle studenten tonen) dan worden enkel de ingevulde studenten getoond.
 
 
-### StudentKlasse
+## StudentKlasse
 ```java
 enum Klassen { EA1, EA2, EA3, EA4}
 
@@ -79,7 +115,7 @@ a) een switch of if-else structuur die naargelang de invoer een andere enumwaard
 b) (PRO) je gebruikt ``Enum.Parse()`` (vb : ``Klassen mijnKlas= (Klassen)Enum.Parse(typeof(Klassen), "EA2");``)
 {% endhint %}
 
-### Bookmark Manager
+# Bookmark Manager
 
 Maak een "bookmark manager". Deze tool zal in de console aan de gebruiker 5 favoriete sites vragen: ``naam`` en ``url``. Vervolgens zal de tool alle sites in een lijst tonen met een nummer voor. De gebruiker kan dan de nummer intypen en de tool zal automatisch de site in een vereenvoudigde versie op het scherm tonen. 
 
@@ -128,3 +164,15 @@ u.ToonSite();
 ```
 
 Kan je je eigen "console browser" maken?
+
+# Speelkaarten
+
+Maak een klasse ``Speelkaart`` die je kan gebruiken om een klassieke kaart met getal en "kleur" voor te stellen. 
+
+* Een kaart heeft 2 eigenschappen, een getal van 1 tot en met 13 (boer=11, koningin= 12, heer= 13).
+* Een kleur, de zogenaamde suite. Deze stel je voor via een enumtype en kan als waarden Schoppen, Harten, Klaveren of Ruiten zijn.
+
+
+Schrijf nu 2 loops die de 52 kaarten van een standaard pak in een ``List<SpeelKaart>`` lijst plaatst.
+
+Maak een applicatie die telkens een willekeurige kaart uit de *stapel* trekt en deze aan de gebruiker toont. De kaart wordt na het tonen ook uit de lijst verwijderd. Door met een willekeurig getal te werken hoef je dus je deck niet te schudden.

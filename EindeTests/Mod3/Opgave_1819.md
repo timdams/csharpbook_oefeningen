@@ -1,4 +1,4 @@
-> **Opgelet** : In deze opgave komen geen arrays (H11) van objecten voor. Dit is echter ook leerstof en zal in de toekomst ZEKER WEL in de tussentijdse vaardigheidstoetsen voorkomen.
+> **Opgelet** : In deze opgave komen geen arrays van objecten voor. 
 
 # Goal
 
@@ -158,7 +158,7 @@ Het hoofdprogramma is zeer eenvoudig. Het gebruikt de ``QalAnalyzer`` methoden o
 * Dan wordt het dagboek meegegeven aan de ``SummarizeDiary`` methode.
 * Vervolgens wordt het dagboek aan de ``AnalyseDiary`` methode
 
-## CSV wegschrijven (4 punten)
+## CSV wegschrijven (4 punten) (PRO)
 
 Finaal wordt in het hoofdprogramma gevraagd of het huidige dagboek (de array/list) naar een csv bestand mag worden geschreven.
 
