@@ -161,7 +161,7 @@ Toon de werking van het project aan door een aantal instanties van ``Driehoek`` 
 ## Week 2
 
 ### Verjaardag
-Maak een applicatie die aan de gebruiker z'n geboortedatum vraagt (maandag/dag, bv 18/3). Vervolgens toont het programma op welke dag hij volgend jaar jarig zal zijn (Monday, Tuesday, etc.) én hoeveel dagen hij nog moet wachten. Uiteraard gebruik je ``DateTime`` voor deze applicatie.
+Maak een applicatie die aan de gebruiker z'n geboortedatum vraagt (dag/maand, bv 18/3). Vervolgens toont het programma op welke dag hij volgend jaar jarig zal zijn (Monday, Tuesday, etc.) én hoeveel dagen hij nog moet wachten. Uiteraard gebruik je ``DateTime`` voor deze applicatie.
 
 {% hint style='tip' %}
 Je hebt geen eigen klasse nodig. Doel van deze oefening is dat je leert werken met de bestaande ``DateTime`` en ``TimeSpan`` klassen. Je mag dus alles in de main schrijven.
