@@ -46,18 +46,8 @@ class DigitaleKluis
         Code=startcode;
     }
 
-    private bool canShowCode;
-    public bool CanShowCode
-    {
-        get
-        {
-            return canShowCode;
-        }
-        set
-        {
-            canShowCode=value;
-        }
-    }
+    public bool CanShowCode {get;set;}
+
 
     public int CodeLevel
     {
