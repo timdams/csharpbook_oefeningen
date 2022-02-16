@@ -37,23 +37,23 @@ class Meetlat
 # Digitale kluis
 
 ```java
-class DigitaleKluis
+public class DigitaleKluis
 {
-    private int code=0x0000;
+    private int code = 0x0000;
 
     public DigitaleKluis(int startcode)
     {
-        Code=startcode;
+        Code = startcode;
     }
 
-    public bool CanShowCode {get;set;}
+    public bool CanShowCode { get; set; }
 
 
     public int CodeLevel
     {
         get
         {
-            return (Code/1000);
+            return (code / 1000);
         }
     }
 
@@ -61,7 +61,7 @@ class DigitaleKluis
     {
         get
         {
-            if(CanShowCode)
+            if (CanShowCode)
                 return code;
             else
                 return -666;
@@ -69,27 +69,32 @@ class DigitaleKluis
 
         private set
         {
-            code=value;
+            code = value;
         }
     }
 
-    private int aantalpogingen;
+    private int aantalPogingen;
     public bool TryCode(int testcode)
     {
-        if(testcode==-666)
+        if (aantalPogingen < 10)
         {
-            Console.WriteLine("Cheater!");
-            return false;
+            aantalPogingen++;
+            if (testcode == -666)
+            {
+                Console.WriteLine("CHEATER");
+                return false;
+            }
+            else if (testcode == code)
+            {
+                Console.WriteLine($"Deze code is geldig. Aantalpogingen = {aantalPogingen}");
+                return true;
+            }
+            Console.WriteLine("Dat is geen geldige code");
+            
         }
-        else if(testcode==Code)
-        {
-            Console.WriteLine($"Deze code is geldig. Aantalpogingen = {aantalpogingen}");
-            return true;
-        }
-        Console.WriteLine("Dat is geen geldige code");
-        aantalpogingen++;
+        else
+            Console.WriteLine("Je hebt je 10 pogingen opgebruikt.Sorry.");
         return false;
-        }
     }
 }
 ```
