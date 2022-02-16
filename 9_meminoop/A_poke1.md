@@ -55,7 +55,16 @@ De full-stats (punt 9) zijn echter de stats die de effectieve ‘krachten’ van
 ![](../assets/infoclip.png)
 * [Meer uitleg bij bovenstaande tekening](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=245f5d03-dbe4-49d9-b9e9-ab720084b984)
 
+
+
 ## De Pokémonopdracht
+
+{% hint style='tip' %}
+[Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H2_PokemonBasic).
+
+Merk op dat enkel de basis aspecten tot en met de sectie "Level-gebaseerde stats" getest worden.
+{% endhint %}
+
 
 Maak een consoleapplicatie met daarin een klasse Pokémon die de werking zoals hierboven beschreven heeft:
 
@@ -84,7 +93,7 @@ Voeg een publieke methode "VerhoogLevel" toe. Deze methode zal , via de private 
 
 ### Statistieken
 
-Voeg 2 read-only properties toe (enkel get, géén set) genaamd "Average" en "Total":
+Voeg 2 read-only properties toe (enkel get, géén set) genaamd "Average" (``double``) en "Total" (``int``):
 
 * De Average-property geeft het gemiddelde van de 6 base-stats terug, dus ``(HP_Base + Attack_Base + Defense_Base + SpAttack_Base + SpDefense_Base +Speed_Base)/6``.
 
@@ -92,11 +101,12 @@ Voeg 2 read-only properties toe (enkel get, géén set) genaamd "Average" en "To
 
 ### Level-gebaseerde stats
 
-De eigenschappen van de Pokémon die mee evolueren met het leven gaan we steeds als read-only property implementeren:
+De eigenschappen van de Pokémon **die mee evolueren met het level** gaan we steeds als read-only properties van het type ``int`` implementeren:
 
 * Voeg een read-only property ``HP_Full``  toe om de maximum health voor te stellen. Deze wordt berekend als volgt: ``( ( (HP_Base + 50) * Level) / 50) + 10 `` wanneer de get wordt aangeroepen.
-* Voeg voor iedere base-stat een ``XX_Full`` readonly property toe (int). Dus Defense_Full, Speed_Full, etc. Ook deze properties zijn readonly. Deze stats worden berekend als volgt: ``( (stat_Base*Level) / 50 ) + 5``.
+* Voeg voor iedere  ander base-stat een ``XX_Full`` readonly property toe . Dus Defense_Full, Speed_Full, etc. Ook deze properties zijn readonly. Deze stats worden berekend als volgt: ``( (stat_Base*Level) / 50 ) + 5``.
 Attack_Full bijvoorbeeld wordt dus berekend als: ``( (Attack_Base * Level) / 50) + 5``
+
 
 
 ### Maak enkele Pokémon
