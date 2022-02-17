@@ -322,6 +322,3 @@ Ontwerp en implementeer een klasse genaamd Dobbelstenen, die twee klassieke D6 d
 Deze klasse bevat dus niets meer dan deze ene methode. Het lijkt erop alsof je ook dobbelsteencode etc moet implementeren maar dat hoeft dus niet. De methode "gooit" gewoon 1000x na elkaar 2 getallen m.b.v de Random-klasse, telkens die 2 gegooide getallen 6 zijn onthoud je dit.
 
 
-### OO Textbased game (PRO)
-
-Bij de all-in-one projecten van dit semester vind je als eerst een tekstgebaseerde game ([hier](../A_DEEL2_AllInOne/2_OOTextGame.md)). Volg deze uitleg, maak het spel en voeg je eigen zotte ideeën toe.
