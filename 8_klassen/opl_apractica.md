@@ -5,7 +5,7 @@
 ## RapportModule
 
 ```java
-class Rapport
+public class Rapport
 {
     public int Percentage {get;set;}
     public void PrintGraad()
@@ -27,7 +27,7 @@ class Rapport
 ## Nummers
 
 ```java
-class Nummers
+public class Nummers
 {
     public int Getal1 { get; set; }
     public int Getal2 { get; set; }
@@ -51,7 +51,7 @@ class Nummers
 ## Studentklasse
 
 ```java
-enum Klassen { TI1,TI2,TI3 }
+public enum Klassen { TI1,TI2,TI3 }
 
 public class Student
 {
@@ -86,59 +86,59 @@ public class Student
 ## PizzaTime
 
 ```java
-    class Pizza
+public class Pizza
+{
+    private string toppings;
+
+    public string Toppings
     {
-		private string toppings;
+        get 
+        {			
+            return toppings; 
+        }
+        set 
+        {
+            if (value != "")
+            {
+                toppings = value;
+            }		
+        }
+    }
+    private int diameter;
 
-		public string Toppings
-		{
-			get 
-			{			
-				return toppings; 
-			}
-			set 
-			{
-				if (value != "")
-				{
-					toppings = value;
-				}		
-			}
-		}
-		private int diameter;
+    public int Diameter
+    {
+        get { return diameter; }
+        set 
+        {
+            if (value > 0)
+            {
+                diameter = value;
+            }
+        }
+    }
 
-		public int Diameter
-		{
-			get { return diameter; }
-			set 
-			{
-				if (value > 0)
-				{
-					diameter = value;
-				}
-			}
-		}
+    private double prijs;
 
-		private double prijs;
-
-		public double Prijs
-		{
-			get { return prijs; }
-			set 
-			{
-				if (value >0)
-				{
-					prijs = value;
-				}			 
-			}
-		}
-	}
+    public double Prijs
+    {
+        get { return prijs; }
+        set 
+        {
+            if (value >0)
+            {
+                prijs = value;
+            }			 
+        }
+    }
+}
 ```
 
 
 ## Figuren
 
 ```java
-class Rechthoek
+public class Rechthoek
 {
     private int lengte = 1;
     public int Lengte
@@ -309,7 +309,7 @@ do
 ## Persoon
 
 ```java
-class Persoon
+public class Persoon
 {
     public string Voornaam { get; set; }
     public string Achternaam { get; set; }
@@ -346,7 +346,7 @@ class Persoon
 ## Dobbelstenen
 
 ```java
-class Dobbelstenen
+public class Dobbelstenen
 {
     public void WerpEnTel6()
     {

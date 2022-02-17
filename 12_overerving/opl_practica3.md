@@ -14,7 +14,7 @@ foreach (var beest in alleBeestjes)
 ```
 
 ```java
-class Animal
+public class Animal
 {
     public string NaamBeest { get; set; }
     public bool IsUitgestorven { get; set; }
@@ -27,7 +27,7 @@ class Animal
     }
 }
 
-class Mammal : Animal 
+public class Mammal : Animal 
 {
     public string Biotoop { get; set; }
     public override void ToonInfo()
@@ -37,7 +37,7 @@ class Mammal : Animal
     }
 }
 
-class Rabbit : Mammal {
+public class Rabbit : Mammal {
     public int LengteOren { get; set; }
     public override void ToonInfo()
     {
@@ -45,7 +45,7 @@ class Rabbit : Mammal {
         Console.WriteLine($"De lengte van dit konijn z'n oren is {LengteOren}");
     }
 }
-class Cow : Mammal {
+public class Cow : Mammal {
     public string   KleurVlekken { get; set; }
     public override void ToonInfo()
     {
@@ -53,9 +53,9 @@ class Cow : Mammal {
         Console.WriteLine($"Deze koe heeft {KleurVlekken} vlekken");
     }
 }
-class Dog : Mammal { }
-class Reptile : Animal { }
-class Snake : Reptile 
+public class Dog : Mammal { }
+public class Reptile : Animal { }
+public class Snake : Reptile 
 {
     public bool HeeftRattelstaart { get; set; }
     public override void ToonInfo()
@@ -66,13 +66,13 @@ class Snake : Reptile
         else Console.WriteLine("Deze slang heeft geen ratelstraat");
     }
 }
-class Iguana : Reptile { }
+public class Iguana : Reptile { }
 ```
 
 # HiddenBookmark
 
 ```java
-class HiddenBookMark: BookMark
+public class HiddenBookMark: BookMark
 {
     public override void OpenSite()
     {
@@ -86,7 +86,7 @@ class HiddenBookMark: BookMark
 ## Deel 1
 
 ```java
-class Patient
+public class Patient
 {
     public string Naam { get; set; }
     public int UrenInZiekenhuis { get; set; }
@@ -109,7 +109,7 @@ class Patient
 ## Deel 2
 
 ```java
-class VerzekerdePatient : Patient
+public class VerzekerdePatient : Patient
 {
     private const double korting = 0.1;
     public override double BerekenKost()

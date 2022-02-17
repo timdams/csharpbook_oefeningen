@@ -2,7 +2,7 @@
 
 
 ```java
-class Meetlat
+public class Meetlat
 {
     public Meetlat(int lengtestart)
     {
@@ -157,9 +157,13 @@ public class BibBoek
 We laten de reeds bestaande properties en methoden niet meer zien in deze oplossing:
 ```java
 
-class Pokemon
+public class Pokemon
 {
     //reeds bestaande properties en methoden
+    // ...
+    
+    
+    //En nu de nieuwe zaken:
     public void VerhoogLevel()
     {
         if(NoLevelingAllowed)
@@ -246,7 +250,7 @@ class Pokemon
 # Sport simulator
 
 ```java
-class Waterpolospeler
+public class Waterpolospeler
 {
     private string spelersNaam;
 

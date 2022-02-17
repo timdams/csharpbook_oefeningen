@@ -83,7 +83,7 @@
   * [Oplossingen](10_advancedklassen/opl_practica3.md)
 * H4: Arrays en klassen
   * [Oefeningen](11_arraysvanklassen/A_practicaMem.md)
- * [Oplossingen](11_arraysvanklassen/opl_practica3.md)
+  * [Oplossingen](11_arraysvanklassen/opl_practica3.md)
 * Alles samen - H1 tot H4
   * [Opgave 1](EindeTests/Mod3/Opgave.md)
   * [Opgave 2](EindeTests/Mod3/Opgave2.md)

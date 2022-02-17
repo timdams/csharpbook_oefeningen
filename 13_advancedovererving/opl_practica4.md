@@ -38,7 +38,7 @@ public override string ToString()
 ## Deel 1
 
 ```java
-class Book
+public class Book
 {
     public int ISBN { get; set; }
     public string Title { get; set; }
@@ -64,7 +64,7 @@ class Book
 
 }
 
-class TextBook : Book
+public class TextBook : Book
 {
     public int GradeLevel { get; set; }
 
@@ -119,7 +119,7 @@ public override bool Equals(object obj)
 ## Money, Money, Money
 
 ```java
-abstract class Rekening
+public abstract class Rekening
 {
     private double saldo = 0;
     public double Saldo
@@ -144,7 +144,7 @@ abstract class Rekening
 
 }
 
-class BankRekening : Rekening
+public class BankRekening : Rekening
 {
     public override double BerekenRente()
     {
@@ -156,7 +156,7 @@ class BankRekening : Rekening
     }
 }
 
-class SpaarRekening : Rekening
+public class SpaarRekening : Rekening
 {
     public override double BerekenRente()
     {
@@ -164,7 +164,7 @@ class SpaarRekening : Rekening
     }
 }
 
-class ProRekening : SpaarRekening
+public class ProRekening : SpaarRekening
 {
     public override double BerekenRente()
     {
@@ -177,7 +177,7 @@ class ProRekening : SpaarRekening
 # Geometric Figures
 
 ```java
-abstract class GeometricFigure
+public abstract class GeometricFigure
 {
     public int Hoogte { get; set; }
     public int Breedte { get; set; }
@@ -191,7 +191,7 @@ abstract class GeometricFigure
     public abstract double BerekenOppervlakte();
 }
 
-class Rechthoek : GeometricFigure
+public class Rechthoek : GeometricFigure
 {
     public override double BerekenOppervlakte()
     {
@@ -199,7 +199,7 @@ class Rechthoek : GeometricFigure
     }
 }
 
-class Vierkant: Rechthoek
+public class Vierkant: Rechthoek
 {
     public Vierkant(int b, int h)
     {
@@ -217,7 +217,7 @@ class Vierkant: Rechthoek
     }
 }
 
-class Driehoek: GeometricFigure
+public class Driehoek: GeometricFigure
 {
     public override double BerekenOppervlakte()
     {
@@ -275,7 +275,7 @@ while (answer != "q")
 ```
 
 ```java
-abstract class dier
+public abstract class dier
 {
     private int gewicht = 50;
 
@@ -289,21 +289,21 @@ abstract class dier
 
 }
 
-class Koe : dier
+public class Koe : dier
 {
     public override void Zegt()
     {
         Console.WriteLine("moooeeee");
     }
 }
-class Hond : dier
+public class Hond : dier
 {
     public override void Zegt()
     {
         Console.WriteLine("woef");
     }
 }
-class Vis : dier
+public class Vis : dier
 {
     public override void Zegt()
     {

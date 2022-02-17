@@ -49,9 +49,9 @@ while (boekKaarten.Count > 0)
 Speelkaart klasse:
 
 ```java
-enum Suit {Schoppen, Harten, Klaveren, Ruiten}
+public enum Suit {Schoppen, Harten, Klaveren, Ruiten}
 
-class Speelkaart
+public class Speelkaart
 {
     public int Getal { get; set; }
     public Suit Suite { get; set; }
@@ -68,7 +68,7 @@ Bounty: wie wil z'n oplossing hier? ;)
 Merk het (her)gebruik van methoden op, alsook het gebruik van enum om de leesbaarheid van de code te verbeteren in de ``ToonHoofdMenu`` switch
 
 ```java
- enum Keuzes { List,Show,Edit,Delete}
+public enum Keuzes { List,Show,Edit,Delete}
 
 static void Main(string[] args)
 {
