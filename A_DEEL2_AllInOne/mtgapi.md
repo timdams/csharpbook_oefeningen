@@ -13,7 +13,15 @@ Dit project hoort niet bij de leerstof, daar het het concept van API gebruikt da
 2. Klikken op Browse, zoeken naar "mtg"
 3. MtgApiManager.Lib installeren
 
+
+
 # Broncode
+
+
+{% hint style='warning' %}
+Volgende voorbeeld is gebaseerd op een oude versie van de nuget package en zal dus niet meer werken met de huidige. De auteur van dit boek (ikke) is te lui om de tutorial aan te passen en verwijst daarom naar [hier](https://github.com/MagicTheGathering/mtg-sdk-dotnet) waar tal van codevoorbeelden staan!
+{% endhint %}
+
 We maken een applicatie die aan de gebruiker alle edities van Magic toont. De gebruiker kiest vervolgens van welke editie hij een 'boosterpack' wenst te generen (boosterpack= pakje kaarten dat je in de winkel kan kopen met daarin een vast aantal kaarten waarvan ook steeds minstens 1 zeldzame kaart).
 
 Voeg zeker bovenaan toe:

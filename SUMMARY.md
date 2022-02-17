@@ -120,11 +120,12 @@
 * All-In-Projecten
   * [Overzicht](A_DEEL2_AllInOne/0_Deel2_IntroductieAllInOne.md)
   * [OO Textbased Game](A_DEEL2_AllInOne/2_OOTextGame.md)
-  * [War Simulator](A_DEEL2_AllInOne/3_WarGame.md)
   * [Map Maker](A_DEEL2_AllInOne/1_MapMapker.md)
   * [Magic The Gathering API](A_DEEL2_AllInOne/mtgapi.md)  
 <!---* Oplossingen Corona Files
   * [Oplossing Corona Missie 1](corona/opl_h12corona.md)
   * [Oplossing Corona Missie 2](corona/opl_h13corona.md)
-  * [Oplossing Corona Missie 3](corona/opl_h14corona.md) --->
+  * [Oplossing Corona Missie 3](corona/opl_h14corona.md) 
+  *   * [War Simulator](A_DEEL2_AllInOne/3_WarGame.md)
+  * --->
 
