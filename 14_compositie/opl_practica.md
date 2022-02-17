@@ -1,11 +1,11 @@
 # UML naar code
 
 ```java
-class Head {}
-class Hand {}
-class Leg{}
+public class Head {}
+public class Hand {}
+public class Leg{}
 
-class Person
+public class Person
 {
     private Head theHead =new Head();
     private Hand leftHand = new Hand();
@@ -14,17 +14,17 @@ class Person
 ```
 
 ```java
-class Wheel{}
-class Crankshaft{}
-class Piston{}
+public class Wheel{}
+public class Crankshaft{}
+public class Piston{}
 
-class Engine
+public class Engine
 {
     private Crankshaft theCrank=new Crankshaft();
     private List<Piston> pistons = new List<Piston>(); //todo: piston objecten inplaatsen, zie voorbeeld Car-constructor
 }
 
-class Car
+public class Car
 {
     public Car() 
     {
@@ -37,12 +37,12 @@ class Car
     private Engine mainEngine = new Engine();
 }
 
-class Propeller
+public class Propeller
 {
 
 }
 
-class Boat 
+public class Boat 
 {
     private Engine mainEngine = new Engine();
     private  List<Propeller> propellers = new List<Propeller>(); //todo: propeller objecten inplaatsen, zie voorbeeld Car-constructor
@@ -73,7 +73,7 @@ static void Main(string[] args)
 ```
 
 ```java
-class Land
+public class Land
 {
     private President President;
     private Minister EersteMinister;
@@ -115,12 +115,12 @@ class Land
 
 }
 
-class Minister
+public class Minister
 {
     public string Naam { get; set; }
 }
 
-class President: Minister
+public class President: Minister
 {
     public int Teller { get; private set; } = 4;
     public void JaarVerder()
@@ -149,7 +149,7 @@ Z390E_GAMING.TestMoederbord();
 ```
 
 ```java
-class Moederbord
+public class Moederbord
 {
     public Moederbord(int aantalRamsloten)
     {
@@ -177,13 +177,13 @@ class Moederbord
 
 }
 
-class PCComponent
+public class PCComponent
 {
     public string Merk { get; set; }
     public PCComponent(string merk) { Merk = merk; }
 }
 
-class RamMemory : PCComponent
+public class RamMemory : PCComponent
 {
     public int GeheugenGrootte { get; set; }
     public RamMemory(string merk, int aantalGB) : base(merk)
@@ -192,13 +192,13 @@ class RamMemory : PCComponent
     }
 }
 
-class AGPKaart : PCComponent
+public class AGPKaart : PCComponent
 {
     public AGPKaart(string merk) : base(merk)
     { }
 }
 
-class CPU : PCComponent
+public class CPU : PCComponent
 {
     public int KlokSnelheidInGhz { get; set; }
     public CPU(string merk, int snelheid) : base(merk)

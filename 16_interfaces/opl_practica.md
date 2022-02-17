@@ -3,7 +3,7 @@
 # Figures with interfaces
 
 ```java
-class Rechthoek: IComparable
+public class Rechthoek: IComparable
 {
     //Alle vorige zaken
     //...
@@ -60,7 +60,7 @@ if(maxindex>-1)
 
 
 ```java
-class Huis : ICarbonFootPrint
+public class Huis : ICarbonFootPrint
 {
     public int Volume { get; set; }
     private double footprintfactor = 1;
@@ -76,7 +76,7 @@ class Huis : ICarbonFootPrint
     }
 }
 
-class Fabriek : ICarbonFootPrint
+public class Fabriek : ICarbonFootPrint
 {
     public int Werknemers { get; set; }
     private int factor = 100;
@@ -92,8 +92,8 @@ class Fabriek : ICarbonFootPrint
     }
 }
 
-enum AutoMerk { BMW, Volvo, Audi }
-class Auto : ICarbonFootPrint
+public enum AutoMerk { BMW, Volvo, Audi }
+public class Auto : ICarbonFootPrint
 {
     public AutoMerk Merk { get; set; }
     private int factor = 1;
@@ -122,10 +122,10 @@ class Auto : ICarbonFootPrint
             factor--;
     }
 }
-class Plant
+public class Plant
 { }
 
-interface ICarbonFootPrint
+public interface ICarbonFootPrint
 {
     int BerekenFootPrint();
     void VerlaagFootprint();

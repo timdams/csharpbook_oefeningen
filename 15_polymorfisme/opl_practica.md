@@ -78,8 +78,6 @@ public override bool Equals(object obj)
 # Een eigen huis
 
 
-# Een eigen huis
-
 ## Main:
 
 ```java
@@ -97,7 +95,7 @@ Console.WriteLine(myHuis.BerekenPrijs());
 (In sommige hanteer ik de [EDM-schrijftstijl](B_appendix/6_exprbody.md) bij de override van properties.)
 
 ```java
-class Huis
+public class Huis
 {
     public List<Kamer> Kamers { get; set; } = new List<Kamer>();
     public int BerekenPrijs()
@@ -112,7 +110,7 @@ class Huis
     }
 }
 
-class Kamer
+public class Kamer
 {
     public int Oppervlakte { get; set; }
     public string Naam { get; set; }
@@ -120,12 +118,12 @@ class Kamer
 
 }
 
-class BadKamer : Kamer
+public class BadKamer : Kamer
 {
     public override int Prijs => 500;
 }
 
-class Salon : Kamer
+public class Salon : Kamer
 {
     public bool HeeftSchouw { get; set; }
     public override int Prijs
@@ -137,7 +135,7 @@ class Salon : Kamer
         }
     }
 }
-class Gang : Kamer
+public class Gang : Kamer
 {
     public override int Prijs => 10 * Oppervlakte;
 }
