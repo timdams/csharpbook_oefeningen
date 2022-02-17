@@ -317,9 +317,9 @@ Kan je in voorgaand voorbeeld het instantievariabele ``reeks`` vervangen door ee
 
 ### Dobbelstenen	
 
-Ontwerp en implementeer een klasse PaarDobbelstenen, bestaande uit 2 dobbelstenen (elk met 6 oppervlakken). Creëer een klasse met een ``WerpEnTel6`` methode, waarin 1000 keer met een paar dobbelstenen wordt gegooid. Bereken hoeveel keer een dubbel zes voorkomt, dit wordt vervolgens getoond op het scherm.
+Ontwerp en implementeer een klasse genaamd Dobbelstenen, die twee klassieke D6 dobbelstenen voorstelt. De klasse heeft een ``WerpEnTel6`` methode, waarin 1000 keer met dit paar dobbelstenen wordt gegooid. Bereken hoeveel keer een dubbel zes voorkomt, dit wordt vervolgens getoond op het scherm.
 
-Deze methode bevat dus niets meer dan een methode. Het lijkt erop alsof je ook dobbelsteencode etc moet implementeren maar dat hoeft dus niet. De methode gooit gewoon 1000x na elkaar 2 getallen, telkens die 2 getallen 6 zijn onthoud je dit.
+Deze klasse bevat dus niets meer dan deze ene methode. Het lijkt erop alsof je ook dobbelsteencode etc moet implementeren maar dat hoeft dus niet. De methode "gooit" gewoon 1000x na elkaar 2 getallen m.b.v de Random-klasse, telkens die 2 gegooide getallen 6 zijn onthoud je dit.
 
 
 ### OO Textbased game (PRO)
