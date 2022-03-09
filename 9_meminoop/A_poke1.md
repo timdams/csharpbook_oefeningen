@@ -27,12 +27,6 @@ Console.WriteLine($"{mijnLat.LengteInM} meter is {mijnLat.LengteInVoet} voet.");
 ```
 
 
-# Bankmanager 2
-
-Breidt de bankmanager oefening uit het vorige hoofdstuk uit met volgende functionaliteiten:
-* Voorzie Exception Handling op alle plaatsen waar potentiële problemen kunnen opdoeken.
-* Voorzie in je programma een methode ``SimuleerOverdracht``. Je kan aan deze methode 2 ``Rekening`` objecten meegeven. Vervolgens zal de methode 5x een willekeurig bedrag van de ene naar de andere rekening sturen, hierbij wisselen de rekeningen om de beurt wie verzender en wie ontvanger is. Wanneer de methode klaar is wordt er niets teruggestuurd.
-* Maak een methode ``CreeerTienerRekening`` in je programma. Deze methode geeft een nieuwe rekening terug waar de balans reeds op 50 staat. De methode aanvaardt 1 parameter: de naam van de klant, dat vervolgens in het nieuwe object wordt ingesteld. 
 
 # Pokémon
 
@@ -99,6 +93,10 @@ Voeg 2 read-only properties toe (enkel get, géén set) genaamd "Average" (``dou
 
 * De Total-property geeft de som terug van de 6 basestats. Daar de base stats niet evolueren met het level veranderen dus ``Average`` en ``Total`` ook niet van zodra de base-stats werden ingesteld, toch mag je beide statistieken steeds herberekenen in de get.
 
+{% hint style='tip' %}
+Merk op dat je voor deze twee properties dus geen instantievariable nodig hebt. Dit geldt ook voor de hier na beschreven "level-gebaseerde stats".
+{% endhint %}
+
 ### Level-gebaseerde stats
 
 De eigenschappen van de Pokémon **die mee evolueren met het level** gaan we steeds als read-only properties van het type ``int`` implementeren:
@@ -107,7 +105,9 @@ De eigenschappen van de Pokémon **die mee evolueren met het level** gaan we ste
 * Voeg voor iedere  ander base-stat een ``XX_Full`` readonly property toe . Dus Defense_Full, Speed_Full, etc. Ook deze properties zijn readonly. Deze stats worden berekend als volgt: ``( (stat_Base*Level) / 50 ) + 5``.
 Attack_Full bijvoorbeeld wordt dus berekend als: ``( (Attack_Base * Level) / 50) + 5``
 
-
+{% hint style='tip' %}
+Merk op dat de formules enkel met ints werken. Het effect hiervan zal zijn dat je full-stats niet per level veranderen, maar pas om de paar levels, daar we informatie "verliezen" door in de deling met ints te werken.
+{% endhint %}
 
 ### Maak enkele Pokémon
 
@@ -115,7 +115,13 @@ Kies enkele Pokémon uit [deze lijst](https://bulbapedia.bulbagarden.net/wiki/Li
 
 Opgelet: **Je dient dus enkel de base stats in te stellen. Alle andere zaken zijn op deze stats en het huidige level van de Pokémon gebaseerd**.
 
-Toon aan dat de Average, Total , HP en andere stats correct berekend worden (controleer in de tabel op de voorgaande url).
+Toon aan dat de Average, Total , HP en andere stats correct berekend worden (controleer in de tabel op de voorgaande url). 
+
+{% hint style='tip' %}
+De volgende stats zouden steeds hetzelfde moeten zijn: Average, Total, naam, nummer, type en de base_stats.
+
+De volgende stats zouden moeten veranderen naarmate je levelt: level-gebaseerde stats, level. 
+{% endhint %}
 
 #### Level-up tester
 
@@ -176,3 +182,11 @@ Genereer 2 willekeurige Pokémons met je generator en laat ze vechten met je bat
 
 ### Meer info
 Voor de volledige info over Pokémon hun stats. [Klik hier.](https://bulbapedia.bulbagarden.net/wiki/Statistic "Stats Pokémon")
+
+
+# Bankmanager 2
+
+Breidt de bankmanager oefening uit het vorige hoofdstuk uit met volgende functionaliteiten:
+* Voorzie Exception Handling op alle plaatsen waar potentiële problemen kunnen opdoeken.
+* Voorzie in je programma een methode ``SimuleerOverdracht``. Je kan aan deze methode 2 ``Rekening`` objecten meegeven. Vervolgens zal de methode 5x een willekeurig bedrag van de ene naar de andere rekening sturen, hierbij wisselen de rekeningen om de beurt wie verzender en wie ontvanger is. Wanneer de methode klaar is wordt er niets teruggestuurd.
+* Maak een methode ``CreeerTienerRekening`` in je programma. Deze methode geeft een nieuwe rekening terug waar de balans reeds op 50 staat. De methode aanvaardt 1 parameter: de naam van de klant, dat vervolgens in het nieuwe object wordt ingesteld. 
