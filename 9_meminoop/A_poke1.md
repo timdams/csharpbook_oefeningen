@@ -129,6 +129,10 @@ Toon aan dat de ``Average``, ``Total``, ``HP`` en andere stats correct berekend 
 De volgende stats zouden steeds hetzelfde moeten zijn: ``Average``, ``Total``, ``Naam``, ``Nummer``, ``Type`` en de base_stats.
 
 De volgende stats zouden moeten veranderen naarmate je levelt: level-gebaseerde stats en ``Level``. 
+
+
+**[Via deze site kan je controleren welke stats je pokemon moet hebben op een bepaald level](https://pycosites.com/pkmn/stat_gen1.php)**
+
 {% endhint %}
 
 #### Level-up tester
