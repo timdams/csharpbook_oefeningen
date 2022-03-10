@@ -43,7 +43,7 @@ Korte uitleg over Pokémon en hun interne werking: Iedere Pokémon wordt uniek g
 
 De full-stats (punt 9) zijn echter de stats die de effectieve ‘krachten’ van een Pokémon bepalen in een gevecht. Deze stats worden berekend gebaseerd op de vaste base-stats en het huidige level van de Pokémon. Hoe hoger het level van de Pokémon, hoe hoger dus zijn full-stats. 
 
-![Pokémon](../assets/6_klassen/pokemon.png)
+![Pokémon](../assets/6_klassen/Pokémons.png)
 
 
 ![](../assets/infoclip.png)
@@ -54,7 +54,7 @@ De full-stats (punt 9) zijn echter de stats die de effectieve ‘krachten’ van
 ## De Pokémonopdracht
 
 {% hint style='tip' %}
-[Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H2_PokemonBasic).
+[Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H2_PokémonsBasic).
 
 Merk op dat enkel de basis aspecten tot en met de sectie "Level-gebaseerde stats" getest worden.
 {% endhint %}
@@ -63,7 +63,7 @@ Merk op dat enkel de basis aspecten tot en met de sectie "Level-gebaseerde stats
 Maak een consoleapplicatie met daarin een klasse Pokémon die de werking zoals hierboven beschreven heeft:
 
 ### Base-stats
-De base-stats worden als ints bewaard. Maak voor al deze basis-eigenschappen full properties, namelijk:
+De base-stats worden als ``int`` bewaard. Maak voor al deze basis-eigenschappen full properties, namelijk:
 
 * ``HP_Base``
 * ``Attack_Base``
@@ -74,24 +74,28 @@ De base-stats worden als ints bewaard. Maak voor al deze basis-eigenschappen ful
 
 ### Extra stats
 
-Voorts wordt een Pokémon ook gedefinieerd door z’n naam (string), type (string, bv. "grass & poison") en nummer (int), maak hiervoor auto properties aan.
+Voorts wordt een Pokémon ook gedefinieerd door z’n Naam (``string``), Type (string, bv. ``grass & poison``) en Nummer (``int``), maak hiervoor auto properties aan.
 
-> Met ``nummer`` bedoelen we de Pokémon index die je in de Pokédex kunt opzoeken. Zo heeft Bulbasaur nummer 1 en Pikachu heeft 25. 
+> Met ``Nummer`` bedoelen we de Pokémon index die je in de Pokédex kunt opzoeken. Zo heeft Bulbasaur nummer 1 en Pikachu heeft 25. 
+
+{% hint style='tip' %}
+Nog een goede reden nodig om met ``enum`` te werken? Het Type van een Pokémons zou je eigenlijk beter met een enum datatype kunnen doen dan met een string. 
+{% endhint %}
 
 
 ### Level
 
-Voeg een fullproperty Level toe (type int). Deze heeft een public get, maar een private setter.
+Voeg een fullproperty ``Level`` toe (``int``). Deze heeft een public get, maar een private setter.
 
-Voeg een publieke methode "VerhoogLevel" toe. Deze methode zal , via de private setter van Level (zie vorig punt), de level van de Pokémon met 1 verhogen. Deze methode heeft géén parameters nodig en return niets.
+Voeg een publieke methode ``VerhoogLevel`` toe. Deze methode zal, via de private setter van ``Level``, het level van de Pokémon met 1 verhogen. Deze methode heeft géén parameters nodig en return'd niets.
 
 ### Statistieken
 
-Voeg 2 read-only properties toe (enkel get, géén set) genaamd "Average" (``double``) en "Total" (``int``):
+Voeg 2 read-only properties toe (enkel get, géén set) genaamd ``Average`` (``double``) en ``Total`` (``int``):
 
-* De Average-property geeft het gemiddelde van de 6 base-stats terug, dus ``(HP_Base + Attack_Base + Defense_Base + SpAttack_Base + SpDefense_Base +Speed_Base)/6``.
+* De ``Average``-property geeft het gemiddelde van de 6 base-stats terug, dus ``(HP_Base + Attack_Base + Defense_Base + SpAttack_Base + SpDefense_Base +Speed_Base)/6``.
 
-* De Total-property geeft de som terug van de 6 basestats. Daar de base stats niet evolueren met het level veranderen dus ``Average`` en ``Total`` ook niet van zodra de base-stats werden ingesteld, toch mag je beide statistieken steeds herberekenen in de get.
+* De ``Total``-property geeft de som terug van de 6 basestats. Daar de base stats niet evolueren met het level veranderen dus ``Average`` en ``Total`` ook niet van zodra de base-stats werden ingesteld, toch mag je beide statistieken steeds herberekenen in de get.
 
 {% hint style='tip' %}
 Merk op dat je voor deze twee properties dus geen instantievariable nodig hebt. Dit geldt ook voor de hier na beschreven "level-gebaseerde stats".
@@ -102,11 +106,11 @@ Merk op dat je voor deze twee properties dus geen instantievariable nodig hebt. 
 De eigenschappen van de Pokémon **die mee evolueren met het level** gaan we steeds als read-only properties van het type ``int`` implementeren:
 
 * Voeg een read-only property ``HP_Full``  toe om de maximum health voor te stellen. Deze wordt berekend als volgt: ``( ( (HP_Base + 50) * Level) / 50) + 10 `` wanneer de get wordt aangeroepen.
-* Voeg voor iedere  ander base-stat een ``XX_Full`` readonly property toe . Dus Defense_Full, Speed_Full, etc. Ook deze properties zijn readonly. Deze stats worden berekend als volgt: ``( (stat_Base*Level) / 50 ) + 5``.
+* Voeg voor iedere  ander base-stat een *XX_Full* readonly property toe . Dus ``Defense_Full``, ``Speed_Full``, etc. Ook deze properties zijn readonly. Deze stats worden berekend als volgt: ``( (stat_Base*Level) / 50 ) + 5``.
 Attack_Full bijvoorbeeld wordt dus berekend als: ``( (Attack_Base * Level) / 50) + 5``
 
 {% hint style='tip' %}
-Merk op dat de formules enkel met ints werken. Het effect hiervan zal zijn dat je full-stats niet per level veranderen, maar pas om de paar levels, daar we informatie "verliezen" door in de deling met ints te werken.
+Merk op dat de formules enkel met ``int`` werken. Het effect hiervan zal zijn dat je full-stats niet per level veranderen, maar pas om de paar levels, daar we informatie "verliezen" door in de deling met ``int`` te werken.
 {% endhint %}
 
 ### Maak enkele Pokémon
@@ -115,12 +119,12 @@ Kies enkele Pokémon uit [deze lijst](https://bulbapedia.bulbagarden.net/wiki/Li
 
 Opgelet: **Je dient dus enkel de base stats in te stellen. Alle andere zaken zijn op deze stats en het huidige level van de Pokémon gebaseerd**.
 
-Toon aan dat de Average, Total , HP en andere stats correct berekend worden (controleer in de tabel op de voorgaande url). 
+Toon aan dat de ``Average``, ``Total``, ``HP`` en andere stats correct berekend worden (controleer in de tabel op de voorgaande url). 
 
 {% hint style='tip' %}
-De volgende stats zouden steeds hetzelfde moeten zijn: Average, Total, naam, nummer, type en de base_stats.
+De volgende stats zouden steeds hetzelfde moeten zijn: ``Average``, ``Total``, ``Naam``, ``Nummer``, ``Type`` en de base_stats.
 
-De volgende stats zouden moeten veranderen naarmate je levelt: level-gebaseerde stats, level. 
+De volgende stats zouden moeten veranderen naarmate je levelt: level-gebaseerde stats en ``Level``. 
 {% endhint %}
 
 #### Level-up tester
@@ -134,11 +138,11 @@ Test eens hoe de stats na bv 100 levels evolueren. Je zal zien dat bepaalde stat
 ## Deel 2: De Pokémontester
 
 {% hint style='tip' %}
-Bekijk zeker eerst of jouw Pokemon oplossing juist is (vergelijk met de oplossing in deze cursus) voor je verder gaat.
+Bekijk zeker eerst of jouw Pokémons oplossing juist is (vergelijk met de oplossing in deze cursus) voor je verder gaat.
 {% endhint %}
 
 
-Het is een heel gedoe om telkens manueel de informatie van een Pokémon op het scherm te outputen. Voeg een methode ``public void ShowInfo()`` toe aan je Pokemon klasse. Deze methode zal alle relevante informatie (alle properties!) in een mooie vorm op het scherm tonen, bv:
+Het is een heel gedoe om telkens manueel de informatie van een Pokémon op het scherm te outputen. Voeg een methode ``public void ShowInfo()`` toe aan je Pokémons klasse. Deze methode zal alle relevante informatie (alle properties!) in een mooie vorm op het scherm tonen, bv:
 
 
 ```text
@@ -154,24 +158,24 @@ Full stats:
 
 Maak nu een nieuwe console-applicatie genaamd "Pokémon Tester":
 
-1. Voeg je Pokemon-klasse-bestand toe aan dit project. Verander de "namespace" van dit bestand naar de namespace van je nieuwe console-applicatie .
+1. Voeg je ``Pokémons``-klasse-bestand toe aan dit project. Verander de "namespace" van dit bestand naar de namespace van je nieuwe console-applicatie .
 2. Maak enkele Pokémon objecten aan en stel hun base stats in.
 3. Schrijf een applicatie die aan de gebruiker eerst de 6 base-stats vraagt. Vervolgens wordt de Pokémon aangemaakt met die stats en worden de full-stats aan de gebruiker getoond.
-4. Vraag nu aan de gebruiker tot welke level de Pokémon moet gelevelled worden. Roep zoveel keer de LevelUp-methode aan van de Pokémon. (of kan je dit via een parameter doorgeven aan LevelUp?!)
+4. Vraag nu aan de gebruiker tot welke level de Pokémon moet gelevelled worden. Roep zoveel keer de LevelUp-methode aan van de Pokémon. (of kan je dit via een parameter doorgeven aan ``LevelUp``?!)
 5. Toon terug de full-stats van de nu ge-levelde Pokémon.
 
 ## Deel 3: Pokémon-battler
 
 ### Pokémon generator
 
-Maak een methode met volgende signatuur: ``static Pokemon GeneratorPokemon()``. Plaats deze methode *niet* in je Pokémon-klasse, maar in  Program.cs.
+Maak een methode met volgende signatuur: ``static Pokémons GeneratorPokémons()``. Plaats deze methode *niet* in je Pokémon-klasse, maar in  Program.cs.
 
 Deze methode zal telkens een Pokémon aanmaken met willekeurige base-stats. Bepaal zelf hoe je dit gaat doen.
 
 ### Battle tester
 
 Voeg een methode met volgende signatuur toe aan je hoofdprogramma (dus ook weer in Program.cs):
-``static int Battle(Pokemon poke1, Pokemon poke2)``.
+``static int Battle(Pokémons poke1, Pokémons poke2)``.
 
 De methode zal een getal teruggeven dat aangeeft welke van de twee Pokémons een gevecht zou winnen. 1= poke1, 2 = poke2, 0 = gelijke stand.
 
