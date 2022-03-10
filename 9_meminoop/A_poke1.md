@@ -54,7 +54,7 @@ De full-stats (punt 9) zijn echter de stats die de effectieve ‘krachten’ van
 ## De Pokémonopdracht
 
 {% hint style='tip' %}
-[Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H2_PokémonBasic).
+[Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H2_PokemonBasic).
 
 Merk op dat enkel de basis aspecten tot en met de sectie "Level-gebaseerde stats" getest worden.
 {% endhint %}
