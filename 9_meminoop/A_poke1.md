@@ -39,9 +39,9 @@ Disclaimer: de informatie in deze tekst is een vereenvoudigde versie van de echt
 
 ## Hoe Pokémon werken
 
-Korte uitleg over Pokémon en hun interne werking: Iedere Pokémon wordt uniek gemaakt door z’n base-stats, deze zijn voor iedere Pokémon anders. Deze base-stats  (punt 3) zijn onveranderlijk en blijven dus doorheen het hele leven van een Pokémon dezelfde. Je kan de base-stats als het dna van een Pokémon beschouwen.
+Korte uitleg over Pokémon en hun interne werking: Iedere Pokémon wordt uniek gemaakt door z’n base-stats, deze zijn voor iedere Pokémon anders. Deze base-stats  zijn onveranderlijk en blijven dus doorheen het hele leven van een Pokémon dezelfde. Je kan de base-stats als het dna van een Pokémon beschouwen.
 
-De full-stats (punt 9) zijn echter de stats die de effectieve ‘krachten’ van een Pokémon bepalen in een gevecht. Deze stats worden berekend gebaseerd op de vaste base-stats en het huidige level van de Pokémon. Hoe hoger het level van de Pokémon, hoe hoger dus zijn full-stats. 
+De full-stats zijn echter de stats die de effectieve ‘krachten’ van een Pokémon bepalen in een gevecht. Deze stats worden berekend gebaseerd op de vaste base-stats en het huidige level van de Pokémon. Hoe hoger het level van de Pokémon, hoe hoger dus zijn full-stats. 
 
 ![Pokémon](../assets/6_klassen/pokemon.png)
 
@@ -71,6 +71,10 @@ De base-stats worden als ``int`` bewaard. Maak voor al deze basis-eigenschappen 
 * ``SpecialAttack_Base``
 * ``SpecialDefense_Base``
 * ``Speed_Base``
+
+{% hint style='tip' %}
+Merk op dqt deze waarden eigenlijk nooit nog veranderen in een Pokemon. Het is dus raar dat we ze als full properties beschouwen. In het volgende hoofdstuk zullen we dit oplossen door te werken met een constructor.
+{% endhint %}
 
 ### Extra stats
 
@@ -132,8 +136,6 @@ De volgende stats zouden moeten veranderen naarmate je levelt: level-gebaseerde 
 Maak een kleine loop die je toelaat om per loop een bepaalde Pokémon z’n level met 1 te verhogen en vervolgens toon je dan z’n nieuwe stats.
 
 Test eens hoe de stats na bv 100 levels evolueren. Je zal zien dat bepaalde stats pas na een paar keer levelen ook effectief beginnen stijgen.
-
-**Voeg extra functionaliteit toe naar keuze.**
 
 ## Deel 2: De Pokémontester
 

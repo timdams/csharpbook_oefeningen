@@ -45,6 +45,10 @@ Pas de kennis van constructors toe op je Pokémon-project uit het vorige hoofdst
 * Via een overloaded constructor die de gebruiker toelaat om de 6 base stats als parameters mee te geven (bv ``new Pokemon(45,42,50,65,34,67)``)
 * Via object initializer syntax waarbij je eender welke base stat etc. kunt instellen (bv ``new Pokemon(){HP_Base=40, Name="Pikachu"};``)
 
+{% hint style='tip' %}
+Het is ook logischer dat je van de base_stats een full property met **private** setter maakt, daar we die waarden nooit nog mogen aanpassen nadat de constructor werd aangeroepen.
+{% endhint %}
+
 ## Static methoden
 
 * Verhuis de methoden (``GeneratorPokemon`` en ``Battle``) die je maakte in deel 3 van de Pokémon-opdracht in vorige hoofdstuk naar de klasse ``Pokemon`` zelf en test of deze nog steeds werkt. (Is dit een logischere plek?)
