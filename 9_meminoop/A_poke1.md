@@ -43,7 +43,7 @@ Korte uitleg over Pokémon en hun interne werking: Iedere Pokémon wordt uniek g
 
 De full-stats (punt 9) zijn echter de stats die de effectieve ‘krachten’ van een Pokémon bepalen in een gevecht. Deze stats worden berekend gebaseerd op de vaste base-stats en het huidige level van de Pokémon. Hoe hoger het level van de Pokémon, hoe hoger dus zijn full-stats. 
 
-![Pokémon](../assets/6_klassen/Pokémons.png)
+![Pokémon](../assets/6_klassen/pokemon.png)
 
 
 ![](../assets/infoclip.png)
@@ -54,7 +54,7 @@ De full-stats (punt 9) zijn echter de stats die de effectieve ‘krachten’ van
 ## De Pokémonopdracht
 
 {% hint style='tip' %}
-[Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H2_PokémonsBasic).
+[Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H2_PokémonBasic).
 
 Merk op dat enkel de basis aspecten tot en met de sectie "Level-gebaseerde stats" getest worden.
 {% endhint %}
@@ -79,7 +79,7 @@ Voorts wordt een Pokémon ook gedefinieerd door z’n Naam (``string``), Type (s
 > Met ``Nummer`` bedoelen we de Pokémon index die je in de Pokédex kunt opzoeken. Zo heeft Bulbasaur nummer 1 en Pikachu heeft 25. 
 
 {% hint style='tip' %}
-Nog een goede reden nodig om met ``enum`` te werken? Het Type van een Pokémons zou je eigenlijk beter met een enum datatype kunnen doen dan met een string. 
+Nog een goede reden nodig om met ``enum`` te werken? Het Type van een Pokémon zou je eigenlijk beter met een enum datatype kunnen doen dan met een string. 
 {% endhint %}
 
 
@@ -93,7 +93,7 @@ Voeg een publieke methode ``VerhoogLevel`` toe. Deze methode zal, via de private
 
 Voeg 2 read-only properties toe (enkel get, géén set) genaamd ``Average`` (``double``) en ``Total`` (``int``):
 
-* De ``Average``-property geeft het gemiddelde van de 6 base-stats terug, dus ``(HP_Base + Attack_Base + Defense_Base + SpAttack_Base + SpDefense_Base +Speed_Base)/6``.
+* De ``Average``-property geeft het gemiddelde van de 6 base-stats terug, dus ``(HP_Base + Attack_Base + Defense_Base + SpAttack_Base + SpDefense_Base +Speed_Base)/6.0``.
 
 * De ``Total``-property geeft de som terug van de 6 basestats. Daar de base stats niet evolueren met het level veranderen dus ``Average`` en ``Total`` ook niet van zodra de base-stats werden ingesteld, toch mag je beide statistieken steeds herberekenen in de get.
 
@@ -138,11 +138,11 @@ Test eens hoe de stats na bv 100 levels evolueren. Je zal zien dat bepaalde stat
 ## Deel 2: De Pokémontester
 
 {% hint style='tip' %}
-Bekijk zeker eerst of jouw Pokémons oplossing juist is (vergelijk met de oplossing in deze cursus) voor je verder gaat.
+Bekijk zeker eerst of jouw Pokémon oplossing juist is (vergelijk met de oplossing in deze cursus) voor je verder gaat.
 {% endhint %}
 
 
-Het is een heel gedoe om telkens manueel de informatie van een Pokémon op het scherm te outputen. Voeg een methode ``public void ShowInfo()`` toe aan je Pokémons klasse. Deze methode zal alle relevante informatie (alle properties!) in een mooie vorm op het scherm tonen, bv:
+Het is een heel gedoe om telkens manueel de informatie van een Pokémon op het scherm te outputen. Voeg een methode ``public void ShowInfo()`` toe aan je Pokémon klasse. Deze methode zal alle relevante informatie (alle properties!) in een mooie vorm op het scherm tonen, bv:
 
 
 ```text
@@ -158,7 +158,7 @@ Full stats:
 
 Maak nu een nieuwe console-applicatie genaamd "Pokémon Tester":
 
-1. Voeg je ``Pokémons``-klasse-bestand toe aan dit project. Verander de "namespace" van dit bestand naar de namespace van je nieuwe console-applicatie .
+1. Voeg je ``Pokémon``-klasse-bestand toe aan dit project. Verander de "namespace" van dit bestand naar de namespace van je nieuwe console-applicatie .
 2. Maak enkele Pokémon objecten aan en stel hun base stats in.
 3. Schrijf een applicatie die aan de gebruiker eerst de 6 base-stats vraagt. Vervolgens wordt de Pokémon aangemaakt met die stats en worden de full-stats aan de gebruiker getoond.
 4. Vraag nu aan de gebruiker tot welke level de Pokémon moet gelevelled worden. Roep zoveel keer de LevelUp-methode aan van de Pokémon. (of kan je dit via een parameter doorgeven aan ``LevelUp``?!)
@@ -168,14 +168,14 @@ Maak nu een nieuwe console-applicatie genaamd "Pokémon Tester":
 
 ### Pokémon generator
 
-Maak een methode met volgende signatuur: ``static Pokémons GeneratorPokémons()``. Plaats deze methode *niet* in je Pokémon-klasse, maar in  Program.cs.
+Maak een methode met volgende signatuur: ``static Pokémon GeneratorPokémon()``. Plaats deze methode *niet* in je Pokémon-klasse, maar in  Program.cs.
 
 Deze methode zal telkens een Pokémon aanmaken met willekeurige base-stats. Bepaal zelf hoe je dit gaat doen.
 
 ### Battle tester
 
 Voeg een methode met volgende signatuur toe aan je hoofdprogramma (dus ook weer in Program.cs):
-``static int Battle(Pokémons poke1, Pokémons poke2)``.
+``static int Battle(Pokémon poke1, Pokémon poke2)``.
 
 De methode zal een getal teruggeven dat aangeeft welke van de twee Pokémons een gevecht zou winnen. 1= poke1, 2 = poke2, 0 = gelijke stand.
 
