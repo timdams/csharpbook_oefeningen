@@ -133,7 +133,10 @@ Test eens hoe de stats na bv 100 levels evolueren. Je zal zien dat bepaalde stat
 
 ## Deel 2: De Pokémontester
 
-> vergelijk je oplossing uit het vorige deel [met volgende oplossing](../assets/6_klassen/Pokemon.cs).
+{% hint style='tip' %}
+Bekijk zeker eerst of jouw Pokemon oplossing juist is (vergelijk met de oplossing in deze cursus) voor je verder gaat.
+{% endhint %}
+
 
 Het is een heel gedoe om telkens manueel de informatie van een Pokémon op het scherm te outputen. Voeg een methode ``public void ShowInfo()`` toe aan je Pokemon klasse. Deze methode zal alle relevante informatie (alle properties!) in een mooie vorm op het scherm tonen, bv:
 
