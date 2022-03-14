@@ -62,6 +62,14 @@ Het is ook logischer dat je van de base_stats een full property met **private** 
 
 Toon in je hoofdprogramma aan dat je kunt werken met deze static methoden en properties.
 
+## Natures
+
+In generatie 3 werd het concept Natures geïntroduceerd. Afhankelijk van deze eigenschap zullen bepaalde full stats van een Pokemon met 10% verhoogd of verlaagd worden.
+Gebruik je kennis van ``Enum``, constructors en properties om dit concept in je Pokemon klasse te implementeren.
+
+[Volgende artikel lijst de natures op en beschrijft hoe ze werken](https://pokemondb.net/mechanics/natures)
+
+([meer indepth informatie in dit artikel](https://bulbapedia.bulbagarden.net/wiki/Nature))
 
 # Sport simulator
 Haal je ``Sportspeler`` klasse van van het vorige hoofdstuk boven en voeg volgende statische methode er aan toe (vervang het soort speler door de naam van jouw klasse. Mijn klasse noemde ``Waterpolospeler``)
