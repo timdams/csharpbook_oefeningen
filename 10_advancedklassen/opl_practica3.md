@@ -245,7 +245,59 @@ public class Pokemon
 }
 ```
 
+# Pokemon Natures
 
+```java
+enum PokeNatures {Adamant	,Bashful	,Bold ,Brave ,Calm ,Careful	,Docile ,Gentle ,Hardy ,Hasty ,Impish ,Jolly ,Lax ,Lonely ,Mild ,Modest ,Naive ,Naughty	,Quiet ,Quirky ,Rash ,Relaxed	,Sassy ,Serious	,Timid }
+
+enum StatTypes {Attack, Special_Attack, Defense, Special_Defense, Speed}
+
+```
+
+In klasse Pokemon
+
+```java
+static Random rng = new Random();
+
+private PokeNatures Nature {private set; get; }
+
+public Pokemon(int hp, int att, int def, int spec_att, int spec_def, int speed)
+{
+    //...
+    Nature = (PokeNatures)rng.Next(0,26)
+}
+
+
+private int NatureEffect(StatType currentStat)
+{
+
+    switch(Nature)
+    {
+        case PokeNatures.Adamant:
+            if(currentStat == StatType.Attack)
+                return 10;
+            else if(currentStat == StatType.Special_Attack)
+                return -10;
+            else return 0;
+            break;
+        case PokeNatures.BashFull:
+            //etc.
+    }
+    return 0;
+}
+
+
+public int Speed_Full
+{
+    get
+    {
+        return ((Speed_Base * Level) / 50) + 5 ) +  (((Speed_Base * Level) / 50) + 5 ) * NatureEffect(StatTypes.Speed);
+    }
+}
+
+//en idem voor andere full stats
+
+```
 
 # Sport simulator
 
