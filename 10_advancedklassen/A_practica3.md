@@ -7,6 +7,8 @@ Vul de ``Meetlat`` klasse uit het vorige hoofdstuk aan met een constructor. De c
 
 # Digitale kluis
 
+## Basiskluis
+
 {% hint style='tip' %}
 [Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H3_DigitaleKluis).
 {% endhint %}
@@ -21,15 +23,37 @@ De klasse heeft volgende elementen:
 * Een read-only property ``CodeLevel`` van type ``int``. Deze property zal het level van de code teruggeven (ongeacht CanShowCode). Het level is eenvoudigweg de effectieve code gedeeld door 1000 als geheel getal (dus indien de code 500 is zal 0 worden teruggegeven, indien de code 2000 is wordt 2 teruggegeven, etc.) 
 * Een private variabele ``aantalPogingen`` om bij te houden hoe vaak de gebruiker geprobeerd heeft de code te vinden.
 * Een methode ``TryCode`` die een geheel getal als parameter aanvaardt. De methode geeft een ``true`` terug indien de code correct was, anders ``false``. Deze methode kan gebruikt worden om extern een code te testen , indien deze overeenkomt met de bewaarde code dan zal gemeld worden dat de code geldig is en wordt ook getoond hoeveel keer de gebruiker geprobeerd heeft ``Deze code is geldig. Aantalpogingen = 5``. Indien de gebruiker -666 meegaf dan  verschijnt er ``CHEATER`` op het scherm. Indien de gebruiker een foute code meegaf dan meldt de methode dat dit een foute code was (``"geen geldige code"``) en wordt het aantal pogingen met 1 verhoogd.  Deze methode kan maar 10 keer aangeroepen worden (ongeacht of de juiste code werd meegegeven of niet).Indien dus ``aantalPogingen`` 10 of meer is zal er op het scherm verschijnen ``Je hebt je 10 pogingen opgebruikt.Sorry.``.
-* Een ``static`` methode ``BruteForce`` waar je een kluis-object aan kan geven. De methode zal een aantal random codes brute forcen (met een loop die 10 verschillende getallen test) door telkens de ``TryCode`` methode van de meegegeven kluis aan te roepen. Wanneer toevallig de juiste code werd gevonden zal het aantal pogingen getoond worden.
 
-{% hint style='tip' %}
-De ``BruteForce`` is ``static`` en heeft dus geen informatie over de interne staat van een Kluis-object. Vind je dit verwarrend? Maak deze methode dan aan in je hoofdprogramma (Program.cs): ``static void BruteForce(DigitaleKluis testKluis)`` en zorg ervoor dat ze daar werkt. De methode zal dus 10 keer TryCode aanroepen op de ``testKluis``, telkens met een andere getal. Enkel wanneer TryCode ``true`` teruggeeft weet je dat je de juiste code hebt gevonden (merk op dat de kans erg klein is dat in 10 beurten dit zal gevonden worden). 
 
-Vervolgens verplaats je de methode naar je klasse en pas je de aanroep ervan aan in je Main. Je hebt de oefening nu opgelost :)
-{% endhint %}
 
 Maak enkele Digitale Kluis objecten aan in je ``main`` en test of je bovenstaande klasse correct is geïmplementeerd.
+
+## Kluizen kraken 
+
+Voeg aan de klasse een ``static`` methode ``BruteForce`` toe waar je een kluis-object aan kan geven. De methode zal een aantal random codes brute forcen (met een loop die 10 verschillende getallen test) door telkens de ``TryCode`` methode van de meegegeven kluis aan te roepen. Wanneer toevallig de juiste code werd gevonden zal het aantal pogingen getoond worden.
+
+### Toelichting
+
+De ``BruteForce``methode is ``static`` en heeft dus geen informatie over de interne staat van een Kluis-object. Vind je dit verwarrend? Maak deze methode dan aan in je hoofdprogramma (Program.cs): ``static void BruteForce(DigitaleKluis testKluis)`` en zorg ervoor dat ze daar werkt. De methode zal dus 10 keer TryCode aanroepen op de ``testKluis``, telkens met een andere getal. Enkel wanneer TryCode ``true`` teruggeeft weet je dat je de juiste code hebt gevonden (merk op dat de kans erg klein is dat in 10 beurten dit zal gevonden worden). 
+
+In je main moet dit dus werken:
+
+```java
+DigitaleKluis kluisje = new DigitaleKluis(2342);
+BruteForce(kluisje);
+```
+
+Vervolgens verplaats je de methode naar je klasse ``DigitaleKluis`` en pas je de aanroep ervan aan in je Main:
+
+
+```java
+DigitaleKluis kluisje = new DigitaleKluis(2342);
+DigitaleKluis.BruteForce(kluisje);
+```
+
+Je hebt de oefening nu opgelost :)
+
+
 
 
 # Bibliotheek deel 2
