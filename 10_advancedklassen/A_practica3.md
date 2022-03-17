@@ -32,9 +32,18 @@ Maak enkele Digitale Kluis objecten aan in je ``main`` en test of je bovenstaand
 
 Voeg aan de klasse een ``static`` methode ``BruteForce`` toe waar je een kluis-object aan kan geven. De methode zal een aantal random codes brute forcen (met een loop die 10 verschillende getallen test) door telkens de ``TryCode`` methode van de meegegeven kluis aan te roepen. Wanneer toevallig de juiste code werd gevonden zal het aantal pogingen getoond worden.
 
+
+{% hint style='tip' %}
+*Beeld je in dat Bruteforce een student is. Ik maak een kluis-object aan en vertel aan die student niet welke code ik heb gekozen. Vervolgens geef ik hem mijn object en zeg hem "Je krijgt 10 pogingen om met TryCode de kluiscode te raden. Succes!"*
+{% endhint %}
+
+
 ### Toelichting
 
-De ``BruteForce``methode is ``static`` en heeft dus geen informatie over de interne staat van een Kluis-object. Vind je dit verwarrend? Maak deze methode dan aan in je hoofdprogramma (Program.cs): ``static void BruteForce(DigitaleKluis testKluis)`` en zorg ervoor dat ze daar werkt. De methode zal dus 10 keer TryCode aanroepen op de ``testKluis``, telkens met een andere getal. Enkel wanneer TryCode ``true`` teruggeeft weet je dat je de juiste code hebt gevonden (merk op dat de kans erg klein is dat in 10 beurten dit zal gevonden worden). 
+De ``BruteForce``methode is ``static`` en heeft dus geen informatie over de interne staat van een Kluis-object. Vind je dit verwarrend? Maak deze methode dan aan in je hoofdprogramma (Program.cs): ``public static void BruteForce(DigitaleKluis testKluis)`` en zorg ervoor dat ze daar werkt. De methode zal dus 10 keer TryCode aanroepen op de ``testKluis``, telkens met een andere getal. Enkel wanneer TryCode ``true`` teruggeeft weet je dat je de juiste code hebt gevonden (merk op dat de kans erg klein is dat in 10 beurten dit zal gevonden worden). 
+
+
+
 
 In je main moet dit dus werken:
 
@@ -52,8 +61,6 @@ DigitaleKluis.BruteForce(kluisje);
 ```
 
 Je hebt de oefening nu opgelost :)
-
-
 
 
 # Bibliotheek deel 2
