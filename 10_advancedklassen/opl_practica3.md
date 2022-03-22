@@ -34,7 +34,9 @@ public class Meetlat
 }
 ```
 
-# Digitale kluis
+# Digitale kluis 
+
+## Basiskluis
 
 ```java
 public class DigitaleKluis
@@ -96,6 +98,29 @@ public class DigitaleKluis
             Console.WriteLine("Je hebt je 10 pogingen opgebruikt.Sorry.");
         return false;
     }
+}
+```
+
+## Kluizen kraken
+
+```java
+public static void BruteForce(DigitaleKluis testKluis)
+{
+
+    Random rng =new Random();
+    bool gevonden=false; 
+    int tries =0;
+    do
+    {
+        tries++;
+        int test = r.Next(0,10000);
+        if( testKluis.TryCode(test))
+        {
+            gevonden = true;
+            Console.WriteLine($"Gevonden! Code is {test}");
+        }
+    }while(tries<10 && !gevonden)
+
 }
 ```
 

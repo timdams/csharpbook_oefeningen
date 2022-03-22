@@ -58,6 +58,9 @@ public class Speelkaart
 
 }
 ```
+# Computer-winkel
+
+Bounty: wie wil z'n oplossing hier? ;)
 
 # Student Organizer
 

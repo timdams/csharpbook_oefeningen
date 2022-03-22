@@ -2,6 +2,8 @@
 
 Maak een array die tot 20 prijzen (``double``) kan bewaren. Vraag aan de gebruiker om 20 prijzen in te voeren en bewaar deze in de array. Doorloop vervolgens m.b.v. een ``foreach``-lus de volledige array en toon enkel de elementen op het scherm wiens prijs hoger of gelijk is aan €5.00. Toon op het einde van het programma het gemiddelde van alle prijzen (dus inclusief de lagere prijzen).
 
+# Pokedex
+
 # Computer-winkel
 
 Een firma heeft een grote lijst met computeronderdelen en wil hier de nodige filters op kunnen toepassen.
@@ -49,6 +51,23 @@ Kan je hier een volledige applicatie van maken die een computerfirma als een soo
 {% hint style='tip' %}
 Dit soort "de array als inventaris"-oefeningen waarbij je allerlei zaken met die array moet doen zijn geliefkoosde oefeningen en zal je vaak zien terugkomen.
 {% endhint %}
+
+# Pokedex
+
+Maak een eenvoudige Pokédex (een *"bibliotheek van pokémon"*) die als volgt werkt. De gebruiker kan kiezen uit 5 menu-opties:
+
+1. Voeg Pokemon toe. Deze optie zal een random Pokémon object aanmaken en achteraan de Pokédex toevoegen.
+2. Toon Pokedex. Deze optie zal alle pokémon in de pokédex op het scherm tonen door de ShowInfo methode van ieder object in de lijst aan te roepen.
+3. Remove random: deze optie zal een pokémon op een willekeurige plek in de lijst verwijderen.
+4. Verwijder alles: deze optie zal de pokédex leeg maken.
+5. Stoppen: het programma sluit af.
+
+Het menu blijft getoond worden tot de gebruiker de optie 5 kiest.
+
+## Pokédex++ (PRO)
+
+Bekijk het voorbeeld in [dit artikel](https://apwt.gitbook.io/ziescherper/appendix/strings#uitgewerkt-met-pokemon). Kan je je pokédex van zonet integreren met deze informatie?
+
 
 # Student Organizer
 
