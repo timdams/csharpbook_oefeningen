@@ -42,9 +42,6 @@ Voeg aan de klasse een ``static`` methode ``BruteForce`` toe waar je een kluis-o
 
 De ``BruteForce``methode is ``static`` en heeft dus geen informatie over de interne staat van een Kluis-object. Vind je dit verwarrend? Maak deze methode dan aan in je hoofdprogramma (Program.cs): ``public static void BruteForce(DigitaleKluis testKluis)`` en zorg ervoor dat ze daar werkt. De methode zal dus 10 keer TryCode aanroepen op de ``testKluis``, telkens met een andere getal. Enkel wanneer TryCode ``true`` teruggeeft weet je dat je de juiste code hebt gevonden (merk op dat de kans erg klein is dat in 10 beurten dit zal gevonden worden). 
 
-
-
-
 In je main moet dit dus werken:
 
 ```java
@@ -53,7 +50,6 @@ BruteForce(kluisje);
 ```
 
 Vervolgens verplaats je de methode naar je klasse ``DigitaleKluis`` en pas je de aanroep ervan aan in je Main:
-
 
 ```java
 DigitaleKluis kluisje = new DigitaleKluis(2342);
