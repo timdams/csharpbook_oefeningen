@@ -94,6 +94,14 @@ Het is ook logischer dat je van de base_stats een full property met **private** 
 
 Toon in je hoofdprogramma aan dat je kunt werken met deze static methoden en properties.
 
+{% hint style='tip' %}
+
+Student Kevin Van Rooy maakte volgende applicatie waarbij bovenstaande opgave als initiële inspiratie diende:
+
+![Knap gedaan!](pokemonbattle.gif)
+
+{% endhint %}
+
 ## Natures (PRO)
 
 In generatie 3 werd het concept Natures geïntroduceerd. Afhankelijk van deze eigenschap zullen bepaalde full stats van een Pokemon met 10% verhoogd of verlaagd worden.
