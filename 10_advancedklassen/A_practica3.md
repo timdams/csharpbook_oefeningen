@@ -98,7 +98,7 @@ Toon in je hoofdprogramma aan dat je kunt werken met deze static methoden en pro
 
 Student Kevin Van Rooy maakte volgende applicatie waarbij bovenstaande opgave als initiële inspiratie diende:
 
-![Knap gedaan!](pokemonbattle.gif)
+![Knap gedaan! (click to enlarge)](pokemonbattle.gif)
 
 {% endhint %}
 
