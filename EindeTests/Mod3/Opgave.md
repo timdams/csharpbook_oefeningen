@@ -41,5 +41,5 @@ while(true)
 
 Zorg ervoor dat je:
 
-* Bij het toevoegen van nieuwe Pokémon toon je alle mogelijke Pokémons door deze uit een csv-bestand uit te lezen  inclusief hun basis stats. Je kan deze [file hier downloaden](assets/pokemon.csv).
+* Bij het toevoegen van nieuwe Pokémon toon je alle mogelijke Pokémons door deze uit een csv-bestand uit te lezen  inclusief hun basis stats. Je kan deze [file hier downloaden](assets/pokemon.csv) (klik op RAW en bewaar de file dan).
 * Je verzamelmap naar een een csv-bestand schrijven en uitlezen (``mypoke.csv``). Je hoeft hiervoor enkel het id en huidige level weg te schrijven. Nadien kan je met dit id de Pokémon opzoeken in de totaallijst van alle bestaande Pokémons.
