@@ -40,7 +40,7 @@ Laat nu de mensen voortplanten.
 * Plaats deze nieuwe mens in de lijst achteraan.
 
 # Generatie bijhouden
-Voeg een propertie ``Generatie`` toe aan je MEns die toelaat om te onthouden wanneer Mens is aangemaakt. Je kan deze via de constructor instellen.
+Voeg een property ``Generatie`` toe aan je MEns die toelaat om te onthouden wanneer Mens is aangemaakt. Je kan deze via de constructor instellen.
 
 # Simulatie
 Herhaal bovenstaande voor 10 generaties (merk op dat ouders dus vermoedelijk kinderen zullen maken met hun eigen kinderen/kleinkinderen. Niet over nadenken) en bekijk wat de resultaten zijn. Plaats deze simulatie in een static methode ``Simuleer`` die een List van mensen als parameter aanvaardt, alsook een getal dat aangeeft hoeveel generaties moet getest worden. Houdt bij iedere Mens die je aanmaakt om welke generatie het gaat.
