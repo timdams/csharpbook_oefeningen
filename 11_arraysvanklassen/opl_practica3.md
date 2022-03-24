@@ -1,25 +1,25 @@
 # Prijzen met foreach
 
 ```java
-int[] prijzen = new int[20];
+var prijzen = new double[20];
 for (int i = 0; i < prijzen.Length; i++)
 {
     Console.WriteLine($"Geef prijs {i}:");
-    prijzen[i] = Convert.ToInt32(Console.ReadLine());
+    prijzen[i] = double.Parse(Console.ReadLine());
 }
 
-int som = 0;
+double som = 0;
 Console.WriteLine("Prijzen groter of gelijk aan 5:");
 foreach (var prijs in prijzen)
 {
     som += prijs;
 
-    if(prijs>=5)
+    if(prijs>=5.00)
     {
         Console.WriteLine(prijs);
     }
 }
-Console.WriteLine($"Gemiddelde is {((double)som)/prijzen.Length}");
+Console.WriteLine($"Gemiddelde is {som/prijzen.Length}");
 ```
 
 # Speelkaarten
