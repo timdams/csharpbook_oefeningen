@@ -46,7 +46,12 @@ Test wat er gebeurt als je al je bookmarks vervangt door ``HiddenBookmarks``.
 
 
 
-# Ballspel met overerving (zie hoorcollege voor extra uitleg)
+# Ballspel met overerving 
+
+{% hint style='tip' %}
+Deze oefening bouwt verder op het Pong spel uit hoofdstuk 1 van het handboek.
+{% endhint %}
+
 
 Volgende code toont hoe we een bestaande klasse  ``Ball`` kunnen overerven om een bestuurbare bal te maken 
 
