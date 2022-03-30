@@ -71,12 +71,16 @@ public class Iguana : Reptile { }
 
 # HiddenBookmark
 
+Zorg ervoor dat je ``ToonSite`` in de parentklasse ``Bookmark`` op ``virtual`` instelt.
+
 ```java
 public class HiddenBookMark: BookMark
 {
-    public override void OpenSite()
+    public override void ToonSite()
     {
-        Process.Start("chrome.exe", "-incognito " + URL);
+        Console.WriteLine("**********INCOGNITO MODE************");
+        base.ToonSite();
+        Console.WriteLine("**********INCOGNITO MODE************");
     }
 }
 ```
