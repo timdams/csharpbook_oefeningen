@@ -141,6 +141,10 @@ Je opdracht:
 1. Maak een array of ``List`` waarin je 5 bookmark objecten kan plaatsen. 
 2. Vul de applicatie aan zodat de gebruiker: een bestaand bookmark kan verwijderen en een bestaand bookmark kan aanpassen
 
+{% hint style='tip' %}
+Probeer met behulp van hulpmethoden in Program.cs om zo veel mogelijk code te herbruiken.
+{% endhint %}
+
 Enkele zaken die je nodig hebt:
 
 **BookMark klasse:**
