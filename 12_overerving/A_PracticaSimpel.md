@@ -39,7 +39,7 @@ Toon de werking aan van deze klasse.
 
 Voeg een ``HiddenBookmark`` klasse toe aan je bestaande Bookmark Manager applicatie van vorige hoofdstuk.
 
-De ``HiddenBookmark`` is een ``Bookmark`` klasse die de ``ShowSite`` methode override door VOOR en NA dat de site op het scherm werd getoond er de tekst `**********INCOGNITO MODE************`  getoond wordt
+De ``HiddenBookmark`` is een ``Bookmark`` klasse die de ``ToonSite`` methode override door VOOR en NA dat de site op het scherm werd getoond er de tekst `**********INCOGNITO MODE************`  getoond wordt
 
 Test wat er gebeurt als je al je bookmarks vervangt door ``HiddenBookmarks``.
 
