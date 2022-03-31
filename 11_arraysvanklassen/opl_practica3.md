@@ -426,7 +426,7 @@ private static void EditSite(List<BookMark> sites)
 private static void OpenSite(List<BookMark> sites)
 {
     int keuze=AskAction(sites, "openen");
-    sites[keuze].OpenSite();
+    sites[keuze].ToonSite();
 }
 
 private static void ShowAll(List<BookMark> sites)
