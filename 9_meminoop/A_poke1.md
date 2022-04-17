@@ -73,7 +73,7 @@ De base-stats worden als ``int`` bewaard. Maak voor al deze basis-eigenschappen 
 * ``Speed_Base``
 
 {% hint style='tip' %}
-Merk op dqt deze waarden eigenlijk nooit nog veranderen in een Pokemon. Het is dus raar dat we ze als full properties beschouwen. In het volgende hoofdstuk zullen we dit oplossen door te werken met een constructor.
+Merk op dat deze waarden eigenlijk nooit nog veranderen in een Pokemon. Het is dus raar dat we ze als full properties beschouwen. In het volgende hoofdstuk zullen we dit oplossen door te werken met een constructor.
 {% endhint %}
 
 ### Extra stats
