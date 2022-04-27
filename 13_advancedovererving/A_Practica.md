@@ -49,7 +49,7 @@ a)	Bij ``TextBoek`` de prijs enkel tussen 20 en 80 kan liggen
 b)	Bij ``KoffietafelBoek`` de prijs enkel tussen 35 en 100 kan liggen
 
 {% hint style='tip' %}
-Bekijk gerust de appendix indien je wilt weten hoe je de ``+`` operator kunt overriden om boeken op te tellen.
+PRO:  Bekijk gerust de appendix indien je wilt weten hoe je de ``+`` operator kunt overriden om boeken op te tellen.
 {% endhint %}
 
 * Zorg ervoor dat boeken de ``ToString`` overriden zodat je boekobjecten eenvoudig via ``Console.WriteLine(myBoek)`` hun info op het scherm tonen. Ze tonen deze info als volgt: "Title - Auteur (ISBN) _ Prijs"  (bv The Shining - Stephen King (05848152) _ 50)
