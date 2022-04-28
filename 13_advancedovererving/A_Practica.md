@@ -1,3 +1,8 @@
+{% hint style='tip' %}
+Nu je overerving in de vingers krijgt, is het tijd om de ingebouwd "Class designer" van Visual Studio eens te bekijken. Volgende kennisclip toont hoe je deze handige tool kunt installeren en gebruiken:
+[Class diagram en de class designer in Visual Studio](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4d0a4b76-eed7-45e3-ba3f-ae8500fd94e9)
+{% endhint %}
+
 # Extra ToString aan bestaande projecten
 Voeg ToString toe aan bestaande van volgende projecten. Ik raad aan dat je dit even test in een nieuwe applicatie waarin je de bestaande klasse even toevoegt en niet de hele main overneemt.
 
