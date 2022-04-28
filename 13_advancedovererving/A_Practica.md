@@ -30,7 +30,7 @@ Zorg ervoor dat er géén dubbele code in HiddenBookmark staat (tip: ``base()``)
 
 Maak een klasse ``Boek``  en gebruik auto-properties voor de velden:
 
-* ISBN (``int``)
+* ISBN (``long``)
 * Title (``string``)
 * Auteur (``string``)
  
