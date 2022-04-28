@@ -29,7 +29,7 @@ Vervolgens:
 * Roep de ``ToonInfo`` methode aan van ieder computeronderdeel in de lijst aan.
 * Roep de ``ToonInfo`` methode aan van ieder computeronderdeel met een prijs boven de 400.
 * Idem nu voor alle onderdelen die in een doos zitten.
-* Idem nu voor alle onderdelen die een even ID hebben én wiens prijs onder da 200 ligt.
+* Idem nu voor alle onderdelen die een even ID hebben én wiens prijs onder de 200 ligt.
 
 Tussen iedere filter toon je op het scherm wat de volgende lijst juist voorstelt (bv "Nu tonen we alle onderdelen in een doos").
 
