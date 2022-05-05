@@ -73,7 +73,7 @@ De base-stats worden als ``int`` bewaard. Maak voor al deze basis-eigenschappen 
 * ``Speed_Base``
 
 {% hint style='tip' %}
-Merk op dat deze waarden eigenlijk nooit nog veranderen in een Pokemon. Het is dus raar dat we ze als full properties beschouwen. In het volgende hoofdstuk zullen we dit oplossen door te werken met een constructor.
+Merk op dat deze waarden eigenlijk nooit nog veranderen in een Pokémon. Het is dus raar dat we ze als full properties beschouwen. In het volgende hoofdstuk zullen we dit oplossen door te werken met een constructor.
 {% endhint %}
 
 ### Extra stats
@@ -131,7 +131,7 @@ De volgende stats zouden steeds hetzelfde moeten zijn: ``Average``, ``Total``, `
 De volgende stats zouden moeten veranderen naarmate je levelt: level-gebaseerde stats en ``Level``. 
 
 
-**[Via deze site kan je controleren welke stats je pokemon moet hebben op een bepaald level](https://pycosites.com/pkmn/stat_gen1.php)**
+**[Via deze site kan je controleren welke stats je Pokémon moet hebben op een bepaald level](https://pycosites.com/pkmn/stat_gen1.php)**
 
 {% endhint %}
 

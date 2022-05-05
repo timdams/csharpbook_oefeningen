@@ -104,9 +104,9 @@ Student Kevin Van Rooy maakte volgende applicatie waarbij bovenstaande opgave al
 
 ## Natures (PRO)
 
-In generatie 3 werd het concept Natures geïntroduceerd. Afhankelijk van deze eigenschap zullen bepaalde full stats van een Pokemon met 10% verhoogd of verlaagd worden.
+In generatie 3 werd het concept Natures geïntroduceerd. Afhankelijk van deze eigenschap zullen bepaalde full stats van een Pokémon met 10% verhoogd of verlaagd worden.
 
-Een Pokemon krijgt bij de constructie steeds 1 van de 25 onderstaande natures willekeurig toegewezen en zal vervolgens bij impact hebben op 2 full stats.
+Een Pokémon krijgt bij de constructie steeds 1 van de 25 onderstaande natures willekeurig toegewezen en zal vervolgens bij impact hebben op 2 full stats.
 
 Gebruik je kennis van ``Enum``, constructors en properties om dit concept in je Pokemon klasse te implementeren.
 

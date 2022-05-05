@@ -193,7 +193,7 @@ public class Pokemon
     {
         if(NoLevelingAllowed)
         {
-            Console.WriteLine("Levelingo of Pokemons not allowed. Change NoLevelingAllowed to false to reenable leveling");
+            Console.WriteLine("Leveling of Pokemon not allowed. Change NoLevelingAllowed to false to reenable leveling");
         }
         else
         {

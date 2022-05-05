@@ -31,7 +31,7 @@ public class Meetlat
 }
 ```
 
-# Pokemon deel 1
+# Pokémon deel 1
 
 ```java
 class Pokemon
@@ -137,7 +137,7 @@ class Pokemon
 }
 ```
 
-# Pokemontester
+# Pokémontester
 
 ```java
 Pokemon aPoke= new Pokemon();
@@ -180,7 +180,7 @@ Pokemon myNewPokemon= GeneratorPokemon();
 Pokemon myOtherPokemon= GeneratorPokemon();
 ```
 
-# Pokemon-battle
+# Pokémon-battle
 
 ```java
 public static int Battle(Pokemon poke1, Pokemon poke2)
