@@ -67,11 +67,11 @@ Neem de Bibliotheek oefening uit hoofdstuk 1 erbij. Zorg ervoor dat de ``BibBoek
 * Een overloaded constructor die toelaat om de ontlener (``string``) en ``Uitgeleend`` (``DateTime``) als parameters mee tegen en in te stellen in het object. Indien de meegeven datum later is dan de huidige datum dan zal er een uitzonderingen worden opgeworpen.
 * Een ``static`` methode ``VeranderAlgemeneUitleenTermijn`` , die 1 ``int`` als parameter aanvaardt.De methode zorgt ervoor dat het aantal dagen dat je boek mag uitlenen verandert wordt naar de meegeven parameter. Tip: dit zal vereisen dat je een static instantievariabele hebt die je vervolgens in je ``InleverDatum`` getter gebruikt.
 
-# Pokémons deel 2
+# Pokémon deel 2
 
 ## Constructors
 
-Pas de kennis van constructors toe op je Pokémon-project uit het vorige hoofdstuk. Zorg ervoor dat je Pokémons op 3 manieren kunt aanmaken als volgt:
+Pas de kennis van constructors toe op je Pokémon-project uit het vorige hoofdstuk. Zorg ervoor dat je Pokémon op 3 manieren kunt aanmaken als volgt:
 
 * Via een default constructor: alle base stats worden daarbij op 10 standaard ingesteld via de constructor
 * Via een overloaded constructor die de gebruiker toelaat om de 6 base stats als parameters mee te geven (bv ``new Pokemon(45,42,50,65,34,67)``)
@@ -88,9 +88,9 @@ Het is ook logischer dat je van de base_stats een full property met **private** 
     * Hoe vaak een Pokémon z'n level werd verhoogd (dus telkens bij aanroep van ``VerhoogLevel``)
     * Hoe veel Battles er al zijn geweest (verhoogt telkens ``Battle`` wordt uitgevoerd)
     * Hoe vaak een battle resulteerde in gelijkstand (verhoogd bij gelijkstand in  ``Battle``)
-    * Hoe veel random Pokémons werden aangemaakt (verhoogt telkens ``GeneratorPokemon`` wordt aangeroepen)
+    * Hoe veel random Pokémon werden aangemaakt (verhoogt telkens ``GeneratorPokemon`` wordt aangeroepen)
 * Maak een static methode ``Info`` die deze properties als een soort samenvatting naar het scherm stuurt
-* Maak een static property ``NoLevelingAllowed`` aan van het type bool. Deze kan van buiten de klasse aangepast worden. Indien deze bool op ``true`` staat kunnen Pokémons hun level niet verhoogd worden. Wanneer in dit geval ``VerhoogLevel`` wordt aangeroepen zal er een foutboodschap op het scherm komen.
+* Maak een static property ``NoLevelingAllowed`` aan van het type bool. Deze kan van buiten de klasse aangepast worden. Indien deze bool op ``true`` staat kunnen Pokémon hun level niet verhoogd worden. Wanneer in dit geval ``VerhoogLevel`` wordt aangeroepen zal er een foutboodschap op het scherm komen.
 
 Toon in je hoofdprogramma aan dat je kunt werken met deze static methoden en properties.
 

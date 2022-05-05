@@ -33,8 +33,8 @@ Plaats van iedere klasse 2 objecten  in een gemeenschappelijke lijst en zorg erv
 
 # Pokémon interfaces
 
-Shadow Pokémon zijn een speciaal ras Pokémons ([zie hier](https://bulbapedia.bulbagarden.net/wiki/Shadow_Pok%C3%A9mon)) en kunnen "purified" worden op verschillende manieren. Maak een interface ``IShadow`` die een methode ``Purify`` heeft. Verzin enkele Pokémons die Shadow Pokémons zijn, geef ze de interface, en verzin manieren hoe ze purified kunnen worden (bv door hun HP op -1 te zetten).
-Kan je door je lijst van Pokémons gaan enkel de Shadow Pokémons op het scherm tonen?
+Shadow Pokémon zijn een speciaal ras Pokémon ([zie hier](https://bulbapedia.bulbagarden.net/wiki/Shadow_Pok%C3%A9mon)) en kunnen "purified" worden op verschillende manieren. Maak een interface ``IShadow`` die een methode ``Purify`` heeft. Verzin enkele Pokémon die Shadow Pokémon zijn, geef ze de interface, en verzin manieren hoe ze purified kunnen worden (bv door hun HP op -1 te zetten).
+Kan je door je lijst van Pokémon gaan enkel de Shadow Pokémon op het scherm tonen?
 
 # PokéDex IList (PRO)
 Maak een PokéDex die de interface ``IEnumerable`` implementeert zoals [hier uitgelegd](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=netcore-3.1). Hierdoor kan je je PokéDex klasse gebruiken als een  ``List``.

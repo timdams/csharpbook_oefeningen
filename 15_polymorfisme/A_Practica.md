@@ -4,7 +4,7 @@ Voeg een filter toe aan de dierentuin applicatie uit [een eerder hoofdstuk](../1
 * Filter praten: er wordt gevraagd welke dieren moeten praten (Koe, Slang of Varken) vervolgens zullen enkel die dieren praten (tip: "is" operator uit les van gisteren)
 
 # Pokemons vergelijken
-Implementeer de ``Equals`` methode (via ``override``) in je ``Pokemon`` klasse. Twee Pokémons zijn dezelfde indien volgende zaken gelijk zijn:
+Implementeer de ``Equals`` methode (via ``override``) in je ``Pokemon`` klasse. Twee Pokémon zijn dezelfde indien volgende zaken gelijk zijn:
 
 * Basis stats
 * Naam

@@ -183,15 +183,15 @@ Deze methode zal telkens een Pokémon aanmaken met willekeurige base-stats. Bepa
 Voeg een methode met volgende signatuur toe aan je hoofdprogramma (dus ook weer in Program.cs):
 ``static int Battle(Pokémon poke1, Pokémon poke2)``.
 
-De methode zal een getal teruggeven dat aangeeft welke van de twee Pokémons een gevecht zou winnen. 1= poke1, 2 = poke2, 0 = gelijke stand.
+De methode zal een getal teruggeven dat aangeeft welke van de twee Pokémon een gevecht zou winnen. 1= poke1, 2 = poke2, 0 = gelijke stand.
 
-Controleer steeds of 1 of beide van de meegegeven Pokémons niet ``null`` zijn. Indien er 1 ``null`` is dan wint uiteraard de andere. Indien allebei ``null`` wint niemand (dus return je 0). Test of dit werkt!
+Controleer steeds of 1 of beide van de meegegeven Pokémon niet ``null`` zijn. Indien er 1 ``null`` is dan wint uiteraard de andere. Indien allebei ``null`` wint niemand (dus return je 0). Test of dit werkt!
 
-Bepaal zelf hoe Pokémons vechten (bv. degene met de hoogste average van full-stats). Werk niet enkel met de base-stats, daar deze constant zijn. Het is leuker dat het level ook een invloed heeft (maar ga niet gewoon het level vergelijken).
+Bepaal zelf hoe Pokémon vechten (bv. degene met de hoogste average van full-stats). Werk niet enkel met de base-stats, daar deze constant zijn. Het is leuker dat het level ook een invloed heeft (maar ga niet gewoon het level vergelijken).
 
 ### Alles samen
 
-Genereer 2 willekeurige Pokémons met je generator en laat ze vechten met je battle-methode. Toon wat output aan de gebruiker zodat hij ziet wat er allemaal gebeurt (en gebruik zeker de ``ShowInfo`` methode om dit snel te doen). Kan je dit in een loop zetten en wat leuker maken met Pokémons die telkens levelen als ze een gevecht winnen?!
+Genereer 2 willekeurige Pokémon met je generator en laat ze vechten met je battle-methode. Toon wat output aan de gebruiker zodat hij ziet wat er allemaal gebeurt (en gebruik zeker de ``ShowInfo`` methode om dit snel te doen). Kan je dit in een loop zetten en wat leuker maken met Pokémon die telkens levelen als ze een gevecht winnen?!
 
 ### Meer info
 Voor de volledige info over Pokémon hun stats. [Klik hier.](https://bulbapedia.bulbagarden.net/wiki/Statistic "Stats Pokémon")

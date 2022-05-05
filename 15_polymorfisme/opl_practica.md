@@ -55,7 +55,7 @@ case "Varken":
     //...
 ```
 
-# Pokémons vergelijken
+# Pokémon vergelijken
 
 In klasse ``Pokemon``:
 
