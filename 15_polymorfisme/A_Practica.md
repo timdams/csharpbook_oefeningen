@@ -10,8 +10,6 @@ Implementeer de ``Equals`` methode (via ``override``) in je ``Pokemon`` klasse. 
 * Naam
 * Level
 
-
-
 # Een eigen huis
 
 Gebruik compositie én overerving om een klasse ``Huis`` te voorzien van enkele kamers, waarbij iedere kamer een klasse op zich is (denk aan ``BadKamer``, ``Salon``, etc). Alle kamers erven over van de klasse ``Kamer``.
