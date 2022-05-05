@@ -21,7 +21,7 @@ Maak volgende klassen:
 Een Minister heeft geen speciale eigenschappen. Enkel een autoproperty om de Naam van de minister in bij te houden
 
 ## President
-Een President is een minister maar met 1 extra property met private setter: hij heeft een teller die start op 4 alsook een methode `JaarVerder`die deze teller met 1 iedere aanroep verlaagt.
+Een President is een minister maar met 1 extra property met private setter: hij heeft een Teller (autoproperty type ``int``) die start op 4 alsook een methode `JaarVerder`die deze teller bij iedere aanroep met 1 verlaagt.
 
 ## Land
 * Een land heeft 0 of 1 president (of koning, kies zelf)
@@ -43,13 +43,20 @@ Deze methode zal enkel iets doen indien er geen president in het land is (``null
 
 ### ``JaarVerder``
 
-Deze methode aanroepen zal de ``JaarVerder`` aanroepen op de president indien deze er is (en dus niet ``null`` is). Deze methode controleert ook of de teller van de president na deze aanroep op 0 staat. Als dat het geval is dan worden alle ministers en president in het land op ``null`` gezet.
+Deze methode aanroepen zal de ``JaarVerder`` aanroepen op de president indien deze er is (en dus niet ``null`` is). Deze methode controleert ook of de ``Teller`` van de president na deze aanroep op 0 staat. Als dat het geval is dan worden alle ministers en president in het land op ``null`` gezet.
 
 ## Eindfase
 
 Controleer je klasse Land door enkele ministers en een president te maken en deze in een object van het type Land via ``MaakRegering`` door te geven. Test dan wat er gebeurt indien je enkele malen ``JaarVerder`` op het land aanroept.
     
+## Verkiezingen
 
+Maak klasse ``VerkiezingsUitslag``. Deze klasse heeft een default constructor die volgende twee properties random waarden zal geven:
+
+* Een full property met private set ``VerkozenPresident`` van het type ``President``.
+* Een full property met private set ``VerkozenMinisters`` van het type ``List<Minister>``.
+
+Maak in je hoofdprogramma een ``VerkiezingsUitslag``-object aan en gebruik deze om de ``MaakRegering``methode van je Land van de nodige informatie te voorzien.
 
 # Moederbord
 
