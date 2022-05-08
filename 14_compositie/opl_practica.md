@@ -130,6 +130,62 @@ public class President: Minister
 }
 ```
 
+Met de uitbreiding:
+
+```java
+public class VerkiezingsUitslag
+{
+    static Random rng = new Random();
+
+
+    public VerkiezingsUitslag()
+    {
+        VerkozenPresident = new President() { Naam = NaamGen() };
+        VerkozenMinisters = new List<Minister>();
+
+        for (int i = 0; i < 5; i++)
+        {
+            VerkozenMinisters.Add(new Minister() { Naam = NaamGen() });
+        }
+    }
+
+    private President verkozenPresident = null;
+
+    public President VerkozenPresident
+    {
+        get { return verkozenPresident ; }
+        set { verkozenPresident = value; }
+    }
+
+    private List<Minister> verkozenMinisters ;
+
+    public List<Minister> VerkozenMinisters
+    {
+        get { return verkozenMinisters ; }
+        set { verkozenMinisters  = value; }
+    }
+
+    private string NaamGen()
+    {
+        string naam = "";
+        for (int i = 0; i < rng.Next(5,10); i++)
+        {
+            naam += (char)rng.Next('a', 'z');
+        }
+        return naam;
+    }
+}
+```
+
+Start van Main kan dan korter:
+
+```java
+VerkiezingsUitslag uitslag2022 = new VerkiezingsUitslag();
+
+Land mijnLand = new Land();
+mijnLand.MaakRegering(uitslag2022.VerkozenPresident, uitslag2022.VerkozenMinisters);
+```
+
 # Moederbord
 
 De output van onderstaande code zal zijn:
