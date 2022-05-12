@@ -79,7 +79,7 @@ Een vakje wordt gedefinieerd door:
 	* 30% kans op +1 of +2
     * 20% kans op -1 of -2
     * 50% kans op 0
-* Een virtuele methode ``ToonVakje`` dat op de huidige locatie van de cursor in de console de ``BeweegVakjes``waarde van het vakje op het scherm schrijft. 
+* Een virtuele methode ``ToonVakje`` dat op de huidige locatie van de cursor in de console de ``BeweegVakjes``waarde van het vakje op het scherm schrijft. Indien de waarde positief of 0 is, toon je dit met een + voor. Bijvoorbeeld: +2 of +0. Een negatief toon je met de - , zoals -2.
 
 
 ### ``Ganzenbord`` 
@@ -110,13 +110,15 @@ De ``pionIndex`` wordt verhoogd met het getal dat wordt meegeven, vervolgens:
 ### ``TekenBord()``
 
 Deze methode zal de 10 vakjes naast elkaar op het scherm visualiseren door de lijst ``SpeelVakjes`` te overlopen en van ieder object de ``ToonVakje`` methode aan te roepen.
-Vervolgens wordt de ``pionIndex`` locatie gebruikt om dat vakje op het scherm te overschrijven met een 
+Vervolgens wordt de ``pionIndex`` locatie gebruikt om dat vakje op het scherm te overschrijven met een 'T'
 
-Indien de speler dus op index 3 zit van een willekeurig bord, dan kan de output zijn:
+Indien de speler dus op index 3 (het vierde vakje) zit van een willekeurig bord, dan kan de output zijn:
 
 ```text
--121T00-2110
+-1+2+1-T+0+0-2+1+1+0
 ```
+
+Dus het eerste vakje heeft waarde -1, het volgende 2, het derde 1, het vierde zien we niet want daar staat het mannetje (het was was blijkbaar een negatief vakje) en  zien we een T, dan krijgen we twee vakjes met waarde 0.
 
 ## Main spelloop
 
