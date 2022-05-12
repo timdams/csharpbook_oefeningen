@@ -12,7 +12,7 @@ Een school, "Stedelijk Lyceum 90", heeft je gevraagd een administratief pakket v
 * Je school heeft volgende properties:
   * geldHoeveelheid: een int die nooit onder 15 of lager kan gaan en die bijhoudt hoeveel geld je school nog heeft, private set
   * IsBijnaLeeg: een readonly property die true teruggeeft indien de hoeveelheid geld  15 of lager is
-  * leerlingen: Een lijst van leerlingen (zie hierna) als gewone autoproperty die maximum 15 leerlingen kan bevatten.
+  * leerlingen: Een lijst van leerlingen (zie hierna) als gewone property die initieel een capaciteit van 15 plekken heeft.
   * Een autoproperty Naam die steeds op  school90 staat.
 * Volgende publieke methoden:
   * Geefgeld: deze methode aanvaardt een double. Het getal dat je meegeeft wordt bijgeteld bij geldHoeveelheid
