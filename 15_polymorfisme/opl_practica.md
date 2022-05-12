@@ -90,9 +90,7 @@ myHuis.Kamers.Add(new Kamer());
 Console.WriteLine(myHuis.BerekenPrijs());
 ```
 
-## Klasse
-
-(In sommige hanteer ik de [EDM-schrijftstijl](B_appendix/6_exprbody.md) bij de override van properties.)
+## Klassen
 
 ```java
 public class Huis
@@ -114,13 +112,13 @@ public class Kamer
 {
     public int Oppervlakte { get; set; }
     public string Naam { get; set; }
-    public virtual int Prijs {get;} = 400;
+    public virtual int Prijs {get {return 400;}}
 
 }
 
 public class BadKamer : Kamer
 {
-    public override int Prijs => 500;
+    public override int Prijs {get {return 500;}} 
 }
 
 public class Salon : Kamer
@@ -137,6 +135,13 @@ public class Salon : Kamer
 }
 public class Gang : Kamer
 {
-    public override int Prijs => 10 * Oppervlakte;
+    public override int Prijs 
+    {
+        get
+        {
+            return Oppervlakte * 10;
+        }    
+    } 
+    
 }
 ```
