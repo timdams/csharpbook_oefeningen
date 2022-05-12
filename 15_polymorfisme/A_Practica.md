@@ -74,7 +74,7 @@ Het spelbord zal opgebouwd worden door een reeks van speelvakjes. Daarom maken w
 
 Een vakje wordt gedefinieerd door:
 
-* Een read-only int-property ``BeweegVakjes``: deze eigenschap geeft aan hoeveel vakjes vooruit (positief) of achteruit (negatief) de speler zal gaan als op dit vakje wordt geland.
+* Een read-only int-property ``BeweegVakjes`` (met private set): deze eigenschap geeft aan hoeveel vakjes vooruit (positief) of achteruit (negatief) de speler zal gaan als op dit vakje wordt geland.
 * Een default constructor die de ``BeweegVakjes`` instelt op een waarde als volgt:
 	* 30% kans op +1 of +2
     * 20% kans op -1 of -2
