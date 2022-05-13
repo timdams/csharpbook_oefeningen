@@ -77,6 +77,13 @@ public override bool Equals(object obj)
 
 # Een eigen huis
 
+{% hint style='tip' %}
+In volgende filmpje leg ik de oplossing stap voor stap uit: [video oplossing](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3cdd897c-14e6-4bac-aff3-ae94009e0c4b)
+
+Hier kan je de bijhorende code terugvinden: [Github oplossing](https://github.com/timdams/EenEigenHuis)
+
+De code hieronder is een iets andere oplossing dan in het filmpje. Beide zijn evenwaardig.
+{% endhint %}
 
 ## Main:
 
