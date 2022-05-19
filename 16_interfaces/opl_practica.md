@@ -71,7 +71,7 @@ public class Huis : ICarbonFootPrint
 
     public void VerlaagFootprint()
     {
-        if (footprintfactor > 1)
+        if (BerekenFootPrint() > 1)
             footprintfactor -= 0.1;
     }
 }
