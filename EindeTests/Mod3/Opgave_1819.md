@@ -38,14 +38,14 @@ Een ``DagboekEntry`` stelt 1 dag voor die de gebruiker in z’n dagboek heeft ge
 * Autoproperty ``IsInspired`` (bool) die bijhoudt hoe geïnspireerd de gebruiker die dag was
 * Property met private setter ``IsPrivate`` (bool) die aangeeft of deze entry als privé moet beschouwd worden
 * Fullproperty ``Description`` (string) die een beschrijving bevat van hoe de gebruiker zich voelde die dag:
-   * Bij Get zal enkel de description worden teruggegeven als IsPrivate niet true is. Indien het wel om een privé entry gaat dan wordt de tekst ***PRIVATE*** teruggegeven.
+   * Bij Get zal enkel de description worden teruggegeven als IsPrivate niet true is. Indien het wel om een privé entry gaat dan wordt de tekst ``***PRIVATE***`` teruggegeven.
 * Fullproperty ``Qal`` (int) deze kan enkel waarden tussen 0 en 100 krijgen. 
   *Indien de gebruiker een getal kleiner dan 0 instelt dan wordt de Qal op 0 ingesteld.
   *Indien de gebruiker een getal groter dan 100 instelt dan wordt de Qal op 100 gezet.
 
 ### Methoden (35%)
 
-* MakePrivate: De enige manier om van buitenuit de IsPrivate van een DagboekEntry object aan te passen. De methode aanvaardt een bool die aangeeft of het object privaat moet gezet worden en geeft niets terug.
+* MakePrivate: De enige manier om van buiten uit de IsPrivate van een DagboekEntry object aan te passen. De methode aanvaardt een bool die aangeeft of het object privaat moet gezet worden en geeft niets terug.
 * ResetEntry: deze methode vereist geen parameters en geeft niets terug.
   * Zet ``IsInspired`` op false, de ``Qal`` op 50 en de ``description`` leeg
 * ``ShowInfo``: deze methode vereist geen parameters en geeft niets terug.
