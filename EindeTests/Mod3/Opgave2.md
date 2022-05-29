@@ -14,7 +14,7 @@ Voorzie volgende constructors:
 * Een overloaded constructor waarbij de 3 eigenschappen als parameter kunnen doorgegeven worden.
 
 ## Methoden
-### Toonmens
+### ToonMens
 Voorzie een methode ``ToonMens``. Deze vat de informatie van een Mens-object in één lang samen, hierbij zal de achtergrond van de tekst de kleur van de ogen zijn.
 De tekst die verschijnt is: ``maxlengte [in meter], geslacht``
 
@@ -27,7 +27,7 @@ Bijvoorbeeld:
 ### Plantvoort
 Enkel vrouwen kunnen nieuwe mensen maken. 
 
-* Iedere mens heeft een methode '`Plantvoort`' die als parameter een andere mens vereist.
+* Iedere mens heeft een methode '`Plantvoort`' die als parameter een Mens met geslacht "Man" vereist.
 * Enkel bij vrouwen zal deze methode iets doen. Indien deze op mannen wordt aangeroepen geeft de methode ``null`` terug.
 * De methode geeft een nieuw mens object terug. De nieuwe mens heeft als lengte de gemiddelde lengte van de man en vrouw. De oogkleur is 50% van de tijd die van de man en 50%van de tijd die van de vrouw. Het geslacht is willekeurig.
 

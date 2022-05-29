@@ -109,14 +109,13 @@ namespace gen
 
         public Mens Plantvoort(Mens man)
         {
-            if (Geslacht == Geslacht.Vrouw && man.Geslacht == Geslacht.Man)// && this.Generatie == man.Generatie)
+            if (Geslacht == Geslacht.Vrouw && man.Geslacht == Geslacht.Man && man != this )
             {
+                // && man != this zorgt ervoor dat een vrouw niet met zichzelf kan voortplanten
                 int lengteind = (man.MaxLengte + this.MaxLengte) / 2;
                 OogKleur oogkind = this.OogKleur;
                 if (r.Next(0, 2) == 0) oogkind = man.OogKleur;
-
-                if (r.Next(0, 5) == 0) oogkind = OogKleur.Geel;
-
+                
                 Geslacht g = Geslacht.Man;
                 if (r.Next(0, 2) == 0) g = Geslacht.Vrouw;
 
