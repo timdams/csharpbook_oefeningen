@@ -6,7 +6,6 @@ Nu dat het Suez-kanaal vastzit is het de moment voor de Antwerpse haven om de gr
 Maak een klasse Container met:
 * Autoproperties met private set: 
   * Bedrijf (string)
-  * Beschrijving (string)
   * LaatstAangepast (DateTime) 
   * GemaaktOp (DateTime)
 * Autoproperty: Beschrijving (string)
