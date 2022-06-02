@@ -25,7 +25,7 @@ Tip: De logica is dat telkens het gewicht van de container wordt aangepast, dit 
   * Ledig: deze zal de beschrijving van de container op “leeg” zetten en het gewicht op 0. Het bedrijf blijft!
   * InWerking: deze methode geeft een TimeSpan object terug dat bestaat uit het verschil tussen LaatsteAangepast en GemaaktOp.
   * AddContainer:  deze methode geeft niets terug en aanvaardt 1 parameter van het type Container.
-    * Indien de meegeven container van dezelfde Bedrijf  is als de container zelf, dan zal het volgende gebeuren.
+    * Indien de meegeven container van hetzelfde Bedrijf  is als de container zelf, dan zal het volgende gebeuren.
       * Indien de som van de gewichten van beide containers samen minder dan 100 is dan zal het gewicht van de meegegeven container opgeteld worden bij die van de huidige container. De beschrijving van de huidige container zal bestaan uit de huidige beschrijving gevolgd door “ en [beschrijving meegegeven container]” . Als dus de meegegeven container (de parameter) als beschrijving “Eten” had en de huidige container “Water” dan wordt de beschrijving van de huidige container “Water en Eten”.
       Vervolgens wordt de meegegeven container leeg gemaakt met de Ledig methode.
     * Als de som van beide containers bij samenvoegen boven de 100 zou komen dan verschijnt er een tekst "Kan container niet adden. Dit zou gewicht boven de 100 brengen" en stopt de methode.
