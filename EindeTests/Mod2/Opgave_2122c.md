@@ -30,21 +30,21 @@ De methode vraagt welke frisdrank de gebruiker wenst (zie menu), wederom voert d
 Berekentotaal (3p)
 Deze methode geeft de prijs als double tot 2 cijfers na de komma op het scherm weer en zal deze waarde ook als return teruggeven. De methode aanvaardt volgende parameters:
 
-1° hamburger, string, verplicht
-2° aantalfrietjes, int, optioneel (standaard: 1)
-3° drank, enum type Frisdranken, optioneel (standaard: “geen”) 
+1. hamburger, string, verplicht
+2. aantalfrietjes, int, optioneel (standaard: 1)
+3. drank, enum type Frisdranken, optioneel (standaard: "geen") 
 
 Volgende menukaart wordt gebruikt om met voorgaande informatie de totaalprijs te bereken.
 
 De menukaart:
  
 * Gewone hamburger: 	€5
-* Fishburger:		€6
-* Veggieburger:		€3
-* Water			€2
-* Fanta			€3
-* Cola			€3
-* Frietjes:		€2 per frietje
+* Fishburger:		    €6
+* Veggieburger:	    	€3
+* Water			        €2
+* Fanta		           	€3
+* Cola		        	€3
+* Frietjes:	        	€2 per frietje
  
 ### Promoties
 
@@ -66,9 +66,9 @@ Voeg volgende uitbreidingen toe aan de applicatie.
 
 Voorbeeld voor iemand met fishburger, 3 frietjes en fanta:
 
-``text
+```text
 HIIIF
-``  
+```  
 
 *(de H heeft een blauwe achtergrond)*
 
