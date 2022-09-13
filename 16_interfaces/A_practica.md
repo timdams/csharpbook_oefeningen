@@ -29,7 +29,7 @@ Plaats van iedere klasse 2 objecten  in een gemeenschappelijke lijst en zorg erv
 * de footprint van alle objecten getoond wordt (planten worden overgeslagen)
 * de gemiddelde footprint van alle objecten (ook planten worden meegeteld) berekend
 * toont welk object de hoogte footprint heeft
-* van alle objecten de footprint kan verlaagt worden
+* van alle objecten de footprint kan verlaagd worden
 
 # Pokémon interfaces
 

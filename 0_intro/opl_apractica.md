@@ -15,7 +15,7 @@ Console.WriteLine("Wat is je favoriete auto?");
 string favAuto = Console.ReadLine();
 
 
-Console.WriteLine("Je favoriete kleur is"+ favEten +". Je eet graag"+ favAuto +". Je lievelingsfilm is"+ favBoek +" en je favoriete boek is "+ favKleur);
+Console.WriteLine("Je favoriete kleur is "+ favEten +". Je eet graag "+ favAuto +". Je lievelingsfilm is"+ favBoek +" en je favoriete boek is "+ favKleur +".");
 ```
 
 ## Met kleuren
