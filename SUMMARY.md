@@ -3,7 +3,7 @@
 * [Welkom](README.md)
 * [Hulp! Er ontbreekt een oplossing!](hulp.md)
 
-## Zie Scherp Oefeningen (semester 1)
+## Programming Principles Oefeningen (semester 1)
 
 * H1: De eerste stappen
   * [Oefeningen](0_intro/A_Practica.md)
@@ -53,6 +53,7 @@
   * [Opgave 4](EindeTests/Mod2/Opgave_1920.md)
   * [Opgave 5](EindeTests/Mod2/Opgave_1920b.md)
   * [Opgave 6](EindeTests/Mod2/Opgave_2021.md)
+  * [Opgave 7](EindeTests/Mod2/Opgave_2122b.md)
   * [Oplossing opgave 1](EindeTests/Mod2/Oplossing_2122.md)
   * [Oplossing opgave 2](EindeTests/Mod2/Oplossing_1819.md)
   * [Oplossing opgave 3](EindeTests/Mod2/Oplossing_1819b.md)
@@ -70,7 +71,7 @@
   * [Conway game of life](A_DEEL1_AllInOne/5_conway.md)
   * [How to make your console app look cool](A_DEEL1_AllInOne/coolconsole.md)
 
-## Zie Scherper Oefeningen (semester 2)
+## .NET OOP Oefeningen (semester 2)
 
 * H1: Object Oriented Programming
   * [Oefeningen](8_klassen/A_practica.md)
@@ -116,6 +117,9 @@
   * [Oplossing opgave 3](EindeTests/Mod4/Ooplpgave_1920.md)
   * [Opgave 4](EindeTests/Mod4/Opgave_2021.md)
   * [Oplossing opgave 4](EindeTests/Mod4/Ooplpgave_2021.md)
+  * [Opgave 5](EindeTests/Mod4/Opgave_2021b.md)
+  * [Opgave 6](EindeTests/Mod4/Opgave_2122.md)
+  * [Opgave 7](EindeTests/Mod4/Opgave_2122b.md)
 * All-In-Projecten
   * [Overzicht](A_DEEL2_AllInOne/0_Deel2_IntroductieAllInOne.md)
   * [OO Textbased Game](A_DEEL2_AllInOne/2_OOTextGame.md)
