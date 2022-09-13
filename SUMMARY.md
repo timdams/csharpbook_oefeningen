@@ -61,6 +61,7 @@
   * [Oplossing opgave 4](EindeTests/Mod2/Oplossing_1920.md)
   * [Oplossing opgave 5](EindeTests/Mod2/Oplossing_1920b.md)
   * [Oplossing opgave 6](EindeTests/Mod2/Oplossing_2021.md)
+  * [Oplossing opgave 8](EindeTests/Mod2/Oplossing_2122c.md)
 * All-In-Projecten
   * [Overzicht](A_DEEL1_AllInOne/0_Deel1_IntroductieAllInOne.md)
   * [Console Matrix](A_DEEL1_AllInOne/1_ConsoleMatrix.md)

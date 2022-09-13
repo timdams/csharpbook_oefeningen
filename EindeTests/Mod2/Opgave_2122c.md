@@ -27,7 +27,9 @@ Deze methode vraagt hoeveel frietjes de gebruiker wenst en zal het resultaat (ee
 ## BestelFrisdrank (2p)
 
 De methode vraagt welke frisdrank de gebruiker wenst (zie menu), wederom voert de gebruiker een getal in. Dit getal wordt omgezet naar een enum van het type Frisdranken (met als waarden Water, Fanta, Cola) dat zal teruggeven als resultaat van de methode.
-Berekentotaal (3p)
+
+## Berekentotaal (3p)
+
 Deze methode geeft de prijs als double tot 2 cijfers na de komma op het scherm weer en zal deze waarde ook als return teruggeven. De methode aanvaardt volgende parameters:
 
 1. hamburger, string, verplicht
@@ -55,7 +57,7 @@ Volgende promoties zijn actief en worden toegepast indien relevant:
 
 Indien de gebruiker een promotie heeft gekozen dan wordt dit op het scherm getoond vlak voor de prijs wordt getoond. 
 
-# Uitbreidingen (6p)
+# Uitbreidingen (2p)
 
 Voeg volgende uitbreidingen toe aan de applicatie.
 
@@ -72,7 +74,5 @@ HIIIF
 
 *(de H heeft een blauwe achtergrond)*
 
-Vervolgens wordt de prijs en eventuele promotievermelding getoond
-
-**HamburgerArrays (2p)**: Gebruik een array waarin alle type hamburgers staan die besteld kunnen worden. De prijs van de hamburger in de arrays is gelijk aan z’n index +1. (je mag dus de prijzen uit voorgaande menukaart negeren). Zorg ervoor dat je zoveel hamburgertypes als je zelf wenst in de arrays kunt toevoegen (en dus niet beperkt bent tot 3).
+Vervolgens wordt de prijs en eventuele promotievermelding getoond.
 
