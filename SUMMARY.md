@@ -75,19 +75,19 @@
 
 ## .NET OOP Oefeningen (semester 2)
 
-* H1: Object Oriented Programming
+* H9: Object Oriented Programming
   * [Oefeningen](8_klassen/A_practica.md)
   * [Oplossingen](8_klassen/opl_apractica.md)
-* H2: Geheugenmanagement, uitzonderingen en namespaces
+* H10: Geheugenmanagement, uitzonderingen en namespaces
   * [Oefeningen](9_meminoop/A_poke1.md)
   * [Oplossingen](9_meminoop/opl_poke2.md)
-* H3: Gevorderde klasseconcepten
+* H11: Gevorderde klasseconcepten
   * [Oefeningen](10_advancedklassen/A_practica3.md)
   * [Oplossingen](10_advancedklassen/opl_practica3.md)
-* H4: Arrays en klassen
+* H12: Arrays en klassen
   * [Oefeningen](11_arraysvanklassen/A_practicaMem.md)
   * [Oplossingen](11_arraysvanklassen/opl_practica3.md)
-* Alles samen - H1 tot H4
+* Alles samen - H9 tot H12
   * [Opgave 1](EindeTests/Mod3/Opgave.md)
   * [Opgave 2](EindeTests/Mod3/Opgave2.md)
   * [Oplossing Opgave 2 ](EindeTests/Mod3/Opgave2Opl.md)
@@ -96,22 +96,22 @@
   * [Opgave 4](EindeTests/Mod3/Opgave_1920.md)
   * [Opgave 5](EindeTests/Mod3/Opgave_2021.md)
   * [Oplossing opgave 5](EindeTests/Mod3/Oplossing_2021.md)
-* H5: Overerving
+* H13: Overerving
   * [Oefeningen](12_overerving/A_PracticaSimpel.md)
   * [Oplossingen](12_overerving/opl_practica3.md)
-* H6: Gevorderde overervingsconcepten
+* H14: Gevorderde overervingsconcepten
   * [Oefeningen](13_advancedovererving/A_Practica.md)
   * [Oplossingen](13_advancedovererving/opl_practica4.md)
-* H7: Compositie en aggregatie
+* H15: Compositie en aggregatie
   * [Oefeningen](14_compositie/A_PracticaComp.md)
   * [Oplossingen](14_compositie/opl_practica.md)
-* H8: Polymorfisme
+* H16: Polymorfisme
   * [Oefeningen](15_polymorfisme/A_Practica.md)
   * [Oplossingen](15_polymorfisme/opl_practica.md)
-* H9: Interfaces
+* H17: Interfaces
   * [Oefeningen](16_interfaces/A_practica.md)
   * [Oplossingen](16_interfaces/opl_practica.md)
-* Alles samen - H5 tot H9
+* Alles samen - H13 tot H17
   * [Opgave 1](EindeTests/Mod4/Opgave.md)
   * [Oplossing opgave 1](EindeTests/Mod4/Oplossing.md)
   * [Opgave 2](EindeTests/Mod4/Opgave_1819_2ezit.md)
