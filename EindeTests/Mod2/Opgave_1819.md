@@ -28,8 +28,8 @@ Maak een methode SetupCasino:
 * Returntype bool
 * Parameters:
   * Naam (tekst)
-  * Lengte scherm (geheel getal) [optioneel, standaard= 80]
-  * Breedte scherm [optioneel, standaard= 60]
+  * Lengte scherm (geheel getal) [optioneel, standaard= 40]
+  * Breedte scherm [optioneel, standaard= 30]
 * Werking
   * De methode geeft false terug indien de lengte of breedte kleiner is dan 1
   * Anders geeft de methode true terug en doet het volgende:

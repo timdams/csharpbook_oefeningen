@@ -185,7 +185,7 @@ namespace _1819_PPVaardigMod2_1ekans
             return keuze;
         }
 
-        private static bool SetupCasino(string name, int hoogte=60, int breedte=60)
+        private static bool SetupCasino(string name, int hoogte=40, int breedte=30)
         {
             if (hoogte < 1 || breedte < 1)
             {
