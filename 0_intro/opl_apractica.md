@@ -80,8 +80,13 @@ Console.WriteLine("Waarom op AP:" + ap);
 ## Tekening
 
 ```java
-Console.BackgroundColor = ConsoleColor.Red; 
+Console.BackgroundColor = ConsoleColor.Red;
 Console.WriteLine("       ");
+Console.Write("  ");
+Console.BackgroundColor = ConsoleColor.Green;
+Console.Write("   ");
+Console.BackgroundColor = ConsoleColor.Red;
+Console.WriteLine("  ");
 Console.Write("  ");
 Console.BackgroundColor = ConsoleColor.Green;
 Console.Write("   ");
