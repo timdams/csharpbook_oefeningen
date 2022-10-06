@@ -105,8 +105,8 @@ const double gMerc = 0.38;
 const double gVenus = 0.91;
 //enzovoort
 
-Console.WriteLine("Je weegt op Mercurius "+ (gewichtOpAarde*gMerc)+ " kg.");
-Console.WriteLine("Je weegt op Venus " + (gewichtOpAarde * gVenus) + " kg.");
+Console.WriteLine("Je weegt op Mercurius "+ (gewichtOpAarde*gMerc)+ " N.");
+Console.WriteLine("Je weegt op Venus " + (gewichtOpAarde * gVenus) + " N.");
 //enzovoort
 ```
 
