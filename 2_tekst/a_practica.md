@@ -23,27 +23,6 @@ Genereer je naam in Unicode Art met een van de [vele online generators](https://
 
 Kies 2 oefeningen uit het vorige hoofdstuk waarin je output op het scherm moest geven. Pas string interpolatie m.b.v. ``$`` (manier 2) toe in deze 2 oefeningen.
 
-## Unicode Art & Colors
-
-Gebruik je kennis van het verschil tussen `Console.Write`  en `Console.WriteLine`, alsook de werking van kleuren in console-applicaties, om je Unicode-art naam van de eerdere oefening nu van kleur te voorzien. Zorg ervoor dat minstens 1 letter in een andere kleur is.
-
-{% hint style='tip' %}
-Dit is een redelijke lange oefening, doe deze best op het einde.
-
-Deze oefening kan je op 2 manieren oplossen:
-1. Je gebruikt een combinatie van ``Write`` en ``Console.SetCursorPosition``
-2. Je knipt je tekening op in stukken die je met verschillende ``Write`` en ``WriteLines`` op het scherm zet. Volgend voorbeeld toont bijvoorbeeld hoe je een vierkantje van sterretjes tekent waarbij het midden van het vierkant rood is:
-
-```java
-Console.WriteLine("***");
-Console.Write("*");
-Console.ForegroundColor = ConsoleColor.Red;
-Console.Write("*");
-Console.ResetColor();
-Console.WriteLine("*");
-Console.WriteLine("***");
-```
-{% endhint %}
 
 ## Systeem informatie
 
@@ -192,3 +171,25 @@ Of de naam van een bestand dat je wilt openen, maar dan met het hele path:
 c:\Temp\mydocument.docx
 ```
 
+## Unicode Art & Colors (niet PRO, wel saai)
+
+
+Gebruik je kennis van het verschil tussen `Console.Write`  en `Console.WriteLine`, alsook de werking van kleuren in console-applicaties, om je Unicode-art naam van de eerdere oefening nu van kleur te voorzien. Zorg ervoor dat minstens 1 letter in een andere kleur is.
+
+{% hint style='tip' %}
+Dit is een redelijke lange oefening, doe deze best op het einde.
+
+Deze oefening kan je op 2 manieren oplossen:
+1. Je gebruikt een combinatie van ``Write`` en ``Console.SetCursorPosition``
+2. Je knipt je tekening op in stukken die je met verschillende ``Write`` en ``WriteLines`` op het scherm zet. Volgend voorbeeld toont bijvoorbeeld hoe je een vierkantje van sterretjes tekent waarbij het midden van het vierkant rood is:
+
+```java
+Console.WriteLine("***");
+Console.Write("*");
+Console.ForegroundColor = ConsoleColor.Red;
+Console.Write("*");
+Console.ResetColor();
+Console.WriteLine("*");
+Console.WriteLine("***");
+```
+{% endhint %}
