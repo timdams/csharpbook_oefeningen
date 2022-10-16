@@ -24,6 +24,26 @@ Console.WriteLine($"Omtrekt: {omtrek}");
 Console.WriteLine($"Oppervlakte: {oppervlakte}");
 ```
 
+## Elo-schaak
+
+Input van de gebruiker wordt niet getoond maar zal je zelf hopelijk wel kunnen:
+
+```java
+double ra = 1000; //vraag dit aan de gebruiker
+double rb = 1100; //vraag dit aan de gebruiker
+
+double ea= 1/(1+Math.Pow(10,(rb-ra)/400));
+double eb = 1 / (1 + Math.Pow(10, (ra - rb) / 400));
+
+double ranew = ra + 10 * (1 - ea);
+double rbnew = rb + 10 * (0 - eb);
+Console.WriteLine("Indien a wint:");
+Console.WriteLine(ranew);
+Console.WriteLine(rbnew);
+
+//idem voor de 2 andere scenarios)
+```
+
 ## Stacking armor calculator
 
 ```java
