@@ -108,7 +108,7 @@ Schrijf een programma waarin je het BTW-percentage 21% als een constante definie
 
 ## Gewicht in space
 
-Je massa is overal dezelfde. Je gewicht daarentegen is afhankelijk van de zwaartekracht van de plek waar je bent. Zo is je gewicht veel groter op Jupiter dan op Mars.
+Je massa is overal dezelfde. Je gewicht daarentegen is afhankelijk van de zwaartekracht van de plek waar je bent. Zo is je gewicht veel groter op Jupiter dan op Mars (uitgedrukt in Newton).
 
 Maak een variabele ``double gewichtOpAarde`` aan. Wijs een gewicht toe (bv. het jouwe). Schrijf nu een programma dat onder elkaar jouw gewicht op verschillende planeten toont.
 
@@ -126,7 +126,7 @@ Hier de omzettingstabel (je gewicht op Mercurius is dus je gewicht op aarde x 0.
 
 De output zijn verschillende lijnen onder elkaar in de vorm van:
 
-``Je weegt op [planeet] [gewichtopdieplaneet] kg.``
+``Je weegt op [planeet] [gewichtopdieplaneet] N.``
 
 Plaats de zin met Jupiter in het rood, daar je daar het zwaarst weegt en die van pluto in het groen.
 
