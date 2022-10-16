@@ -21,6 +21,41 @@ omtrek: …
 oppervlakte: …
 ```
 
+## Schaak-ELO
+
+> Sinds 2022 en de sappige verhalen rond Magnus en Niemann is schaken erg populair aan het worden bij "de massa". Tijd om hier dus een oefening rond te maken.
+
+*"Een Elo-rating is een getalsmatige aanduiding van de sterkte van een speler. Het wordt het meest gebruikt in schaken, dammen en go, maar kan in principe gebruikt worden bij elke sport waarbij spelers 1 tegen 1 spelen."* (bron Wikipedia). We gaan een applicatie schrijven die 
+
+1° De verwachte score (Ea en Eb) berekend indien 2 spelers tegen elkaar gaan spelen, gebaseerd op hun ELO-rating (Ra en Rb)
+2° Berekenen van hun nieuwe Elo score (R'a en R'b) gebaseerd op de effectieve uitslag (Sa en Sb).
+
+Volgende afbeelding ([bron](https://www.coorpacademy.com/en/blog/learning-innovation-en/elo-whos-the-best/)) toont beide stappen:
+![](../assets/0_intro/elo.png)
+
+Opmerkingen bij deze formules:
+
+* De waarde K mag je standaard op 10 zetten (dit geeft aan dat er maximum 10 Elo-punten kunnen bijkomen of afgaan).
+* De eindscore (Sa en Sb) is als volgt: 1 voor een win, 0,5 voor gelijkstond, 0 voor verlies.
+* De finale, nieuwe, rating wordt afgerond tot 0 cijfers na de komma. 
+
+### Getalvoorbeeld:
+
+Indien speler A een rating van 1000 heeft en B 1100 dan zal speler A na een gewonnen wedstrijd een rating van 1006 krijgen en speler B 1093.
+
+### Applicatie
+
+Schrijf een applicatie die eerst de Elo-ratings van beide spelers vraagt.
+Vervolgens toont de applicatie de nieuwe Elo-ratings voor de 3 scenario's:
+* Indien speler A wint.
+* Indien speler B wint.
+* Indien er een gelijke stand (draw) is.
+
+#### K vragen
+
+Breidt de applicatie uit en vraag de waarde K ook aan de gebruiker en gebruik deze in je berekeningen.
+
+
 ## Stacking Armor calculator
 
 Volgende formule laat ons toe om je effectieve Health te berekenen in League Of Legends, gebaseerd op je armor:

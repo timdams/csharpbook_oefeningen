@@ -40,6 +40,12 @@ else
 }
 ```
 
+
+## Schaak-elo met if
+
+Breidt je Schaak-elo applicatie uit: in plaats van de finale score voor de 3 scenarios te tonen, vraag je nu aan de gebruiker wat de uitslag van de wedstrijd was (Win voor A, Win voor B, Draw). Vervolgens toon je enkel de elo-ratings gebaseerd op die effectieve uitslag.
+
+
 ## Schoenverkoper
 
 ### a
