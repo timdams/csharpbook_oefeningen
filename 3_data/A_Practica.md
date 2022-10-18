@@ -12,7 +12,7 @@ Vanaf dit punt zullen  de meeste oefeningen iets "vragen" aan de gebruiker. Hier
 
 Vraag aan de gebruiker 3 kommagetallen. Bereken het gemiddelde van deze 3 getallen.
 
-## Vierkant
+## Vierkant (*Essential*)
 Schrijf een programma om de omtrek en de oppervlakte van een vierkant te bepalen. De zijde wordt ingelezen. Zorg ervoor dat de uitvoer er als volgt uitziet:
 
 ```text
@@ -21,7 +21,7 @@ omtrek: …
 oppervlakte: …
 ```
 
-## Schaak-ELO
+## Schaak-ELO (*Essential*)
 
 > Sinds 2022 en de sappige verhalen rond Magnus en Niemann is schaken erg populair aan het worden bij "de massa". Tijd om hier dus een oefening rond te maken.
 
@@ -99,13 +99,13 @@ Denk eraan: de methoden die met hoeken werken, werken in radialen, daarom moeten
 Je zal merken dat voor bepaalde hoeken (bijvoorbeeld 90 graden) je erg kleine of erg grote waarden krijgt, dat is normaal. De geometrische functie in de Math-bibliotheek berekenen de resultaten (en werken dus niet met een tabel) wat met eindige kommagetallen ervoor zorgt dat je soms in plaats van 1 of 0 iets erg kleins of groot krijgt.
 {% endhint %}
 
-## BMI berekenaar
+## BMI berekenaar (*Essential*)
 Maak een programma dat aan de gebruiker z'n lengte en gewicht vraagt en vervolgens de berekende BMI (Body Mass Index) toont.
 Gebruik ``Math.Round`` om de uitkomst tot maximum 2 cijfers na de komma te tonen.
 
 Reken na met je rekenmachine of je uitkomst wel degelijk klopt!
 
-## Op-de-poef
+## Op-de-poef (*Essential*)
 Een vaste klant in je café bestelt altijd "op-de-poef". Dat wil zeggen dat hij niet onmiddellijk betaalt en dat z'n rekeningen worden neergeschreven. Ooit zal de klant dan gevraagd worden de hele som te betalen.
 
 Schrijf een programma dat 5 keer na elkaar aan de barman vraagt om een bedrag in te voeren. Het ingevoerde bedrag wordt opgeteld bij wat er reeds op de rekening staat. Na 5 keer wordt de totale som getoond alsook hoeveel weken het duurt indien de klant wekelijks 10 euro afbetaalt.
@@ -134,7 +134,7 @@ Het totaal van  de poef is 39 en zal 4 weken duren om volledig afbetaald te word
 ```
 
 
-## Feestkassa
+## Feestkassa (*Essential*)
 De plaatselijke voetbalclub organiseert een mosselfestijn. Naast mosselen met frietjes (20 EUR) bieden ze voor de kinderen de mogelijkheid om een koninginnenhapje (10 EUR) te kiezen. Verder is er een ijsje als nagerecht voorzien (3 EUR). Om het gemakkelijk te maken kosten alle dranken 2 EUR.
 
 
@@ -160,7 +160,7 @@ Tussenprijs= 60 euro + 50 euro + 6 euro + 10 euro
 Het totaal te betalen bedrag is 126 EURO.
 ```
 
-## Het Orakeltje van Delphi
+## Het Orakeltje van Delphi (*Essential*)
 Gebruik een random generator om een orakel (een duur woord voor waarzegger) te maken, namelijk de kleine broer of zus van het [Orakel van Delphi](https://nl.wikipedia.org/wiki/Orakel_van_Delphi). Het programma zal aan de gebruiker vertellen hoe lang deze nog zal leven. Bijvoorbeeld: "Je zal nog 15 jaar leven.".
  
 Het orakel zal enkel realistische getallen geven. M.a.w., getallen van 5 tot en met 125 jaar.
