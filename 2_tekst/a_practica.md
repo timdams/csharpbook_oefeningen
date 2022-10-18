@@ -19,12 +19,12 @@ Sommige oefeningen zullen soms **(PRO)** in de titel hebben. Dit zijn pittigere 
 
 Genereer je naam in Unicode Art met een van de [vele online generators](https://www.google.com/search?q=unicode+art+generator&oq=unicode+art&aqs=chrome.0.0j69i57j0l2j0i22i30l3.3647j0j1&sourceid=chrome&ie=UTF-8). Toon deze art (m.b.v. WriteLine of Write) aan de start van een van een bestaande programma zodat nu je naam wordt getoond wanneer het programma start, gevolgd door de rest.
 
-## String interpolation
+## String interpolation (*Essential*)
 
 Kies 2 oefeningen uit het vorige hoofdstuk waarin je output op het scherm moest geven. Pas string interpolatie m.b.v. ``$`` (manier 2) toe in deze 2 oefeningen.
 
 
-## Systeem informatie
+## Systeem informatie (*Essential*)
 
 {% hint style='tip' %}
 Volgende 2 oefeningen zijn al iets stevigers. Iedere oefening eindigt met een (PRO) gedeelte dat je best enkel doet als je een uitdaging wenst.
