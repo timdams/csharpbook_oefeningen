@@ -4,7 +4,7 @@
 
 
 
-### RapportModule
+### RapportModule (*Essential*)
 
 {% hint style='tip' %}
 [Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H1_RapportModule).
@@ -31,7 +31,7 @@ mijnpunten.PrintGraad();
 Werkt het naar behoren?! Voer nu de bijhorende unit tests uit om alles extra te controleren: Test=> Run All Tests.
 
 
-### Nummers
+### Nummers (*Essential*)
 
 {% hint style='tip' %}
 [Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H1_Nummers).
@@ -73,7 +73,7 @@ Quotient = 0,352941176470588
 ```
 
 
-### Studentklasse
+### Studentklasse (*Essential*)
 
 {% hint style='tip' %}
 [Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H1_Studentklasse).
@@ -186,7 +186,7 @@ Wanneer is je verjaardag (d/m, bv 18/3)
 Je bent over 124 dagen jarig op een Dinsdag
 ```
 
-### Bibliotheek
+### Bibliotheek (*Essential*)
 
 {% hint style='tip' %}
 [Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H1_Bibliotheek).
@@ -205,7 +205,7 @@ De meegegeven waarde stelt het aantal dagen dat het boek extra mag uitgeleend wo
 
 Test je klasse door enkele objecten ervan aan te maken.
 
-### BankManager
+### BankManager (*Essential*)
 
 {% hint style='tip' %}
 [Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H1_BankManager).
@@ -255,7 +255,7 @@ Indien de ``HaalGeldAf`` methode wordt aangeroepen en er werd meer geld afgehaal
 
 
 
-### Persoon
+### Persoon (*Essential*)
 
 {% hint style='tip' %}
 [Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H1_Persoon).
