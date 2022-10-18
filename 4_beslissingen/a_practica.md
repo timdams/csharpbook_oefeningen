@@ -1,5 +1,10 @@
 # Hoofdstuk 5
 
+{% hint style='warning' %}
+Oefeningen worden sinds vorig hoofdstuk al eens wat langer. Het is belangrijk dat **eerste de volledige opgave doorneemt** voor je begint te programmeren. Deze gewoonte is essentieel indien je over enkele weken grote 2uur-durende projecten tot een goed einde wenst te brengen.
+{% endhint %}
+
+
 ## BMI met if
 
 Pas je BMI-programma uit het vorige hoofdstuk aan zodat je programma feedback geeft aan de gebruiker naargelang het berekende BMI.
