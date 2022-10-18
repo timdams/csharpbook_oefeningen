@@ -8,7 +8,7 @@ Kan je volgende 2 UML-diagrammen implementeren in code? Uiteraard kan je dat: ma
 ![Een groter compositievoorbeeld](../assets/6_klassen/multipplecompuml.png)
 [bron](http://www.jot.fm/issues/issue_2004_11/column5/)
 
-# Politiek
+# Politiek (*Essential*)
 Maak een programma om de politieke situatie van een land te simuleren.
 
 
