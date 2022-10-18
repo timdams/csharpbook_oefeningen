@@ -42,7 +42,7 @@ Opmerkingen bij deze formules:
 
 ### Getalvoorbeeld:
 
-Indien speler A een rating van 1000 heeft en B 1100 dan zal speler A na een gewonnen wedstrijd een rating van 1006 krijgen en speler B 1090.
+Indien speler A een rating van 1000 heeft en B 1100 dan zal speler A na een gewonnen wedstrijd een rating van 1006 krijgen en speler B 1094.
 
 ### Applicatie
 
