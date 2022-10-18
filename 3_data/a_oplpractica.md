@@ -30,18 +30,17 @@ Input van de gebruiker wordt niet getoond maar zal je zelf hopelijk wel kunnen:
 
 ```java
 const int K = 10;
-int ra = 1000; //vraag dit aan de gebruiker
-int rb = 1100; //vraag dit aan de gebruiker
+double ra = 1000; //vraag dit aan de gebruiker
+double rb = 1100; //vraag dit aan de gebruiker
 
-int ea= 1/(1+(int)Math.Pow(10,(rb-ra)/400));
-int eb = 1 / (1 + (int)Math.Pow(10, (ra - rb) / 400));
+double ea= 1 /(1+Math.Pow(10,(rb-ra)/400.0));
+double eb = 1 / (1 + Math.Pow(10, (ra - rb) / 400.0));
 
-int ranew = ra + K * (1 - ea);
-int rbnew = rb + K * (0 - eb);
+double ranew = ra + K * (1 - ea);
+double rbnew = rb + K * (0 - eb);
 Console.WriteLine("Indien a wint:");
-Console.WriteLine(ranew);
-Console.WriteLine(rbnew);
-
+Console.WriteLine(Math.Round(ranew,0));
+Console.WriteLine(Math.Round(rbnew,0));
 //idem voor de 2 andere scenarios)
 ```
 
