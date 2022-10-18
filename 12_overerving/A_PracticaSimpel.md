@@ -17,7 +17,7 @@ Maak nu van iedere klasse een object en roep de ToonInfo methode van ieder objec
 
 Plaats deze dieren nu in een ``List<Animal>`` en kijk wat er gebeurt als je deze met een foreach aanroept om alle ToonInfo-methoden van ieder dier te gebruiken.
 
-# Ziekenhuis
+# Ziekenhuis (*Essential*)
 
 ## Deel 1 
 Maak een basisklasse ``Patient`` die een programma kan gebruiken om de doktersrekening te berekenen.
