@@ -5,7 +5,7 @@ Vul de ``Meetlat`` klasse uit het vorige hoofdstuk aan met een constructor. De c
 ``lengteInMeter`` stel je nu in via de parameter die je in de constructor meekrijgt.
 
 
-# Digitale kluis
+# Digitale kluis (*Essential*)
 
 ## Basiskluis
 
@@ -59,7 +59,7 @@ DigitaleKluis.BruteForce(kluisje);
 Je hebt de oefening nu opgelost :)
 
 
-# Bibliotheek deel 2
+# Bibliotheek deel 2 (*Essential*)
 
 Neem de Bibliotheek oefening uit hoofdstuk 1 erbij. Zorg ervoor dat de ``BibBoek`` klasse volgende zaken heeft:
 
@@ -67,7 +67,7 @@ Neem de Bibliotheek oefening uit hoofdstuk 1 erbij. Zorg ervoor dat de ``BibBoek
 * Een overloaded constructor die toelaat om de ontlener (``string``) en ``Uitgeleend`` (``DateTime``) als parameters mee tegen en in te stellen in het object. Indien de meegeven datum later is dan de huidige datum dan zal er een uitzonderingen worden opgeworpen.
 * Een ``static`` methode ``VeranderAlgemeneUitleenTermijn`` , die 1 ``int`` als parameter aanvaardt.De methode zorgt ervoor dat het aantal dagen dat je boek mag uitlenen verandert wordt naar de meegeven parameter. Tip: dit zal vereisen dat je een static instantievariabele hebt die je vervolgens in je ``InleverDatum`` getter gebruikt.
 
-# Pokémon deel 2
+# Pokémon deel 2 (*Essential*)
 
 ## Constructors
 
