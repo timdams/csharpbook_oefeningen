@@ -133,6 +133,10 @@ De poef staat op 39 euro.
 Het totaal van  de poef is 39 en zal 4 weken duren om volledig afbetaald te worden.
 ```
 
+{% hint style='warning' %}
+Voor deze oefening heb je ``Math.Ceiling()`` nodig. Deze methode zal een getal altijd naar boven afronden.
+{% endhint %}
+
 
 ## Feestkassa (*Essential*)
 De plaatselijke voetbalclub organiseert een mosselfestijn. Naast mosselen met frietjes (20 EUR) bieden ze voor de kinderen de mogelijkheid om een koninginnenhapje (10 EUR) te kiezen. Verder is er een ijsje als nagerecht voorzien (3 EUR). Om het gemakkelijk te maken kosten alle dranken 2 EUR.
