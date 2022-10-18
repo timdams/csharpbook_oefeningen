@@ -2,7 +2,7 @@
 
 Maak een array die tot 20 prijzen (``double``) kan bewaren. Vraag aan de gebruiker om 20 prijzen in te voeren en bewaar deze in de array. Doorloop vervolgens m.b.v. een ``foreach``-lus de volledige array en toon enkel de elementen op het scherm wiens prijs hoger of gelijk is aan €5.00. Toon op het einde van het programma het gemiddelde van alle prijzen (dus inclusief de lagere prijzen).
 
-# Computer-winkel
+# Computer-winkel (*Essential*)
 
 Een firma heeft een grote lijst met computeronderdelen en wil hier de nodige filters op kunnen toepassen.
 
@@ -67,7 +67,7 @@ Het menu blijft getoond worden tot de gebruiker de optie 5 kiest.
 Bekijk het voorbeeld in [dit artikel](https://apwt.gitbook.io/ziescherper/appendix/strings#uitgewerkt-met-pokemon). Kan je je pokédex van zonet integreren met deze informatie?
 
 
-# Student Organizer
+# Student Organizer (*Essential*)
 
 We gaan nu de Student-klasse uit een vorige hoofdstuk (zie onderaan de opgave) gebruiken om een ``List<Student>`` van studenten te vullen.
 
