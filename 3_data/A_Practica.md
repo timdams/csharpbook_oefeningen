@@ -37,11 +37,12 @@ Opmerkingen bij deze formules:
 
 * De waarde K mag je standaard op 10 zetten (dit geeft aan dat er maximum 10 Elo-punten kunnen bijkomen of afgaan).
 * De eindscore (Sa en Sb) is als volgt: 1 voor een win, 0,5 voor gelijkstond, 0 voor verlies.
+* **Gebruik voor ALLES dobules.**
 * De finale, nieuwe, rating wordt afgerond tot 0 cijfers na de komma. 
 
 ### Getalvoorbeeld:
 
-Indien speler A een rating van 1000 heeft en B 1100 dan zal speler A na een gewonnen wedstrijd een rating van 1006 krijgen en speler B 1093.
+Indien speler A een rating van 1000 heeft en B 1100 dan zal speler A na een gewonnen wedstrijd een rating van 1006 krijgen en speler B 1090.
 
 ### Applicatie
 
