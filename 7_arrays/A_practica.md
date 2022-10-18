@@ -24,7 +24,7 @@ Na de 6 vragen toon je vervolgens de vragen opnieuw met achter iedere vraag het 
 
 ![Mogelijk uitvoer programma](../assets/5_arrays/arvraag.png)
 
-## Array Zoeker
+## Array Zoeker (*Essential*)
 
 Maak een programma dat eerst aan de gebruiker 10 waarden vraagt die in een array worden gezet.
 
@@ -38,7 +38,7 @@ Indien de te zoeken waarde meer dan 1 keer voorkomt, wordt enkel de eerst gevond
 
 ![Voorbeeld uitvoer](../assets/5_arrays/practarray3.png)
 
-## LeveringsBedrijf
+## LeveringsBedrijf (*Essential*)
 Maak een programma voor een koeriersbedrijf.  Maak een array die 10 postcodes bevat (zelf te kiezen) van gemeenten waar het bedrijf naar levert. Maak een tweede array die de prijs bevat per kg voor iedere respectievelijke gemeente.  Het eerste element  van deze array bevat dus de prijs/kg om naar de gemeente te leveren die als eerste in de array met postcodes staat.
 
 Vraag aan de gebruiker een postcode en het gewicht van het pakket. Vervolgens wordt de prijs/kg opgezocht voor die gemeente en wordt de prijs berekend, gegeven het ingegeven gewicht.
@@ -79,7 +79,7 @@ Gebruik een array om de antwoorden in te bewaren.
 
 Kan je met een array eerdere vragen van de gebruiker bewaren om zo complexere antwoorden te genereren?
 
-## Hamming distance
+## Hamming distance (*Essential*)
 De *hamming distance* is het aantal tekens dat twee reeksen verschillen indien we ieder element vergelijken op dezelfde plaats in de andere reeks.
 
 Maak een programma dat aan de gebruiker vraagt om twee DNA strings in te voeren (een reeks bestaande uit de letters G, A, C & T). Beide reeksen moeten even lang zijn.
