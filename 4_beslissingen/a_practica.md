@@ -5,7 +5,7 @@ Oefeningen worden sinds vorig hoofdstuk al eens wat langer. Het is belangrijk da
 {% endhint %}
 
 
-## BMI met if
+## BMI met if (*Essential*)
 
 Pas je BMI-programma uit het vorige hoofdstuk aan zodat je programma feedback geeft aan de gebruiker naargelang het berekende BMI.
 
@@ -40,7 +40,7 @@ c) Zorg ervoor dat de kassier enkel een getal van 3 tot en met 10 kan invoeren b
 ## Ohm-berekenaar
 Vraag aan de gebruiker wat hij wenst te berekenen: spanning, weerstand of stroomsterkte. Vraag vervolgens de 2 andere waarden (als dus de gebruiker "Spanning" kiest vraag je aan de gebruiker de stroomsterkte en de weerstand) en bereken m.b.v. de wet van Ohm de gewenste waarde.
 
-## BankRekening controle
+## BankRekening controle (*Essential*)
 Schrijf een programma om het vroegere nationale bankrekeningnummer te controleren of het al dan niet een geldig nummer is (dus niet het IBAN nummer). 
 
 Het bankrekeningnummer wordt ingelezen als 3 gehele getallen van 3, 7 en 2 die de gebruiker apart invoert en die je in 3 aparte variabelen bewaard.
@@ -78,7 +78,7 @@ Genereer  een random getal van 1 t.e.m. 6 maar toon dit niet aan de gebruiker. V
 ## Casino 3
 Vul de voorgaande oefening aan, maar laat de gebruiker 3x na mekaar raden. Enkel als hij juist raadt mag hij nog eens raden. Als hij ook de derde juist raadt wint hij. In alle andere gevallen niet.
 
-## Schaakstuk
+## Schaakstuk (*Essential*)
 
 Schrijf een applicatie om het volgende te verwezenlijken: De bedoeling is om 3 stukken willekeurig te kiezen van een schaakspel. 
 Maak maximaal gebruik van enumeratie-types. Op het scherm moet dus willekeurig een opsomming van 3 stukken (als woorden) verschijnen. De uitvoer kan dus bijvoorbeeld zijn: 
@@ -94,7 +94,7 @@ witte pion
 Voor de experts die al vlot werken met casting, enums en Random: je kan deze oefening ook oplossen zonder ook maar 1 switch of if. Beter zelfs: je kan deze oplossen met 3 WriteLines en een Random getal generator.
 {% endhint %}
 
-## Quiz
+## Quiz (*Essential*)
 Maak een quiz. Maak gebruik van het ``switch``-statement om de input van de gebruiker (a, b, c of d) te verwerken en bij iedere vraag aan te geven of dit juist of fout is. Voorzie 3 multiple choice vragen. Houd bij hoe vaak de speler juist antwoordde en geef op het einde de eindscore (Juist is +2, fout is -1).
 
  Zoek op hoe je de kleur van de letters en de achtergrond in een console-applicatie kunt aanpassen en pas dit toe op je quiz om deze er iets boeiender uit te laten zien. Toon iedere vraag op een nieuw scherm.
@@ -108,7 +108,7 @@ Bijvoorbeeld:
 * 2000: wél schrikkeljaar
 
 
-## GuntherD Stemwijzer
+## GuntherD Stemwijzer (*Essential*)
 Kan jij volgende ludieke stemwijzer van GuntherD in een eenvoudig programma gieten dat door een reeks j/n vragen aan de gebruiker uiteindelijk zijn "stemprofiel" toont?
 
 ![Bron Stubru](../assets/2_beslissingen/stemwijzer.png)
