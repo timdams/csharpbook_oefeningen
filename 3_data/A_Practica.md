@@ -56,24 +56,6 @@ Vervolgens toont de applicatie de nieuwe Elo-ratings voor de 3 scenario's:
 
 Breidt de applicatie uit en vraag de waarde K ook aan de gebruiker en gebruik deze in je berekeningen.
 
-
-## Stacking Armor calculator
-
-Volgende formule laat ons toe om je effectieve Health te berekenen in League Of Legends, gebaseerd op je armor:
-
-![Bron https://leagueoflegends.fandom.com/wiki/Armor](../assets/1_csharpbasics/lol.png)
-
-Nominal health is de maximum health van je hero. Als je bijvoorbeeld 60 armor hebt en nominal health van 1000, dan is je effectieve health 1600.
-
-Schrijf een programma dat aan de gebruiker volgende informatie vraagt:
-
-* Nominal health
-* Armor
-
-Toon vervolgens de effectieve health van de gebruiker.
-
-**Nominal health, armor en effective health zijn int en mogen geen doubles zijn.*
-
 ## Balk
 
 Bereken de oppervlakte en de inhoud van een balk . De gegevens (hoogte, breedte, lengte) worden ingelezen. Zorg ervoor dat de uitvoer er als volgt uitziet (met de puntjes vervangen door de effectieve jusite waarden):
