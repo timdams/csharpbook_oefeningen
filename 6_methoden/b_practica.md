@@ -14,7 +14,7 @@ Opgelet: wanneer je een oefening maakt die invoer van de gebruiker vereist, geli
 Sommige oefeningen zijn van de vorm "Maak een methode die...". Het is steeds de bedoeling dat je de werking van je methode ook test in je main door deze aan te roepen.
 {% endhint %}
 
-## Opwarmers
+## Opwarmers (*Essential*)
 Een extra grote hoop oefeningen om je methoden te drillen ([originele bron](https://codeforwin.org/2016/03/functions-programming-exercises-and-solutions-in-c.html)). De oefeningen zijn ongeveer gerangschikt naar moeilijkheid.
 
 {% hint style='warning' %}
@@ -56,7 +56,7 @@ MyIntro("Jos", 34, "Trammezantlei 21");
 ## Grootste methode
 Schrijf een methode die 3 ints aanvaardt en vervolgens de grootste van de 3 parameters als resultaat terug geeft.
 
-## Rekenmachine
+## Rekenmachine (*Essential*)
 Maak minimaal de methoden genaamd ``TelOp``, ``TrekAf``, ``Vermenigvuldig`` en ``Deel``. Je kan aan deze methoden steeds twee doubles meegeven en het resultaat dat terugkomt is uiteraard de bewerking van die twee parameters.
 
 Maak een eenvoudig programma waarin je die methoden test.
