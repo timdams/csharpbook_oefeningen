@@ -81,7 +81,7 @@ Console.WriteLine($"inhoud: {lengte*breedte*hoogte}");
 
 ```java
 Console.WriteLine("Geef de hoek in graden");
-double hoekInGraden = int.Parse(Console.ReadLine());
+double hoekInGraden = double.Parse(Console.ReadLine());
 double hoekInRadialen = hoekInGraden * ( Math.PI/180);
 
 Console.WriteLine($"Sinus van {hoekInGraden} graden is {Math.Sin(hoekInRadialen)}");
