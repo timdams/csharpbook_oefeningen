@@ -114,9 +114,6 @@ Gebruik tabs ("\t") om ervoor te zorgen dat je tabel mooi blijft wanneer je door
 
 Kan je afhankelijk van de ringwaarde het getal in de tabel in de juiste kleur zetten conform de weerstandskleuren (tip: je zal ``Write`` en ``if`` of ``switch`` moeten leren gebruiken).
 
-{% hint style='warning' %}
-Onder ander de kleur bruin is niet beschikbaar in de console. Wil je die kleur toch hebben, dan kan je werken met volgende handige bibliotheek: [ColorfulConsole](http://colorfulconsole.com/). In [volgende filmpje](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=87338728-f9ef-4201-8bd4-ac4c00988e72) leg ik uit hoe je deze bibliotheek installeert en gebruikt.
-{% endhint %}
 
 ## Shell-starter (PRO)
 
