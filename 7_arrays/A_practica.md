@@ -108,7 +108,7 @@ het eerste cijfer van de postcode in het kwadraat.
 Schrijf nooit een paswoord manager die je paswoorden gortdroog als ``string`` bewaart. **Secure code** schrijven is een hele discipline op zich en laat je best nog even links liggen tot je C# goed in de vingers hebt.
 {% endhint %}
 
-## Puzzelen met arrays
+## Puzzelen met arrays (*Essential*)
 
 Sommige oefeningen zijn op randje van PRO. U weze gewaarschuwd.
 
