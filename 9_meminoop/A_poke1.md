@@ -28,7 +28,7 @@ Console.WriteLine($"{mijnLat.LengteInM} meter is {mijnLat.LengteInVoet} voet.");
 
 
 
-# Pokémon
+# Pokémon (*Essential*)
 
 We gaan een programma schrijven dat ons toelaat enkele basis-eigenschappen van specifieke Pokémon te berekenen terwijl ze levellen.
 Nadruk van deze oefening is het juist gebruiken van properties. Bekijk de cheat sheet bij twijfel.  
@@ -197,7 +197,7 @@ Genereer 2 willekeurige Pokémon met je generator en laat ze vechten met je batt
 Voor de volledige info over Pokémon hun stats. [Klik hier.](https://bulbapedia.bulbagarden.net/wiki/Statistic "Stats Pokémon")
 
 
-# Bankmanager 2
+# Bankmanager 2 (*Essential*)
 
 Breidt de bankmanager oefening uit het vorige hoofdstuk uit met volgende functionaliteiten:
 * Voorzie Exception Handling op alle plaatsen waar potentiële problemen kunnen opdoeken.
