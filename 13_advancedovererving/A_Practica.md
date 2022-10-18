@@ -31,7 +31,7 @@ Reddit (www.reddit.com)  ---HIDDEN---
 Zorg ervoor dat er géén dubbele code in HiddenBookmark staat (tip: ``base()``).
 
 
-# Boek
+# Boek (*Essential*)
 
 Maak een klasse ``Boek``  en gebruik auto-properties voor de velden:
 
@@ -62,7 +62,7 @@ PRO:  Bekijk gerust de appendix indien je wilt weten hoe je de ``+`` operator ku
 
 Maak boeken aan van de 3 klassen, toon dat de prijs niet altijd zomaar ingesteld kan worden.
 
-# Money, money, money
+# Money, money, money (*Essential*)
 Maak enkele klassen die een bank kan gebruiken (of hergebruik je ``BankManager`` code uit hoofdstuk 1)
 
 1. Abstracte klasse ``Rekening``: deze bevat een methode ``VoegGeldToe``  en ``HaalGeldAf``. Het saldo van de rekening wordt in een private variabele bijgehouden (en via de voorgaande methoden aangepast) die enkel via een read-only property kan uitgelezen worden. Voorts is er een abstracte methode ``BerekenRente`` de rente als double teruggeeft.
@@ -75,7 +75,7 @@ Schrijf deze klassen en toon de werking ervan in je main.
 
 
 
-# Geometric figures
+# Geometric figures (*Essential*)
 
 Maak een abstracte klasse ``GeometricFigure``. Iedere figuur heeft een hoogte, breedte en oppervlakte. Maak autoproperties voor van ``Hoogte`` en ``Breedte``. De ``Oppervlakte`` is een read-only property want deze wordt berekend gebaseerd op de hoogte en breedte. Deze berekening gebeurt in de methode ``BerekenOppervlakte``: deze roep je met andere woorden aan in de getter van ``Oppervlakte`` en dat resultaat geeft de getter terug 
 
