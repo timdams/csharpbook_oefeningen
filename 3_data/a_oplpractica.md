@@ -44,19 +44,6 @@ Console.WriteLine(Math.Round(rbnew,0));
 //idem voor de 2 andere scenarios)
 ```
 
-## Stacking armor calculator
-
-```java
-Console.WriteLine("Geef nominal health");
-int nomH = int.Parse(Console.ReadLine());
-
-Console.WriteLine("Geef armor ");
-int armor = int.Parse(Console.ReadLine());
-
-int effH =(int)((1+Armor/100.0)* nomH);
-
-Console.WriteLine(effH);
-```
 
 ## Balk
 
