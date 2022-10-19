@@ -37,7 +37,7 @@ Opmerkingen bij deze formules:
 
 * De waarde K mag je standaard op 10 zetten (dit geeft aan dat er maximum 10 Elo-punten kunnen bijkomen of afgaan).
 * De eindscore (Sa en Sb) is als volgt: 1 voor een win, 0,5 voor gelijkstond, 0 voor verlies.
-* **Gebruik voor ALLES dobules.**
+* **Gebruik voor ALLES doubles.**
 * De finale, nieuwe, rating wordt afgerond tot 0 cijfers na de komma. 
 
 ### Getalvoorbeeld:
