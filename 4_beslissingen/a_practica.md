@@ -18,6 +18,14 @@ De kleur tussen haakjes geeft aan in welke kleur je deze tekst zet:
 * 40 of meer (magenta): ernstige zwaarlijvigheid. Je moet dringend vermageren want je gezondheid is in gevaar (of je hebt je lengte of gewicht in verkeerde eenheid ingevoerd).
 
 
+## Schaak-Elo met if en Random (*Essential*)
+
+In plaats van de 3 mogelijke scenarios (win,loss, draw) vraag je nu aan de gebruiker wie van beide spelers heeft gewonnen en toont enkel de nieuwe ratings gebaseerd op de ingevoerde uitslag.
+
+Pas je applicatie ook aan als volgt: indien de gebruiker een negatieve rating voor een van de beide spelers opgeeft dan gebeuren er 2 zaken:
+
+1. Er verschijnt een foutboodschap ("Negatieve rating mag niet. Ik genereer een random rating.")
+2. Je genereert een random rating tussen 500 en 3000, toont dit getal aan de gebruiker, en gebruikt dit vervolgens verder in de applciatie.
 
 ## Schoenverkoper
 a) Maak een oefening die aan de gebruiker vraagt hoeveel paar schoenen hij wenst te kopen. Ieder paar schoenen kost steeds 20 euro. Indien de gebruiker 10 paar of meer koopt kosten de eerste 9 paar nog steeds 20 euro, de overige kosten echter maar 10 euro. Toon aan de gebruiker de totale prijs.
