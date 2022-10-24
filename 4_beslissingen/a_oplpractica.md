@@ -43,12 +43,14 @@ else
 
 ## Schaak-elo met if
 
+Merci Mats Heirman!
+
 ```java
 const int K = 10;
 Random rng = new Random();
 Console.WriteLine("Rating speler A?");
 double ra = double.Parse(Console.ReadLine());
-if(ra<0)
+if (ra < 0)
 {
     Console.BackgroundColor = ConsoleColor.Red;
     ra = rng.Next(500, 3001);
@@ -65,6 +67,8 @@ if (rb < 0)
     Console.ResetColor();
 }
 
+
+
 double ea = 1 / (1 + Math.Pow(10, (rb - ra) / 400.0));
 double eb = 1 / (1 + Math.Pow(10, (ra - rb) / 400.0));
 
@@ -72,15 +76,15 @@ Console.WriteLine("Wie is er gewonnen? A, B of D  (draw)");
 string whowon = Console.ReadLine();
 double puntA = 0;
 double puntB = 0;
-if(whowon=="A")
+if (whowon == "A")
 {
     puntA = 1;
 }
-else  if (whowon =="B")
+else if (whowon == "B")
 {
     puntB = 1;
 }
-else if (whowon =="D")
+else if (whowon == "D")
 {
     puntA = 0.5;
     puntB = 0.5;
@@ -92,11 +96,13 @@ else
 }
 
 
+
+
 double ranew = ra + K * (puntA - ea);
 double rbnew = rb + K * (puntB - eb);
-Console.WriteLine("Indien a wint:");
+
 Console.WriteLine($"Nieuwe rating van A:{Math.Round(ranew, 0)}");
-Console.WriteLine($"Nieuwe rating van A:{Math.Round(rbnew, 0)}");
+Console.WriteLine($"Nieuwe rating van B:{Math.Round(rbnew, 0)}");
 ```
 
 ## Schoenverkoper
