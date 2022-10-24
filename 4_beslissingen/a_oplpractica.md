@@ -65,11 +65,8 @@ if (rb < 0)
     Console.ResetColor();
 }
 
-
-
 double ea = 1 / (1 + Math.Pow(10, (rb - ra) / 400.0));
 double eb = 1 / (1 + Math.Pow(10, (ra - rb) / 400.0));
-
 
 Console.WriteLine("Wie is er gewonnen? A, B of D  (draw)");
 string whowon = Console.ReadLine();
