@@ -20,7 +20,7 @@ De kleur tussen haakjes geeft aan in welke kleur je deze tekst zet:
 
 ## Schaak-Elo met if en Random (*Essential*)
 
-In plaats van de 3 mogelijke scenarios (win,loss, draw) vraag je nu aan de gebruiker wie van beide spelers heeft gewonnen en toont enkel de nieuwe ratings gebaseerd op de ingevoerde uitslag.
+In plaats van de 3 mogelijke scenarios (win,loss, draw) vraag je nu aan de gebruiker wie van beide spelers heeft gewonnen ("A", "B" of "D" van Draw/gelijk) en toont enkel de nieuwe ratings gebaseerd op de ingevoerde uitslag.
 
 Pas je applicatie ook aan als volgt: indien de gebruiker een negatieve rating voor een van de beide spelers opgeeft dan gebeuren er 2 zaken:
 
