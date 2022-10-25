@@ -213,6 +213,92 @@ else
 }
 ```
 
+## GuntherD Stemwijzer
+
+```java
+enum Partijen { Groen, VlaamsBelang, Spa, CDenV, Blanco, PVDA, NVA, OpenVld, Onbekend };
+static void Main(string[] args)
+{
+
+    Partijen stemProfiel = Partijen.Onbekend;
+    Console.WriteLine("Werk je veel (j/n)?");
+    string werkVraag = Console.ReadLine();
+
+    if (werkVraag == "nee")
+    {
+        Console.WriteLine("Eet je vaak quinoa (j/n)?");
+        string eetVraag = Console.ReadLine();
+        if (eetVraag == "nee")
+        {
+            Console.WriteLine("Krijg je vaak de schuld van alles (j/n)?");
+            string schuldVraag = Console.ReadLine();
+            if (eetVraag == "nee")
+            {
+                Console.WriteLine("Geloof je nog in Sinterklaar (j/n)?");
+                string sintVraag = Console.ReadLine();
+                if (sintVraag == "nee")
+                {
+                    stemProfiel = Partijen.Blanco;
+
+                }
+                else
+                {
+                    stemProfiel = Partijen.PVDA;
+                }
+            }
+            else
+            {
+                stemProfiel = Partijen.Spa;
+            }
+        }
+        else
+        {
+            stemProfiel = Partijen.Groen;
+        }
+    }
+    else
+    {
+        Console.WriteLine("Koop je soms bruin brood (j/n)?");
+        string broodVraag = Console.ReadLine();
+        if (broodVraag == "nee")
+        {
+            stemProfiel = Partijen.VlaamsBelang;
+        }
+        else
+        {
+            Console.WriteLine("Ben je een seut (j/n)?");
+            string seutVraag = Console.ReadLine();
+            if (seutVraag == "nee")
+            {
+                Console.WriteLine("Heb je vrienden (j/n)?");
+                string vriendVraag = Console.ReadLine();
+                if (vriendVraag == "nee")
+                {
+                    stemProfiel = Partijen.NVA;
+                }
+                else
+                {
+                    Console.WriteLine("Staat jouw wagen, huis,...op naam van je ouders? (j/n)?");
+                    string oudersVraag = Console.ReadLine();
+                    if (oudersVraag == "nee")
+                    {
+                        stemProfiel = Partijen.Blanco;
+                    }
+                    else
+                    {
+                        stemProfiel = Partijen.OpenVld;
+                    }
+                }
+            }
+            else
+            {
+                stemProfiel = Partijen.CDenV;
+            }
+        }
+    }
+    Console.WriteLine($"Je stemt best op {stemProfiel}");
+}
+```
 
 ## Schaakstuk
 
