@@ -33,7 +33,7 @@ Niet zeker van je oplossing? Test of je met minimale aanpassing de grenzen van j
 * Toon alle priemgetallen van 1 tot *n*.
 * Toon de reeks van [Fibonacci](https://en.wikipedia.org/wiki/Fibonacci_number) tot *n* termen.
 * Schrijf een programma dat het aantal digits in een getal telt (het getal 12348 heeft bijvoorbeeld 5 digits).
-* Schrijf een programma dat een ingevoerd getal als tekst uitschrijft. Als de gebruiker dus 123 invoert zal de uitvoer zijn: honderd drie en twintig.
+* (PRO) Schrijf een programma dat een ingevoerd getal als tekst uitschrijft. Als de gebruiker dus 123 invoert zal de uitvoer zijn: honderd drie en twintig.
 
 
 ## Cooldown
