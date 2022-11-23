@@ -21,23 +21,26 @@ Console.WriteLine($"Grootste getal is {grootste}");//NEW
 
 ## Oplossing Boekhouder
 ```java
-int som= 0, negsom= 0, plussom= 0, aantalingevoerd= 0;
-Console.WriteLine("Voer getallen in. Dit programma stopt nooit.");
-while (true)
+int som = 0, negsom = 0, plussom = 0, aantalingevoerd = 0; 
+string input = ""; 
+Console.WriteLine("Voer getallen in. Dit programma stopt wanneer je 'q' ingeeft."); 
+input = Console.ReadLine();
+
+while (input != "q")
 {
-    int invoer= Convert.ToInt32(Console.ReadLine());
-    som += invoer;
-    if (invoer > 0) 
-        plussom += invoer;
-    else
-        negsom += invoer;
+    int getal = int.Parse(input); 
+    som += getal; 
+    if (getal > 0) 
+        plussom += getal; 
+    else negsom += getal;
 
     aantalingevoerd++;
 
-    Console.WriteLine($"Balans= {som}");
-    Console.WriteLine($"Positieve balans= +{plussom}");
-    Console.WriteLine($"Negatieve balans= {negsom}");
-    Console.WriteLine($"Gemiddelde= {(double)som/aantalingevoerd}");
+    Console.WriteLine($"Balans= {som}"); 
+    Console.WriteLine($"Positieve balans= +{plussom}"); 
+    Console.WriteLine($"Negatieve balans= {negsom}"); 
+    Console.WriteLine($"Gemiddelde= {(double)som / aantalingevoerd}"); 
+    input = Console.ReadLine();
 }
 ```
 
