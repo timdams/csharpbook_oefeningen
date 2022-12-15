@@ -209,9 +209,9 @@ for (int i = 0; i < ar.Length; i++)
 Je kan dit ook oplossen met ``BinarySearch`` maar dan moet je wel de postcodes gesorteerd plaatsen in de array (sorteren via ``Array.Sort`` in code zal niet werken daar dan de relatie met ``kgpergemeente`` verloren gaat).
 
 ```java
-int[] postcodes = {1000, 2020, 2013, 4500, 2340, 1200, 9999, 6666, 2362, 2340};
+int[] postcodes = { 1000, 2020, 2013, 4500, 2340, 1200, 9999, 6666, 2362, 2340 };
 
-int[] kgpergemeente = {12, 214, 3, 15, 56, 900, 13, 5, 111, 43};
+int[] kgpergemeente = { 12, 214, 3, 15, 56, 900, 13, 5, 111, 43 };
 
 Console.WriteLine("Geef gewicht pakket");
 int gewicht = Convert.ToInt32(Console.ReadLine());
@@ -220,15 +220,17 @@ int postcode = Convert.ToInt32(Console.ReadLine());
 
 //Zoek postcode
 bool gevonden = false;
-int index = -1;
-for (int i = 0; i < postcodes.Length; i++)
+int index = 0;
+do
 {
-    if (postcodes[i] == postcode)
+
+    if (postcodes[index] == postcode)
     {
         gevonden = true;
-        index = i;
     }
-}
+    else
+        index++;
+} while (!gevonden && index < postcodes.Length);
 //berekenprijs
 if (gevonden)
 {
