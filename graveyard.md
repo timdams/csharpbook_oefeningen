@@ -6,6 +6,24 @@ Zoek een foto naar keuze (nieuws, privé, etc) waarop meer dan één element ops
 
 Bijvoorbeeld: een foto van een betoging. Je zou minstens 3 klassen kunnen verzinnen (gebouw, politie, betoger). Van ieder van deze klassen maak je dan objecten aan zoals je ze op de foto ziet (uiteraard gaan we geen 30 betoger-instanties maken, enkele zijn genoeg, als voorbeeld).
 
+
+## Stacking Armor calculator
+
+Volgende formule laat ons toe om je effectieve Health te berekenen in League Of Legends, gebaseerd op je armor:
+
+![Bron https://leagueoflegends.fandom.com/wiki/Armor](../assets/1_csharpbasics/lol.png)
+
+Nominal health is de maximum health van je hero. Als je bijvoorbeeld 60 armor hebt en nominal health van 1000, dan is je effectieve health 1600.
+
+Schrijf een programma dat aan de gebruiker volgende informatie vraagt:
+
+* Nominal health
+* Armor
+
+Toon vervolgens de effectieve health van de gebruiker.
+
+**Nominal health, armor en effective health zijn int en mogen geen doubles zijn.*
+
 # Binaire god
 
 > Deze leerstof werd niet in het hoorcollege gezien. NEem zelf het hoofdstuk "Bitwise operators" door.

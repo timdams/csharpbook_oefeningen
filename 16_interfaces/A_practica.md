@@ -4,7 +4,7 @@ Gebruik je [Rechthoek-klasse uit de Figuren oefening](../8_klassen/A_practica.md
 
 Toon de werking aan in een klein voorbeeld programma. 
 
-# Carbon Footprint
+# Carbon Footprint (*Essential*)
 
 Maak 4 klassen:
 * ``Huis``
@@ -31,7 +31,7 @@ Plaats van iedere klasse 2 objecten  in een gemeenschappelijke lijst en zorg erv
 * toont welk object de hoogte footprint heeft
 * van alle objecten de footprint kan verlaagd worden
 
-# Pokémon interfaces
+# Pokémon interfaces (*Essential*)
 
 Shadow Pokémon zijn een speciaal ras Pokémon ([zie hier](https://bulbapedia.bulbagarden.net/wiki/Shadow_Pok%C3%A9mon)) en kunnen "purified" worden op verschillende manieren. Maak een interface ``IShadow`` die een methode ``Purify`` heeft. Verzin enkele Pokémon die Shadow Pokémon zijn, geef ze de interface, en verzin manieren hoe ze purified kunnen worden (bv door hun HP op -1 te zetten).
 Kan je door je lijst van Pokémon gaan enkel de Shadow Pokémon op het scherm tonen?

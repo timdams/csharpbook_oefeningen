@@ -43,8 +43,67 @@ else
 
 ## Schaak-elo met if
 
-Breidt je Schaak-elo applicatie uit: in plaats van de finale score voor de 3 scenarios te tonen, vraag je nu aan de gebruiker wat de uitslag van de wedstrijd was (Win voor A, Win voor B, Draw). Vervolgens toon je enkel de elo-ratings gebaseerd op die effectieve uitslag.
+Merci Mats Heirman!
 
+```java
+const int K = 10;
+Random rng = new Random();
+Console.WriteLine("Rating speler A?");
+double ra = double.Parse(Console.ReadLine());
+if (ra < 0)
+{
+    Console.BackgroundColor = ConsoleColor.Red;
+    ra = rng.Next(500, 3001);
+    Console.WriteLine($"Negatieve rating mag niet. Ik pas deze aan naar random getal, namelijk {ra}.");
+    Console.ResetColor();
+}
+Console.WriteLine("Rating speler B?");
+double rb = double.Parse(Console.ReadLine());
+if (rb < 0)
+{
+    Console.BackgroundColor = ConsoleColor.Red;
+    rb = rng.Next(500, 3001);
+    Console.WriteLine($"Negatieve rating mag niet. Ik pas deze aan naar random getal, namelijk {rb}.");
+    Console.ResetColor();
+}
+
+
+
+double ea = 1 / (1 + Math.Pow(10, (rb - ra) / 400.0));
+double eb = 1 / (1 + Math.Pow(10, (ra - rb) / 400.0));
+
+Console.WriteLine("Wie is er gewonnen? A, B of D  (draw)");
+string whowon = Console.ReadLine();
+double puntA = 0;
+double puntB = 0;
+if (whowon == "A")
+{
+    puntA = 1;
+}
+else if (whowon == "B")
+{
+    puntB = 1;
+}
+else if (whowon == "D")
+{
+    puntA = 0.5;
+    puntB = 0.5;
+}
+else
+{
+    puntA = 1;
+    Console.WriteLine("Onbekende waarde. Ik laat A winnen.");
+}
+
+
+
+
+double ranew = ra + K * (puntA - ea);
+double rbnew = rb + K * (puntB - eb);
+
+Console.WriteLine($"Nieuwe rating van A:{Math.Round(ranew, 0)}");
+Console.WriteLine($"Nieuwe rating van B:{Math.Round(rbnew, 0)}");
+```
 
 ## Schoenverkoper
 
@@ -154,6 +213,92 @@ else
 }
 ```
 
+## GuntherD Stemwijzer
+
+```java
+enum Partijen { Groen, VlaamsBelang, Spa, CDenV, Blanco, PVDA, NVA, OpenVld, Onbekend };
+static void Main(string[] args)
+{
+
+    Partijen stemProfiel = Partijen.Onbekend;
+    Console.WriteLine("Werk je veel (j/n)?");
+    string werkVraag = Console.ReadLine();
+
+    if (werkVraag == "nee")
+    {
+        Console.WriteLine("Eet je vaak quinoa (j/n)?");
+        string eetVraag = Console.ReadLine();
+        if (eetVraag == "nee")
+        {
+            Console.WriteLine("Krijg je vaak de schuld van alles (j/n)?");
+            string schuldVraag = Console.ReadLine();
+            if (eetVraag == "nee")
+            {
+                Console.WriteLine("Geloof je nog in Sinterklaar (j/n)?");
+                string sintVraag = Console.ReadLine();
+                if (sintVraag == "nee")
+                {
+                    stemProfiel = Partijen.Blanco;
+
+                }
+                else
+                {
+                    stemProfiel = Partijen.PVDA;
+                }
+            }
+            else
+            {
+                stemProfiel = Partijen.Spa;
+            }
+        }
+        else
+        {
+            stemProfiel = Partijen.Groen;
+        }
+    }
+    else
+    {
+        Console.WriteLine("Koop je soms bruin brood (j/n)?");
+        string broodVraag = Console.ReadLine();
+        if (broodVraag == "nee")
+        {
+            stemProfiel = Partijen.VlaamsBelang;
+        }
+        else
+        {
+            Console.WriteLine("Ben je een seut (j/n)?");
+            string seutVraag = Console.ReadLine();
+            if (seutVraag == "nee")
+            {
+                Console.WriteLine("Heb je vrienden (j/n)?");
+                string vriendVraag = Console.ReadLine();
+                if (vriendVraag == "nee")
+                {
+                    stemProfiel = Partijen.NVA;
+                }
+                else
+                {
+                    Console.WriteLine("Staat jouw wagen, huis,...op naam van je ouders? (j/n)?");
+                    string oudersVraag = Console.ReadLine();
+                    if (oudersVraag == "nee")
+                    {
+                        stemProfiel = Partijen.Blanco;
+                    }
+                    else
+                    {
+                        stemProfiel = Partijen.OpenVld;
+                    }
+                }
+            }
+            else
+            {
+                stemProfiel = Partijen.CDenV;
+            }
+        }
+    }
+    Console.WriteLine($"Je stemt best op {stemProfiel}");
+}
+```
 
 ## Schaakstuk
 

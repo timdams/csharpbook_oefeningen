@@ -1,6 +1,11 @@
 # Hoofdstuk 5
 
-## BMI met if
+{% hint style='warning' %}
+Oefeningen worden sinds vorig hoofdstuk al eens wat langer. Het is belangrijk dat **eerste de volledige opgave doorneemt** voor je begint te programmeren. Deze gewoonte is essentieel indien je over enkele weken grote 2uur-durende projecten tot een goed einde wenst te brengen.
+{% endhint %}
+
+
+## BMI met if (*Essential*)
 
 Pas je BMI-programma uit het vorige hoofdstuk aan zodat je programma feedback geeft aan de gebruiker naargelang het berekende BMI.
 
@@ -13,6 +18,14 @@ De kleur tussen haakjes geeft aan in welke kleur je deze tekst zet:
 * 40 of meer (magenta): ernstige zwaarlijvigheid. Je moet dringend vermageren want je gezondheid is in gevaar (of je hebt je lengte of gewicht in verkeerde eenheid ingevoerd).
 
 
+## Schaak-Elo met if en Random (*Essential*)
+
+In plaats van de 3 mogelijke scenarios (win,loss, draw) vraag je nu aan de gebruiker wie van beide spelers heeft gewonnen ("A", "B" of "D" van Draw/gelijk) en toont enkel de nieuwe ratings gebaseerd op de ingevoerde uitslag.
+
+Pas je applicatie ook aan als volgt: indien de gebruiker een negatieve rating voor een van de beide spelers opgeeft dan gebeuren er 2 zaken:
+
+1. Er verschijnt een foutboodschap ("Negatieve rating mag niet. Ik genereer een random rating.")
+2. Je genereert een random rating tussen 500 en 3000, toont dit getal aan de gebruiker, en gebruikt dit vervolgens verder in de applciatie.
 
 ## Schoenverkoper
 a) Maak een oefening die aan de gebruiker vraagt hoeveel paar schoenen hij wenst te kopen. Ieder paar schoenen kost steeds 20 euro. Indien de gebruiker 10 paar of meer koopt kosten de eerste 9 paar nog steeds 20 euro, de overige kosten echter maar 10 euro. Toon aan de gebruiker de totale prijs.
@@ -35,7 +48,7 @@ c) Zorg ervoor dat de kassier enkel een getal van 3 tot en met 10 kan invoeren b
 ## Ohm-berekenaar
 Vraag aan de gebruiker wat hij wenst te berekenen: spanning, weerstand of stroomsterkte. Vraag vervolgens de 2 andere waarden (als dus de gebruiker "Spanning" kiest vraag je aan de gebruiker de stroomsterkte en de weerstand) en bereken m.b.v. de wet van Ohm de gewenste waarde.
 
-## BankRekening controle
+## BankRekening controle (*Essential*)
 Schrijf een programma om het vroegere nationale bankrekeningnummer te controleren of het al dan niet een geldig nummer is (dus niet het IBAN nummer). 
 
 Het bankrekeningnummer wordt ingelezen als 3 gehele getallen van 3, 7 en 2 die de gebruiker apart invoert en die je in 3 aparte variabelen bewaard.
@@ -43,8 +56,8 @@ Het bankrekeningnummer wordt ingelezen als 3 gehele getallen van 3, 7 en 2 die d
 {% hint style='tip' %}
 Een bankrekeningnummer is geldig als de rest van de deling van het getal, dat bestaat uit de eerste 10 cijfers, door 97, gelijk is aan het getal bestaande uit de laatste 2 cijfers.
 
-* Dit is een voorbeeld van een geldige rekenig: 000 1459325 57
-* Dit een ongeldige: 000 1359325 57
+* Dit is een voorbeeld van een geldige rekenig: 000 1459325 57 , want 000 1459325 gedeeld door 97 geeft als rest 57.
+* Dit een ongeldige: 000 1359325 77, want 1359325 gedeeld door 97 geeft als rest 64 en niet 77
 {% endhint %}
 
 ## Kleurcode weerstand naar ohm
@@ -73,7 +86,7 @@ Genereer  een random getal van 1 t.e.m. 6 maar toon dit niet aan de gebruiker. V
 ## Casino 3
 Vul de voorgaande oefening aan, maar laat de gebruiker 3x na mekaar raden. Enkel als hij juist raadt mag hij nog eens raden. Als hij ook de derde juist raadt wint hij. In alle andere gevallen niet.
 
-## Schaakstuk
+## Schaakstuk (*Essential*)
 
 Schrijf een applicatie om het volgende te verwezenlijken: De bedoeling is om 3 stukken willekeurig te kiezen van een schaakspel. 
 Maak maximaal gebruik van enumeratie-types. Op het scherm moet dus willekeurig een opsomming van 3 stukken (als woorden) verschijnen. De uitvoer kan dus bijvoorbeeld zijn: 
@@ -89,7 +102,7 @@ witte pion
 Voor de experts die al vlot werken met casting, enums en Random: je kan deze oefening ook oplossen zonder ook maar 1 switch of if. Beter zelfs: je kan deze oplossen met 3 WriteLines en een Random getal generator.
 {% endhint %}
 
-## Quiz
+## Quiz (*Essential*)
 Maak een quiz. Maak gebruik van het ``switch``-statement om de input van de gebruiker (a, b, c of d) te verwerken en bij iedere vraag aan te geven of dit juist of fout is. Voorzie 3 multiple choice vragen. Houd bij hoe vaak de speler juist antwoordde en geef op het einde de eindscore (Juist is +2, fout is -1).
 
  Zoek op hoe je de kleur van de letters en de achtergrond in een console-applicatie kunt aanpassen en pas dit toe op je quiz om deze er iets boeiender uit te laten zien. Toon iedere vraag op een nieuw scherm.
@@ -103,7 +116,7 @@ Bijvoorbeeld:
 * 2000: wél schrikkeljaar
 
 
-## GuntherD Stemwijzer
+## GuntherD Stemwijzer (*Essential*)
 Kan jij volgende ludieke stemwijzer van GuntherD in een eenvoudig programma gieten dat door een reeks j/n vragen aan de gebruiker uiteindelijk zijn "stemprofiel" toont?
 
 ![Bron Stubru](../assets/2_beslissingen/stemwijzer.png)

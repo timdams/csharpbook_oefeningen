@@ -5,7 +5,7 @@ Kijk pas naar de oplossing als je 100% klaar bent. En zelfs dan, wees erg kritis
 {% endhint %}
 
 
-## Rommel zin
+## Rommel zin (*Essential*)
 
 Schrijf een applicatie met behulp van ``ReadLine()`` en ``WriteLine()``-methoden waarbij de computer aan de gebruiker om zijn of haar favoriete kleur, eten, auto, film en boek vraagt. Het programma zal de antwoorden echter door elkaar halen waardoor de computer vervolgens toont: 
 
@@ -18,7 +18,7 @@ Waarbij tussen de rechte haakjes steeds de invoer komt die de gebruiker eerder o
 
 Maak het programma "grappig" door de antwoorden op de verkeerde plek te gebruiken, bijvoorbeeld: "Zo, je favoriete kleur is The Lord of the Rings?!".
 
-## Kleuren veranderen
+## Kleuren veranderen (*Essential*)
 
 Kan je je programma van zonet aanpassen zodat iedere zin in een andere kleur is?
 
@@ -26,7 +26,7 @@ Bekijk de werking van Console.Write(). Kan je ieder woord in een andere kleur ze
 
 Go nuts!
 
-## Visitekaart
+## Visitekaart (*Essential*)
 
 Schrijf een programma dat aan de gebruiker de volgende zaken vraagt:
 

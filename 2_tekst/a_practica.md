@@ -19,12 +19,12 @@ Sommige oefeningen zullen soms **(PRO)** in de titel hebben. Dit zijn pittigere 
 
 Genereer je naam in Unicode Art met een van de [vele online generators](https://www.google.com/search?q=unicode+art+generator&oq=unicode+art&aqs=chrome.0.0j69i57j0l2j0i22i30l3.3647j0j1&sourceid=chrome&ie=UTF-8). Toon deze art (m.b.v. WriteLine of Write) aan de start van een van een bestaande programma zodat nu je naam wordt getoond wanneer het programma start, gevolgd door de rest.
 
-## String interpolation
+## String interpolation (*Essential*)
 
 Kies 2 oefeningen uit het vorige hoofdstuk waarin je output op het scherm moest geven. Pas string interpolatie m.b.v. ``$`` (manier 2) toe in deze 2 oefeningen.
 
 
-## Systeem informatie
+## Systeem informatie (*Essential*)
 
 {% hint style='tip' %}
 Volgende 2 oefeningen zijn al iets stevigers. Iedere oefening eindigt met een (PRO) gedeelte dat je best enkel doet als je een uitdaging wenst.
@@ -114,9 +114,6 @@ Gebruik tabs ("\t") om ervoor te zorgen dat je tabel mooi blijft wanneer je door
 
 Kan je afhankelijk van de ringwaarde het getal in de tabel in de juiste kleur zetten conform de weerstandskleuren (tip: je zal ``Write`` en ``if`` of ``switch`` moeten leren gebruiken).
 
-{% hint style='warning' %}
-Onder ander de kleur bruin is niet beschikbaar in de console. Wil je die kleur toch hebben, dan kan je werken met volgende handige bibliotheek: [ColorfulConsole](http://colorfulconsole.com/). In [volgende filmpje](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=87338728-f9ef-4201-8bd4-ac4c00988e72) leg ik uit hoe je deze bibliotheek installeert en gebruikt.
-{% endhint %}
 
 ## Shell-starter (PRO)
 

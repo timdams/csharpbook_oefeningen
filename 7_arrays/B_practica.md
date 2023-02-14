@@ -4,7 +4,7 @@
 Volgende oefeningen vereisen dat je methoden schrijft die arrays als parameter en/of resultaat hebben.
 {% endhint %}
 
-## Parkeergarage
+## Parkeergarage (*Essential*)
 
 Een parkeergarage vraagt sowieso €2.00 om tot maximum 3uur te parkeren. Per extra uur NA die 3uur wordt telkens €0.50 aangerekend (dus 4uur parkeren kost €2.50. Er wordt maximum €10 aangerekend per dag. Veronderstel dat er nooit langer dan 1 dag (24u) kan geparkeerd worden.
 
@@ -16,7 +16,7 @@ Voorbeeldoutput:
  
 ![Resultaat](../assets/5_arrays/practarray5.png)
 
-## Array Viewer
+## Array Viewer (*Essential*)
 
 Maak een programma dat een methode VisualiseerArray implementeert. De methode zal een array (type int) als parameter hebben en niets teruggeven (``void``). Echter, de methode zal met behulp van Write() de array, van eender welke grootte, op het scherm tonen. Tussen ieder element van dezelfde rij dient een tab (herinner: "\t") gezet te worden. Je dient in de methode gebruik te maken van een for-loop.
 Voorbeeld van main:
@@ -71,7 +71,7 @@ dan krijgen we:
 WKH TXLFN EURZQ IRA MXPSV RYHU WKH ODCB GRJ
 ```
 
-## Ondernemingsnummer
+## Ondernemingsnummer (*Essential*)
 
 [Originele bron voor dit idee](https://www.c-sharp.be/c-sharp/functies/)
 
@@ -98,7 +98,7 @@ De methode aanvaardt een string waarin je het ondernemingsnummer staat.
 
 
 
-## Determinant
+## Determinant (*Essential*)
 
 
 {% hint style='tip' %}
@@ -145,7 +145,7 @@ VisualiseerArray(array);
 ## MatrixMultiplier
 Schrijf een methode VermenigvuldigMatrix die 2 matrices als invoer verwacht en als resultaat een nieuwe matrix teruggeeft die het product van beide matrices bevat.
 
-## Voetbalcoach
+## Voetbalcoach (*Essential*)
 Maak een console-applicatie voor een assistent voetbaltrainer (of een sport naar keuze).
 
 De voetbalcoach wil na de match iedere knappe en domme actie van een speler weten. Op die manier weet hij aan het einde van de match wie er de meeste goede en slechte acties doet. De spelers hebben rugnummers 1 tot en met 12. (het gaat om een voetbal variant waar m'n geen elftal maar een twaalftal gebruikt :p)

@@ -11,7 +11,7 @@ Bekijk zeker de Wiskunde-quizprogramma-opdracht!
 
 
 
-## Boekhouder
+## Boekhouder (*Essential*)
 Maak een 'boekhoud-programma': de gebruiker kan continu positieve en negatieve getallen invoeren. Telkens hij op enter duwt wordt de huidige invoer aan de balans bijgevoegd. Het programma stopt met getallen vragen wanneer de gebruiker 'q' invoert. Finaal worden dan de volgende zaken op het scherm getoond:
 
 * De balans van alle ingevoerde getallen: dit is gewoon de som van de getallen. Als de gebruiker dus de getallen 4, -10 en 8 invoerde dan zal de balans op +2 staan  (4 -10 + 8).
@@ -20,19 +20,19 @@ Maak een 'boekhoud-programma': de gebruiker kan continu positieve en negatieve g
 * Het gemiddelde van alle ingevoerde getallen.
 
 Deze 4 getallen worden ook steeds geüpdatet en getoond wanneer de gebruiker een nieuw getal invoert en op enter duwt.
-
-## Hoger Lager
+ 
+## Hoger Lager (*Essential*)
 
 Simulatie van het "hoger-lager" spel. Het programma kiest een random-getal van 1 tot en met 100 (telkens inbegrepen). Vervolgens wordt de gebruiker gevraagd om een gok te doen en toont het programma of de gok juist was, te laag was ("hoger") of te hoog ("lager"). Het programma blijft gokken van de gebruiker accepteren tot de gok juist is of de gebruiker besluit te stoppen. Het aantal beurten wordt op het einde van het spel getoond en de mogelijkheid om opnieuw te spelen.
 
 ### Limiet
 Pas het Hoger Lager programma aan zodat er een maximum aantal pogingen is toegestaan.
 
-## Wiskundequiz
+## Wiskundequiz (*Essential*)
 Maak een applicatie die je kan gebruiken om je tafels van vermenigvuldigen te oefenen. De applicatie vraagt steeds een willekeurige vermenigvuldiging (enkel getallen tussen 1 tot en met 10) en de gebruiker moet de oplossing invoeren.
 Indien correct gaat de gebruiker verder. Bij fout stopt het programma en wordt getoond hoeveel keer je juist hebt ingevoerd.
 
-## Wiskundequiz met levels
+## Wiskundequiz met levels (*Essential*)
 
 Bouw levels in de voorgaande wiskundequiz. Per 5 juiste antwoorden, stijg je 1 level. Het level bepaalt het bereik van getallen die gegenereerd worden bij de oefening. Bijvoorbeeld level 1 enkel getallen van 1 tot en met 5, level 2 tot en met 10, level 3 tot en met 20 etc.
 
@@ -57,7 +57,7 @@ Twee getallen van 2 tot en met 20 worden ingelezen (invoercontrole!). Er moet ee
 * * * * * * * * * *
 ```
 
-## Steen schaar papier
+## Steen schaar papier (*Essential*)
 Maak een applicatie waarbij de gebruiker steen-schaar-papier met de computer kan spelen. De gebruiker kiest telkens steen, schaar of papier en drukt op enter. Vervolgens kiest de computer willekeurig steen, schaar of papier (gebruik de Random.Next() methode, waarbij je deze van  1 tot en met 3 laat varieren). 
 Vervolgens krijgt de winnaar 1 punt:
 * Steen wint van schaar, verliest van papier.
@@ -73,7 +73,7 @@ Teken een flowchart van je applicatie.
 Los dit op met ``enum`` : je code zal een pak leesbaarder worden
 {% endhint %}
 
-## Codemenu
+## Codemenu (*Essential*)
 
 Maak een applicatie die bij het opstarten een keuze menu toont. Het menu toont 5 verschillende oefeningen naar keuze. Telkens de gebruiker in het menu een oefening kiest (door a, b, c, d of e in te voeren) wordt de code van die oefening getoond. Vervolgens kan de gebruiker op enter duwen zodat terug het menu verschijnt, zodat de gebruiker een nieuwe oefening kan kiezen
 

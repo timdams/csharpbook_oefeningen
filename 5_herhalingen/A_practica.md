@@ -68,10 +68,10 @@ Met afsluitwaarde bedoelen we een waarde die de gebruiker moet invoeren om het p
 ## Tafels van vermenigvuldigen 1 
 Gebruik de kracht van loops om pijlsnel de tafels van vermenigvuldigen op het scherm te tonen *van een getal naar keuze*(dus bijvoorbeeld 2x1, 2x2, tot 2x10 en alles daartussen).
 
-## Tafels van supervermenigvuldigen  
+## Tafels van supervermenigvuldigen   (*Essential*)
 Gebruik de kracht van **geneste** loops om pijlsnel alle tafels van vermenigvuldigen op het scherm te tonen *van de getallen 1 tot en met n*(dus 1x1, 1x2,... 1xn, 2x1, 2x2,...,2xn tot en met n x n).
 
-## RNA Transscriptie
+## RNA Transscriptie (*Essential*)
 
 DNA heeft steeds een RNA-complement (DNA is het gevolg van RNA transscriptie). Schrijf een programma dat een ingevoerde DNA-string omzet naar een RNA-string. De gebruiker voert steeds 1 DNA-nucleotide in per keer en duwt op enter, de RNA string wordt steeds groter. Na 12 karakters stopt het programma.
 
@@ -119,14 +119,14 @@ Je kan dan nu met ``Math.Pow(10,lengte-1)`` berekenen vanaf welke exponent van 1
 {% endhint %}
 
 
-## Schaak-elo met loop
+## Schaak-elo met loop 
 
 Zorg ervoor dat je Schaak-elo programma "blijft werken" als volgt:
 
 1° De gebruiker geeft z'n begin Elo-rating op
 2° Een loop start en vraagt nu telkens de Elo-rating van de huidige tegenstander, gevolgd door de uitslag. Telkens wordt de nieuwe Elo-rating van de gebruiker getoond. Wanneer de gebruiker een negatieve rating voor z'n volgende tegenstander opgeeft stopt de loop.
 
-## Euler project
+## Euler project (*Essential*)
 Maak volgende opdracht van [projecteuler.net](http://projecteuler.net):
 >Indien we alle natuurlijke getallen van 0 tot en met 10 oplijsten die een meervoud van 3 of 5 zijn, dan krijgen we de getallen 3,5,6,9 en 10. De som van deze 4 getallen is 33.
 Maak nu een programma dat de som van alle veelvouden van 3 of 5 weergeeft van 0 tot en met 1000 (dit zou 234168 moeten geven).

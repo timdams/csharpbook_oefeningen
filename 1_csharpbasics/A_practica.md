@@ -38,15 +38,15 @@ De % hier is de modulo-operator.
 {% endhint %}
 
 
-## Gemiddelde
+## Gemiddelde (*Essential*)
 
 Maak 3 variabelen aan van het type ``int`` genaamd ``september``, ``oktober`` en ``november``. Plaats in elke variabele de hoeveelheid uren slaap je die maand verwacht te doen. Bereken nu het gemiddelde van 3 maanden en toon het resultaat op het scherm (kies uiteraard 3 verschillende hoeveelheden slaap). Opgelet: het resultaat moet als een kommagetal worden getoond!
 
-## Euro naar dollar
+## Euro naar dollar (*Essential*)
 
 Ontwerp een toepassing waarmee je een bedrag, inclusief komma-getallen  in euro kan omrekenen naar dollar. Gebruik hierbij de huidige wisselkoers. Je hoeft niet af te ronden. Het resultaat op het scherm wordt als volgt weergegeven: ``[x] EUR is gelijk aan [y] USD``.
 
-## Tafel en Console.Clear()
+## Tafel en Console.Clear() (*Essential*)
 
 Met het statement ``Console.Clear();`` kan je de console - je raadt het nooit - leegmaken. Test deze code in het volgende programma:
 
@@ -84,7 +84,7 @@ Console.WriteLine("Tweede beeld");
 Merk op dat ``Console.Clear()`` niet werkt zoals verwacht op Mac. 
 {% endhint %}
 
-## Kill/Death-ratio
+## Kill/Death-ratio (*Essential*)
 
 Maak twee variabelen ``double kills`` en ``double deaths`` aan. Wijs er jouw typische scores aan toe die je haalt in een spel naar keuze. Bereken en toon vervolgens je kill/death-ratio.
 
@@ -101,12 +101,12 @@ Merk op dat het vreemd is dat je een niet-geheel aantal kills of deaths kunt hal
 De k/d ratio is de verhouding tussen het aantal kills da je in een spel hebt gehaald ten opzichte van het aantal keer dat je zelf bent gestorven, deads. Wanneer deze verhouding dus groter is dan 1 heb je vaker iemand gedood dan dat je zelf gestorven bent. Onder de 1 is dit net omgekeerd...en ben je dus niet zo goed in het spel dat je aan het spelen bent.
 {% endhint %}
 
-## BTW
+## BTW (*Essential*)
 Schrijf een programma waarin je het BTW-percentage 21% als een constante definieert door het keyword ``const`` voor de variabele te zetten. Vervolgens toon je een prijs naar keuze, met en zonder btw op het scherm. 
 
 
-
-## Gewicht in space
+ 
+## Gewicht in space (*Essential*)
 
 Je massa is overal dezelfde. Je gewicht daarentegen is afhankelijk van de zwaartekracht van de plek waar je bent. Zo is je gewicht veel groter op Jupiter dan op Mars (uitgedrukt in Newton).
 

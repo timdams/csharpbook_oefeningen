@@ -10,7 +10,7 @@ Implementeer de ``Equals`` methode (via ``override``) in je ``Pokemon`` klasse. 
 * Naam
 * Level
 
-# Een eigen huis
+# Een eigen huis (*Essential*)
 
 Gebruik compositie én overerving om een klasse ``Huis`` te voorzien van enkele kamers, waarbij iedere kamer een klasse op zich is (denk aan ``BadKamer``, ``Salon``, etc). Alle kamers erven over van de klasse ``Kamer``.
 Iedere kamer heeft een oppervlakte (in vierkante meter), een naam en prijs. Standaard is de prijs van een kamer 400euro, maar mogelijke child-klassen zullen deze property soms overriden. De Prijs is een readonly property (zonder setter, en heeft ook geen achterliggende instantievariabele).
@@ -40,7 +40,7 @@ Kan je de manager aanpassen zodat deze niet met ``card1`` en ``card2`` werkt, ma
 
 Voeg zelf enkele kaarten toe en verzin ook enkele afgeleide ``Card``-types  , bv ``Land`` en ``Artifact``.
 
-# Ganzenbord Dams Van Camp editie
+# Ganzenbord Dams Van Camp editie (*Essential*)
 
 Bordspelen zoals Ganzenbord of Monopoly zijn goede oefeningen om je polymorfisme mee te oefenen. Het speelbord is niet meer dan een lijst van objecten, met ieder vakje een object in die lijst. Echter, sommige vakjes kunnen meer dan andere en je lijst bevat dus objecten van verschillende child-klassen die allemaal overerven van een basisklasse ``Vakje`` of iets dergelijks. Volgende opgave uit een oud examen toont dit. Kan je deze oefening maken?
 

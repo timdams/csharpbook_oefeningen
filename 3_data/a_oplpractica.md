@@ -29,34 +29,21 @@ Console.WriteLine($"Oppervlakte: {oppervlakte}");
 Input van de gebruiker wordt niet getoond maar zal je zelf hopelijk wel kunnen:
 
 ```java
+const int K = 10;
 double ra = 1000; //vraag dit aan de gebruiker
 double rb = 1100; //vraag dit aan de gebruiker
 
-double ea= 1/(1+Math.Pow(10,(rb-ra)/400));
-double eb = 1 / (1 + Math.Pow(10, (ra - rb) / 400));
+double ea= 1 /(1+Math.Pow(10,(rb-ra)/400.0));
+double eb = 1 / (1 + Math.Pow(10, (ra - rb) / 400.0));
 
-double ranew = ra + 10 * (1 - ea);
-double rbnew = rb + 10 * (0 - eb);
+double ranew = ra + K * (1 - ea);
+double rbnew = rb + K * (0 - eb);
 Console.WriteLine("Indien a wint:");
-Console.WriteLine(ranew);
-Console.WriteLine(rbnew);
-
+Console.WriteLine(Math.Round(ranew,0));
+Console.WriteLine(Math.Round(rbnew,0));
 //idem voor de 2 andere scenarios)
 ```
 
-## Stacking armor calculator
-
-```java
-Console.WriteLine("Geef nominal health");
-int nomH = int.Parse(Console.ReadLine());
-
-Console.WriteLine("Geef armor ");
-int armor = int.Parse(Console.ReadLine());
-
-int effH =(int)((1+Armor/100.0)* nomH);
-
-Console.WriteLine(effH);
-```
 
 ## Balk
 
@@ -81,7 +68,7 @@ Console.WriteLine($"inhoud: {lengte*breedte*hoogte}");
 
 ```java
 Console.WriteLine("Geef de hoek in graden");
-double hoekInGraden = int.Parse(Console.ReadLine());
+double hoekInGraden = double.Parse(Console.ReadLine());
 double hoekInRadialen = hoekInGraden * ( Math.PI/180);
 
 Console.WriteLine($"Sinus van {hoekInGraden} graden is {Math.Sin(hoekInRadialen)}");
