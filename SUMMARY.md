@@ -55,6 +55,7 @@
   * [Opgave 6](EindeTests/Mod2/Opgave_2021.md)
   * [Opgave 7](EindeTests/Mod2/Opgave_2122b.md)
   * [Opgave 8](EindeTests/Mod2/Opgave_2122c.md)
+  * [Opgave 9](EindeTests/Mod2/Opgave_2223.md)
   * [Oplossing opgave 1](EindeTests/Mod2/Oplossing_2122.md)
   * [Oplossing opgave 2](EindeTests/Mod2/Oplossing_1819.md)
   * [Oplossing opgave 3](EindeTests/Mod2/Oplossing_1819b.md)
