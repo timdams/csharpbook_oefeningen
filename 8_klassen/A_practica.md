@@ -37,7 +37,7 @@ Werkt het naar behoren?! Voer nu de bijhorende unit tests uit om alles extra te 
 [Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H1_Nummers).
 {% endhint %}
 
-Maak een klasse ``Nummers``. Deze klasse bevat 2 getallen (type ``int``) genaamd ``Getal1`` en ``Getal2`` die via een autoproperty kunnen aangepast worden. Er zijn 4 methoden die telkens een ``int`` teruggeven, behalve ``Quotient`` dat een ``double`` teruggeeft:
+Maak een klasse ``NummerBerekenaar``. Deze klasse bevat 2 getallen (type ``int``) genaamd ``Getal1`` en ``Getal2`` die via een autoproperty kunnen aangepast worden. Er zijn 4 methoden die telkens een ``int`` teruggeven, behalve ``Quotient`` dat een ``double`` teruggeeft:
 
 * ``Som``: geeft de som van beide getallen terug.
 * ``Verschil``: geeft het verschil van beide getallen terug.
@@ -49,7 +49,7 @@ Toon in je ``main`` aan dat je code werkt.
 Volgende code zou bijvoorbeeld onderstaande output moeten geven:
 
 ```java
-Nummers paar1 = new Nummers();
+NummerBerekenaar paar1 = new NummerBerekenaar();
 paar1.Getal1 = 12;
 paar1.Getal2 = 34;
 Console.WriteLine($"Paar: {paar1.Getal1}, {paar1.Getal2}");
@@ -91,9 +91,9 @@ Deze klasse heeft 6 autoproperties:
 * ``PuntenProgrammingPrinciples`` (``int``)
 * ``PuntenWebTech`` (``int``)
 
-Voeg aan de klasse een methode ``BerekenTotaalCijfer`` toe. Wanneer deze methode wordt aangeroepen dan wordt het gemiddelde van de 3 punten  teruggegeven als double zodat dit op het scherm kan getoond worden.
+Voeg aan de klasse een methode ``BerekenGemiddelde`` toe. Wanneer deze methode wordt aangeroepen dan wordt het gemiddelde van de 3 punten  teruggegeven als double zodat dit op het scherm kan getoond worden.
 
-Voeg aan de klasse  ook de methode ``GeefOverzicht`` toe. Deze methode zal een volledig "Rapport" van de student tonen (inclusief het gemiddelde m.b.v. de BerekenTotaalCijfer-methode).
+Voeg aan de klasse  ook de methode ``GeefOverzicht`` toe. Deze methode zal een volledig "Rapport" van de student tonen (inclusief het gemiddelde m.b.v. de BerekenGemiddelde-methode).
 
 Test je programma door enkele studenten aan te maken en in te stellen. Volgende main zou dan de bijhorende output moeten krijgen:
 
@@ -162,29 +162,6 @@ Toon de werking van het project aan door een aantal instanties van ``Driehoek`` 
 
 ## Week 2
 
-### Verjaardag
-Maak een applicatie die aan de gebruiker z'n geboortedatum vraagt (dag/maand, bv 18/3). Vervolgens toont het programma op welke dag hij volgend jaar jarig zal zijn (Monday, Tuesday, etc.) én hoeveel dagen hij nog moet wachten. Uiteraard gebruik je ``DateTime`` voor deze applicatie.
-
-{% hint style='tip' %}
-Je hebt geen eigen klasse nodig. Doel van deze oefening is dat je leert werken met de bestaande ``DateTime`` en ``TimeSpan`` klassen. Je mag dus alles in de main schrijven.
-{% endhint %}
-
-
-{% hint style='tip' %}
-Gegeven een object van het type DateTime genaamd ``myDate``. Volgende wat uitgebreide code geeft de naam van de dag terug in de taal van het systeem waarop je applicatie draait:
-
-```java
-string dagLokaleTaal = System.Globalization.DateTimeFormatInfo.CurrentInfo.GetDayName(myDate.DayOfWeek)
-```
-{% endhint %}
-
-Voorbeeld invoer en uitvoer:
-
-```java
-Wanneer is je verjaardag (d/m, bv 18/3)
-20/5
-Je bent over 124 dagen jarig op een Dinsdag
-```
 
 ### Bibliotheek (*Essential*)
 
@@ -267,6 +244,29 @@ Voeg bovendien een full property ``GeboorteDatum`` toe (type ``DateTime``). De g
 
 Definieer vervolgens een methode ``BerekenLeeftijd``, die op basis van de ingestelde geboortedatum en de huidige datum (dat programma wordt uitgevoerd) de leeftijd (als ``int``) van de persoon teruggeeft.  
 
+### Verjaardag
+Maak een applicatie die aan de gebruiker z'n geboortedatum vraagt (dag/maand, bv 18/3). Vervolgens toont het programma op welke dag hij volgend jaar jarig zal zijn (Monday, Tuesday, etc.) én hoeveel dagen hij nog moet wachten. Uiteraard gebruik je ``DateTime`` voor deze applicatie.
+
+{% hint style='tip' %}
+Je hebt geen eigen klasse nodig. Doel van deze oefening is dat je leert werken met de bestaande ``DateTime`` en ``TimeSpan`` klassen. Je mag dus alles in de main schrijven.
+{% endhint %}
+
+
+{% hint style='tip' %}
+Gegeven een object van het type DateTime genaamd ``myDate``. Volgende wat uitgebreide code geeft de naam van de dag terug in de taal van het systeem waarop je applicatie draait:
+
+```java
+string dagLokaleTaal = System.Globalization.DateTimeFormatInfo.CurrentInfo.GetDayName(myDate.DayOfWeek)
+```
+{% endhint %}
+
+Voorbeeld invoer en uitvoer:
+
+```java
+Wanneer is je verjaardag (d/m, bv 18/3)
+20/5
+Je bent over 124 dagen jarig op een Dinsdag
+```
 
 
 ### Sports
