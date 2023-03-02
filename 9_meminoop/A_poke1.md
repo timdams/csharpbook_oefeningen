@@ -185,7 +185,7 @@ Voeg een methode met volgende signatuur toe aan je hoofdprogramma (dus ook weer 
 
 De methode zal een getal teruggeven dat aangeeft welke van de twee Pokémon een gevecht zou winnen. 1= poke1, 2 = poke2, 0 = gelijke stand.
 
-Controleer steeds of 1 of beide van de meegegeven Pokémon niet ``null`` zijn. Indien er 1 ``null`` is dan wint uiteraard de andere. Indien allebei ``null`` wint niemand (dus return je 0). Test of dit werkt!
+Controleer steeds of 1 of beide van de meegegeven Pokémon niet ``null`` zijn. Indien er 1 ``null`` is, dien je een Exception op te werpen.
 
 Bepaal zelf hoe Pokémon vechten (bv. degene met de hoogste average van full-stats). Werk niet enkel met de base-stats, daar deze constant zijn. Het is leuker dat het level ook een invloed heeft (maar ga niet gewoon het level vergelijken).
 
@@ -200,6 +200,5 @@ Voor de volledige info over Pokémon hun stats. [Klik hier.](https://bulbapedia.
 # Bankmanager 2 (*Essential*)
 
 Breidt de bankmanager oefening uit het vorige hoofdstuk uit met volgende functionaliteiten:
-* Voorzie Exception Handling op alle plaatsen waar potentiële problemen kunnen opdoeken.
 * Voorzie in je programma een methode ``SimuleerOverdracht``. Je kan aan deze methode 2 ``Rekening`` objecten meegeven. Vervolgens zal de methode 5x een willekeurig bedrag van de ene naar de andere rekening sturen, hierbij wisselen de rekeningen om de beurt wie verzender en wie ontvanger is. Wanneer de methode klaar is wordt er niets teruggestuurd.
 * Maak een methode ``CreeerTienerRekening`` in je programma. Deze methode geeft een nieuwe rekening terug waar de balans reeds op 50 staat. De methode aanvaardt 1 parameter: de naam van de klant, dat vervolgens in het nieuwe object wordt ingesteld. 
