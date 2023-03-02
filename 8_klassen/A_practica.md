@@ -212,7 +212,7 @@ Pas de ``HaalGeldAf`` methode aan zodat als returntype het bedrag (``int``) word
 Enkele getalvoorbeelden: 
 * Stel dat je een rekening hebt met 1000 ``balans``. Indien je op deze rekening ``HaalGeldAf`` aanroept met 300 als parameter, dan zal deze methode 300 teruggeven. De ``balans`` van de rekening wordt op 700 gezet.
 * Stel dat je een rekening hebt met 1000 balans. Indien je op deze rekening ``HaalGelfdAf`` aanroept met 1500 als parameter, dan zal deze methode 1000 teruggeven (namelijk al het geld dat beschikbaar is) en de ``balans`` op 0.
-* 
+
 {% endhint %}
 
 Maak 2 instanties van het type ``Rekening`` aan en toon aan dat je geld van de ene Rekening aan de andere kunt geven, als volgt:
