@@ -208,13 +208,13 @@ public class BibBoek
     {
         get
         {
-            return uitgeleend.AddDays(AANTALUITLEENDAGEN);
+            return Uitgeleend.AddDays(AANTALUITLEENDAGEN);
         }
     }
 
     public void VerlengTermijn(int aantalDagen)
     {
-        Uitgeleend = uitgeleend.AddDays(aantalDagen);
+        Uitgeleend = Uitgeleend.AddDays(aantalDagen);
     }
 }
 ```
