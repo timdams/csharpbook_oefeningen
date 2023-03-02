@@ -208,6 +208,12 @@ Voorzie 3 methoden:
 
 Pas de ``HaalGeldAf`` methode aan zodat als returntype het bedrag (``int``) wordt teruggegeven. Indien het gevraagde bedrag meer dan de ``balans`` is dan geef je al het geld terug dat nog op de rekening staat en toon je in de console dat niet al het geld kon worden gegeven (error die verschijnt: ``Rekening leeg nu``.)
 
+{% hint style='tip' %}
+Enkele getalvoorbeelden: 
+* Stel dat je een rekening hebt met 1000 balans. Indien je op deze rekening HaalGeldAf aanroept met 300 als parameter, dan zal deze methode 300 teruggeven. De balans van de rekening wordt op 700 gezet.
+* Stel dat je een rekening hebt met 1000 balans. Indien je op deze rekening HaalGelfdAf aanroept met 1500 als parameter, dan zal deze methode 1000 teruggeven (namelijk al het geld dat beschikbaar is) en de balans op 0.
+{% endhint %}
+
 Maak 2 instanties van het type ``Rekening`` aan en toon aan dat je geld van de ene Rekening aan de andere kunt geven, als volgt:
 
 ```java
