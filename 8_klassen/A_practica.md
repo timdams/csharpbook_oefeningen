@@ -182,6 +182,10 @@ De meegegeven waarde stelt het aantal dagen dat het boek extra mag uitgeleend wo
 
 Test je klasse door enkele objecten ervan aan te maken.
 
+
+
+![Visuele voorstelling van de klasse](bib.png)
+
 ### BankManager (*Essential*)
 
 {% hint style='tip' %}
