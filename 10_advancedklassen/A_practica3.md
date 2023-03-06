@@ -4,6 +4,11 @@ Vul de ``Meetlat`` klasse uit het vorige hoofdstuk aan met een constructor. De c
 
 ``lengteInMeter`` stel je nu in via de parameter die je in de constructor meekrijgt.
 
+# Bibliotheek constructor
+
+Pas de Bibliotheek klasse aan uit hoofdstuk 8 zodat deze een default constructor heeft. In de default constructor zorg je ervoor dat de ``Uitgeleend`` property standaard de huidige tijd krijgt van het moment waarop het object werd aangemaakt.
+
+Voeg ook een overloaded constructor mee die een ``DateTime`` object als parameter aanvaardt. Deze parameter zal toegewezen worden aan ``Uitgeleend``.
 
 # Digitale kluis (*Essential*)
 

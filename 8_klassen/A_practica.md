@@ -177,6 +177,11 @@ Boeken in een bibliotheek mogen maximum 14 dagen uitgeleend worden.  De klasse `
 
 De achterliggende instantievariabele bij ``Uitgeleend`` wordt standaard ingesteld bij de object-creatie op de huidige tijd (``DateTime.Now`` toewijzen aan de achterliggende instantievariabele). Als je dus vergeet de ``Uitgeleend`` property in te stellen later dan heeft deze zeker een waarde.
 
+{% hint style='tip' %}
+In hoofdstuk 10 zullen we constructors leren gebruiken: deze laten je toe om dit soort initialisatie-code te bundelen in een overzichtelijke methode.
+{% endhint %}
+
+
 De klasse heeft ook een methode ``VerlengTermijn`` waar je een parameter type ``int`` aan kunt meegeven. Deze methode werkt als volgt:
 De meegegeven waarde stelt het aantal dagen dat het boek extra mag uitgeleend worden. We gaan dit in orde brengen door de de ``Uitgeleend`` waarde met die dagen te verhogen. Als het boek dus was uitgeleend op 18 maart en het wordt verleng met 3 dagen dan maken van van ``Uitgeleend`` 21 maart.
 
@@ -321,6 +326,7 @@ Toon m.a.w. aan dat je:
 * Kunt werken met deze instanties (properties instellen én uitlezen, aanroepen van methoden)
 
 {% hint style='tip' %}
+
 #### enums
 
 Kan je in voorgaand voorbeeld het instantievariabele ``reeks`` vervangen door een instantievariabele reeks dat een enum als datatype heeft?
