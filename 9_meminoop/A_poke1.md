@@ -12,7 +12,7 @@ Er zijn geen aparte Exception handling oefeningen. De bedoeling is dat je zelf s
 Maak een klasse ``Meetlat``. Via een write-only property ``BeginLengte`` kan de gebruiker de lengte van een voorwerp instellen (in meter, type ``double``) van de instantievariabele ``lengte``.
 
 {% hint style='tip' %}
-In hoofdstuk 1& zullen we constructors leren gebruiken: deze zullen  methoden zoals ``BeginLengte`` vervangen. 
+In hoofdstuk 11 zullen we constructors leren gebruiken: deze zullen  methoden zoals ``BeginLengte`` vervangen. 
 {% endhint %}
  
 Via een reeks read-only properties (die transformeren) kan de gebruiker deze lengte in verschillende eenheden uitlezen namelijk (alles van type ``double``):
