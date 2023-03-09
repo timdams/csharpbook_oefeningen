@@ -102,9 +102,7 @@ class Pokemon
     {
         get
         {
-            double gemiddelde = 0;
-            gemiddelde = Total / 6.0;
-            return gemiddelde;
+            return Total / 6.;
         }
     }
 
@@ -185,16 +183,16 @@ Pokemon myOtherPokemon= GeneratorPokemon();
 ```java
 public static int Battle(Pokemon poke1, Pokemon poke2)
 {
-    if(poke1 ==null && poke2 == null)
+    if(poke1 == null && poke2 == null)
         return 0;
-    if(poke1==null)
+    if(poke1== null)
         return 2;
-    if(poke2==null)
+    if(poke2== null)
         return 1;
 
     if(poke1.Average > poke2.Average)
         return 1;
-    else if (poke2.Average< poke2.Average)
+    else if (poke1.Average < poke2.Average)
         return 2;
 
     return 0;
