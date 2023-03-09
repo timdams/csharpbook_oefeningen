@@ -178,7 +178,7 @@ Boeken in een bibliotheek mogen maximum 14 dagen uitgeleend worden.  De klasse `
 De achterliggende instantievariabele bij ``Uitgeleend`` wordt standaard ingesteld bij de object-creatie op de huidige tijd (``DateTime.Now`` toewijzen aan de achterliggende instantievariabele). Als je dus vergeet de ``Uitgeleend`` property in te stellen later dan heeft deze zeker een waarde.
 
 {% hint style='tip' %}
-In hoofdstuk 10 zullen we constructors leren gebruiken: deze laten je toe om dit soort initialisatie-code te bundelen in een overzichtelijke methode.
+In hoofdstuk 11 zullen we constructors leren gebruiken: deze laten je toe om dit soort initialisatie-code te bundelen in een overzichtelijke methode.
 {% endhint %}
 
 
