@@ -8,7 +8,7 @@ Vul de ``Meetlat`` klasse uit het vorige hoofdstuk aan met een constructor. De c
 
 Pas de Bibliotheek klasse aan uit hoofdstuk 9 zodat deze een default constructor heeft. In de default constructor zorg je ervoor dat de ``Uitgeleend`` property standaard de huidige tijd krijgt van het moment waarop het object werd aangemaakt.
 
-Voeg ook een overloaded constructor mee die een ``DateTime`` object als parameter aanvaardt. Deze parameter zal toegewezen worden aan ``Uitgeleend``.
+Voeg ook een overloaded constructor mee die een ``DateTime`` object als parameter aanvaardt. Deze parameter zal toegewezen worden aan ``Uitgeleend``. Werp een Exception op indien je een datum in de toekomst meegeeft.
 
 * Een ``static`` methode ``VeranderAlgemeneUitleenTermijn`` , die 1 ``int`` als parameter aanvaardt.De methode zorgt ervoor dat het aantal dagen dat je boek mag uitlenen verandert wordt naar de meegeven parameter. Tip: dit zal vereisen dat je een static instantievariabele hebt die je vervolgens in je ``InleverDatum`` getter gebruikt.
 

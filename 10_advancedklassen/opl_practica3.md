@@ -136,7 +136,7 @@ public class BibBoek
 	}
 	public BibBoek()
 	{
-		Uitgeleend = DateTime.Now.AddDays(-1);
+		Uitgeleend = DateTime.Now;
 	}
 	
 	public BibBoek(string inOntlener, DateTime inUitleen)
@@ -150,7 +150,7 @@ public class BibBoek
 	
 
     public string Ontlener { get; set; } = "onbekend";
-    private DateTime uitgeleend = DateTime.Now;
+    private DateTime uitgeleend ;
     public DateTime Uitgeleend
     {
         set
