@@ -1,14 +1,16 @@
-# Meetlat constructor
+# Meetlat constructor (*Essential*)
 
 Vul de ``Meetlat`` klasse uit het vorige hoofdstuk aan met een constructor. De constructor laat toe om de lengte in meter als parameter mee te geven. De ``LengteInMeter`` write-only property vervang je door een private instantievariabele ``double lengteInMeter``.
 
 ``lengteInMeter`` stel je nu in via de parameter die je in de constructor meekrijgt.
 
-# Bibliotheek constructor
+# Bibliotheek constructor en static (*Essential*)
 
 Pas de Bibliotheek klasse aan uit hoofdstuk 8 zodat deze een default constructor heeft. In de default constructor zorg je ervoor dat de ``Uitgeleend`` property standaard de huidige tijd krijgt van het moment waarop het object werd aangemaakt.
 
 Voeg ook een overloaded constructor mee die een ``DateTime`` object als parameter aanvaardt. Deze parameter zal toegewezen worden aan ``Uitgeleend``.
+
+* Een ``static`` methode ``VeranderAlgemeneUitleenTermijn`` , die 1 ``int`` als parameter aanvaardt.De methode zorgt ervoor dat het aantal dagen dat je boek mag uitlenen verandert wordt naar de meegeven parameter. Tip: dit zal vereisen dat je een static instantievariabele hebt die je vervolgens in je ``InleverDatum`` getter gebruikt.
 
 # Digitale kluis (*Essential*)
 
@@ -64,13 +66,6 @@ DigitaleKluis.BruteForce(kluisje);
 Je hebt de oefening nu opgelost :)
 
 
-# Bibliotheek deel 2 (*Essential*)
-
-Neem de Bibliotheek oefening uit hoofdstuk 1 erbij. Zorg ervoor dat de ``BibBoek`` klasse volgende zaken heeft:
-
-* Een default constructor die de ``Uitgeleend`` datum op gisteren zet.
-* Een overloaded constructor die toelaat om de ontlener (``string``) en ``Uitgeleend`` (``DateTime``) als parameters mee tegen en in te stellen in het object. Indien de meegeven datum later is dan de huidige datum dan zal er een uitzonderingen worden opgeworpen.
-* Een ``static`` methode ``VeranderAlgemeneUitleenTermijn`` , die 1 ``int`` als parameter aanvaardt.De methode zorgt ervoor dat het aantal dagen dat je boek mag uitlenen verandert wordt naar de meegeven parameter. Tip: dit zal vereisen dat je een static instantievariabele hebt die je vervolgens in je ``InleverDatum`` getter gebruikt.
 
 # Pokémon deel 2 (*Essential*)
 
