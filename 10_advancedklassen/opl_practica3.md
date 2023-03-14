@@ -383,12 +383,12 @@ public class Waterpolospeler
     }
     public void Gooibal()
     {
-        Console.WriteLine($"Ik ({this.SpelersNaam}) gooi de bal");
+        Console.WriteLine($"Ik ({SpelersNaam}) gooi de bal");
     }
 
     public void Watertrappen()
     {
-        Console.WriteLine($"nummer {this.MutsNummer} is aan het watertrappelen");
+        Console.WriteLine($"nummer {MutsNummer} is aan het watertrappelen");
     }
     public void Tooninfo()
     {
