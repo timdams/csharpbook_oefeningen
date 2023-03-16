@@ -9,7 +9,6 @@ public class Meetlat
         lengteInM=lengtestart;
     }
 
-
     private double lengteInM;
 
     public double LengteInCm
