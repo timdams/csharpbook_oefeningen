@@ -13,7 +13,7 @@ De klasse computeronderdeel bestaat uit volgende autoproperties:
 * ID (int)
 * InDoos (bool)
 
-Voorts heeft de klasse een default constructor die voorgaande autoproperties op willekeurige waarden instelt (prijs positief tot max 1000, ID een getal tussen 100 en 999)
+Voorts heeft de klasse een default constructor die voorgaande autoproperties op willekeurige waarden instelt (prijs positief tot max 1000, ID een getal tussen 100 en 999, en InDoos heeft 50% kan om true te zijn)
 
 De klasse heeft 1 methode ``ToonInfo`` die de 3 waarden van het object naar het scherm stuurt:
 
