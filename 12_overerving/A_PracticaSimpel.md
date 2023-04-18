@@ -1,5 +1,5 @@
 {% hint style='tip' %}
-Wil je de leerstof op een andere manier leren gebruiken? Bekijk dan eens de corona files via de QRcode op digitap. Merk op dat de corona files niet zo diepgaand zijn als de andere oefeningen, maar mogelijk wel boeiender.
+Wil je de leerstof op een andere manier leren gebruiken? Bekijk dan eens de Corona Files sectie op digitap. Merk op dat de corona files niet zo diepgaand zijn als de andere oefeningen, maar mogelijk wel boeiender.
 Het is wel zo dat iedere week voort werkt op hetgeen je de missie ervoor hebt gemaakt waardoor je dus finaal een lekker groot project zal hebben.
 {% endhint %}
 
@@ -49,7 +49,7 @@ Test wat er gebeurt als je al je bookmarks vervangt door ``HiddenBookmarks``.
 # Ballspel met overerving 
 
 {% hint style='tip' %}
-Deze oefening bouwt verder op het Pong spel uit hoofdstuk 1 van het handboek.
+Deze oefening bouwt verder op het Pong spel uit hoofdstuk 9 van het handboek.
 {% endhint %}
 
 
@@ -59,7 +59,7 @@ Volgende code toont hoe we een bestaande klasse  ``Ball`` kunnen overerven om ee
 
 We maken een klasse ``Ball`` die via ``Update`` en ``Draw`` zichzelf over het consolescherm beweegt. Enkele opmerkingen:
 
-* We maken sommige variabelen ``protected`` zodat later de overgeërfde klasse er aan kunnen
+* We maken sommige variabelen ``protected`` zodat later de overgeërfde klassen er aan kunnen
 * Een ``static`` methode ``CheckHit`` laat ons toe te ontdekken of twee ``Ball``objecten mekaar raken
 
 ```java
