@@ -1,5 +1,5 @@
 {% hint style='tip' %}
-Wil je de leerstof op een andere manier leren gebruiken? Bekijk dan eens de Corona Files sectie op digitap. Merk op dat de corona files niet zo diepgaand zijn als de andere oefeningen, maar mogelijk wel boeiender.
+Wil je de leerstof op een andere manier leren gebruiken? Bekijk dan eens [de Corona Files oefeningen](https://apwt.gitbook.io/coronafiles/). Merk op dat de corona files niet zo diepgaand zijn als de andere oefeningen, maar mogelijk wel boeiender.
 Het is wel zo dat iedere week voort werkt op hetgeen je de missie ervoor hebt gemaakt waardoor je dus finaal een lekker groot project zal hebben.
 {% endhint %}
 
