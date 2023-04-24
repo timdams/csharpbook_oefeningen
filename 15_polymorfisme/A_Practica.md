@@ -1,7 +1,7 @@
 # Dierentuin advanced
 Voeg een filter toe aan de dierentuin applicatie uit [een eerder hoofdstuk](../13_advancedovererving/A_Practica.md):
 
-* Filter praten: er wordt gevraagd welke dieren moeten praten (Koe, Slang of Varken) vervolgens zullen enkel die dieren praten (tip: "is" operator uit les van gisteren)
+* Filter praten: er wordt gevraagd welke dieren moeten praten (``Koe``, ``Slang`` of ``Varken``) vervolgens zullen enkel die dieren praten (tip: "is" operator).
 
 # Pokémon vergelijken
 Implementeer de ``Equals`` methode (via ``override``) in je ``Pokemon`` klasse. Twee Pokémon zijn dezelfde indien volgende zaken gelijk zijn:
@@ -29,7 +29,7 @@ Test je klasse door enkele huizen te maken en er enkele kamers in te plaatsen (b
 
 ## Mapmaker
 
-Voorzie een ``Teken`` methode die een huis kan tekenen, gebruikmakend van de ``Teken``-methoden van de kamers. Hiervoor dien je een ``X`` en ``Y`` coördinaat per , alsook lengtes en breedter per huis én kamer te hebben zodat je deze op de juiste plekken op het scherm kan plaatsen.
+Voorzie een ``Teken`` methode die een huis kan tekenen, gebruikmakend van de ``Teken``-methoden van de kamers. Hiervoor dien je een ``X`` en ``Y`` coördinaat per , alsook lengte en breedte per huis én kamer te hebben zodat je deze op de juiste plekken op het scherm kan plaatsen.
 
 Kan je ervoor zorgen dat een architect nieuwe kamers kan toevoegen en verwijderen?
 
@@ -58,7 +58,7 @@ En hier zit je nu dus, opgescheept met het programmeren van de basisfunctionalit
 
 ## Ganzenbord single player edition
 
-Ganzenbord, the single player edition, wordt gespeeld door één speler die moet proberen zo ver mogelijk te geraken op een traject van vakjes. Sommige vakjes doen iets met de speler wanneer deze op het vakje belandt (bijvoorbeeld een stapje vooruit), anderen doen niets.
+Ganzenbord, *the single player edition*, wordt gespeeld door één speler die moet proberen zo ver mogelijk te geraken op een traject van vakjes. Sommige vakjes doen iets met de speler wanneer deze op het vakje belandt (bijvoorbeeld een stapje vooruit), anderen doen niets.
 
 Het bord wordt aan de start van ieder spel random aangemaakt. De speler moet een dobbelsteen werpen om te weten hoeveel stappen z'n pion vooruit zal gaan. De speler verdient punten hoe verder hij geraakt.
 

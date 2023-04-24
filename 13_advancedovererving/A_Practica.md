@@ -1,5 +1,5 @@
 {% hint style='tip' %}
-Nu je overerving in de vingers krijgt, is het tijd om de ingebouwd "Class designer" van Visual Studio eens te bekijken. Volgende kennisclip toont hoe je deze handige tool kunt installeren en gebruiken:
+Nu je overerving in de vingers krijgt, is het tijd om de ingebouwde "Class designer" van Visual Studio eens te bekijken. Volgende kennisclip toont hoe je deze handige tool kunt installeren en gebruiken:
 [Class diagram en de class designer in Visual Studio](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4d0a4b76-eed7-45e3-ba3f-ae8500fd94e9)
 {% endhint %}
 
@@ -9,6 +9,7 @@ Voeg ToString toe aan bestaande van volgende projecten. Ik raad aan dat je dit e
 ## Pokémon extra
 
 Implementeer de ToString() methode in je ``Pokemon`` klasse zodat deze z'n full stats toont wanneer je schrijft:
+
 ```java
 Console.WriteLine(myPokemon);
 ```
@@ -46,6 +47,7 @@ Maak een child-klasse die van ``Boek`` overerft genaamd ``TextBoek``. Een ``Text
 * ``GradeLevel`` (``int``)
 
 Maak een child-klasse die van ``Boek`` overerft genaamd ``KoffietafelBoek``. Deze klasse heeft geen extra velden.
+
 
 Voorts kunnen boeken "opgeteld" worden om als omnibus uitgebracht te worden. De titel wordt dan "Omnibus van X". waarbij X de Auteurs bevat, gescheiden met een komma. De prijs van een Omnibus is steeds de som van beide boeken gedeeld door 2. **Schrijf een ``static`` methode ``TelOp`` die twee ``Boek`` objecten als parameter aanvaardt en als returntype een nieuw ``Boek`` teruggeeft.** Deze methode voeg je toe aan de klasse ``Boek``
 
