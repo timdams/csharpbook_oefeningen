@@ -104,17 +104,6 @@ public override string ToString()
 }
 ```
 
-(PRO) Equals methode. Voeg dit toe aan de klasse ``Book``
-
-```java
-public override bool Equals(object obj)
-{
-    Book tocomp = (Book)obj;
-    if (tocomp.ISBN == ISBN)
-        return true;
-    return false;
-}
-```
 
 ## Money, Money, Money
 
