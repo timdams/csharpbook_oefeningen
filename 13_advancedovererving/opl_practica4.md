@@ -219,7 +219,7 @@ public class Driehoek: GeometricFigure
 
 ```java
 Console.WriteLine("H13 Dierentuin");
-List<dier> dieren = new List<dier>();
+List<Dier> Dieren = new List<Dier>();
 
 string answer = "";
 while (answer != "q")
@@ -230,30 +230,30 @@ while (answer != "q")
     switch (answer)
     {
         case "a":
-            Console.WriteLine($"op welke plaats wilt u het verwijderen van 0 tot {dieren.Count}");
+            Console.WriteLine($"op welke plaats wilt u het verwijderen van 0 tot {Dieren.Count}");
             int nummer = Convert.ToInt32(Console.ReadLine());
-            if (nummer < dieren.Count)
-                dieren.RemoveAt(nummer);
+            if (nummer < Dieren.Count)
+                Dieren.RemoveAt(nummer);
             else
                 Console.WriteLine("Dat nummer bestaat niet");
             break;
         case "b":
             int totaal = 0;
-            foreach (var animal in dieren)
+            foreach (var animal in Dieren)
             {
                 totaal += animal.Gewicht;
             }
-            double gemiddelde = totaal / dieren.Count;
+            double gemiddelde = totaal / Dieren.Count;
             Console.WriteLine("gemiddelde gewicht = " + gemiddelde);
             break;
         case "c":
-            foreach (var animal in dieren)
+            foreach (var animal in Dieren)
             {
                 animal.Zegt();
             }
             break;
         case "d":
-            dieren.Clear();
+            Dieren.Clear();
             break;
 
         default:
@@ -264,7 +264,7 @@ while (answer != "q")
 ```
 
 ```java
-public abstract class dier
+public abstract class Dier
 {
     private int gewicht = 50;
 
@@ -278,21 +278,21 @@ public abstract class dier
 
 }
 
-public class Koe : dier
+public class Koe : Dier
 {
     public override void Zegt()
     {
         Console.WriteLine("moooeeee");
     }
 }
-public class Hond : dier
+public class Hond : Dier
 {
     public override void Zegt()
     {
         Console.WriteLine("woef");
     }
 }
-public class Vis : dier
+public class Vis : Dier
 {
     public override void Zegt()
     {
