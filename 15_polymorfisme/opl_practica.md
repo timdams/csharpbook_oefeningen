@@ -135,7 +135,7 @@ public class Salon : Kamer
     {
         get
         {
-            if (HeeftSchouw) return 300;
+            if (!HeeftSchouw) return 300;
             return 500;
         }
     }
