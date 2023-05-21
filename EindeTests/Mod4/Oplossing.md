@@ -1,14 +1,14 @@
 ## Stap 1
 
 ```java
-    abstract class Vorm
+    abstract class Vorm​
     {
         public int X { get; set; }
         public int Y { get; set; }
         public abstract void TekenVorm();
         public virtual ConsoleColor Kleur { get; } = ConsoleColor.Red;
 
-        public Vorm(int xin,int yin)
+        public Vorm(int xin, int yin)
         {
             X = xin;
             Y = yin;
@@ -16,27 +16,23 @@
     }
 ```
 
+
 ## Stap 2
 
 ```java
     class Lijn : Vorm
     {
-
         public Lijn(int xin, int yin, int lengtein) : base(xin, yin)
         {
-
             Lengte = lengtein;
         }
         public override void TekenVorm()
         {
             Console.ForegroundColor = this.Kleur;
             for (int i = 0; i < Lengte; i++)
-            {
-                
+            {              
                     Console.SetCursorPosition(X+i , Y);
                     Console.Write("*");
-                
-
             }
             Console.ResetColor();
         }
@@ -68,7 +64,6 @@
                     Console.SetCursorPosition(X+i ,Y+ j);
                     Console.Write("*");
                 }
-
             }
             Console.ResetColor();
         }
