@@ -20,7 +20,7 @@ Standaard heeft een nieuw gemaakt Vak-object een Lector-object met als naam "Nog
 
 ## Lector
 
-Een lector heeft een naam (``string``) en een maximaal aantal uur (``maxUur``, type ``int``) dat de persoon les kan geven op een week. De  waarde van ```maxUur`` is altijd 6. Voorzie dit via een readonly property. 
+Een lector heeft een naam (``string``) en een maximaal aantal uur (``maxUur``, type ``int``) dat de persoon les kan geven op een week. De  waarde van ``maxUur`` is altijd 6. Voorzie dit via een readonly property. 
 
 
 ## Rooster
@@ -51,13 +51,14 @@ d) ``WijsLectorToe`` : deze methode aanvaart een index x (``int``) en een ``Lect
 
 ## LaboVak
 
-LaboVak is een Vak. Deze zal als ``ToString`` aangeroepen wordt achteraan de titel nog "(labo)" toevoegen. Bijvoorbeeld: ``OOP (labo) - Jansens``.
+LaboVak is een Vak. Deze zal als ``ToString`` aangeroepen wordt vooraan de titel nog "(labo)" toevoegen. Bijvoorbeeld: ``(labo) OOP - Jansens``.
 
 Deze heeft een constructor waar je een ``Vak``-object aan kan meegeven. De informatie van dit object wordt gebruikt om het LaboVak in te stellen (je neemt dus de duur, lector en titel over uit het object en wijst dit toe aan het huidige LaboVak-object).
 
 
-
 Een labovak kan ook 3uur duren en is dus niet beperkt tot 1 of 2 uur duur.
+
+Voeg voorts aan de klasse ``Rooster`` een nieuwe methode ``ToonLabos`` toe. Deze zal net als ``ToonRooster`` het rooster visualiseren, maar enkel voor vakken van het type ``LaboVak``.
 
 ## HalfTijdseLector
 
@@ -73,7 +74,7 @@ Maak een applicatie die bovenstaande klassen gebruikt door aan de gebruiker een 
 * **Toon rooster**: de huidige rooster wordt op het scherm getoond.
 * **Voeg vak toe**: de gebruiker dient vervolgens de naam van het vak te geven, de duur, en welke lector (voor de lector geeft hij gewoon de index in, 0, 1 of 2 en gebruik je vervolgens de lector in de lijst die je aanmaakte aan de start van het programma). Indien de gebruiker bij duur 3 ingeeft dan wordt dit vak automatisch een labovak.
 * **Verbeter rooster**: dit zal de VerbeterRooster methode aanroepen.
-* **Toon labo's**: Enkel de LaboVak-objecten in het rooster worden opp het scherm getoond.
+* **Toon labo's**: Enkel de LaboVak-objecten in het rooster worden op het scherm getoond.
 
 # WeekRooster
 
@@ -83,6 +84,5 @@ Maak een klasse ``WeekRooster``. Deze klasse heeft 5 lijsten van het type ``Vak`
 De klasse heeft volgende methode:
 
 * **Toon rooster**: deze zal de rooster per dag onder elkaar op het scherm tonen en voor iedere lijst de dag tonen.
-
 
 Voeg aan het hoofdmenu de optie **Toon weekrooster**. Deze zorgt ervoor dat een ``WeekRooster`` object wordt aangemaakt dat vervolgens op het scherm wordt getoond.
