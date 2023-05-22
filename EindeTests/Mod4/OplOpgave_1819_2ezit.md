@@ -1,8 +1,5 @@
 > Dank aan Wael Orraby.
 
-> Dank aan Wael Orraby.
-
-
 Klassen:
 ```java
 enum Kleuren {Rood=1, Geel, Groen };
