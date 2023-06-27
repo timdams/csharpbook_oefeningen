@@ -127,6 +127,8 @@
   * [Oplossing opgave 6](EindeTests/Mod4/OplOpgave_2122.md)
   * [Opgave 7](EindeTests/Mod4/Opgave_2122b.md)
   * [Oplossing opgave 7](EindeTests/Mod4/OplOpgave_2122b.md)
+  * [Opgave 8](EindeTests/Mod4/Opgave_2223.md)
+  * [Oplossing opgave 8](EindeTests/Mod4/OplOpgave_2223.md)
 * All-In-Projecten
   * [Overzicht](A_DEEL2_AllInOne/0_Deel2_IntroductieAllInOne.md)
   * [OO Textbased Game](A_DEEL2_AllInOne/2_OOTextGame.md)

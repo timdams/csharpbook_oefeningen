@@ -31,7 +31,7 @@ Alle toestellen die in een parkoers voorkomen zullen van deze klasse overerven.
 
 Het gaat om een abstracte klasse met:
 
-* Een protected instantievariabele ``tekenChar`` dat standaard ``o`` is. Dit teken zal gebruikt worden om het toestel te visualeren.
+* Een protected instantievariabele ``tekenChar`` dat standaard ``o`` is. Dit teken zal gebruikt worden om het toestel te visualiseren.
 * Methode ``Teken`` die het ``tekenChar`` op de huidige plek in de console schrijft (met ``Write``).
 * Een abstracte methode ``BerekenMoeilijkheidsgraad`` die een ``int`` als resultaat heeft en geen parameters aanvaardt.
 
