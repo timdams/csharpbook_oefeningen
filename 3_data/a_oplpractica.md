@@ -15,13 +15,13 @@ Console.WriteLine($"Gemiddelde is {(getal1+getal2+getal3)/3}");
 ## Vierkant
 
 ```java
-Console.WriteLine("Geef de zijde");
+Console.WriteLine("Geef de zijde:");
 double zijde = double.Parse(Console.ReadLine());
 double omtrek = zijde * 4; 
 double oppervlakte= Math.Pow(zijde, 2);
-Console.WriteLine($"Zijde: {zijde}");
-Console.WriteLine($"Omtrekt: {omtrek}");
-Console.WriteLine($"Oppervlakte: {oppervlakte}");
+
+Console.WriteLine($"Omtrek is {omtrek}");
+Console.WriteLine($"Oppervlakte is {oppervlakte}");
 ```
 
 ## Elo-schaak
@@ -64,10 +64,10 @@ Console.WriteLine($"oppervlakte: {opp}");
 Console.WriteLine($"inhoud: {lengte*breedte*hoogte}");
 ```
 
-## Geometric-fun
+## Geometric fun
 
 ```java
-Console.WriteLine("Geef de hoek in graden");
+Console.WriteLine("Geef de hoek in graden:");
 double hoekInGraden = double.Parse(Console.ReadLine());
 double hoekInRadialen = hoekInGraden * ( Math.PI/180);
 
@@ -76,16 +76,17 @@ Console.WriteLine($"Cosinus van {hoekInGraden} graden is {Math.Cos(hoekInRadiale
 Console.WriteLine($"Tangens van {hoekInGraden} graden is {Math.Tan(hoekInRadialen)}");
 ```
 
-## BMI Berekenaar
+## BMI Berekenaar 
 ```java
-Console.WriteLine("Geef je gewicht in kg");
-double gewicht = double.Parse(Console.ReadLine());
-Console.WriteLine("Geef je lengte in cm");
-double lengte = double.Parse(Console.ReadLine())/100;
+Console.WriteLine("Wat is uw lengte in cm?");
+double lengteInMeter = Convert.ToDouble(Console.ReadLine())/100;
 
-double bmi = gewicht / Math.Pow(lengte, 2);
+Console.WriteLine("Wat is uw gewicht in kg?");
+double gewicht = Convert.ToDouble(Console.ReadLine());
 
-Console.WriteLine($"Je BMI is {Math.Round(bmi,2)}");
+double bmi = gewicht / Math.Pow(lengteInMeter, 2);
+Console.WriteLine($"Een persoon met een lengte van {lengteInMeter} m en een gewicht van {gewicht} kg heeft een BMI van {Math.Round(bmi,2)}");
+   
 ```
 
 ## Op-de-poef

@@ -37,6 +37,13 @@ Bewaar het resultaat van iedere opgave in een aparte variabele. Reken op papier 
 De % hier is de modulo-operator.
 {% endhint %}
 
+Je toont het resultaat als volgt:
+```text
+-1 + 4 * 6 geeft 23
+( 35 + 5 ) % 7 geeft 5 
+14 + -4 * 6 / 11 geeft 11,818181818181818
+2 + 15 / 6 * 1 - 7 % 2 geeft 3,5
+```
 
 ## Gemiddelde (*Essential*)
 
@@ -84,7 +91,7 @@ Console.WriteLine("Tweede beeld");
 Merk op dat ``Console.Clear()`` niet werkt zoals verwacht op Mac. 
 {% endhint %}
 
-## Kill/Death-ratio (*Essential*)
+## Kill/Death-ratio (*Essential*) (Dodona beschikbaar)
 
 Maak twee variabelen ``double kills`` en ``double deaths`` aan. Wijs er jouw typische scores aan toe die je haalt in een spel naar keuze. Bereken en toon vervolgens je kill/death-ratio.
 

@@ -5,9 +5,9 @@ Kijk pas naar de oplossing als je 100% klaar bent. En zelfs dan, wees erg kritis
 {% endhint %}
 
 
-## Rommel zin (*Essential*)
+## Rommel zin (*Essential*) (Dodona beschikbaar)
 
-Schrijf een applicatie met behulp van ``ReadLine()`` en ``WriteLine()``-methoden waarbij de computer aan de gebruiker om zijn of haar favoriete kleur, eten, auto, film en boek vraagt. Het programma zal de antwoorden echter door elkaar halen waardoor de computer vervolgens toont: 
+Schrijf een applicatie met behulp van ``ReadLine()`` en ``WriteLine()``-methoden waarbij de computer aan de gebruiker om zijn of haar favoriete kleur, eten, auto en boek vraagt. Het programma zal de antwoorden echter door elkaar halen waardoor de computer vervolgens toont: 
 
 
 ```text
@@ -16,7 +16,19 @@ Je favoriete kleur is [eten]. Je eet graag [auto]. Je lievelingsfilm is [boek] e
 
 Waarbij tussen de rechte haakjes steeds de invoer komt die de gebruiker eerder opgaf voor de bijhorende vraag.
 
-Maak het programma "grappig" door de antwoorden op de verkeerde plek te gebruiken, bijvoorbeeld: "Zo, je favoriete kleur is The Lord of the Rings?!".
+Voorbeeld:
+```text
+Geef je favoriete kleur:
+rood
+Geef je favoriete eten:
+lasagne
+Geef je favoriete auto:
+mazda
+Geef je favoriete boek:
+Het oneindige verhaal
+
+Je favoriete kleur is lasagne. Je eet graag mazda. Je lievelingsfilm is Het oneindige verhaal en je favoriete boek is rood.
+```
 
 ## Kleuren veranderen (*Essential*)
 
@@ -26,7 +38,7 @@ Bekijk de werking van Console.Write(). Kan je ieder woord in een andere kleur ze
 
 Go nuts!
 
-## Visitekaart (*Essential*)
+## Visitekaart (*Essential*) (Dodona beschikbaar)
 
 Schrijf een programma dat aan de gebruiker de volgende zaken vraagt:
 
@@ -34,10 +46,8 @@ Schrijf een programma dat aan de gebruiker de volgende zaken vraagt:
 * Achternaam
 * Adres
 * Hobby
-* Waarom voor de opleiding gekozen?
-* Waarom voor AP gekozen?
 
-Vervolgens toon je de antwoorden op het scherm met telkens ervoor wat de vraag was in een andere klaar:
+Vervolgens toon je de vragen, telkens in een andere kleur, gevolgd door de antwoorden, met de naam als 1 antwoord (voornaam en achternaam). De antwoorden zijn in de originele kleur.
 
 Bijvoorbeeld:
 
@@ -50,20 +60,14 @@ Waar woon je?
 Scheve dreef 666
 Wat is je hobby?
 lezen en schrijven
-Waarom koos je voor deze opleiding?
-Beste lectoren ooit
-Waarom koos je voor AP?
-Ik woon er dichtbij
 
-Goed. Hier volgt je visite kaartje"
+
+Goed. Hier volgt je visitekaartje"
 
 Naam: Tim Dams
 Adres: Scheve dreef 666
 Hobby: lezen en schrijven
-Waarom deze opleiding volgen: Beste lectoren ooit.
-Waarom op AP: Ik woon er dichtbij.
 ```
-
 
 
 ## Tekening

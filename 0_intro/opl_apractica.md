@@ -5,13 +5,13 @@
 ## Oplossing Rommelzin
 
 ```java
-Console.WriteLine("Wat is je favoriete kleur?");
+Console.WriteLine("Geef je favoriete kleur:");
 string favKleur = Console.ReadLine();
-Console.WriteLine("Wat is je favoriete eten?");
+Console.WriteLine("Geef je favoriete eten:");
 string favEten = Console.ReadLine();
-Console.WriteLine("Wat is je favoriete boek?");
+Console.WriteLine("Geef je favoriete auto:");
 string favBoek = Console.ReadLine();
-Console.WriteLine("Wat is je favoriete auto?");
+Console.WriteLine("Geef je favoriete boek:");
 string favAuto = Console.ReadLine();
 
 
@@ -56,25 +56,28 @@ Console.Write(favEten);
 
 ```java
 Console.WriteLine("Wat is je voornaam?");
-string naam = Console.ReadLine();
-Console.WriteLine("Wat is jevachternaam?");
+string voornaam = Console.ReadLine();
+Console.WriteLine("Wat is je achternaam?");
 string achternaam = Console.ReadLine();
 Console.WriteLine("Waar woon je?");
 string adres = Console.ReadLine();
 Console.WriteLine("Wat is je hobby?");
 string hobby = Console.ReadLine();
-Console.WriteLine("Waarom koos je voor deze opleiding?");
-string opleiding = Console.ReadLine();
-Console.WriteLine("Waarom koos je voor AP?");
-string ap = Console.ReadLine();
 
-Console.WriteLine("Goed. Hier volgt je visite kaartje");
+Console.WriteLine("Goed. Hier volgt je visitekaartje");
 
-Console.WriteLine("Naam: " + naam + " " + achternaam); 
-Console.WriteLine("Adres: "+ adres); 
-Console.WriteLine("Hobby: "+ hobby); 
-Console.WriteLine("Waarom deze opleiding volgen:" +opleiding ); 
-Console.WriteLine("Waarom op AP:" + ap); 
+Console.ForegroundColor = ConsoleColor.Red;
+Console.Write("Naam: ");
+Console.ResetColor();
+Console.WriteLine(voornaam + " " + achternaam);
+Console.ForegroundColor = ConsoleColor.Yellow;
+Console.Write("Adres: ");
+Console.ResetColor();
+Console.WriteLine(adres);
+Console.ForegroundColor = ConsoleColor.Green;
+Console.Write("Hobby: ");
+Console.ResetColor();
+Console.WriteLine(hobby);
 ```
 
 ## Tekening
