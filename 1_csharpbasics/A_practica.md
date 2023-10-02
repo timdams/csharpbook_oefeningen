@@ -3,7 +3,7 @@
 {% hint style='tip' %}
 Het is aanbevolen dat je vanaf nu per hoofdstuk een nieuwe solution aanmaakt op je computer. Per oefening maak je dan best een nieuw project aan dat je in de solution zet. Geef ieder project een duidelijke naam (bv EuroNaarDollar) zodat je later vlot je oefeningen kan terugvinden. Denk er aan dat je je projecten best enkel met cijfers en letters benoemd (dus beter EuroNaarDollar dan Euro-Dollar).
 
-Meer uitleg over Projecten en Solutions en hoe je bovenstaande doet kan je [hier](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a7eb4973-e87e-49a4-862e-ac47009783d6) terugvinden
+Meer uitleg over Projecten en Solutions en hoe je bovenstaande doet kan je [hier](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a7eb4973-e87e-49a4-862e-ac47009783d6) terugvinden.
 {% endhint %}
 
 
@@ -139,7 +139,13 @@ Plaats de zin met Jupiter in het rood, daar je daar het zwaarst weegt en die van
 
 
 
-## Tekstmaker
+## Tekstmaker (PRO)
+
+{% hint style='tip' %}
+PRO oefeningen bevatten leerstof die mogelijk niet in deze cursus wordt behandeld, of die in een later hoofdstuk pas aan bod zal komen.
+{% endhint %}
+
+
 
 Met de methode ``System.IO.File.WriteAllText();`` kan je een ``string`` naar een bestand wegschrijven.
 
