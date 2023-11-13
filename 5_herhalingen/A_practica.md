@@ -38,7 +38,7 @@ Oefeningen waar *n* wordt gebruikt geven aan dat dit een getal is dat je aan de 
 Met afsluitwaarde bedoelen we een waarde die de gebruiker moet invoeren om het programma te stoppen. Dus zolang de gebruiker NIET die afsluitwaarde invoert zal het programma om nieuwe waarden blijven vragen.
 {% endhint %}
 
-1. Lees een willekeurig aantal getallen in met als afsluitwaarde 0. Bereken de som en druk die af. 
+1. Lees een willekeurig aantal getallen in (de gebruiker kiest zelf de getallen) met als afsluitwaarde 0. Bereken de som en druk die af. 
 2. Lees een willekeurig aantal getallen in met als afsluitwaarde 0. Druk het aantal strikt positieve en het aantal strikt negatieve getallen af.
 3. Lees een willekeurig aantal getallen in met als afsluitwaarde -32768. Bepaal het aantal strikt positieve getallen, het aantal strikt negatieve getallen en het aantal getallen gelijk aan nul. Druk deze aantallen af.
 4. Lees een willekeurig aantal getallen in met als afsluitwaarde 0. Bereken het product en druk dit af.
