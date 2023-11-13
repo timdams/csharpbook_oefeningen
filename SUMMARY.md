@@ -22,9 +22,9 @@
   * [Opgave 4](EindeTests/Mod1/Opgave_1920sim.md)
   * [Opgave 5](EindeTests/Mod1/Opgave_2021.md)
 * H6: Herhalingen, herhalingen, herhalingen
-  * [Oefeningen deel 1](5_herhalingen/A_practica.md)
-  * [Oefeningen deel 2](5_herhalingen/c_practica.md)
-  * [Oefeningen deel 3](5_herhalingen/b_practica.md)
+  * [Oefeningen deel 1 (labo week 1)](5_herhalingen/A_practica.md)
+  * [Oefeningen deel 2 (huiswerk)](5_herhalingen/c_practica.md)
+  * [Oefeningen deel 3 (labo week 2)](5_herhalingen/b_practica.md)
 * H7: Methoden
   * [Oefeningen deel 1](6_methoden/b_practica.md)
   * [Oefeningen deel 2](6_methoden/c_practica.md)

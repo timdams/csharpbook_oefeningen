@@ -12,7 +12,7 @@ Probeer niet alle oefeningen met hetzelfde type loop te doen, wissel tussen ``wh
 {% endhint %}
 
 {% hint style='warning' %}
-Opgelet: de oplossing van dit soort oefeningen vindt je overal. Weersta hier aan, en probeer ZELF de oplossing te vinden. Dat is de enige manier om dit te leren.
+Opgelet: de oplossing van dit soort oefeningen vind je overal. Weersta hier aan, en probeer ZELF de oplossing te vinden. Dat is de enige manier om dit te leren.
 {% endhint %}
 
 {% hint style='tip' %}

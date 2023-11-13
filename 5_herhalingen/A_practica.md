@@ -10,7 +10,7 @@ De oefeningen zijn, in de mate van het mogelijke, gerangschikt op relatieve moei
 {% endhint %}
 
 {% hint style='tip' %}
-Indien niet expliciet vermeld mag je kiezen met wat voor loop (``for``, ``while``, ``do while``) je het probleem zal oplossen. Denk echter steeds goed na wat voor loop de beste keuze is. Indien je van te voren weet hoevaak de loop moet uitgevoerd worden, dan is een ``for`` de beste keuze. Weet je dat niet dan kies je voor ``while`` of `` do while`` (weet je nog het verschil tussen beiden?)
+Indien niet expliciet vermeld mag je kiezen met wat voor loop (``for``, ``while``, ``do while``) je het probleem zal oplossen. Denk echter steeds goed na wat voor loop de beste keuze is. Indien je van te voren weet hoe vaak de loop moet uitgevoerd worden, dan is een ``for`` de beste keuze. Weet je dat niet dan kies je voor ``while`` of `` do while`` (weet je nog het verschil tussen beiden?).
 {% endhint %}
 
 # De opwarmers
