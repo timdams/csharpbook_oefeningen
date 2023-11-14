@@ -26,7 +26,7 @@ Oefeningen waar *n* wordt gebruikt geven aan dat dit een getal is dat je aan de 
 * Toon alle even getallen tussen 1 en 100. (2,4,6,...100)
 * Toon alle oneven getallen tussen 1 en 100. (1,3,5,7,...99)
 * Toon de som van alle getallen van 1 tot *n* (dus 1+2+3+4+...+n).
-* Toon de som van alle even getallen van 1 tot *n*. (bijvoorbeeld 12 indien gebruiker 7 invoerde (2+4+6))
+* Toon de som van alle even getallen van 1 tot *n*. (voorbeeld:indien de gebruiker 7 invoerde dan zal er 12 op het scherm verschijnen , namelijk (2+4+6)).
 * Toon de som van alle oneven getallen van 1 tot *n*. 
 
 ## Opwarmers van opwarmers
