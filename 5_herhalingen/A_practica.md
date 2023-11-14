@@ -21,13 +21,13 @@ Oefeningen waar *n* wordt gebruikt geven aan dat dit een getal is dat je aan de 
 
 ## Opwarmers 1
 
-* Toon alle natuurlijke getallen van 1 tot *n*.
-* Toon alle natuurlijke getallen van *n* tot 1.
-* Toon alle even getallen tussen 1 en 100.
-* Toon alle oneven getallen tussen 1 en 100.
+* Toon alle natuurlijke getallen van 1 tot *n*. (bv 1,2,3,4,5,6)
+* Toon alle natuurlijke getallen van *n* tot 1. (bv 6,5,4,3,2,1)
+* Toon alle even getallen tussen 1 en 100. (2,4,6,...100)
+* Toon alle oneven getallen tussen 1 en 100. (1,3,5,7,...99)
 * Toon de som van alle getallen van 1 tot *n* (dus 1+2+3+4+...+n).
-* Toon de som van alle even getallen van 1 tot *n*.
-* Toon de som van alle oneven getallen van 1 tot *n*.
+* Toon de som van alle even getallen van 1 tot *n*. (bijvoorbeeld 12 indien gebruiker 7 invoerde (2+4+6))
+* Toon de som van alle oneven getallen van 1 tot *n*. 
 
 ## Opwarmers van opwarmers
 
@@ -38,7 +38,7 @@ Oefeningen waar *n* wordt gebruikt geven aan dat dit een getal is dat je aan de 
 Met afsluitwaarde bedoelen we een waarde die de gebruiker moet invoeren om het programma te stoppen. Dus zolang de gebruiker NIET die afsluitwaarde invoert zal het programma om nieuwe waarden blijven vragen.
 {% endhint %}
 
-1. Lees een willekeurig aantal getallen in (de gebruiker kiest zelf de getallen) met als afsluitwaarde 0. Bereken de som en druk die af. 
+1. Lees een willekeurig aantal getallen van de gebruiker (de gebruiker kiest zelf de getallen) met als afsluitwaarde 0. Bereken de som en druk die af. Je blijft dus de getallen van de gebruiker optellen tot deze 0 invoert, dan stopt het programma.
 2. Lees een willekeurig aantal getallen in met als afsluitwaarde 0. Druk het aantal strikt positieve en het aantal strikt negatieve getallen af.
 3. Lees een willekeurig aantal getallen in met als afsluitwaarde -32768. Bepaal het aantal strikt positieve getallen, het aantal strikt negatieve getallen en het aantal getallen gelijk aan nul. Druk deze aantallen af.
 4. Lees een willekeurig aantal getallen in met als afsluitwaarde 0. Bereken het product en druk dit af.
