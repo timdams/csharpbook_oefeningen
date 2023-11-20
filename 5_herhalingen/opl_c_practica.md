@@ -20,28 +20,45 @@ Console.WriteLine($"Grootste getal is {grootste}");//NEW
 ```
 
 ## Oplossing Boekhouder
+
+![Uitleg via filmpje](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=72f4f97f-5baa-4f9f-8985-b0c000f4f1ce)
+
 ```java
-int som = 0, negsom = 0, plussom = 0, aantalingevoerd = 0; 
-string input = ""; 
-Console.WriteLine("Voer getallen in. Dit programma stopt wanneer je 'q' ingeeft."); 
-input = Console.ReadLine();
-
-while (input != "q")
+string invoer = "";
+int somPos = 0;
+int somNeg = 0;
+int somTotaal = 0;
+int teller = 0;
+do
 {
-    int getal = int.Parse(input); 
-    som += getal; 
-    if (getal > 0) 
-        plussom += getal; 
-    else negsom += getal;
+    
+    Console.WriteLine("Geef getal. q is stoppen");
+    invoer = Console.ReadLine();
+    if (invoer != "q")
+    {
+        teller++;
+        int getalInvoer = int.Parse(invoer);
+        somTotaal += getalInvoer;
+        if(getalInvoer>0)
+        {
+            somPos += getalInvoer;
+        }
+        else
+        {
+            somNeg += getalInvoer;
+        }
+        Console.WriteLine($"Som pos: {somPos}");
+        Console.WriteLine($"Som neg: {somNeg}");
+        Console.WriteLine($"Som totaal: {somTotaal}");
+        Console.WriteLine($"Gemiddelde : {(double)somTotaal/teller}");
+    }
+} while (invoer !="q");
 
-    aantalingevoerd++;
-
-    Console.WriteLine($"Balans= {som}"); 
-    Console.WriteLine($"Positieve balans= +{plussom}"); 
-    Console.WriteLine($"Negatieve balans= {negsom}"); 
-    Console.WriteLine($"Gemiddelde= {(double)som / aantalingevoerd}"); 
-    input = Console.ReadLine();
-}
+Console.WriteLine("FINAAL:");
+Console.WriteLine($"Som pos: {somPos}");
+Console.WriteLine($"Som neg: {somNeg}");
+Console.WriteLine($"Som totaal: {somTotaal}");
+Console.WriteLine($"Gemiddel : {somTotaal / teller}");
 ```
 
 
