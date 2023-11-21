@@ -43,7 +43,7 @@ PRO: Kan je ervoor zorgen dat het bereik van de getalgeneratie met een formule a
 Integreer voorgaande quiz met een menu dat je bijvoorbeeld in codemenu hebt gemaakt. Het menu wordt aan de start getoond en geeft de gebruiker de optie om te kiezen wat hij wenst te doen:
 * Gewoon spelen
 * Starten op een bepaald level (de gebruiker moet vervolgens het level invoeren)
-* Studeren: de oplossing wordt steeds getoond. De gebruiker hoeft niets in te voeren, elke 5 seconden verschijnt de volgende opgave met oplossing.
+* Studeren: de oplossing wordt steeds getoond. De gebruiker hoeft niets in te voeren, elke 5 seconden verschijnt de volgende opgave met oplossing. Gebruik  ``System.Threading.Thread.Sleep(5000)`` om je programma 5 seconden (5000 ms) te pauzeren.
 
 ## Tekenen
 
