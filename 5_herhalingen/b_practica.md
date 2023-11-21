@@ -23,7 +23,7 @@ Deze 4 getallen worden ook steeds geüpdatet en getoond wanneer de gebruiker een
  
 ## Hoger Lager (*Essential*)
 
-Simulatie van het "hoger-lager" spel. Het programma kiest een random-getal van 1 tot en met 100 (telkens inbegrepen). Vervolgens wordt de gebruiker gevraagd om een gok te doen en toont het programma of de gok juist was, te laag was ("hoger") of te hoog ("lager"). Het programma blijft gokken van de gebruiker accepteren tot de gok juist is of de gebruiker besluit te stoppen. Het aantal beurten wordt op het einde van het spel getoond en de mogelijkheid om opnieuw te spelen.
+Simulatie van het "hoger-lager" spel. Het programma kiest een random-getal van 1 tot en met 100 (telkens inbegrepen). Vervolgens wordt de gebruiker gevraagd om een gok te doen en toont het programma of de gok juist was, te laag was ("hoger") of te hoog ("lager"). Het programma blijft gokken van de gebruiker accepteren tot de gok juist is of de gebruiker besluit te stoppen (door een negatief getal in te voeren). Het aantal beurten wordt op het einde van het spel getoond en de mogelijkheid om opnieuw te spelen.
 
 ### Limiet
 Pas het Hoger Lager programma aan zodat er een maximum aantal pogingen is toegestaan.
