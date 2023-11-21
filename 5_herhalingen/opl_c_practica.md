@@ -21,7 +21,7 @@ Console.WriteLine($"Grootste getal is {grootste}");//NEW
 
 ## Oplossing Boekhouder
 
-![Uitleg via filmpje](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=72f4f97f-5baa-4f9f-8985-b0c000f4f1ce)
+[Uitleg via filmpje](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=72f4f97f-5baa-4f9f-8985-b0c000f4f1ce)
 
 ```java
 string invoer = "";
