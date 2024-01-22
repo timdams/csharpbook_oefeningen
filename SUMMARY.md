@@ -41,6 +41,7 @@
   * [Opgave 7](EindeTests/Mod2/Opgave_2122b.md)
   * [Opgave 8](EindeTests/Mod2/Opgave_2122c.md)
   * [Opgave 9](EindeTests/Mod2/Opgave_2223.md)
+  * [Opgave 10](EindeTests/Mod2/Opgave_2324.md)
 * All-In-Projecten
   * [Overzicht](A_DEEL1_AllInOne/0_Deel1_IntroductieAllInOne.md)
   * [Console Matrix](A_DEEL1_AllInOne/1_ConsoleMatrix.md)
