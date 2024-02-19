@@ -93,7 +93,7 @@ Deze klasse heeft 6 autoproperties:
 * ``PuntenProgrammingPrinciples`` (``int``)
 * ``PuntenWebTech`` (``int``)
 
-Voeg aan de klasse een methode ``BerekenGemiddelde`` toe. Wanneer deze methode wordt aangeroepen dan wordt het gemiddelde van de 3 punten  teruggegeven als double zodat dit op het scherm kan getoond worden.
+Voeg aan de klasse een methode ``BerekenGemiddelde`` toe. Wanneer deze methode wordt aangeroepen dan wordt het gemiddelde van de 3 punten teruggegeven als double zodat dit op het scherm kan getoond worden.
 
 Voeg aan de klasse  ook de methode ``GeefOverzicht`` toe. Deze methode zal een volledig "Rapport" van de student tonen (inclusief het gemiddelde m.b.v. de BerekenGemiddelde-methode).
 
@@ -122,7 +122,7 @@ Cijferrapport:
 Communicatie:             12
 Programming Principles:   15
 Web Technology:           13
-Gemiddelde:               13.3
+Gemiddelde:               13.3333333333
 ```
 
 ### PizzaTime
