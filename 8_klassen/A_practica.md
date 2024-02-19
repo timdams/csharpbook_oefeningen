@@ -2,14 +2,16 @@
 
 ## Week 1
 
-
+{% hint style='tip' %}
+In dit en volgend hoofdstuk staan bij sommige oefeningen bovenaan een link naar een alternatieve manier van de oefening te maken waarbij je ook feedback krijgt. [Bekijk zeker eerst dit filmpje](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a79f075c-7ac7-4a66-97d4-ae2a00dca02a). **Indien je geen knop "open in visual studio" hebt in github** dan kan je dit oplossen als volgt: open Visual studio en kies voor *clone solution*, vervolgens copy paste je de githuburl als daar om gevraagd wordt  (voor de eerste oefening is dat https://github.com/timdams/ZIESCHERPER_TESTS_H1_RapportModule). 
+{% endhint %}
 
 ### RapportModule (*Essential*)
 
 {% hint style='tip' %}
 [Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H1_RapportModule).
 
-Hoe dit werkt? [Bekijk zeker eerst dit filmpje](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a79f075c-7ac7-4a66-97d4-ae2a00dca02a)
+
 {% endhint %}
 
 Ontwerp een klasse ``Rapport`` die je zal tonen wat je graad is gegeven een bepaald behaald percentage. Het enige dat je aan een ``Rapport``-object moet kunnen geven is het behaalde percentage (int) dat wordt bijgehouden via een auto-property genaamd ``Percentage``. Via een methode ``PrintGraad`` kan de behaalde graad weergegeven worden, gebaseerd op dit percentage. Dit zijn de mogelijkheden:
