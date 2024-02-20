@@ -21,7 +21,7 @@ Vervolgens copy paste je de githuburl als daar om gevraagd wordt  (voor de eerst
 
 {% endhint %}
 
-Ontwerp een klasse ``Rapport`` die je zal tonen wat je graad is gegeven een bepaald behaald percentage. Het enige dat je aan een ``Rapport``-object moet kunnen geven is het behaalde percentage (int) dat wordt bijgehouden via een auto-property genaamd ``Percentage``. Via een methode ``PrintGraad`` kan de behaalde graad weergegeven worden, gebaseerd op dit percentage. Dit zijn de mogelijkheden:
+Ontwerp een klasse ``Rapport`` die je zal tonen wat je graad is gegeven een bepaald behaald percentage. Het enige dat je aan een ``Rapport``-object moet kunnen geven is het behaalde percentage (int) dat wordt bijgehouden via een auto-property genaamd ``Percentage``. Via een methode ``PrintGraad`` kan de behaalde graad weergegeven worden (returntype van de methode is dus ``void``), gebaseerd op dit percentage. Dit zijn de mogelijkheden:
 
 * Minder dan 50%: ``"Niet geslaagd"``.
 * Tussen 50% en 68% (68 incl.): ``"Voldoende"``.
@@ -35,6 +35,10 @@ Test je klasse door enkele objecten in je ``main`` en te onderzoeken of deze de 
 Rapport mijnpunten = new Rapport();
 mijnpunten.Percentage = 65;
 mijnpunten.PrintGraad();
+
+Rapport mijnVriendPunten = new Rapport();
+mijnVriendPunten.Percentage = 89;
+mijnVriendPunten.PrintGraad();
 ```
 
 Werkt het naar behoren?! Voer nu de bijhorende unit tests uit om alles extra te controleren: Test=> Run All Tests.
