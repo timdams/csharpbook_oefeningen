@@ -221,7 +221,7 @@ We maken een ``Rekening`` klasse die kan gebruikt worden om de bankrekening van 
 Voorzie 3 methoden:
 
 1. ``HaalGeldAf``: bepaald bedrag (als parameter type ``int``) wordt van de ``balans`` verwijderd.
-2. ``StortGeld``: bepaald bedrag (als parameter type ``int``) wordt op de rekening gezet en aan ``balans`` toegevoegd.
+2. ``StortGeld``: bepaald bedrag (als parameter type ``int``) wordt aan ``balans`` toegevoegd.
 3. ``ToonInfo``: het totale bedrag op de rekening wordt getoond op het scherm, alsook de naam van de klant en het rekeningnummer (*ook de staat wanneer je deel 2 hebt gemaakt wordt getoond*).
 
 Pas de ``HaalGeldAf`` methode aan zodat als returntype het bedrag (``int``) wordt teruggegeven. Indien het gevraagde bedrag meer dan de ``balans`` is dan geef je al het geld terug dat nog op de rekening staat en toon je in de console dat niet al het geld kon worden gegeven (error die verschijnt: ``Rekening leeg nu``.)
