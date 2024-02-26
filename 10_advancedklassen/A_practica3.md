@@ -4,6 +4,23 @@ Vul de ``Meetlat`` klasse uit het vorige hoofdstuk aan met een constructor. De c
 
 ``lengteInMeter`` stel je nu in via de parameter die je in de constructor meekrijgt.
 
+
+# Persoonsregistratie (*Essential*) (GPT)
+
+{% hint style='tip' %}
+Deze oefening werd gemaakt (en aangepast nadien) met [behulp van volgende GPT](https://chat.openai.com/g/g-TllbzOiKJ-zie-scherp-scherper-praktijkoefeningen) en heeft daarom de tag (GPT) achter de titel staan. 
+{% endhint %}
+
+Implementeer een systeem voor persoonsregistratie dat gebruik maakt van constructors en object initializer syntax om personen op verschillende manieren te initialiseren.
+
+Ontwerp een klasse ``Persoon`` met de volgende eigenschappen: ``Voornaam``, ``Achternaam``, ``Geboortejaar``, en ``Email``. Maak ``Geboortejaar`` en ``Email`` optioneel bij het aanmaken van een ``Persoon`` object. Alle eigenschappen zijn autoproperties.
+
+* Implementeer een overloaded constructor waarmee je ``Voornaam`` ``Achternaam`` kan instellen. 
+* Voeg een methode toe ``ToonInformatie()`` die de informatie van de persoon netjes afdrukt als volgt: "{Voornaam} {Achternaam} geboren in {Geboortejaar} heeft emailadres: {Email}".
+* 
+Maak een object van Persoon aan en initialiseer de rest van de eigenschappen met object initializer syntax. Test de ``ToonInformatie()`` methode voor beide objecten om te verifiëren dat alle gegevens correct zijn geïnitialiseerd.
+
+
 # Bibliotheek constructor en static (*Essential*)
 
 Pas de Bibliotheek klasse aan uit hoofdstuk 9 zodat deze een default constructor heeft. In de default constructor zorg je ervoor dat de ``Uitgeleend`` property standaard de huidige tijd krijgt van het moment waarop het object werd aangemaakt.
@@ -101,6 +118,9 @@ Student Kevin Van Rooy maakte volgende applicatie waarbij bovenstaande opgave al
 ![Knap gedaan! (click to enlarge)](pokemonbattle.gif)
 
 {% endhint %}
+
+
+
 
 ## Natures (PRO)
 
