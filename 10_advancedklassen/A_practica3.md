@@ -17,7 +17,7 @@ Ontwerp een klasse ``Persoon`` met de volgende eigenschappen: ``Voornaam``, ``Ac
 
 * Implementeer een overloaded constructor waarmee je ``Voornaam`` ``Achternaam`` kan instellen. 
 * Voeg een methode toe ``ToonInformatie()`` die de informatie van de persoon netjes afdrukt als volgt: "{Voornaam} {Achternaam} geboren in {Geboortejaar} heeft emailadres: {Email}".
-* 
+
 Maak een object van Persoon aan en initialiseer de rest van de eigenschappen met object initializer syntax. Test de ``ToonInformatie()`` methode voor beide objecten om te verifiëren dat alle gegevens correct zijn geïnitialiseerd.
 
 
