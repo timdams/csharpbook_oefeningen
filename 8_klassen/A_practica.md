@@ -247,10 +247,9 @@ rekening1.StortGeld(rekening2.HaalGeldAf(300));
 Test je klasse.
 
 1. Nieuwe klant aanmaken
-2. Status van bestaande klant tonen 
-3. Geld op een bepaalde Rekening zetten 
-4. Geld van een bepaalde Rekening afhalen
-5. Geld tussen 2 Rekeningen overschrijven
+2. Geld op een bepaalde Rekening zetten 
+3. Geld van een bepaalde Rekening afhalen
+4. Geld tussen 2 Rekeningen overschrijven
 
 Voorzie extra functionaliteit naar keuze.
 
