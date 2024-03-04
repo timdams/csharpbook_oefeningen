@@ -9,7 +9,7 @@ Er zijn geen aparte Exception handling oefeningen. De bedoeling is dat je zelf s
 [Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H2_Meetlat).
 {% endhint %}
 
-Maak een klasse ``Meetlat``. Via een write-only property ``BeginLengte`` kan de gebruiker de lengte van een voorwerp instellen (in meter, type ``double``) van de instantievariabele ``lengte``.
+Maak een klasse ``Meetlat``. Via een write-only full property ``BeginLengte`` kan de gebruiker de lengte van een voorwerp instellen (in meter, type ``double``) van de instantievariabele ``lengte``.
 
 {% hint style='tip' %}
 In hoofdstuk 11 zullen we constructors leren gebruiken: deze zullen  methoden zoals ``BeginLengte`` vervangen. 
