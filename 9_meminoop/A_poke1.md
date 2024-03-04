@@ -30,7 +30,29 @@ mijnLat.BeginLengte = 2;
 Console.WriteLine($"{mijnLat.LengteInM} meter is {mijnLat.LengteInVoet} voet.");
 ```
 
+# Kleur mixer (*essential*)
 
+Maak een klasse ``Kleur``, deze bestaat uit 3 autoproperties van het type ``int ``, namelijk ``Rood``, ``Groen``, ``Blauw``. De klasse heeft een methode ``MengKleur`` die niets teruggeeft en één parameter aanvaardt van het type ``KLeur``. In de methode zal de mee gegeven kleur gemengd worden met de kleur van het object zelf. Hierbij wordt van elk kanaal (Rood,groen en blauw) het gemiddelde van beide kleuren genomen. Als dus de huidige kleur 10,0,20 (RGB) als waarden heeft en we de methode aanroepen met een kleur met waarden 10,10,50 dan zal de huidige kleur veranderen naar 10,5,35 . 
+De kleur van de meegegeven parameter verandert niet.
+
+Voorbeeld gebruik:
+
+
+```java
+Kleur k1 = new Kleur();
+k1.Rood= 10;
+k1.Groen= 0;
+k1.Blauw= 20;
+Kleur k2 = new Kleur();
+k2.Rood= 10;
+k2.Groen= 10;
+k2.Blauw= 50;
+
+k1.MengKleur(k2);
+Console.WriteLine($"{k1.Rood},{k1.Groen},{k1.Blauw}");
+```
+
+Er verschijnt: ``10,5,35`` op het scherm.
 
 # Pokémon (*Essential*)
 
