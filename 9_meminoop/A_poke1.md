@@ -37,7 +37,9 @@ Console.WriteLine($"{mijnLat.LengteInM} meter is {mijnLat.LengteInVoet} voet.");
 [Maak je oplossing in een kopie van volgende solution met bijhorende unittests](https://github.com/timdams/ZIESCHERPER_TESTS_H2_Kleurmixer).
 {% endhint %}
 
-Maak een klasse ``Kleur``, deze bestaat uit 3 autoproperties van het type ``int ``, namelijk ``Rood``, ``Groen``, ``Blauw``. De klasse heeft een methode ``MengKleur`` die niets teruggeeft en één parameter aanvaardt van het type ``KLeur``. In de methode zal de mee gegeven kleur gemengd worden met de kleur van het object zelf. Hierbij wordt van elk kanaal (Rood,groen en blauw) het gemiddelde van beide kleuren genomen. Als dus de huidige kleur 10,0,20 (RGB) als waarden heeft en we de methode aanroepen met een kleur met waarden 10,10,50 dan zal de huidige kleur veranderen naar 10,5,35 . 
+Maak een klasse ``Kleur``, deze bestaat uit 3 autoproperties van het type ``int ``, namelijk ``Rood``, ``Groen``, ``Blauw``. De klasse heeft een methode ``MengKleur`` die niets teruggeeft en één parameter aanvaardt van het type ``Kleur``.
+
+In de methode zal de meegegeven kleur gemengd worden met de kleur van het object zelf. Hierbij wordt van elk kanaal (Rood,groen en blauw) het gemiddelde van beide kleuren genomen. Als dus de huidige kleur 10,0,20 (RGB) als waarden heeft en we de methode aanroepen met een kleur met waarden 10,10,50 dan zal de huidige kleur veranderen naar 10,5,35 . 
 De kleur van de meegegeven parameter verandert niet.
 
 Voorbeeld gebruik:
