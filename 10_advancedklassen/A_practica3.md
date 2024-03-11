@@ -27,7 +27,7 @@ Pas de Bibliotheek klasse aan uit hoofdstuk 9 zodat deze een default constructor
 
 Voeg ook een overloaded constructor mee die een ``DateTime`` object als parameter aanvaardt. Deze parameter zal toegewezen worden aan ``Uitgeleend``. Werp een Exception op indien je een datum in de toekomst meegeeft.
 
-* Een ``static`` methode ``VeranderAlgemeneUitleenTermijn`` , die 1 ``int`` als parameter aanvaardt.De methode zorgt ervoor dat het aantal dagen dat je boek mag uitlenen verandert wordt naar de meegeven parameter. Tip: dit zal vereisen dat je een static instantievariabele hebt die je vervolgens in je ``InleverDatum`` getter gebruikt.
+* Een ``static`` methode ``VeranderAlgemeneUitleenTermijn`` , die 1 ``int`` als parameter aanvaardt.De methode zorgt ervoor dat het aantal dagen dat je boek mag uitlenen veranderd wordt naar de meegeven parameter. Tip: dit zal vereisen dat je een static instantievariabele hebt die je vervolgens in je ``InleverDatum`` getter gebruikt.
 
 # Digitale kluis (*Essential*)
 
