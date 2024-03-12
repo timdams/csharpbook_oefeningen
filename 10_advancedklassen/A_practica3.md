@@ -13,12 +13,12 @@ Deze oefening werd gemaakt (en aangepast nadien) met [behulp van volgende GPT](h
 
 Implementeer een systeem voor persoonsregistratie dat gebruik maakt van constructors en object initializer syntax om personen op verschillende manieren te initialiseren.
 
-Ontwerp een klasse ``Persoon`` met de volgende eigenschappen: ``Voornaam``, ``Achternaam``, ``Geboortejaar``, en ``Email``. Maak ``Geboortejaar`` en ``Email`` optioneel bij het aanmaken van een ``Persoon`` object. Alle eigenschappen zijn autoproperties.
+Ontwerp een klasse ``Persoon`` met de volgende eigenschappen: ``Voornaam``, ``Achternaam``, ``Geboortejaar``, en ``Email``. Alle eigenschappen zijn autoproperties.
 
 * Implementeer een overloaded constructor waarmee je ``Voornaam`` ``Achternaam`` kan instellen. 
 * Voeg een methode toe ``ToonInformatie()`` die de informatie van de persoon netjes afdrukt als volgt: "{Voornaam} {Achternaam} geboren in {Geboortejaar} heeft emailadres: {Email}".
 
-Maak een object van Persoon aan en initialiseer de rest van de eigenschappen met object initializer syntax. Test de ``ToonInformatie()`` methode voor beide objecten om te verifiëren dat alle gegevens correct zijn geïnitialiseerd.
+Maak een object van Persoon aan en initialiseer de rest van de eigenschappen ( ``GeboorteJaar`` en ``Email``) met object initializer syntax. Test de ``ToonInformatie()`` methode voor beide objecten om te verifiëren dat alle gegevens correct zijn geïnitialiseerd.
 
 
 # Bibliotheek constructor en static (*Essential*)
