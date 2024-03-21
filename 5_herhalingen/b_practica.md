@@ -87,7 +87,7 @@ Extra: maak je menu visueel interessanter (m.b.v. kaders en kleuren)
 ![Neo Tim](../assets/neotim.png)
 
 Volgende code genereert een beeld zoals dat ook in de cultfilm The Matrix (1999) plaatsvindt. 
-```java
+```csharp
 Random rangen = new Random();
 Console.ForegroundColor = ConsoleColor.Green;
 while (true)

@@ -3,7 +3,7 @@
 ## Oplossing opwarmers
 
 
-```java
+```csharp
 int[] getallen = new int[100];
 for (int i = 0; i < getallen.Length; i++)
 {
@@ -16,7 +16,7 @@ for (int i = 0; i < getallen.Length; i++)
 }
 ```
 
-```java
+```csharp
 int[] getallen = new int[51];
 for (int i = 0; i < getallen.Length; i++)
 {
@@ -29,7 +29,7 @@ for (int i = 0; i < getallen.Length; i++)
 }
 ```
 
-```java
+```csharp
 int[] getallen = new int[3];
 for (int i = 0; i < getallen.Length; i++)
 {
@@ -44,7 +44,7 @@ for (int i = 0; i < getallen.Length; i++)
 }
 ```
 
-```java
+```csharp
 string[] vrienden = { "Vincent", "Olga", "Bill", "Gotoman" };
 Console.WriteLine($"Beste vriend is  {vrienden[0]}");
 Console.WriteLine($"Tweede beste vriend is  {vrienden[1]}");
@@ -52,7 +52,7 @@ Console.WriteLine($"Derde beste vriend is  {vrienden[2]}");
 Console.WriteLine($"Minst vriend is  {vrienden[3]}");
 ```
 
-```java 
+```csharp 
 bool[] bits = new bool[20];
 for (int i = 0; i < bits.Length; i++)
 {
@@ -69,7 +69,7 @@ for (int i = 0; i < bits.Length; i++)
 ```
 
 
-```java 
+```csharp 
 bool[] bits = new bool[20];
 Random r = new Random();
 for (int i = 0; i < bits.Length; i++)
@@ -95,7 +95,7 @@ Console.WriteLine($"Aantal positief {pos}");
 Console.WriteLine($"Aantal negatief {neg}");
 ```
 
-```java 
+```csharp 
 double[] getallen = new double[10];
 Random r = new Random();
 
@@ -112,7 +112,7 @@ for (int i = 0; i < getallen.Length; i++)
 Console.WriteLine($"Gemiddelde is {gemiddelde/getallen.Length}");
 ```
 
-```java
+```csharp
 enum SchoolType { BSO, ASO, TSO, KSO};
 static void Main(string[] args)
 {
@@ -164,7 +164,7 @@ static void Main(string[] args)
 ## Array Zoeker
 Om niet steeds 10 getallen tijdens testen te moeten invullen gebruik ik ``Random`` om snel 10 getallen willekeurig te genereren:
 
-```java
+```csharp
 int[] ar = new int[10];
 Random rand = new Random();
 for (int i = 0; i < ar.Length; i++)
@@ -208,7 +208,7 @@ for (int i = 0; i < ar.Length; i++)
 
 Je kan dit ook oplossen met ``BinarySearch`` maar dan moet je wel de postcodes gesorteerd plaatsen in de array (sorteren via ``Array.Sort`` in code zal niet werken daar dan de relatie met ``kgpergemeente`` verloren gaat).
 
-```java
+```csharp
 int[] postcodes = { 1000, 2020, 2013, 4500, 2340, 1200, 9999, 6666, 2362, 2340 };
 
 int[] kgpergemeente = { 12, 214, 3, 15, 56, 900, 13, 5, 111, 43 };
@@ -243,7 +243,7 @@ else
 
 ## Hamming Distance
 Methode ``IsRealDNA`` hoorde niet bij opgave, maar is handig als om extra gebruiksvriendelijkheid aan te bieden:
-```java
+```csharp
 static void Main(string[] args)
 {
     Console.WriteLine("Geef DNA string 1");
@@ -280,7 +280,7 @@ static bool IsRealDNA(char[] dna)
 
 ## Puzzelen met array
 
-```java
+```csharp
 
 static void Main(string[] args)
 {
@@ -357,7 +357,7 @@ static void Main(string[] args)
 ```
 
 Opwarmer 6
-```java
+```csharp
 static void Main(string[] args)
 {
     Random r = new Random();
@@ -405,7 +405,7 @@ private static void SorteerEnToonArray(int[] kolom)
 }
 ```
 ## Vraag Array
-```java
+```csharp
 string[] vragen =
 {
     "Hoe oud ben je?",
@@ -434,7 +434,7 @@ for (int i = 0; i < vragen.Length; i++)
 
 ## Parkeergarage
 
-```java
+```csharp
 static void Main()
 {
     Console.WriteLine("Geef aantal auto's in:");
@@ -488,7 +488,7 @@ static double berekenKosten(double duur)
 
 ## ArrayViewer
 
-```java
+```csharp
 static void VisualiseerArray(int[] array)
 {
     for (int i = 0; i < array.Length; i++)
@@ -501,7 +501,7 @@ static void VisualiseerArray(int[] array)
 
 ## Caesar Encryptie
 
-```java
+```csharp
 static char[] DeCrypt(char[] cipertext, int key)
 {
     return Encrypt(cipertext, -key);
@@ -532,7 +532,7 @@ static char[] Encrypt(char[] plaintext, int key)
 
 ## Determinant
 
-```java
+```csharp
 static int BerekenDeterminant(int[,] aMatrix)
 {
     return aMatrix[0, 0] * aMatrix[1, 1] - aMatrix[0, 1] * aMatrix[1, 0];
@@ -541,7 +541,7 @@ static int BerekenDeterminant(int[,] aMatrix)
 
 ## Robot simulator
 
-```java
+```csharp
 enum richtingen {Noord, Oost, Zuid, West};
 static void Main(string[] args)
 {

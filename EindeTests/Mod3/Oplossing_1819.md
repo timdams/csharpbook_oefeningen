@@ -2,7 +2,7 @@
 
 ## Main (Program.cs)
 
-```java
+```csharp
 Console.WriteLine("Rise and shine");
 Console.WriteLine($"Het is nu {DateTime.Now.Hour}:{DateTime.Now.Minute}");
 var log = QalAnalyzer.CreateDiary();
@@ -22,7 +22,7 @@ if(csv=="j")
 
 ## DagboekEntry Klasse
 
-```java
+```csharp
 class DagboekEntry
 {
     public DagboekEntry()
@@ -101,7 +101,7 @@ class DagboekEntry
 
 ## QalAnalyzer Klasse
 
-```java
+```csharp
 class QalAnalyzer
 {
     public static void SummariseDiary(List<DagboekEntry> log)

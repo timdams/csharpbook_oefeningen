@@ -112,7 +112,7 @@ Console.WriteLine("Je weegt op Venus " + (gewichtOpAarde * gVenus) + " N.");
 
 ## Tekstmaker
 
-```java
+```csharp
 Console.WriteLine("Filenaam?");
 string naamBestand = Console.ReadLine();
 Console.WriteLine("Inhoud bestand?");

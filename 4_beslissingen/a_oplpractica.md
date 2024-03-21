@@ -12,7 +12,7 @@
 ## BMI met if
 
 Voeg volgende code toe aan het bestaande BMI programma:
-```java
+```csharp
 if(bmi < 18.5)
 {
     Console.ForegroundColor = ConsoleColor.Red;
@@ -45,7 +45,7 @@ else
 
 Merci Mats Heirman!
 
-```java
+```csharp
 const int K = 10;
 Random rng = new Random();
 Console.WriteLine("Rating speler A?");
@@ -109,7 +109,7 @@ Console.WriteLine($"Nieuwe rating van B:{Math.Round(rbnew, 0)}");
 
 ### a
 
-```java
+```csharp
 Console.WriteLine("Hoeveel schoenen koopt de klant?");
 int aantal = Convert.ToInt32(Console.ReadLine());
 int kortingBoven = 9;
@@ -127,7 +127,7 @@ Console.WriteLine($"Prijs is {prijs}");
 ```
 
 ### b
-```java
+```csharp
 Console.WriteLine("Hoeveel schoenen koopt de klant?");
 int aantal = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Boven hoeveel schoenen wordt de korting gegeven?");
@@ -146,11 +146,11 @@ Console.WriteLine($"Prijs is {prijs}");
 ```
 ## Enum seizoenen
 
-```java
+```csharp
 enum Seizoenen { Winter, Lente, Zomer, Herfst, Onbekend}     
 ```
 
-```java
+```csharp
 Console.WriteLine("Geef een maandnummer (1 tot 12)");
 int maand = Convert.ToInt32(Console.ReadLine());
 Seizoenen huidigSeizoen = Seizoenen.Onbekend;
@@ -193,7 +193,7 @@ else //Seizoen.Onbekend
 
 ## Bankrekening controle
 
-```java
+```csharp
 //voorbeeldrekenignummer 000 1459325 57
 Console.WriteLine("Geef eerste 3 cijfers");
 long deel1= long.Parse(Console.ReadLine());
@@ -215,7 +215,7 @@ else
 
 ## GuntherD Stemwijzer
 
-```java
+```csharp
 enum Partijen { Groen, VlaamsBelang, Spa, CDenV, Blanco, PVDA, NVA, OpenVld, Onbekend };
 static void Main(string[] args)
 {
@@ -304,7 +304,7 @@ static void Main(string[] args)
 
 
 De omslachtige manier:
-```java
+```csharp
 enum Kleur {Wit, Zwart};
 enum Schaakstukken {Pion, Toren, Loper, Paard, Koning, Koningin}
 public static void Main()
@@ -355,7 +355,7 @@ public static void Main()
 
 De snelle manier:
 
-```java
+```csharp
 enum Kleur {Wit, Zwart};
 enum Schaakstukken {Pion, Toren, Loper, Paard, Koning, Koningin}
 public static void Main()

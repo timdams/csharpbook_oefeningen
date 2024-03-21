@@ -24,7 +24,7 @@ Via een reeks read-only properties (die transformeren) kan de gebruiker deze len
 
 Voorbeeld gebruik van klasse:
 
-```java
+```csharp
 Meetlat mijnLat = new Meetlat();
 mijnLat.BeginLengte = 2;
 Console.WriteLine($"{mijnLat.LengteInM} meter is {mijnLat.LengteInVoet} voet.");
@@ -45,7 +45,7 @@ De kleur van de meegegeven parameter verandert niet.
 Voorbeeld gebruik:
 
 
-```java
+```csharp
 Kleur k1 = new Kleur();
 k1.Rood= 10;
 k1.Groen= 0;

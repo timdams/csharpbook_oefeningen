@@ -123,7 +123,7 @@ Als er dus staat "lees 20 getallen in", dan moet je die in volgorde bewaren in j
 3.	Er worden 20 getallen ingelezen. De getallen worden 3 plaatsen naar achter verschoven afgedrukt, d.w.z. eerst het derde laatste ingelezen getal, dan het voorlaatste ingelezen getal, dan het laatste ingelezen getal, dan het eerste ingelezen getal, dan het tweede ingelezen getal en tenslotte het vierde laatste ingelezen getal.
 4.	Er worden 20 getallen ingelezen. De getallen worden geroteerd (verschoven) afgedrukt over een aantal elementen x zoals in de vorige opgave. Maak dus de vorige oefening maar nu is ``3`` een variabele die je op voorhand kan instellen.
 5.	[Pro] Een rij van 100 getallen wordt ingelezen. Druk de inhoud van de rij af in 3 kolommen. De getallen worden gerangschikt rij per rij.  Als je input bijvoorbeeld volgende reeks getallen is: ``4 5 8 7 5 2 6 8 7 1 3 2``, dan wordt dit je output:
-```java
+```csharp
 4 5 8
 2 5 7
 6 7 8

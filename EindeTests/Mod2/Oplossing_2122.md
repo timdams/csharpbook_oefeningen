@@ -1,5 +1,5 @@
 
-```java
+```csharp
 
 enum risicoNiveau { Laag, Verhoogd, Kritiek };
 static void Main(string[] args)

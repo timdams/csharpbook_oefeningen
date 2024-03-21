@@ -1,7 +1,7 @@
 # Pokémon Extra
 
 Voeg dit toe aan ``Pokemon`` klasse:
-```java
+```csharp
 public override string ToString()
 {
     string toResturn =  $"{Naam}(Level:{Level})\n" +
@@ -17,7 +17,7 @@ public override string ToString()
 
 Voeg dit toe aan ``Bookmark``:
 
-```java
+```csharp
 public override string ToString()
 {
     return $"{Naam} ({URL})";
@@ -26,7 +26,7 @@ public override string ToString()
 
 En dit aan ``HiddenBookmark``:
 
-```java
+```csharp
 public override string ToString()
 {
     return base.ToString() + "---HIDDEN---";
@@ -37,7 +37,7 @@ public override string ToString()
 
 ## Deel 1
 
-```java
+```csharp
 public class Book
 {
     public long ISBN { get; set; }
@@ -97,7 +97,7 @@ public class TextBook : Book
 
 Voeg dit toe aan de klasse ``Book``
 
-```java
+```csharp
 public override string ToString()
 {
     return $"{Title} - {Author}({ISBN}) {Price}";
@@ -107,7 +107,7 @@ public override string ToString()
 
 ## Money, Money, Money
 
-```java
+```csharp
 public abstract class Rekening
 {
     private double saldo = 0;
@@ -165,7 +165,7 @@ public class ProRekening : SpaarRekening
 
 # Geometric Figures
 
-```java
+```csharp
 public abstract class GeometricFigure
 {
     public int Hoogte { get; set; }
@@ -217,7 +217,7 @@ public class Driehoek: GeometricFigure
 
 # Dierentuin
 
-```java
+```csharp
 Console.WriteLine("H13 Dierentuin");
 List<Dier> Dieren = new List<Dier>();
 
@@ -263,7 +263,7 @@ while (answer != "q")
 }
 ```
 
-```java
+```csharp
 public abstract class Dier
 {
     private int gewicht = 50;

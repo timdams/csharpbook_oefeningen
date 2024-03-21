@@ -93,7 +93,7 @@ Bouw extra functionaliteit naar keuze bij de StudentOrganizer, zoals:
 
 
 ## StudentKlasse
-```java
+```csharp
 enum Klassen { EA1, EA2, EA3, EA4}
 
 class Student
@@ -148,7 +148,7 @@ Probeer met behulp van hulpmethoden in Program.cs om zo veel mogelijk code te he
 Enkele zaken die je nodig hebt:
 
 **BookMark klasse:**
-```java
+```csharp
 class BookMark
 {
 
@@ -177,7 +177,7 @@ class BookMark
 
 Voorbeeld van hoe de bookmark klasse zal werken:
 
-```java
+```csharp
 BookMark u = new BookMark();
 u.Naam = "Google";
 u.URL = "https://www.google.be";

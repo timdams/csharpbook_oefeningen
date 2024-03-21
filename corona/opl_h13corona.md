@@ -6,7 +6,7 @@
 # Code
 ## Main
 
-```java
+```csharp
             List<Gebouw> enclave = new List<Gebouw>();
             enclave.Add(new Hospitaal("Sint Vincentius", 4, 5));
             enclave.Add(new Woonst("Tims shack", 1, 1));
@@ -21,7 +21,7 @@
 ```
 
 ## Gebouw
-```java
+```csharp
 abstract class Gebouw
 {
     public Gebouw(string naamin, int xin, int yin)
@@ -43,7 +43,7 @@ abstract class Gebouw
 ```
 
 ## Flat
-```java
+```csharp
 class Flat : Woonst
 {
     public Flat(int xin, int yin) : base("Flat",xin, yin)
@@ -63,7 +63,7 @@ class Flat : Woonst
 ```
 
 ## Hospitaal
-```java
+```csharp
 class Hospitaal : Gebouw
 {
     public Hospitaal(string naamin, int xin, int yin) : base(naamin, xin, yin)
@@ -83,7 +83,7 @@ class Hospitaal : Gebouw
 ```
 
 ## Generator
-```java
+```csharp
 class Generator : Gebouw
 {
     private string v;
@@ -111,7 +111,7 @@ class Generator : Gebouw
 ```
 
 ## WaterkrachtCentrale
-```java
+```csharp
 class WaterkrachtCentrale: Generator
 {
     public WaterkrachtCentrale(int xin, int yin): base("WaterkrachtCentrale",xin,yin)

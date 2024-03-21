@@ -62,7 +62,7 @@ We maken een klasse ``Ball`` die via ``Update`` en ``Draw`` zichzelf over het co
 * We maken sommige variabelen ``protected`` zodat later de overgeërfde klassen er aan kunnen
 * Een ``static`` methode ``CheckHit`` laat ons toe te ontdekken of twee ``Ball``objecten mekaar raken
 
-```java
+```csharp
 class Ball
 {
    public int X { get { return x; } }
@@ -121,7 +121,7 @@ class Ball
 
 De overgeërfde klasse ``PlayerBall`` is een ``Ball`` maar zal z'n ``vx`` en ``vy`` updaten gebaseerd op input via de ``ChangeVelocity`` methode:
 
-```java
+```csharp
 class PlayerBall : Ball
 {
    public PlayerBall(int xin, int yin, int vxin, int vyin) : base(xin, yin, vxin, vyin)
@@ -157,7 +157,7 @@ class PlayerBall : Ball
 
 We maken nu een rudimentair spel waarin de gebruiker een bal moet proberen te raken. 
 
-```java
+```csharp
 static void Main(string[] args)
 {
    Console.CursorVisible = false;

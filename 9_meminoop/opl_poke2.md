@@ -1,6 +1,6 @@
 # Meetlat
 
-```java
+```csharp
 public class Meetlat
 {
     private double lengte;
@@ -33,7 +33,7 @@ public class Meetlat
 
 # Pokémon deel 1
 
-```java
+```csharp
 class Pokemon
 {
 
@@ -137,7 +137,7 @@ class Pokemon
 
 # Pokémontester
 
-```java
+```csharp
 Pokemon aPoke= new Pokemon();
 Console.WriteLine("Geef hp:");
 aPoke.HP_Base= Convert.ToInt32(Console.ReadLine());
@@ -160,7 +160,7 @@ aPoke.ShowInfo();
 
 # Pokemon generator
 
-```java
+```csharp
 private static Random ran=new Random();
 public static Pokemon GeneratorPokemon ()
 {
@@ -173,14 +173,14 @@ public static Pokemon GeneratorPokemon ()
 
 Aanroep:
 
-```java
+```csharp
 Pokemon myNewPokemon= GeneratorPokemon();
 Pokemon myOtherPokemon= GeneratorPokemon();
 ```
 
 # Pokémon-battle
 
-```java
+```csharp
 public static int Battle(Pokemon poke1, Pokemon poke2)
 {
     if(poke1 == null && poke2 == null)

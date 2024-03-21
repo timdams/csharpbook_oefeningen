@@ -5,7 +5,7 @@
 
 # Oplossing practica deel 1
 ## Oplossing Tafels van vermenigvuldiging 1:
-```java
+```csharp
 int teller= 1;
 int n = int.Parse(Console.ReadLine());
 while(teller <= 10)
@@ -18,7 +18,7 @@ while(teller <= 10)
 
 ## Tafels van supervermenigvuldigen
 
-```java
+```csharp
 int n =  int.Parse(Console.ReadLine());
 for (int i = 1;i <= 10; i++)
 {
@@ -29,7 +29,7 @@ for (int i = 1;i <= 10; i++)
 }
 ```
 ## Oplossing DNA Transscriptie
-```java
+```csharp
 string inp= "", DNA= "", RNA= "";
 int teller=0;
 do
@@ -67,7 +67,7 @@ Console.WriteLine(RNA);
 ```
 
 ## Oplossing Armstrong nummer
-```java
+```csharp
     Console.WriteLine("Voer getal in:");
     int getal= Convert.ToInt32(Console.ReadLine());
     //1° Aantal cijfers ontdekken
@@ -102,7 +102,7 @@ Console.WriteLine(RNA);
 ```
 
 ## Oplossing Euler project
-```java
+```csharp
 int som= 0;
 for (int i= 0; i <= 1000; i++)
 {

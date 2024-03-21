@@ -1,6 +1,6 @@
 # UML naar code
 
-```java
+```csharp
 public class Head {}
 public class Hand {}
 public class Leg{}
@@ -13,7 +13,7 @@ public class Person
 }
 ```
 
-```java
+```csharp
 public class Wheel{}
 public class Crankshaft{}
 public class Piston{}
@@ -51,7 +51,7 @@ public class Boat
 
 # Politiek
 
-```java
+```csharp
 static void Main(string[] args)
 {
     President ikke = new President() { Naam = "Tim" };
@@ -72,7 +72,7 @@ static void Main(string[] args)
 }
 ```
 
-```java
+```csharp
 public class Land
 {
     private President President;
@@ -132,7 +132,7 @@ public class President: Minister
 
 Met de uitbreiding:
 
-```java
+```csharp
 public class VerkiezingsUitslag
 {
     static Random rng = new Random();
@@ -179,7 +179,7 @@ public class VerkiezingsUitslag
 
 Start van Main kan dan korter:
 
-```java
+```csharp
 VerkiezingsUitslag uitslag2022 = new VerkiezingsUitslag();
 
 Land mijnLand = new Land();
@@ -197,14 +197,14 @@ Je hebt nog 2 vrij ramsloten
 Er zijn geen andere componenten aanwezig
 ```
 
-```java
+```csharp
 Moederbord Z390E_GAMING = new Moederbord(3);
 Z390E_GAMING.CPUSlot = new CPU("IntelCorei9_9900K",4);
 Z390E_GAMING.Ramslots.Add(new RamMemory("Corsair", 8));
 Z390E_GAMING.TestMoederbord();
 ```
 
-```java
+```csharp
 public class Moederbord
 {
     public Moederbord(int aantalRamsloten)

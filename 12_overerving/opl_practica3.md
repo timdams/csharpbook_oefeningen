@@ -1,6 +1,6 @@
 # Dierenrijk
 
-```java
+```csharp
 var alleBeestjes = new List<Animal>();
 alleBeestjes.Add(new Animal() {NaamBeest="Dodo", IsUitgestorven=true });
 alleBeestjes.Add(new Cow() {NaamBeest="Milkakoe", KleurVlekken="Paars" } );
@@ -13,7 +13,7 @@ foreach (var beest in alleBeestjes)
 }
 ```
 
-```java
+```csharp
 public class Animal
 {
     public string NaamBeest { get; set; }
@@ -73,7 +73,7 @@ public class Iguana : Reptile { }
 
 Zorg ervoor dat je ``ToonSite`` in de parentklasse ``Bookmark`` op ``virtual`` instelt.
 
-```java
+```csharp
 public class HiddenBookMark: BookMark
 {
     public override void ToonSite()
@@ -89,7 +89,7 @@ public class HiddenBookMark: BookMark
 
 ## Deel 1
 
-```java
+```csharp
 public class Patient
 {
     public string Naam { get; set; }
@@ -112,7 +112,7 @@ public class Patient
 
 ## Deel 2
 
-```java
+```csharp
 public class VerzekerdePatient : Patient
 {
     private const double korting = 0.1;
@@ -128,7 +128,7 @@ Aantonen werking:
 
 Eenvoudig:
 
-```java
+```csharp
 Patient JosFromUSA = new Patient() 
     { Naam = "American Jos", UrenInZiekenhuis = 10 };
 VerzekerdePatient JosFromBelgium = new VerzekerdePatient() 
@@ -139,7 +139,7 @@ JosFromBelgium.ToonInfo();
 
 Complexer:
 
-```java
+```csharp
 List<Patient> allePatienten = new List<Patient>()
 {
     new Patient() { Naam = "American Jos", UrenInZiekenhuis = 10 },

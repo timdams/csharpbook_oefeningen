@@ -1,6 +1,6 @@
 Deel 1 en 2
 
-```java
+```csharp
 
 abstract class Doos
 {
@@ -141,7 +141,7 @@ class DHLSchip
 
 In Doos:
 
-```java
+```csharp
 public override string ToString()
 {
     return $"{GetType.Name} , Gewicht: {Gewicht} , Prijs: {Prijs}, {Inhoud}"
@@ -150,7 +150,7 @@ public override string ToString()
 
 In SecureContainer:
 
-```java
+```csharp
 public override string ToString()
 {
     string verz="nee";
@@ -161,7 +161,7 @@ public override string ToString()
 ```
 
 ## Extra 2:
-```java
+```csharp
 static void Vergrendel(DHLSchip schip)
 {
     foreach(var container in schip.VrachtRuim)
@@ -178,7 +178,7 @@ static void Vergrendel(DHLSchip schip)
 
 Voeg best volgende methoden toe aan DHlSchip en werk uit m.b.v. relevante List-methoden in vrachtRuim:
 
-```java
+```csharp
 public void VerwijderContainer(int index){ vrachtRuim.RemoveAt(index);}
 public void VerplaatsContainer(int index, int nieuweIndex){...}
 public void VervangContainer(int index, Container vervanging){...}

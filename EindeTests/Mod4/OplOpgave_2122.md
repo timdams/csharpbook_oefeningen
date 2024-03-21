@@ -4,7 +4,7 @@
 
 Klasses:
 
-```java
+```csharp
  abstract class Toestel
 {
     protected char tekenChar = 'o';
@@ -155,7 +155,7 @@ internal class Parkoer
 
 Program.cs
 
-```java
+```csharp
 List<Parkoer> parkoersList = new List<Parkoer>();
 Random r = new Random();
 Console.WriteLine("5 Parkoers gemaakt. Met welke wil je verder?");

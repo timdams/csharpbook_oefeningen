@@ -1,6 +1,6 @@
 # Prijzen met foreach
 
-```java
+```csharp
 var prijzen = new double[20];
 for (int i = 0; i < prijzen.Length; i++)
 {
@@ -26,7 +26,7 @@ Console.WriteLine($"Gemiddelde is {som/prijzen.Length}");
 
 Dank aan Jasper Van Meel voor deze oplossing! Ook dank aan de andere studenten die een oplossing instuurden. Doe zo voort!
 
-```java
+```csharp
 class ComputerOnderdeel
 {
     private static Random rng = new Random();
@@ -55,7 +55,7 @@ class ComputerOnderdeel
 }
 ```
 
-```java 
+```csharp 
 
 static void Main(string[] args)
 {
@@ -189,7 +189,7 @@ private static void Verwijder_PrijsOnder100(List<ComputerOnderdeel> onderdelen)
 
 Dank aan Marouane Mairouche op wiens code volgende oplossing is gebaseerd.
 
-```java
+```csharp
 static void Main(string[] args)
 {
     List<Student> Lijst = new List<Student>()
@@ -295,7 +295,7 @@ private static void VerwijderStudentVanLijst(List<Student> Lijst)
 # Speelkaarten
 
 Main:
-```java
+```csharp
 List<Speelkaart> boekKaarten = new List<Speelkaart>();
 for (int i = 0; i < 4; i++)
 {
@@ -318,7 +318,7 @@ while (boekKaarten.Count > 0)
 
 Speelkaart klasse:
 
-```java
+```csharp
 public enum Suit {Schoppen, Harten, Klaveren, Ruiten}
 
 public class Speelkaart
@@ -340,7 +340,7 @@ Bounty: wie wil z'n oplossing hier? ;)
 
 Merk het (her)gebruik van methoden op, alsook het gebruik van enum om de leesbaarheid van de code te verbeteren in de ``ToonHoofdMenu`` switch
 
-```java
+```csharp
 public enum Keuzes { List,Show,Edit,Delete}
 
 static void Main(string[] args)

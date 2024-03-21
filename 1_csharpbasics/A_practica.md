@@ -13,7 +13,7 @@ Meer uitleg over Projecten en Solutions en hoe je bovenstaande doet kan je [hier
 Indien er in een oefening gevraagd wordt om bijvoorbeeld een getal naar een ander om te zetten (zie oa Euro naar Dollar) dan mag je dit getal in een variabele "hardcoded" plaatsen. We kunnen nog niet input van de gebruiker naar getallen omzetten en kunnen dus nog geen oefeningen maken waarin we dat doen.
 
 Voor Euro naar Dollar schrijf je dus best bijvoorbeeld als eerste:
-```java
+```csharp
 double euroInput= 5.32;
 ```
 {% endhint %}
@@ -79,7 +79,7 @@ Druk op enter voor de volgende lijn.
 
 Je kan wachten tot de gebruiker op enter duwt door gewoon een lege ``Console.ReadLine`` te doen, zoals volgende voorbeeld toont:
 
-```java
+```csharp
 Console.WriteLine("Eerste beeld");
 Console.WriteLine("Druk enter om voort te gaan.");
 Console.ReadLine();
@@ -153,7 +153,7 @@ Je geeft hierbij 2 variabelen mee: de bestandsnaam, en de inhoud van het bestand
 
 Volgende voorbeeld schrijft bijvoorbeeld de zin "Ik ben tim" weg naar een bestand dat zal aangemaakt worden genaamd "me.txt":
 
-```java
+```csharp
 System.IO.File.WriteAllText("me.txt", "Ik ben tim");
 ```
 

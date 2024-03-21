@@ -31,7 +31,7 @@ Ontwerp een klasse ``Rapport`` die je zal tonen wat je graad is gegeven een bepa
 
 Test je klasse door enkele objecten in je ``main`` en te onderzoeken of deze de juiste graden op het scherm printen. Bijvoorbeeld:
 
-```java
+```csharp
 Rapport mijnpunten = new Rapport();
 mijnpunten.Percentage = 65;
 mijnpunten.PrintGraad();
@@ -61,7 +61,7 @@ Toon in je ``main`` aan dat je code werkt.
 
 Volgende code zou bijvoorbeeld onderstaande output moeten geven:
 
-```java
+```csharp
 NummerBerekenaar paar1 = new NummerBerekenaar();
 paar1.Getal1 = 12;
 paar1.Getal2 = 34;
@@ -110,7 +110,7 @@ Voeg aan de klasse  ook de methode ``GeefOverzicht`` toe. Deze methode zal een v
 
 Test je programma door enkele studenten aan te maken en in te stellen. Volgende main zou dan de bijhorende output moeten krijgen:
 
-```java
+```csharp
     Student student1= new Student();
     student1.Klas = Klassen.TI1;
     student1.Leeftijd = 21;
@@ -239,7 +239,7 @@ Enkele getalvoorbeelden:
 
 Maak 2 instanties van het type ``Rekening`` aan en toon aan dat je geld van de ene Rekening aan de andere kunt geven, als volgt:
 
-```java
+```csharp
 //rekening 2 geeft 300 euro aan rekening 1
 rekening1.StortGeld(rekening2.HaalGeldAf(300));
 ```
@@ -287,14 +287,14 @@ Je hebt geen eigen klasse nodig. Doel van deze oefening is dat je leert werken m
 {% hint style='tip' %}
 Gegeven een object van het type DateTime genaamd ``myDate``. Volgende wat uitgebreide code geeft de naam van de dag terug in de taal van het systeem waarop je applicatie draait:
 
-```java
+```csharp
 string dagLokaleTaal = System.Globalization.DateTimeFormatInfo.CurrentInfo.GetDayName(myDate.DayOfWeek)
 ```
 {% endhint %}
 
 Voorbeeld invoer en uitvoer:
 
-```java
+```csharp
 Wanneer is je verjaardag (d/m, bv 18/3)
 20/5
 Je bent over 124 dagen jarig op een Dinsdag
@@ -327,7 +327,7 @@ Methoden: ``GooiBal``, ``Watertrappen``, ``StelIn``
 
 De methode ``StelIn`` zou dan zou kunnen aangeroepen worden:
 
-```java
+```csharp
 speler1.StelIn("Tim", 5, false, true, "tweedeklas");
 ```
 

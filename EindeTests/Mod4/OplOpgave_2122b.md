@@ -2,7 +2,7 @@
 
 
 Klassen:
-```java
+```csharp
 internal class Vak: IComparable​
 {
     public Vak()
@@ -216,7 +216,7 @@ internal class WeekRooster
 ```
 
 Program.cs
-```java
+```csharp
 List<Lector> lectorsList = new List<Lector>(3);
 Rooster r = new Rooster()​;
 lectorsList.Add(new Lector { Naam = "Dams" });

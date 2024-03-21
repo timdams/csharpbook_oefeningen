@@ -1,7 +1,7 @@
 > Dank aan Wael Orraby.
 
 Klassen:
-```java
+```csharp
 enum Kleuren {Rood=1, Geel, Groen };
 internal class Schilderij: IComparable
 {
@@ -138,7 +138,7 @@ internal class Koper
 Program.cs
 
 
-```java
+```csharp
 static void Main(string[] args)
 {
 

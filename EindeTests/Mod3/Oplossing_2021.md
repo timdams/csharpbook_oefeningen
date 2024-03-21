@@ -1,6 +1,6 @@
 ## Main.cs
 
-```java
+```csharp
 Container c = new Container("TIM NV","Graan",30);
 Container d = new Container("TIM NV", "Water", 30);
 c.VoegContainerToe(d);
@@ -13,7 +13,7 @@ for (int i = 0; i <10; i++)
 
 ## Container.cs
 
-```java
+```csharp
 class Container
 {
     public Container(string firma, string desc, int gewicht)
@@ -84,7 +84,7 @@ class Container
 
 ## Scanner.cs
 
-```java
+```csharp
 class Scanner
 {
     public static string ScanContainer(Container cont)

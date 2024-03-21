@@ -5,7 +5,7 @@
 
 ## Supercomputer
 
-```java
+```csharp
 double getal1 = double.Parse(Console.ReadLine());
 double getal2 = double.Parse(Console.ReadLine());
 double getal3 = double.Parse(Console.ReadLine());
@@ -14,7 +14,7 @@ Console.WriteLine($"Gemiddelde is {(getal1+getal2+getal3)/3}");
 
 ## Vierkant
 
-```java
+```csharp
 Console.WriteLine("Geef de zijde:");
 double zijde = double.Parse(Console.ReadLine());
 double omtrek = zijde * 4; 
@@ -28,7 +28,7 @@ Console.WriteLine($"Oppervlakte is {oppervlakte}");
 
 Input van de gebruiker wordt niet getoond maar zal je zelf hopelijk wel kunnen:
 
-```java
+```csharp
 const int K = 10;
 double ra = 1000; //vraag dit aan de gebruiker
 double rb = 1100; //vraag dit aan de gebruiker
@@ -47,7 +47,7 @@ Console.WriteLine(Math.Round(rbnew,0));
 
 ## Balk
 
-```java
+```csharp
 Console.WriteLine("Geef lengte");
 int lengte = int.Parse(Console.ReadLine());
 Console.WriteLine("Geef breedte ");
@@ -66,7 +66,7 @@ Console.WriteLine($"inhoud: {lengte*breedte*hoogte}");
 
 ## Geometric fun
 
-```java
+```csharp
 Console.WriteLine("Geef de hoek in graden:");
 double hoekInGraden = double.Parse(Console.ReadLine());
 double hoekInRadialen = hoekInGraden * ( Math.PI/180);
@@ -77,7 +77,7 @@ Console.WriteLine($"Tangens van {hoekInGraden} graden is {Math.Tan(hoekInRadiale
 ```
 
 ## BMI Berekenaar 
-```java
+```csharp
 Console.WriteLine("Wat is uw lengte in cm?");
 double lengteInMeter = Convert.ToDouble(Console.ReadLine())/100;
 
@@ -90,7 +90,7 @@ Console.WriteLine($"Een persoon met een lengte van {lengteInMeter} m en een gewi
 ```
 
 ## Op-de-poef
-```java
+```csharp
 int poef = 0;
 int bedrag = 0;
 

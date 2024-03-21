@@ -7,7 +7,7 @@
 
 ## Unicode Art
 
-```java
+```csharp
             string myname = @"▄▄▄█████▓ ██▓ ███▄ ▄███▓   ▓█████▄  ▄▄▄       ███▄ ▄███▓  ██████ 
 ▓  ██▒ ▓▒▓██▒▓██▒▀█▀ ██▒   ▒██▀ ██▌▒████▄    ▓██▒▀█▀ ██▒▒██    ▒ 
 ▒ ▓██░ ▒░▒██▒▓██    ▓██░   ░██   █▌▒██  ▀█▄  ▓██    ▓██░░ ▓██▄   
@@ -23,7 +23,7 @@
 
 ## ASCI Art & Colors
 
-```java
+```csharp
 
 Console.Write("▄▄▄█████▓ ██▓ ███▄ ▄███▓   ");
 Console.ForegroundColor = ConsoleColor.Red; 
@@ -57,7 +57,7 @@ Console.WriteLine(blood);
 
 ## Weerstandsberekenaar
 
-```java
+```csharp
 int ring1 = 5;
 int ring2 = 7;
 

@@ -2,7 +2,7 @@
 
 
 Klassen:
-```java
+```csharp
 public abstract class Reisbestemming : IComparable
 {
     public static Random R = new Random();
@@ -122,7 +122,7 @@ internal class Wereld
 
 Program.cs:
 
-```java
+```csharp
 var world = Wereld.GenereerWereld(10);
 Console.WriteLine("Dit is je reisplan:");
 foreach (var item in world)

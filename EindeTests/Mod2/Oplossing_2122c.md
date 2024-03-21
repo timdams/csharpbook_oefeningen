@@ -1,4 +1,4 @@
-```java
+```csharp
 static void Main(string[] args)
     {
         double[] verkochteMenus = new double[100];

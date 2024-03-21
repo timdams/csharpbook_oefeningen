@@ -2,7 +2,7 @@
 
 ### Main
 
-```java
+```csharp
 static Random r = new Random();
 static void Main(string[] args)
 {
@@ -33,7 +33,7 @@ static void Main(string[] args)
 
 ### School
 
-```java
+```csharp
 class School
 {
     private int geldHoeveelheid;
@@ -102,7 +102,7 @@ class School
 ## Opgave 2
 
 ### Klassen
-```java
+```csharp
 interface IRampGebiedResponder
 {
     void Vertrek();
@@ -153,7 +153,7 @@ class SpecialeBrandweer : Brandweer, IRampGebiedResponder
 ```
 
 ### Main
-```java
+```csharp
 List<ReddingsWerker> begin = new List<ReddingsWerker>()
 {
     new Politie(6),new Brandweer(6), new SpecialeBrandweer()

@@ -44,7 +44,7 @@ Dit vereist wel dat je bovenaan je programma volgende lijn bijschrijft: ``using 
 
 Vervolgens kan je in je programma schrijven:
 
-```java
+```csharp
 long cdriveinbytes = DriveInfo.GetDrives()[0].AvailableFreeSpace;  
 long totalsize = DriveInfo.GetDrives()[0].TotalSize;  
 ```
@@ -60,7 +60,7 @@ Vraag aan de gebruiker het nummer van de harde schijf waar meer informatie over 
 Opgelet: sta toe dat de gebruiker 1 voor de eerste harde schijf mag gebruiken, 2 voor de tweede, enzovoort. Je zal dus in code nog manueel 1 moeten aftrekken van de invoer van de gebruiken.
 Bv:
 
-```java
+```csharp
 int invoer=int.Parse(Console.ReadLine()) - 1; 
 long totalsize = DriveInfo.GetDrives()[invoer].TotalSize;  
 ```
@@ -119,7 +119,7 @@ Kan je afhankelijk van de ringwaarde het getal in de tabel in de juiste kleur ze
 
 Je kan de output van een ``Process.Start()`` programma naar je console scherm sturen. Dit vereist wat meer code. Volgend voorbeeld zal de output van het commando ``ipconfig /all`` op het scherm tonen:
 
-```java
+```csharp
 System.Diagnostics.Process process = new System.Diagnostics.Process();
 process.StartInfo.FileName = "ipconfig";
 process.StartInfo.Arguments = "/all"; 
@@ -180,7 +180,7 @@ Deze oefening kan je op 2 manieren oplossen:
 1. Je gebruikt een combinatie van ``Write`` en ``Console.SetCursorPosition``
 2. Je knipt je tekening op in stukken die je met verschillende ``Write`` en ``WriteLines`` op het scherm zet. Volgend voorbeeld toont bijvoorbeeld hoe je een vierkantje van sterretjes tekent waarbij het midden van het vierkant rood is:
 
-```java
+```csharp
 Console.WriteLine("***");
 Console.Write("*");
 Console.ForegroundColor = ConsoleColor.Red;

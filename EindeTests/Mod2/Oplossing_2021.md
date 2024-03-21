@@ -1,6 +1,6 @@
 #
 
-```java
+```csharp
 static void Main(string[] args)
 {
     char input = 'j';

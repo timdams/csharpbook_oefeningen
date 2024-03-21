@@ -1,7 +1,7 @@
 # Meetlat
 
 
-```java
+```csharp
 public class Meetlat
 {
     public Meetlat(double lengtestart)
@@ -32,7 +32,7 @@ public class Meetlat
 
 ## Basiskluis
 
-```java
+```csharp
 public class DigitaleKluis
 {
     private int code = 0x0000;
@@ -97,7 +97,7 @@ public class DigitaleKluis
 
 ## Kluizen kraken
 
-```java
+```csharp
 public static void BruteForce(DigitaleKluis testKluis)
 {
 
@@ -120,7 +120,7 @@ public static void BruteForce(DigitaleKluis testKluis)
 
 # Bibliotheek deel 2
 
-```java
+```csharp
 public class BibBoek
 {
     private static int uitleenDagen = 14;
@@ -174,7 +174,7 @@ public class BibBoek
 # Pokemon met deel 2
 
 We laten de reeds bestaande properties en methoden niet meer zien in deze oplossing:
-```java
+```csharp
 
 public class Pokemon
 {
@@ -266,7 +266,7 @@ public class Pokemon
 
 # Pokemon Natures
 
-```java
+```csharp
 enum PokeNatures {Adamant	,Bashful	,Bold ,Brave ,Calm ,Careful	,Docile ,Gentle ,Hardy ,Hasty ,Impish ,Jolly ,Lax ,Lonely ,Mild ,Modest ,Naive ,Naughty	,Quiet ,Quirky ,Rash ,Relaxed	,Sassy ,Serious	,Timid }
 
 enum StatTypes {Attack, Special_Attack, Defense, Special_Defense, Speed}
@@ -275,7 +275,7 @@ enum StatTypes {Attack, Special_Attack, Defense, Special_Defense, Speed}
 
 In klasse Pokemon
 
-```java
+```csharp
 static Random rng = new Random();
 
 private PokeNatures Nature {private set; get; }
@@ -320,7 +320,7 @@ public int Speed_Full
 
 # Sport simulator
 
-```java
+```csharp
 public class Waterpolospeler
 {
     private string spelersNaam;

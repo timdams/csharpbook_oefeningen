@@ -2,7 +2,7 @@
 
 ## Oplossing grootste getal
 Toe te voegen lijnen aangeduid met ``//NEW``.
-```java
+```csharp
 int x= 0;
 int y= 0;
 int grootste= int.MinValue; //NEW
@@ -23,7 +23,7 @@ Console.WriteLine($"Grootste getal is {grootste}");//NEW
 
 [Uitleg via filmpje](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=72f4f97f-5baa-4f9f-8985-b0c000f4f1ce)
 
-```java
+```csharp
 string invoer = "";
 int somPos = 0;
 int somNeg = 0;
@@ -64,7 +64,7 @@ Console.WriteLine($"Gemiddel : {somTotaal / teller}");
 
 ### WiskundeQuiz
 
-```java
+```csharp
 string gebruikersInput = "";
 int gebruikersGetal = 0;
 const int BEGIN_WAARDE = 1;
@@ -115,7 +115,7 @@ if (correct)
 Dank aan Olivier Van Ransbeeck!
 
 ## Oplossing BeerSong
-```java
+```csharp
 for (int i= 99; i > 2; i--)
 {
     Console.WriteLine($"{i} bottles of beers on the wall, {i} bottles of beer.");

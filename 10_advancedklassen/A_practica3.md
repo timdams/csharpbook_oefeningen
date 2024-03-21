@@ -68,14 +68,14 @@ De ``BruteForce``methode is ``static`` en heeft dus geen informatie over de inte
 
 In je main moet dit dus werken:
 
-```java
+```csharp
 DigitaleKluis kluisje = new DigitaleKluis(2342);
 BruteForce(kluisje);
 ```
 
 Vervolgens verplaats je de methode naar je klasse ``DigitaleKluis`` en pas je de aanroep ervan aan in je Main:
 
-```java
+```csharp
 DigitaleKluis kluisje = new DigitaleKluis(2342);
 DigitaleKluis.BruteForce(kluisje);
 ```

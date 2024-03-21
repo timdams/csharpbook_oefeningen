@@ -4,7 +4,7 @@
 
 ## RapportModule
 
-```java
+```csharp
 public class Rapport
 {
     public int Percentage {get;set;}
@@ -26,7 +26,7 @@ public class Rapport
 
 ## Nummers
 
-```java
+```csharp
 public class Nummers
 {
     public int Getal1 { get; set; }
@@ -50,7 +50,7 @@ public class Nummers
 
 ## Studentklasse
 
-```java
+```csharp
 public enum Klassen { TI1,TI2,TI3 }
 
 public class Student
@@ -85,7 +85,7 @@ public class Student
 
 ## PizzaTime
 
-```java
+```csharp
 public class Pizza
 {
     private string toppings;
@@ -137,7 +137,7 @@ public class Pizza
 
 ## Figuren
 
-```java
+```csharp
 public class Rechthoek
 {
     private int lengte = 1;
@@ -169,7 +169,7 @@ Driehoek is quasi hetzelfde, met uiteraard een andere berekening van de oppervla
 
 ## Verjaardag
 
-```java
+```csharp
 Console.WriteLine("Geef je verjaardag (formaat: d/m . Bv 18/3)");
 DateTime verj = DateTime.Parse(Console.ReadLine());
 
@@ -187,7 +187,7 @@ Console.WriteLine($"Je ben jarig over {dagenOver.Days} dagen en dat is op een {d
 
 ## Bibliotheek
 
-```java
+```csharp
 public class BibBoek
 {
     private const int AANTALUITLEENDAGEN = 14;
@@ -224,7 +224,7 @@ public class BibBoek
 ## BankManager
 
 
-```java
+```csharp
 public enum RekeningStaat { Geblokkeerd, Geldig }
 public class Rekening
 {
@@ -290,7 +290,7 @@ public class Rekening
 
 ```
 
-```java
+```csharp
 Rekening tim = new Rekening();
 tim.StortGeld(1000);
 Rekening student = new Rekening();
@@ -308,7 +308,7 @@ do
 
 ## Persoon
 
-```java
+```csharp
 public class Persoon
 {
     public string Voornaam { get; set; }
@@ -345,7 +345,7 @@ public class Persoon
 
 ## Dobbelstenen
 
-```java
+```csharp
 public class Dobbelstenen
 {
     public void WerpEnTel6()

@@ -1,4 +1,4 @@
-```java
+```csharp
 using System;
 
 namespace ConsoleApp2

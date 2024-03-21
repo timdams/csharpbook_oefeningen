@@ -159,7 +159,7 @@ Deze oefening gaat erg ver voorbij de leerstof van dit boek en is enkel bedoeld 
 
 Tot hiertoe hebben we altijd gepraat over enerzijds objecten, en anderzijds methoden. Twee zaken die wel een relatie met elkaar hebben (een klasse kan methoden hebben, een methode kan objecten als parameter of return type hebben). Maar wat als ik je vertel dat je ook methoden als objecten kunt gebruiken. Het concept "delegate" laat ons toe om methoden als parameters doorheen een applicatie door te geven. Hier een droog, maar duidelijk voorbeeld ([bron](https://www.tutorialsteacher.com/csharp/csharp-delegates))
 
-```java
+```csharp
 public delegate void MyDelegate(string msg); //declaring a delegate
 
 class Program
@@ -179,13 +179,13 @@ class Program
 
 Vanaf nu kan je de variabele ``del`` als object gebruiken én aanroepen:
 
-```java
+```csharp
 del("Hello World!");
 ```
 
 Of zelfs doorgeven als parameter
 
-```java
+```csharp
 static void Main(string[] args)
 {
     MyDelegate del = MethodA;

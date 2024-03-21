@@ -10,7 +10,7 @@ Voeg ToString toe aan bestaande van volgende projecten. Ik raad aan dat je dit e
 
 Implementeer de ToString() methode in je ``Pokemon`` klasse zodat deze z'n full stats toont wanneer je schrijft:
 
-```java
+```csharp
 Console.WriteLine(myPokemon);
 ```
 
