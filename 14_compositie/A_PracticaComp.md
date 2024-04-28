@@ -77,7 +77,36 @@ Z390E_GAMING.CPU= new CPUSlot("IntelCorei9_9900K");
 
 Kan je zelf een computer samenstellen door enkele objecten van verschillende types aan te maken en deze aan je moederbord-object toe te wijzen? 
 
+# Risk
 
+## Land
+In het bordspel Risk heeft ieder *Land*-object volgende eigenschappen:
+
+* Naam van het land
+* Lijst met buurlanden
+* Leger dat in het land gestationeerd staat.
+
+De referenties in deze beide zijn aggregaties: wanneer het land verdwijnt dan verdwijnen niet de buurlanden en ook niet de legers die er op gestationeerd zijn (ze kunnen gewoon naar een ander land bewegen).
+
+Voorts implmenteert het de *ToString* methode en zal het de informatie oplijsten als volgt:
+
+``*[Naamland] (Buurlanden:[oplijsten buurlanden, enkel de naam]) . Grootte gestationeerd leger: *[grootte van het leger]``
+
+## Leger
+
+De Leger klasse heeft een capaciteit (sterkte) die enkel positief kan zijn.
+
+Ieder Leger-objecthoudt via een referentie ook bij waar het leger gestationeerd is (referentie naar het Land-object). 
+
+## Bordspel
+
+Maak een klasse *Bordspel* dat een lijst van Land-objecten bevat (dit is compositie: wanneer het bordspel in brand wordt gestoken dan zijn ook de landen er op weg).
+
+Maak een vereenvoudigde voorstelling van de landkaart met de Bordspel klasse, enkele Land-objecten en enkele legers. 
+
+Voeg aan de *Bordspel* klasse een methode "ToonKaart": deze methode zal de landen in de lijst onder elkaar schrijven (via de ToString methode van Land).
+
+Maak een methode ``VerplaatsLeger`` dat 2 referenties naar 2 landen aanvaardt. Wanneer de aanroept gebeurt zal eerst gecontroleerd worden of het eerste land een leger bevat (zoniet wordt er een exception opgeworpen). Indien dit in orde is dan zal het leger in kwestie verhuizen naar 2e land op voorwaarde dat daar ook geen leger al is. Als dat wél het geval is dan wordt het leger in het eerste land verwijderd, en wordt de capaciteit van het 2e leger verhoogd met die van het eerste leger.
 
 # (PRO) Textbased RPG 
 Bekijk het volgende All-in-One project :[OO Textbased Game](../A_DEEL2_AllInOne/2_OOTextGame.md).
