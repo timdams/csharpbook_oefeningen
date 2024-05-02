@@ -15,5 +15,5 @@
 
 ## html 2 met caption
 
-<figure><img src="bClassDiagram1.png" alt="The GitBook Logo"><figcaption><p>GitBook Logo</p></figcaption></figure>
+<figure><img src="bClassDiagram1.png" alt="The GitBook Logo" width="60%"><figcaption><p>GitBook Logo</p></figcaption></figure>
 
