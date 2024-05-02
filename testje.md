@@ -9,7 +9,7 @@
 
 Test 
 
-![b](bClassDiagram1.png){width=50%}
+![b](bClassDiagram1.png)<!--{width=10%}-->
 
 Gaat dit dan?
 
