@@ -7,7 +7,11 @@
 
 ## Met ``{width=50%}``
 
+Test 
+
 ![b](bClassDiagram1.png){width=50%}
+
+Gaat dit dan?
 
 ## Html
 
