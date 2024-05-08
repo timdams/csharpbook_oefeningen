@@ -1,5 +1,9 @@
 # UML naar code
 
+{% hint style='tip' %}
+**Les(sen) uit deze oefening:** Een mens wordt geboren met handen, voeten en benen (technisch gezien moesten we 2 compositiet-objecten van type ``Hand`` en``Leg`` maken) daarom maken we de instanties aan in de constructor. Eventueel had je dit ook rechtstreeks in de klasse bij de instantievariabele kunnen doen (``private Head theHead = new Head();``).
+{% endhint %}
+
 ```csharp
 public class Head {}
 public class Hand {}
@@ -7,11 +11,22 @@ public class Leg{}
 
 public class Person
 {
-    private Head theHead =new Head();
-    private Hand leftHand = new Hand();
-    private Leg leftLeg = new Leg();
+    public Person()
+    {
+       theHead =new Head(); 
+       leftHand = new Hand();
+       leftLeg = new Leg();
+    }
+
+    private Head theHead ;
+    private Hand leftHand ;
+    private Leg leftLeg;
 }
 ```
+
+{% hint style='tip' %}
+**Les(sen) uit deze oefening:** Associaties zijn niet beperkt tot enkelvoudige objecten, vaak ga je ook arrays of lijsten nodig hebben om deze voor te stellen. 
+{% endhint %}
 
 ```csharp
 public class Wheel{}
@@ -51,6 +66,10 @@ public class Boat
 
 # Politiek
 
+{% hint style='tip' %}
+**Les(sen) uit deze oefening:** Dit was al een iets complexere oefening. De kracht van compositie is zichtbaar in de klasse ``Land`` waar we via de ``MaakRegering`` informatie binnenkrijgen om toe te wijzen aan de aggregaatobjecten (``President``, ``EersteMinister`` en ``Ministers``).  Kijk zeker goed hoe we de meegegeven lijst van ministers in ``MaakRegering`` toewijzen (m.b.v. een loop die de eerste minister overslaat)
+{% endhint %}
+
 ```csharp
 static void Main(string[] args)
 {
@@ -86,12 +105,13 @@ public class Land
             President = presin;
             EersteMinister = minin[0];
             if(minin.Count>=2)
-            for (int i = 1  ; i < minin.Count; i++)
             {
+                for (int i = 1  ; i < minin.Count; i++)
+                {
                     Ministers.Add(minin[i]);
+                }
             }
         }
-
         else
         {
             Console.WriteLine("Gaat niet. Dit land heeft al een regering");
@@ -187,6 +207,10 @@ mijnLand.MaakRegering(uitslag2022.VerkozenPresident, uitslag2022.VerkozenMiniste
 ```
 
 # Moederbord
+
+{% hint style='tip' %}
+**Les(sen) uit deze oefening:** Deze kleine oefening is heel goed om aggregatie voor te stellen (een computer met onderdelen), waarbij ieder aggregaat-object een totaal andere interne structuur heeft. 
+{% endhint %}
 
 De output van onderstaande code zal zijn:
 

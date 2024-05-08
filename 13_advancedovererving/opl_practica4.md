@@ -1,5 +1,9 @@
 # Pokémon Extra
 
+{% hint style='tip' %}
+**Les(sen) uit deze oefening:** ``ToString`` is een persoonlijke favoriet die je veel zult nodig hebben. We gebruiken string concatenering (``+``) bij het Pokemon-voorbeeld  om de volledig ``string`` leesbaar op het scherm te krijgen. 
+{% endhint %}
+
 Voeg dit toe aan ``Pokemon`` klasse:
 ```csharp
 public override string ToString()
@@ -23,19 +27,26 @@ public override string ToString()
     return $"{Naam} ({URL})";
 }
 ```
+{% hint style='tip' %}
+**Les(sen) uit deze oefening:** Let op de ``base.ToString()`` code die evoor zorgt dat de versie van het parent-object (``Bookmark``) ook nog steeds wordt toegevoegd.
+{% endhint %}
 
 En dit aan ``HiddenBookmark``:
 
 ```csharp
 public override string ToString()
 {
-    return base.ToString() + "---HIDDEN---";
+    return $"{base.ToString()} ---HIDDEN---";
 }
 ```
 
 # Book
 
 ## Deel 1
+
+{% hint style='tip' %}
+**Les(sen) uit deze oefening:** De ``TelOp``methode is het hart van deze oefening. We maken deze ``static`` omdat we niet willen dat een bestaand boek zichzelf bij een ander boek  moet *optellen* en vinden het logischer dat een soort *god-methode* van de boeken dit voor ons doet. Let op de ``get`` code van beide child-klassen: we laten de werking van ``Boek`` hier in ere door gewoon ``base.Price`` aan te roepen. Enkel in de ``set`` bouwen we extra controle *rond* de originele ``set`` code van de parentklasse. 
+{% endhint %}
 
 ```csharp
 public class Book
@@ -164,6 +175,8 @@ public class ProRekening : SpaarRekening
 ```
 
 # Geometric Figures
+
+
 
 ```csharp
 public abstract class GeometricFigure

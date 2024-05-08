@@ -2,6 +2,11 @@
 
 # Figures with interfaces
 
+{% hint style='tip' %}
+**Les(sen) uit deze oefening:** de Array.Sort methode werkt enkel indien je individuele objecten de ``IComparable``-interface implementeren. Polymorfisme komt hier ook bij kijken want de parameter die binnenkomt is van het type object (daar de interface beschreven is voor alle mogelijke klassen). M.b.v. ``is`` en ``as`` is het een goede oefening om steeds te controleren of dat het binnenkomende object wel voldoet.
+{% endhint %}
+
+
 ```csharp
 public class Rechthoek: IComparable
 {
@@ -10,17 +15,27 @@ public class Rechthoek: IComparable
 
     public int CompareTo(object obj)
     {
-        Rechthoek temp = (Rechthoek)obj;
-        if (temp.Breedte * temp.Lengte > Breedte * Lengte)
-            return -1;
-        else if (temp.Breedte * temp.Lengte < Breedte * Lengte)
-            return 1;
-        return 0;
+        Rechthoek temp = obj as Rechthoek;
+        if(temp!=null)
+        {
+            if (temp.Breedte * temp.Lengte > Breedte * Lengte)
+                return -1;
+            else if (temp.Breedte * temp.Lengte < Breedte * Lengte)
+                return 1;
+            return 0;
+        }
+        throw new Exception("Object niet van type Rechthoek");
     }
 }
 ```
 
 # Carbon footprint
+
+{% hint style='tip' %}
+**Les(sen) uit deze oefening:** Dankzij polymorfisme kunnen we objecten van eender welk type ook tijdelijk beschouwen als een soort "interface-objecten": we kunnen dan enkel die zaken waar de interface uit bestaat aanroepen op het object. Ook hier gebruiken we het ``as`` keyword om een object om te zetten (en te controleren of het gelukt is) naar z'n interface. Vervolgens is het maar een kwestie van de klassieke loop-code om een lopende som en grootste waarde te vinden.
+{% endhint %}
+
+
 
 ```csharp
 

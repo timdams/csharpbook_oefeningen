@@ -1,5 +1,9 @@
 # Dierentuin advanced
 
+{% hint style='tip' %}
+**Les(sen) uit deze oefening:** Via een loop overlopen we alle diertjes. Dankzij ``is`` bevragen we vervolgens ieder dier en enkel die dieren waar we van weten dat ze kunnen praten laten we dan de ``Zegt`` methode aanroepen nadat we met ``as`` tijdelijk omgezet hebben.
+{% endhint %}
+
 In main
 
 ```csharp
@@ -83,6 +87,11 @@ In volgende filmpje leg ik de oplossing stap voor stap uit: [video oplossing](ht
 Hier kan je de bijhorende code terugvinden: [Github oplossing](https://github.com/timdams/EenEigenHuis)
 
 De code hieronder is een iets andere oplossing dan in het filmpje. Beide zijn evenwaardig.
+{% endhint %}
+
+{% hint style='tip' %}
+**Les(sen) uit deze oefening:** Properties kunnen vele vormen hebben. In deze oefening spelen we met ``Prijs`` getter (**set mag niet bestaan**, er mag ook geen achterliggende instantievariable ``prijs`` zijn!) waarbij we deze soms een hardcoded waarde laten teruggeven (500 bij ``BadKamer``, 400 bij ``Kamer``) en soms een berekening laten doen zoals in ``Salon``. 
+Wanneer je ``Prijs`` ``override`` krijg je standaard in VS de syntax met *pijltjes* (``=>``). Door op het lampje te klikken kan je kiezen om dit om te zetten naar de klassieke vorm zoals in deze oplossing.
 {% endhint %}
 
 ## Main:
