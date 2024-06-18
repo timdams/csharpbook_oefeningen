@@ -126,6 +126,7 @@
 * [Opgave 6](EindeTests/Mod4/Opgave_2122.md)
 * [Opgave 7](EindeTests/Mod4/Opgave_2122b.md)
 * [Opgave 8](EindeTests/Mod4/Opgave_2223.md)
+* [Opgave 9](EindeTests/Mod4/Opgave_2324.md)
 
 ## All-In-Projecten
 

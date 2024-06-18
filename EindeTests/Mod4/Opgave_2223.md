@@ -1,4 +1,4 @@
-> Volgende opgave was de vaardigheidsproefopdracht voor het examen van dit vak (OOP) in juli 2023
+> Volgende opgave was de vaardigheidsproefopdracht voor het examen van dit vak (OOP) in juli 2024
 
 # Introductie
 Je firma werd gevraagd om voor een grote rederij een manifest-generator te maken. Wanneer een schip gevuld wordt met dozen en containers dan moet de kapitein ook steeds een manifest hebben. Op dit document (=het manifest) staat welke lading het schip aan boord heeft.
